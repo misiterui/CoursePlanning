@@ -1,0 +1,4 @@
+CourseID,Semester,Subject,Number,Title,W,Q,B-Hum,B-Soc,B-Sci,url
+"COGS100","Spring|Summer|Fall","COGS","100","Exploring the Mind","FALSE","FALSE","TRUE","TRUE","TRUE"
+"CMPT001","Spring|Summer|Fall","CMPT","XX1","Computers and the Activity of People","FALSE","FALSE","FALSE","FALSE","FALSE"
+"CMPT120","Spring|Summer|Fall","CMPT","120","Intro.Cmpt.Sci/Programming I","FALSE","TRUE","FALSE","FALSE","FALSE","https://www.sfu.ca/students/calendar/2019/fall/courses/cmpt/xx1.html"
