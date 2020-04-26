@@ -13,6 +13,7 @@ import com.example.courseplanningapp.R;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.lang.reflect.Array;
 import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 
@@ -22,6 +23,7 @@ import java.util.ArrayList;
 */
 public class CourseManager {
     private ArrayList<Course> courses = new ArrayList<>();
+    private ArrayList<Course> filteredCourses = null;
 
     // Singleton
     private static CourseManager instance;
@@ -54,9 +56,21 @@ public class CourseManager {
         // iteratively read the whole file
         while((line = reader.readLine()) != null) {
             String[] courseData = line.split(",");
-            courses.add(new Course(courseData, "Summer",2020));
+            courses.add(new Course(courseData));
             System.out.println("标识："+line);
         }
+    }
+
+    public void addCourse(Course course){
+        courses.add(course);
+    }
+
+    public void removeCourse(Course course) {
+        courses.remove(course);
+    }
+
+    public ArrayList<Course> getFilteredRestaurants() {
+        return filteredCourses == null ? courses : filteredCourses;
     }
 
     @RequiresApi(api = Build.VERSION_CODES.KITKAT)
