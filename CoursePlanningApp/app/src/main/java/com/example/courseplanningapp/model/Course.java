@@ -23,10 +23,8 @@ public class Course implements Comparable<Course>{
 
 
     // Constructor that parses a .csv line split by ","
-    public Course(String[] courseData, String semesterChosen, int yearChosen){
+    public Course(String[] courseData){
         courseId = courseData[0];
-        semester = semesterChosen;
-        year = yearChosen;
         subject = courseData[2];
         courseNumber = courseData[3];
         title = courseData[4];
