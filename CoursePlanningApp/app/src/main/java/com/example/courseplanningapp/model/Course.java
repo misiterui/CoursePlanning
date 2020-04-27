@@ -7,10 +7,14 @@ package com.example.courseplanningapp.model;
 
 import androidx.annotation.NonNull;
 
-public class Course implements Comparable<Course>{
+import com.example.courseplanningapp.Constants;
+
+
+public class Course implements Comparable<Course> {
     private String courseId;
     private String semester;
-    private int year;
+    private String year;
+    private String semesterCode;
     private String subject;
     private String courseNumber;
     private String title;
@@ -33,6 +37,11 @@ public class Course implements Comparable<Course>{
         bHum = Boolean.parseBoolean(courseData[7]);
         bSoc = Boolean.parseBoolean(courseData[8]);
         bSci = Boolean.parseBoolean(courseData[9]);
+
+        year = Constants.SAMPLE_YEAR;
+        semester = Constants.SAMPLE_SEMESTER;
+
+        getSemesterCode();
     }
 
     public String getCourseId() {
@@ -51,12 +60,37 @@ public class Course implements Comparable<Course>{
         this.semester = semester;
     }
 
-    public int getYear() {
+    public String getYear() {
         return year;
     }
 
-    public void setYear(int year) {
+    public void setYear(String year) {
         this.year = year;
+    }
+
+    public String getSemesterCode() {
+        double tempSemesterCode;
+        if(semester.equals("")) {
+            tempSemesterCode = Integer.parseInt(year) + 0.0;
+            semesterCode = Double.toString(tempSemesterCode);
+        }
+        if(semester.equals(Constants.SPRING_SEMESTER)) {
+            tempSemesterCode = Integer.parseInt(year) + 0.1;
+            semesterCode = Double.toString(tempSemesterCode);
+        }
+        if(semester.equals(Constants.SUMMER_SEMESTER)) {
+            tempSemesterCode = Integer.parseInt(year) + 0.2;
+            semesterCode = Double.toString(tempSemesterCode);
+        }
+        if(semester.equals(Constants.FALL_SEMESTER)) {
+            tempSemesterCode = Integer.parseInt(year) + 0.3;
+            semesterCode = Double.toString(tempSemesterCode);
+        }
+        return semesterCode;
+    }
+
+    public void setSemesterCode(String semesterCode) {
+        this.semesterCode = semesterCode;
     }
 
     public String getSubject() {
@@ -131,7 +165,6 @@ public class Course implements Comparable<Course>{
         this.url = url;
     }
 
-
     @NonNull
     @Override
     public String toString() {
@@ -142,8 +175,9 @@ public class Course implements Comparable<Course>{
                 title;
     }
 
+
     @Override
     public int compareTo(Course o) {
-        return this.getCourseId().compareTo(o.getCourseId());
+        return (this.getSemesterCode().compareTo(o.getSemesterCode()));
     }
 }

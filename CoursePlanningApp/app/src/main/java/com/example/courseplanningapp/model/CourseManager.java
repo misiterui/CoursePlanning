@@ -16,6 +16,9 @@ import java.io.InputStreamReader;
 import java.lang.reflect.Array;
 import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.Comparator;
 
 /*
     CourseManager class holds all courses
@@ -59,6 +62,9 @@ public class CourseManager {
             courses.add(new Course(courseData));
             System.out.println("标识："+line);
         }
+
+        Collections.sort(courses);
+
     }
 
     public void addCourse(Course course){
@@ -68,6 +74,7 @@ public class CourseManager {
     public void removeCourse(Course course) {
         courses.remove(course);
     }
+
 
     public ArrayList<Course> getFilteredRestaurants() {
         return filteredCourses == null ? courses : filteredCourses;
@@ -84,5 +91,6 @@ public class CourseManager {
         }
         return instance;
     }
+
 
 }

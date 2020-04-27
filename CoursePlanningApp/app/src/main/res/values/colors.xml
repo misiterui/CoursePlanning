@@ -5,10 +5,7 @@
     <color name="colorAccent">#03DAC5</color>
     <color name="bg">#EEEEEE</color>
     <color name="white">#FFFFFF</color>
-    <color name="hazard_high">#CC0000</color>
-    <color name="hazard_moderate">#D9D900</color>
-    <color name="hazard_unknown">#BEBEBE</color>
-    <color name="hazard_low">#00CC00</color>
+    <color name="yellow">#F7E9DF</color>
     <color name="light_gray">#888888</color>
-    <color name="fab_color">#4C9D8D</color>
+    <color name="add_btn_bg">#4C9D8D</color>
 </resources>
