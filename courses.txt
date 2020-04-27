@@ -1,0 +1,86 @@
+<item>Actuarial Mathematics (ACMA)</item>
+<item>Applied Legal Studies (ALS)</item>
+<item>Applied Mathematics (APMA)</item>
+<item>Arabic (ARAB)</item>
+<item>Archaeology (ARCH)</item>
+<item>Biological Sciences (BISC)</item>
+<item>Biomedical Physiology and Kinesiology (BPK)</item>
+<item>Business Administration (BUS)</item>
+<item>Chemistry (CHEM)</item>
+<item>Chinese (CHIN)</item>
+<item>Cognitive Science (COGS)</item>
+<item>Communication (CMNS)</item>
+<item>Computing Science (CMPT)</item>
+<item>Contemporary Arts (CA)</item>
+<item>Criminology (CRIM)</item>
+<item>Data Science (DATA)</item>
+<item>Dialogue (DIAL)</item>
+<item>Digital Media (DMED)</item>
+<item>Earth Sciences (EASC)</item>
+<item>Ecological Restoration (ECO)</item>
+<item>Economics (ECON)</item>
+<item>Education (EDUC)</item>
+<item>Education Professional (EDPR)</item>
+<item>Educational Technology and Learning (ETEC)</item>
+<item>Engineering Science (ENSC)</item>
+<item>English (ENGL)</item>
+<item>English for Academic Success (EAS)</item>
+<item>Environment (ENV)</item>
+<item>Environmental Science (EVSC)</item>
+<item>Faculty of Arts and Social Sciences (FASS)</item>
+<item>First Nations Languages (FNLG)</item>
+<item>First Nations Studies (FNST)</item>
+<item>Foundations of Academic Literacy (FAL)</item>
+<item>Foundations of Analytical and Quantitative Reasoning (FAN)</item>
+<item>French (FREN)</item>
+<item>Gender Sexuality and Womens Studies (GSWS)</item>
+<item>General Studies (GS)</item>
+<item>Geography (GEOG)</item>
+<item>German (GERM)</item>
+<item>Gerontology (GERO)</item>
+<item>Global Asia (GA)</item>
+<item>Greek (GRK)</item>
+<item>Health Sciences (HSCI)</item>
+<item>Hellenic Studies (HS)</item>
+<item>History (HIST)</item>
+<item>Humanities (HUM)</item>
+<item>Individualized Interdisciplinary Studies (INS)</item>
+<item>Interactive Arts and Technology (IAT)</item>
+<item>International Studies (IS)</item>
+<item>International Studies and Political Science (ISPO)</item>
+<item>Italian (ITAL)</item>
+<item>Japanese (JAPN)</item>
+<item>Labour Studies (LBST)</item>
+<item>Language (LANG)</item>
+<item>Latin American Studies (LAS)</item>
+<item>Liberal Arts (LBRL)</item>
+<item>Liberal Studies (LS)</item>
+<item>Linguistics (LING)</item>
+<item>Management and Technology (MTEC)</item>
+<item>Marine Science (MASC)</item>
+<item>Mathematics (MATH)</item>
+<item>Mathematics and Computing Science (MACM)</item>
+<item>Mechatronic Systems Engineering (MSE)</item>
+<item>Molecular Biology and Biochemistry (MBB)</item>
+<item>Neuroscience (NEUR)</item>
+<item>Nuclear Science (NUSC)</item>
+<item>Oncology (ONC)</item>
+<item>Persian (PERS)</item>
+<item>Philosophy (PHIL)</item>
+<item>Physics (PHYS)</item>
+<item>Planning (PLAN)</item>
+<item>Political Science (POL)</item>
+<item>Psychology (PSYC)</item>
+<item>Public Policy (PLCY)</item>
+<item>Publishing (PUB)</item>
+<item>Punjabi (PUNJ)</item>
+<item>Resource and Environmental Management (REM)</item>
+<item>Science (SCI)</item>
+<item>Sociology and Anthropology (SA)</item>
+<item>Spanish (SPAN)</item>
+<item>Statistics (STAT)</item>
+<item>Sustainable Development (SD)</item>
+<item>Sustainable Energy Engineering (SEE)</item>
+<item>Technology - FAS (TEKX)</item>
+<item>Urban Studies (URB)</item>
+<item>World Literature (WL)</item>
