@@ -49,7 +49,6 @@ public class AddCourse extends AppCompatActivity {
 
     private void setupSubjectSpinner() {
         subjectSpinner = findViewById(R.id.subjectSpinner);
-        //subjectText = findViewById(R.id.subjectText);
         subjectAdapter = ArrayAdapter.createFromResource(this, R.array.subject_spinner, android.R.layout.select_dialog_item);
         subjectSpinner.setAdapter(subjectAdapter);
         subjectSpinner.setOnItemSelectedListener(new SpinnerXMLSelectedListener());
