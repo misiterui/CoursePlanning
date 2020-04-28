@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string-array name="urb_spinner" tools:ignore="InconsistentArrays">
+		<item>URB 497 STT-International Field Studies (9)</item>
+		<item>URB 601 Urban Professional Development I (2)</item>
+		<item>URB 602 Urban Professional Development II (2)</item>
+		<item>URB 605 Great Urban Thinkers (4)</item>
+		<item>URB 610 Urban Design: Integrating Theory and Practice (4)</item>
+		<item>URB 615 Comparative Metropolitan Governance (4)</item>
+		<item>URB 620 Urban Communities and Cultures (4)</item>
+		<item>URB 625 Sustainability Assessment for Cities (4)</item>
+		<item>URB 630 Urban Development, Planning and Policy (4)</item>
+		<item>URB 635 Urban Inequality and the Just City (4)</item>
+		<item>URB 645 Urban Sustainable Development (4)</item>
+		<item>URB 647 Urban Ethics (4)</item>
+		<item>URB 650 Urban Governance (4)</item>
+		<item>URB 655 Global Cities (4)</item>
+		<item>URB 660 Transportation and Urban Development (4)</item>
+		<item>URB 665 Urban Housing Policy (4)</item>
+		<item>URB 670 Urban Research Methods (4)</item>
+		<item>URB 675 Urban Economic Development (4)</item>
+		<item>URB 691 International Field Studies (6)</item>
+		<item>URB 693 Directed Readings I (2)</item>
+		<item>URB 694 Directed Readings II (4)</item>
+		<item>URB 695 Selected Topics in Urban Studies (4)</item>
+		<item>URB 696 Seminar in Urban Studies (4)</item>
+		<item>URB 697 Research Project (4)</item>
+		<item>URB 699 Research Project Completion (2)</item>
+		<item>URB 701 Co-operative Education I</item>
+		<item>URB 702 Co-operative Education II</item>
+	</string-array>
+</resources>

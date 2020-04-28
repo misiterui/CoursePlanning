@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string-array name="hist_spinner" tools:ignore="InconsistentArrays">
+		<item>HIST 101 Canada to Confederation (3)</item>
+		<item>HIST 102W Canada since Confederation (3)</item>
+		<item>HIST 104 The Americas from Colonization to Independence (3)</item>
+		<item>HIST 106 The Making of Modern Europe (3)</item>
+		<item>HIST 111 Histories of Technology (3)</item>
+		<item>HIST 115 History of Sexuality (3)</item>
+		<item>HIST 130 Introduction to Global History (3)</item>
+		<item>HIST 132 Global Environmental History (3)</item>
+		<item>HIST 135 Capitalism and the Making of the Modern World (3)</item>
+		<item>HIST 146 Africa after the Transatlantic Slave Trade (3)</item>
+		<item>HIST 151 The Modern Middle East (3)</item>
+		<item>HIST 185 Studies in History (3)</item>
+		<item>HIST 200 Making History: Introduction to Historical Research (3)</item>
+		<item>HIST 204 The Social History of Canada (3)</item>
+		<item>HIST 206 Imperial Japan (ca. 1868-1952) (3)</item>
+		<item>HIST 209W Latin America: the National Period (3)</item>
+		<item>HIST 212 The United States to 1877 (3)</item>
+		<item>HIST 213 The United States Since 1877 (3)</item>
+		<item>HIST 214 Quebec Society, Culture, and Politics (3)</item>
+		<item>HIST 214W Quebec Society, Culture, and Politics (3)</item>
+		<item>HIST 215 The Making of the British Isles (3)</item>
+		<item>HIST 220 Late Medieval and Renaissance Europe (3)</item>
+		<item>HIST 223 Early Modern Europe, 1500-1789 (3)</item>
+		<item>HIST 224 Europe from the French Revolution to the First World War (3)</item>
+		<item>HIST 225 20th Century Europe (3)</item>
+		<item>HIST 231 History of Africa to the 19th Century: From Ancient Times to the Slave Trade (3)</item>
+		<item>HIST 236 Japan from 1603 to 1867: Peasants, Merchants, Warriors (3)</item>
+		<item>HIST 243 A Brief History of Modern India from British Colony to Independent Republic  (3)</item>
+		<item>HIST 244 Colonialism and Nationalism in South Asia (3)</item>
+		<item>HIST 249 Classical Islamic Civilization (3)</item>
+		<item>HIST 252 Islamic India (3)</item>
+		<item>HIST 254 China to 1800 (3)</item>
+		<item>HIST 255 China since 1800 (3)</item>
+		<item>HIST 265 Global History from the Revolutionary Age to the Present (3)</item>
+		<item>HIST 275 From Alexander to the Caesars: The Hellenistic and Roman Worlds to the end of Antiquity (4)</item>
+		<item>HIST 276 Social, Economic, and Political History of the Mediterranean (3)</item>
+		<item>HIST 277 History of Greek Civilization (3)</item>
+		<item>HIST 278 The Greeks in the Ottoman Empire (3)</item>
+		<item>HIST 279 Greece in the 20th Century (3)</item>
+		<item>HIST 285 Studies in History (3)</item>
+		<item>HIST 288 History of Christianity to 1500 (3)</item>
+		<item>HIST 299 Problems in History (3)</item>
+		<item>HIST 300 Historiography (4)</item>
+		<item>HIST 304 Alexander the Great and the Quest for World Empire (4)</item>
+		<item>HIST 307 Selected Topics in Hellenic Studies (4)</item>
+		<item>HIST 314 British and Irish Society since the Mid 18th Century (4)</item>
+		<item>HIST 315 Politics and Society in England, 1500-1707 (4)</item>
+		<item>HIST 319 Modern France (4)</item>
+		<item>HIST 320 European Reformation (4)</item>
+		<item>HIST 321 State and Society in Early Modern Europe (4)</item>
+		<item>HIST 322 Atlantic and Pacific Migration (4)</item>
+		<item>HIST 323 The Canadian Prairies (4)</item>
+		<item>HIST 325 History of Aboriginal Peoples of North America to 1850 (4)</item>
+		<item>HIST 326 History of Aboriginal Peoples of North America Since 1850 (4)</item>
+		<item>HIST 327 Canadian Labor and Working Class History (4)</item>
+		<item>HIST 330W Controversies in Canadian History  (4)</item>
+		<item>HIST 332 Politics and Culture in Modern Germany (4)</item>
+		<item>HIST 334 The Making of Imperial Russia (4)</item>
+		<item>HIST 335 The Soviet Project (4)</item>
+		<item>HIST 336 Ideas and Society in Early Modern Europe (4)</item>
+		<item>HIST 338 World War II (4)</item>
+		<item>HIST 339 The British Empire and Commonwealth (4)</item>
+		<item>HIST 341 History of Women in Europe: Ideas and Debates from the Renaissance to the Present (4)</item>
+		<item>HIST 344 Themes in Modern East Africa (4)</item>
+		<item>HIST 345W Selected Topics in European History (4)</item>
+		<item>HIST 348 A History of Twentieth Century South Africa (4)</item>
+		<item>HIST 349 Rome after Rome: The Byzantine Middle Ages from the end of Antiquity to the Crusades (4)</item>
+		<item>HIST 350 The Ottoman Empire and Turkey (4)</item>
+		<item>HIST 352 Religion and Politics in Modern Iran (4)</item>
+		<item>HIST 354 Imperialism and Modernity in the Middle East (4)</item>
+		<item>HIST 355 The Arab Middle East in the Twentieth Century (4)</item>
+		<item>HIST 358 Development, Aid and Difference in Historical Perspective (4)</item>
+		<item>HIST 359 Constructing the Nation State in Greece, the Balkans, and the Mediterranean (4)</item>
+		<item>HIST 362 Ireland from the Penal Era to Partition (4)</item>
+		<item>HIST 366 Social and Cultural History of Modern China (4)</item>
+		<item>HIST 367 History of the Peoples Republic of China (4)</item>
+		<item>HIST 368W Selected Topics in the History of the Wider World (4)</item>
+		<item>HIST 371 The Asia-Pacific War in Modern Japanese History (4)</item>
+		<item>HIST 372 City Life (4)</item>
+		<item>HIST 373 Conquest in North America, 1500-1900 (4)</item>
+		<item>HIST 374W Selected Topics in the History of the Americas (4)</item>
+		<item>HIST 376 North American West (4)</item>
+		<item>HIST 377 Environmental History (4)</item>
+		<item>HIST 382 African-American History, since 1865 (4)</item>
+		<item>HIST 388 Religion and Globalization (4)</item>
+		<item>HIST 390 Studies in History I (4)</item>
+		<item>HIST 391 Studies in History II (4)</item>
+		<item>HIST 400 Methodology (4)</item>
+		<item>HIST 401 Problems in Modern German History (4)</item>
+		<item>HIST 402 Renaissance Italy (4)</item>
+		<item>HIST 404 Problems in Early Modern England (4)</item>
+		<item>HIST 407 Popular Culture in Great Britain and Europe (4)</item>
+		<item>HIST 415 Victorian Britain (4)</item>
+		<item>HIST 416 The French Revolution (4)</item>
+		<item>HIST 417W Problems in Modern French History (4)</item>
+		<item>HIST 419W Problems in Modern Russian History (4)</item>
+		<item>HIST 420 Themes in Russian Imperial History (4)</item>
+		<item>HIST 422 Greece, 1935-1944: Occupation and Resistance (4)</item>
+		<item>HIST 424 Problems in the Cultural History of Canada (4)</item>
+		<item>HIST 425W Gender and History (4)</item>
+		<item>HIST 427 Topics in Indigenous Histories (4)</item>
+		<item>HIST 428 Problems in the Social and Economic History of Canada (4)</item>
+		<item>HIST 430 French Americas (4)</item>
+		<item>HIST 432 Problems in Environmental History (4)</item>
+		<item>HIST 433W Italian Films, Italian Histories (4)</item>
+		<item>HIST 436 British Columbia (4)</item>
+		<item>HIST 438W Problems in the History of the British Empire (4)</item>
+		<item>HIST 439 Catholicism in Early Modern Europe (4)</item>
+		<item>HIST 440 Selected Topics in US History (4)</item>
+		<item>HIST 441 Women, Property, and the Law in the Mediterranean (4)</item>
+		<item>HIST 443W Aboriginal Peoples, History and the Law (4)</item>
+		<item>HIST 444W Conceptualizing Atlantic Canada (4)</item>
+		<item>HIST 445 Problems in Modern Italian History (4)</item>
+		<item>HIST 447W The Nikkei Experience in North America (4)</item>
+		<item>HIST 451 Oral History: Theories and Practices (4)</item>
+		<item>HIST 454 Problems in the History of Sexuality (4)</item>
+		<item>HIST 455W Race in the Americas (4)</item>
+		<item>HIST 456 The Late Ottoman Empire: State, Culture and Social Transformation, 1750-1923 (4)</item>
+		<item>HIST 457 The Turkish Republic: Politics, Society, and Culture, 1918-Present (4)</item>
+		<item>HIST 458W Problems in Latin American Regional History (4)</item>
+		<item>HIST 459W Problems in the Political and Social History of Latin America (4)</item>
+		<item>HIST 460 Themes in Byzantine History (4)</item>
+		<item>HIST 462W Religion, Ethnicity, and Politics in Twentieth Century Northern Ireland (4)</item>
+		<item>HIST 463W Rebellion and Revolution: Topics in the Theory and Practice of Resistance (4)</item>
+		<item>HIST 464 Problems in Modern Asian History (4)</item>
+		<item>HIST 465 The Palestinian-Israeli Conflict (4)</item>
+		<item>HIST 467 Modern Egypt (4)</item>
+		<item>HIST 468W Problems in the History of Religion (4)</item>
+		<item>HIST 469 Islamic Social and Intellectual History (4)</item>
+		<item>HIST 471W Women in Japanese History (1600-1952) (4)</item>
+		<item>HIST 472W Problems in World History (4)</item>
+		<item>HIST 473W Problems in Southern African History (4)</item>
+		<item>HIST 476 History of Modern Greece (4)</item>
+		<item>HIST 479W Contentious Problems in Modern Chinese History (4)</item>
+		<item>HIST 485 Studies in History I (4)</item>
+		<item>HIST 486 Studies in History II (4)</item>
+		<item>HIST 489 Studies in History (4)</item>
+		<item>HIST 490 Studies in History (4)</item>
+		<item>HIST 494 Honours Seminar (4)</item>
+		<item>HIST 498 Honours Essay (4)</item>
+		<item>HIST 801 Selected Topics in History (5)</item>
+		<item>HIST 805 The North American West (5)</item>
+		<item>HIST 806 Themes in Canadian History (5)</item>
+		<item>HIST 810 Themes in European History  (5)</item>
+		<item>HIST 814 Historical Methods (5)</item>
+		<item>HIST 815 Prospectus Workshop (5)</item>
+		<item>HIST 821 Early Modern World (5)</item>
+		<item>HIST 822 Themes in British and Irish History (5)</item>
+		<item>HIST 826 International Relations (5)</item>
+		<item>HIST 843 Themes in United States History (5)</item>
+		<item>HIST 845 Themes in Latin American History (5)</item>
+		<item>HIST 852 Themes in Middle Eastern History (5)</item>
+		<item>HIST 860 Comprehensive Field 1 (6)</item>
+		<item>HIST 861 Comprehensive Field 2 (6)</item>
+		<item>HIST 862 Comprehensive Field 3 (6)</item>
+		<item>HIST 870 Themes in Asian History (5)</item>
+		<item>HIST 872 The City in History (5)</item>
+		<item>HIST 879 Environmental History (5)</item>
+		<item>HIST 882 Oral History (5)</item>
+		<item>HIST 883 Film and History (5)</item>
+		<item>HIST 885 Law and Society (5)</item>
+		<item>HIST 887 Comparative Labor History (5)</item>
+		<item>HIST 888 Indigenous Peoples (5)</item>
+		<item>HIST 889 Colonialism/Post-Colonialism (5)</item>
+		<item>HIST 890 Gender and History (5)</item>
+		<item>HIST 892 Religion and Society (5)</item>
+		<item>HIST 894 War and Society (5)</item>
+		<item>HIST 896 Race and Ethnicity (5)</item>
+		<item>HIST 897 Supervised Readings (5)</item>
+		<item>HIST 898 MA Thesis (18)</item>
+		<item>HIST 899 PhD Thesis (18)</item>
+	</string-array>
+</resources>

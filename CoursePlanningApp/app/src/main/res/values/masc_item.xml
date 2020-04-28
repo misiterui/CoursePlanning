@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string-array name="masc_spinner" tools:ignore="InconsistentArrays">
+		<item>MASC 400 Directed Studies (6)</item>
+		<item>MASC 401 Directed Studies in Marine Sciences (3)</item>
+		<item>MASC 410 Marine Invertebrate Zoology</item>
+		<item>MASC 412 Biology of Fishes</item>
+		<item>MASC 414 Coastal Biodiversity and Conservation</item>
+		<item>MASC 415 Structure and Function in Animals (3)</item>
+		<item>MASC 416 Coastal Community Ecology</item>
+		<item>MASC 417 Crustacean Biology (3)</item>
+		<item>MASC 418 Behavioural Ecology of Marine Organisms</item>
+		<item>MASC 419 Subtidal Science (3)</item>
+		<item>MASC 420 Marine Phycology</item>
+		<item>MASC 421 Freshwater and Terrestrial Conservation</item>
+		<item>MASC 425 Ecological Adaptations of Seaweeds (3)</item>
+		<item>MASC 430 Marine Ecology</item>
+		<item>MASC 435 Biological Oceanography</item>
+		<item>MASC 436 Applied Data Analysis in Marine Science (3)</item>
+		<item>MASC 437 Marine Population Ecology and Dynamics (3)</item>
+		<item>MASC 440 Biology of Marine Birds</item>
+		<item>MASC 470 Special Topics in Marine Biology</item>
+		<item>MASC 471 Special Topics in Marine Biology</item>
+		<item>MASC 472 Special Topics in Marine Biology</item>
+		<item>MASC 473 Special Topics in Marine Biology</item>
+		<item>MASC 474 Special Topics in Marine Biology</item>
+		<item>MASC 475 Special Topics in Marine Biology</item>
+		<item>MASC 476 Special Topics in Marine Biology</item>
+		<item>MASC 477 Special Topics in Marine Biology</item>
+		<item>MASC 478 Special Topics in Marine Biology</item>
+		<item>MASC 479 Special Topics in Marine Biology</item>
+		<item>MASC 500 Directed Studies (3)</item>
+		<item>MASC 501 Special Topics (3)</item>
+		<item>MASC 502 Special Topics (3)</item>
+		<item>MASC 503 Special Topics (3)</item>
+		<item>MASC 504 Special Topics (6)</item>
+		<item>MASC 505 Special Topics (6)</item>
+		<item>MASC 506 Special Topics (6)</item>
+	</string-array>
+</resources>

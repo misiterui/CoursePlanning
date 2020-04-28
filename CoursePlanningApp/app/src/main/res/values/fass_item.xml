@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string-array name="fass_spinner" tools:ignore="InconsistentArrays">
+		<item>FASS 110 STT Exploration in the Arts and Social Sciences (4)</item>
+		<item>FASS 118 STT-Inequality and Poverty: Evolution, Ethics and Redistribution (3)</item>
+		<item>FASS 200 STT-Writing Right: Strategies for Effective Revision (1)</item>
+		<item>FASS 201 FASS Co-op Practicum I (3)</item>
+		<item>FASS 202 STT-Social Media for Work and Play (1)</item>
+		<item>FASS 203 STT-The Art of Debate: Constructive Adversarialism in Theory and Practice (1)</item>
+		<item>FASS 204 STT-Communicating in Conflict and Negotiation: An Introduction to the Essential Skills (1)</item>
+		<item>FASS 205 STT-Finding Voice: Public Speaking for Social Change (1)</item>
+		<item>FASS 206 STT-Creating Effective Teams (1)</item>
+		<item>FASS 207 STT-Cultural Humility: Understanding Diversity, Equity, and Inclusion (1)</item>
+		<item>FASS 208 STT-Introduction to Personal Financial Planning for Students (1)</item>
+		<item>FASS 209 STT-Write-minded: Writing with a Public Audience in Mind (1)</item>
+		<item>FASS 301 FASS Co-op Practicum II (3)</item>
+		<item>FASS 302 FASS Co-op Practicum III (3)</item>
+		<item>FASS 401 FASS Co-op Practicum IV (3)</item>
+		<item>FASS 402 FASS Co-op Practicum V (3)</item>
+	</string-array>
+</resources>

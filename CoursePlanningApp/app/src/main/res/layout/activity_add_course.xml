@@ -50,22 +50,22 @@
                 android:background="@drawable/textview_border"
                 android:orientation="horizontal">
 
-                <TextView
-                    android:id="@+id/yearText"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:layout_gravity="center"
-                    android:layout_marginLeft="16dp"
-                    android:text="2020"
-                    android:textSize="24sp" />
+<!--                <TextView-->
+<!--                    android:id="@+id/yearText"-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:layout_marginLeft="16dp"-->
+<!--                    android:text="2020"-->
+<!--                    android:textSize="24sp" />-->
 
                 <Spinner
                     android:id="@+id/yearSpinner"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="4dp"
-                    android:layout_weight="0" />
+                    android:dropDownVerticalOffset="-50dp"
+                    android:layout_marginTop="4dp" />
 
             </LinearLayout>
         </LinearLayout>
@@ -73,43 +73,57 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
             android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
             android:layout_marginRight="16dp"
             android:background="@drawable/textview_border"
             android:orientation="vertical">
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
                 android:layout_marginLeft="16dp"
-                android:textSize="24sp"
-                android:text="Semester" />
-
-            <LinearLayout
+                android:layout_marginTop="16dp"
+                android:text="Semester"
+                android:textSize="24sp" />
+            <RadioGroup
+                android:id="@+id/semesterRadio"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="16dp"
-                android:background="@drawable/textview_border"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
                 android:orientation="horizontal">
 
-                <TextView
-                    android:id="@+id/semesterText"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:layout_gravity="center"
-                    android:layout_marginLeft="16dp"
-                    android:text="Summer"
-                    android:textSize="24sp" />
-
-                <Spinner
-                    android:id="@+id/semesterSpinner"
+                <RadioButton
+                    android:id="@+id/semesterSpring"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="4dp"
-                    android:layout_weight="0" />
-            </LinearLayout>
+                    android:layout_margin="4dp"
+                    android:textSize="24sp"
+                    android:textColor="@color/grey"
+                    android:text="Spring" />
+
+                <RadioButton
+                    android:id="@+id/semesterSummer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:textSize="24sp"
+                    android:textColor="@color/grey"
+                    android:text="Summer" />
+
+                <RadioButton
+                    android:id="@+id/semesterFall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:textSize="24sp"
+                    android:textColor="@color/grey"
+                    android:text="Fall" />
+
+            </RadioGroup>
 
         </LinearLayout>
 
@@ -134,22 +148,23 @@
                 android:background="@drawable/textview_border"
                 android:orientation="horizontal">
 
-                <TextView
-                    android:id="@+id/subjectText"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:layout_gravity="center"
-                    android:layout_marginLeft="16dp"
-                    android:text="CMPT"
-                    android:textSize="24sp" />
+<!--                <TextView-->
+<!--                    android:id="@+id/subjectText"-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:layout_marginLeft="16dp"-->
+<!--                    android:text="CMPT"-->
+<!--                    android:textColor="@color/light_gray"-->
+<!--                    android:textSize="14sp" />-->
 
                 <Spinner
                     android:id="@+id/subjectSpinner"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="4dp"
-                    android:layout_weight="0" />
+                     />
 
             </LinearLayout>
 
@@ -176,22 +191,21 @@
                 android:background="@drawable/textview_border"
                 android:orientation="horizontal">
 
-                <TextView
-                    android:id="@+id/numberText"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:layout_gravity="center"
-                    android:layout_marginLeft="16dp"
-                    android:text="120"
-                    android:textSize="24sp" />
+<!--                <TextView-->
+<!--                    android:id="@+id/numberText"-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:layout_marginLeft="16dp"-->
+<!--                    android:text="120"-->
+<!--                    android:textSize="24sp" />-->
 
                 <Spinner
                     android:id="@+id/numberSpinner"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="4dp"
-                    android:layout_weight="0" />
+                    android:layout_marginTop="4dp" />
 
             </LinearLayout>
 
@@ -203,6 +217,7 @@
             android:orientation="horizontal">
 
             <ImageButton
+                android:id="@+id/saveBtn"
                 android:layout_width="0dp"
                 android:layout_height="60dp"
                 android:layout_weight="1"
@@ -210,9 +225,11 @@
                 android:layout_marginRight="80dp"
                 android:layout_marginTop="20dp"
                 android:src="@drawable/save"
-                android:background="@drawable/rounded_white_bg"
+                android:background="@drawable/rounded_yellow_bg"
                 android:scaleType="fitXY" />
+
             <ImageButton
+                android:id="@+id/cancelBtn"
                 android:layout_width="0dp"
                 android:layout_height="60dp"
                 android:layout_weight="1"
@@ -220,7 +237,7 @@
                 android:layout_marginRight="80dp"
                 android:layout_marginTop="20dp"
                 android:src="@drawable/cancel"
-                android:background="@drawable/rounded_white_bg"
+                android:background="@drawable/rounded_yellow_bg"
                 android:scaleType="fitXY" />
         </LinearLayout>
 

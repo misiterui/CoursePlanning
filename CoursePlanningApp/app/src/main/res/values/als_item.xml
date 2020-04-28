@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string-array name="als_spinner" tools:ignore="InconsistentArrays">
+        <item>ALS 601 Canadian Legal System (3)</item>
+        <item>ALS 602 Legal Research and Writing (3)</item>
+        <item>ALS 603 Legal Philosophy (3)</item>
+        <item>ALS 610 Contracts (3)</item>
+        <item>ALS 611 Real Property I (3)</item>
+        <item>ALS 612 Real Property II (3)</item>
+        <item>ALS 615 Personal Planning (3)</item>
+        <item>ALS 620 Selected Topics in Applied Legal Studies (3)</item>
+        <item>ALS 630 Topics in Legal Practice (6)</item>
+        <item>ALS 631 MA Examination (3)</item>
+
+    </string-array>
+
+</resources>

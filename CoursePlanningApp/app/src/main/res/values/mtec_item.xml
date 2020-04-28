@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string-array name="mtec_spinner" tools:ignore="InconsistentArrays">
+		<item>MTEC 691 Directed Studies (1)</item>
+		<item>MTEC 692 Directed Studies (1)</item>
+		<item>MTEC 693 Directed Studies (1)</item>
+		<item>MTEC 694 Directed Studies (2)</item>
+		<item>MTEC 695 Directed Studies (2)</item>
+		<item>MTEC 696 Directed Studies (2)</item>
+		<item>MTEC 697 Directed Studies (3)</item>
+		<item>MTEC 698 Directed Studies (3)</item>
+		<item>MTEC 699 Directed Studies (3)</item>
+	</string-array>
+</resources>

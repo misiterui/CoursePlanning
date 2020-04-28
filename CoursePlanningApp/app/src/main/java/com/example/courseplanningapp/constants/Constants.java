@@ -1,4 +1,4 @@
-package com.example.courseplanningapp;
+package com.example.courseplanningapp.constants;
 
 /*
     Constants class provides the constants variables that used often in this project
@@ -13,5 +13,7 @@ public class Constants {
     public static final String SPRING_SEMESTER = "Spring";
     public static final String SUMMER_SEMESTER = "Summer";
     public static final String FALL_SEMESTER = "Fall";
+
+
 
 }

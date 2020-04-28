@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string-array name="engl_spinner" tools:ignore="InconsistentArrays">
+		<item>ENGL 111W Literary Classics in English (3)</item>
+		<item>ENGL 112W Literature Now (3)</item>
+		<item>ENGL 113W Literature and Performance (3)</item>
+		<item>ENGL 114W Language and Purpose (3)</item>
+		<item>ENGL 115W Literature and Culture (3)</item>
+		<item>ENGL 199W Writing to Persuade (3)</item>
+		<item>ENGL 201 Medieval Literature (3)</item>
+		<item>ENGL 203 Early Modern Literature (3)</item>
+		<item>ENGL 205 Restoration and Eighteenth Century Literature (3)</item>
+		<item>ENGL 206 Nineteenth Century Literatures in English (3)</item>
+		<item>ENGL 207 Twentieth Century Literatures in English (3)</item>
+		<item>ENGL 208 21st Century Literatures in English (3)</item>
+		<item>ENGL 212 Metrics and Prosody (3)</item>
+		<item>ENGL 214 History and Principles of Rhetoric (3)</item>
+		<item>ENGL 216 History and Principles of Literary Criticism (3)</item>
+		<item>ENGL 272 Creative Reading (3)</item>
+		<item>ENGL 300 Old English (4)</item>
+		<item>ENGL 304 Studies in Medieval Literature (4)</item>
+		<item>ENGL 306 Chaucer (4)</item>
+		<item>ENGL 310 Studies in Early Modern Literature to 1660 (4)</item>
+		<item>ENGL 311 Early Shakespeare (4)</item>
+		<item>ENGL 313 Late Shakespeare (4)</item>
+		<item>ENGL 315 Studies in Seventeenth Century Non-Dramatic Literature (4)</item>
+		<item>ENGL 320 Studies in Eighteenth Century Literature (1660-1800) (4)</item>
+		<item>ENGL 322 Studies in Eighteenth Century Authors (4)</item>
+		<item>ENGL 327 Studies in Romantic Literature (4)</item>
+		<item>ENGL 330 Studies in Victorian Literature (4)</item>
+		<item>ENGL 340 Studies in Twentieth Century British Literature before 1945 (4)</item>
+		<item>ENGL 342 Studies in British Literature since 1945 (4)</item>
+		<item>ENGL 347 Studies in American Literature before 1900 (4)</item>
+		<item>ENGL 349 Studies in American Literature since 1900 (4)</item>
+		<item>ENGL 354 Studies in Canadian Literature before 1920 (4)</item>
+		<item>ENGL 357 Studies in Canadian Literature since 1920 (4)</item>
+		<item>ENGL 359 Studies in the Literature of British Columbia (4)</item>
+		<item>ENGL 360 Popular Writing by Indigenous Authors (4)</item>
+		<item>ENGL 363 Studies in Digital Humanities: Theory and Practice (4)</item>
+		<item>ENGL 364 Literary Criticism: History, Theory, and Practice (4)</item>
+		<item>ENGL 371 Writing: Theory and Practice (4)</item>
+		<item>ENGL 372 Creative Writing I: Poetry (4)</item>
+		<item>ENGL 374 Creative Writing II: Fiction (4)</item>
+		<item>ENGL 375 Studies in Rhetoric (4)</item>
+		<item>ENGL 376 Special Studies (4)</item>
+		<item>ENGL 377 Field School I (4)</item>
+		<item>ENGL 378 Field School II (4)</item>
+		<item>ENGL 380 Text and Performance (4)</item>
+		<item>ENGL 383 Studies in Popular Literature and Culture (4)</item>
+		<item>ENGL 385 Across Time, Across Space (4)</item>
+		<item>ENGL 387 Studies in Childrens Literature (4)</item>
+		<item>ENGL 392 Studies in World Literatures in English (4)</item>
+		<item>ENGL 394 Studies in Asian Diasporic Literatures (4)</item>
+		<item>ENGL 398 Major Authors for Non-Majors (4)</item>
+		<item>ENGL 400W Advanced Old English (4)</item>
+		<item>ENGL 404W Topics in Medieval Literature (4)</item>
+		<item>ENGL 407W Topics in Early English Drama (4)</item>
+		<item>ENGL 410W Topics in Early Modern English Non-Dramatic Literature (4)</item>
+		<item>ENGL 416W Early Modern Authors (4)</item>
+		<item>ENGL 420W Topics in Eighteenth Century Literature (4)</item>
+		<item>ENGL 427W Topics in the Romantic Period (4)</item>
+		<item>ENGL 434W Topics in the Victorian Period (4)</item>
+		<item>ENGL 435W Topics in the Literature of the Long Nineteenth Century (4)</item>
+		<item>ENGL 438W Topics in Modernism (4)</item>
+		<item>ENGL 440W Topics in British Literature Post 1945 (4)</item>
+		<item>ENGL 441 Directed Studies A (4)</item>
+		<item>ENGL 442 Directed Studies B (2)</item>
+		<item>ENGL 447W Topics in American Literature before 1900 (4)</item>
+		<item>ENGL 449W Topics in American Literature since 1900 (4)</item>
+		<item>ENGL 453W Aboriginal Literatures (4)</item>
+		<item>ENGL 454W North American Poetry and Poetics (4)</item>
+		<item>ENGL 455W Topics in Canadian Literature (4)</item>
+		<item>ENGL 457W Topics in Asian North American Literature (4)</item>
+		<item>ENGL 465W Topics in Critical Theory (4)</item>
+		<item>ENGL 468W Topics in Drama (4)</item>
+		<item>ENGL 470W Studies in the English Language (4)</item>
+		<item>ENGL 472W Advanced Creative Writing (4)</item>
+		<item>ENGL 475W Topics in Rhetoric (4)</item>
+		<item>ENGL 484W Topics in Media, Culture and Performance (4)</item>
+		<item>ENGL 486W Topics in Gender, Sexuality and Literature (4)</item>
+		<item>ENGL 487W Topics in Childrens Literature (4)</item>
+		<item>ENGL 492W Topics in World Literatures in English (4)</item>
+		<item>ENGL 494 Honours Research and Methods Seminar (4)</item>
+		<item>ENGL 496 Honours Graduating Essay (4)</item>
+		<item>ENGL 810 Studies in Theory I (4)</item>
+		<item>ENGL 811 Studies in Theory II (4)</item>
+		<item>ENGL 820 Studies in Print Culture Theory (4)</item>
+		<item>ENGL 821 Studies in Manuscript, Print and Media Culture (4)</item>
+		<item>ENGL 829 Studies in Shakespeare (4)</item>
+		<item>ENGL 830 Studies in Medieval Literature (4)</item>
+		<item>ENGL 831 Studies in Early Modern Literature (4)</item>
+		<item>ENGL 832 Studies in Eighteenth-Century Literature (4)</item>
+		<item>ENGL 833 Studies in Nineteenth-Century Literature (4)</item>
+		<item>ENGL 834 Studies in Twentieth-Century Literature (4)</item>
+		<item>ENGL 835 Studies in Contemporary Literature (4)</item>
+		<item>ENGL 840 Studies in American Literature (4)</item>
+		<item>ENGL 841 Studies in Canadian Literature (4)</item>
+		<item>ENGL 843 Studies in Colonial, National, and Diasporic Literatures (4)</item>
+		<item>ENGL 844 Studies in Aboriginal Literature (4)</item>
+		<item>ENGL 850 Studies in Globalization, Literature, and Culture (4)</item>
+		<item>ENGL 851 Studies in Popular Literature and Culture (4)</item>
+		<item>ENGL 852 Studies in Gender, Sexuality, and Literature (4)</item>
+		<item>ENGL 853 Studies in Postcolonial Literature (4)</item>
+		<item>ENGL 854 Studies in Poetics (4)</item>
+		<item>ENGL 860 Studies in Writing and Rhetoric (4)</item>
+		<item>ENGL 870 Topics in Language and Literature (4)</item>
+		<item>ENGL 875 Directed Studies (4)</item>
+		<item>ENGL 880 Pro-seminar I (4)</item>
+		<item>ENGL 881 Pro-seminar II (4)</item>
+		<item>ENGL 882 MA Project (4)</item>
+		<item>ENGL 890 MA Thesis (6)</item>
+		<item>ENGL 891 MA Paper/Project (4)</item>
+		<item>ENGL 892 PhD Field Exam One (4)</item>
+		<item>ENGL 893 PhD Field Exam Two (4)</item>
+		<item>ENGL 894 PhD Thesis Prospectus (4)</item>
+		<item>ENGL 899 PhD Thesis (6)</item>
+	</string-array>
+</resources>

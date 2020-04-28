@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string-array name="is_spinner" tools:ignore="InconsistentArrays">
+		<item>IS 101 Global Challenges of the 21st Century: An Introduction to International Studies (3)</item>
+		<item>IS 105 Around the World through Film (3)</item>
+		<item>IS 200 Security and Global Governance: Interdisciplinary Perspectives (3)</item>
+		<item>IS 209 Latin America: the National Period (3)</item>
+		<item>IS 209W Latin America: the National Period  (3)</item>
+		<item>IS 210 Comparative World Politics: Trajectories, Regimes, Challenges (3)</item>
+		<item>IS 220 Wealth and Poverty of Nations (3)</item>
+		<item>IS 221 Workers in the Global Economy: Globalization, Labour and Uneven Development (3)</item>
+		<item>IS 230 Beyond the Nation-State: Identity and Belonging in a Globalized World (3)</item>
+		<item>IS 265 Global History from the Revolutionary Age to the Present (3)</item>
+		<item>IS 280 War in the Balkans and the Making of the 21st Century (3)</item>
+		<item>IS 300 Research Methods in International Studies (4)</item>
+		<item>IS 301 Returning from Abroad: Discussion Seminar to Unpack the Experience of Work, Study &amp; Research Abroad (2)</item>
+		<item>IS 302 Humanitarian Intervention: An Introduction (4)</item>
+		<item>IS 303 Ethnic Minorities, Identity Politics, and Conflict in Southeast Asia (4)</item>
+		<item>IS 304 Russian Foreign and Security Policies (4)</item>
+		<item>IS 305 Challenging Power Around the Globe: Political Resistance and Protest (4)</item>
+		<item>IS 306 State Failure and Reconstruction (4)</item>
+		<item>IS 307 International Ethics: Poverty, Environmental Change, &amp; War (4)</item>
+		<item>IS 309 Special Topics in International Security and Conflict (4)</item>
+		<item>IS 313W Nationalism, Democracy and Development in Modern India (4)</item>
+		<item>IS 314 National, Regional, and International Politics in Southeast Asia (4)</item>
+		<item>IS 315 Introduction to Middle East Politics (4)</item>
+		<item>IS 319 Special Topics in Comparative World Politics, Culture and Society (4)</item>
+		<item>IS 322 Central Asia: Democracy, Development and Conflicts (4)</item>
+		<item>IS 323 Sub-Saharan Africa: Key Issues and Understandings (4)</item>
+		<item>IS 329 Special Topics in International Development, Economic and Environmental Issues (4)</item>
+		<item>IS 333 Chinese Development and Its Discontents (4)</item>
+		<item>IS 350W Seminar on Global Problems in Interdisciplinary Perspective  (4)</item>
+		<item>IS 355 Refugees and Forced Migration (4)</item>
+		<item>IS 358 Development, Aid and Difference in Historical Perspective (4)</item>
+		<item>IS 373 Global Environmental Politics (4)</item>
+		<item>IS 409 Special Topics I (4)</item>
+		<item>IS 410 Politics, Institutions and Development (4)</item>
+		<item>IS 414 Current Regional Issues in Southeast Asia (4)</item>
+		<item>IS 415 Islamist Trend in Middle East Politics (4)</item>
+		<item>IS 419 Special Topics II (4)</item>
+		<item>IS 421 The Economics of International Organizations and Development (4)</item>
+		<item>IS 423 International Development Practice and Ethics (4)</item>
+		<item>IS 427 Globalization, Poverty and Inequality (4)</item>
+		<item>IS 428 Directed Readings (4)</item>
+		<item>IS 429 Special Topics III (4)</item>
+		<item>IS 435 Special Topics in Latin American Studies (4)</item>
+		<item>IS 439 Social Movements in the Global South (4)</item>
+		<item>IS 444 Inside Diplomacy: A Practitioners Perspective (4)</item>
+		<item>IS 451 Seminar on Core Texts in International Studies (4)</item>
+		<item>IS 490 Honours Seminar (5)</item>
+		<item>IS 497 Field Practice (4)</item>
+		<item>IS 499 Honours Essay (5)</item>
+		<item>IS 800 Problems of International Policy and Practice (4)</item>
+		<item>IS 801 Institutions, Policies and Development (4)</item>
+		<item>IS 802 Political Economy of Development (4)</item>
+		<item>IS 803 Economics of International Organizations and Development (4)</item>
+		<item>IS 806 State Failure and Reconstruction: Comparative Perspectives (4)</item>
+		<item>IS 808 Special Topics in Governance and Conflict (4)</item>
+		<item>IS 809 Selected Topics Economic and Social Development of Selected Regions (4)</item>
+		<item>IS 813 African Economic Development: Theory and Practice (4)</item>
+		<item>IS 814 Special Topics on the Middle East (4)</item>
+		<item>IS 815 Theories of Latin American Development (4)</item>
+		<item>IS 816 Global Security Studies: Concepts, Theories and Issues (4)</item>
+		<item>IS 820 Directed Readings (4)</item>
+		<item>IS 830 Analytic Approaches for International Studies (4)</item>
+		<item>IS 835 Social and Political Change in Latin America (4)</item>
+		<item>IS 840 Perspectives in International Studies (4)</item>
+		<item>IS 880 MA Extended Essays (6)</item>
+		<item>IS 886 Thesis Prospectus  (2)</item>
+		<item>IS 888 MA Paper (6)</item>
+		<item>IS 898 MA Thesis (8)</item>
+	</string-array>
+</resources>

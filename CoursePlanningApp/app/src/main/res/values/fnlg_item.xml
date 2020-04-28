@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string-array name="fnlg_spinner" tools:ignore="InconsistentArrays">
+		<item>FNLG 130 Practical Phonetics for First Nations Languages (3)</item>
+		<item>FNLG 133 Introduction to First Nations Language I (3)</item>
+		<item>FNLG 134 Introduction to FNLG II (3)</item>
+		<item>FNLG 158 First Nations Language Immersion I (3)</item>
+		<item>FNLG 200 Introduction to Grammar in a First Nations Language (3)</item>
+		<item>FNLG 233 Description and Analysis of a First Nations Language I (3)</item>
+		<item>FNLG 234 Description Analysis FNLG II (3)</item>
+		<item>FNLG 258 First Nations Language Immersion II (3)</item>
+		<item>FNLG 300 Advanced Grammar of a First Nations Language (3)</item>
+		<item>FNLG 333 First Nations Language Intermediate Level Proficiency I (3)</item>
+		<item>FNLG 334 First Nations Language Intermediate Level Proficiency II (3)</item>
+		<item>FNLG 335 Topics in First Nations Language I (3)</item>
+		<item>FNLG 358 First Nations Language Immersion III (3)</item>
+		<item>FNLG 433 First Nations Language Mentoring I (3)</item>
+		<item>FNLG 434 First Nations Language Mentoring II (3)</item>
+		<item>FNLG 435 Topics in First Nations Language II (3)</item>
+		<item>FNLG 458 First Nations Language Immersion IV (3)</item>
+	</string-array>
+</resources>

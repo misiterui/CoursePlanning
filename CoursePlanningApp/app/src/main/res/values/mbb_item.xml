@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string-array name="mbb_spinner" tools:ignore="InconsistentArrays">
+		<item>MBB 151 Practicum I (3)</item>
+		<item>MBB 200 Selected Topics in Molecular Biology and Biochemistry (3)</item>
+		<item>MBB 201 Biochemistry of the Cell (3)</item>
+		<item>MBB 222 Molecular Biology and Biochemistry (3)</item>
+		<item>MBB 231 Cellular Biology and Biochemistry (3)</item>
+		<item>MBB 243 Data Analysis for Molecular Biology and Biochemistry (3)</item>
+		<item>MBB 251 Practicum II (3)</item>
+		<item>MBB 301 Bioscience of Science Fiction (3)</item>
+		<item>MBB 302 Energy: From Cells to Society (3)</item>
+		<item>MBB 308 Molecular Biology Laboratory (3)</item>
+		<item>MBB 309W Biochemistry Laboratory (4)</item>
+		<item>MBB 321 Intermediary Metabolism (3)</item>
+		<item>MBB 322 Molecular Physiology (3)</item>
+		<item>MBB 323 Introduction to Physical Biochemistry (3)</item>
+		<item>MBB 324 Protein Biochemistry (3)</item>
+		<item>MBB 326 Introduction to the Immune System (3)</item>
+		<item>MBB 331 Molecular Biology (4)</item>
+		<item>MBB 342 Introductory Genomics and Bioinformatics (3)</item>
+		<item>MBB 343 Data Science Laboratory for Molecular Biology and Biochemistry (2)</item>
+		<item>MBB 351 Practicum III (3)</item>
+		<item>MBB 400 Special Topics in Biotechnology and Business (1)</item>
+		<item>MBB 402 Developmental Biology of Cell Signalling (3)</item>
+		<item>MBB 420 Selected Topics in Contemporary Biochemistry (3)</item>
+		<item>MBB 421 Nucleic Acids (3)</item>
+		<item>MBB 422 Biomembranes (3)</item>
+		<item>MBB 423 Protein Structure and Function (3)</item>
+		<item>MBB 424 Membrane Transport Mechanisms (3)</item>
+		<item>MBB 427 Immune Responses in Health and Disease (3)</item>
+		<item>MBB 428 Microbial Pathogenesis (3)</item>
+		<item>MBB 429 RNA-mediated Gene Regulation (3)</item>
+		<item>MBB 430 Mechanisms of Secretory Transport (3)</item>
+		<item>MBB 431 Cells and the Environment (3)</item>
+		<item>MBB 432 Advanced Molecular Biology Techniques (4)</item>
+		<item>MBB 433 Epithelial Cell Biology (3)</item>
+		<item>MBB 436 Gene Expression (3)</item>
+		<item>MBB 438 Human Molecular Genetics (3)</item>
+		<item>MBB 440 Selected Topics in Contemporary Molecular Biology (3)</item>
+		<item>MBB 441 Bioinformatics (3)</item>
+		<item>MBB 443 Protein Biogenesis and Degradation (3)</item>
+		<item>MBB 446 The Molecular Biology of Cancer (3)</item>
+		<item>MBB 451 Practicum IV (3)</item>
+		<item>MBB 452 Practicum V (3)</item>
+		<item>MBB 460 Selected Topics in Bioinformatics and Genomics (3)</item>
+		<item>MBB 461 Comparative Genomics (3)</item>
+		<item>MBB 462 Human Genomics (3)</item>
+		<item>MBB 463 Forensic Genomics (3)</item>
+		<item>MBB 464 From Genome to System (3)</item>
+		<item>MBB 471 Undergraduate Colloquium (1)</item>
+		<item>MBB 481 Directed Research Honours Thesis (5)</item>
+		<item>MBB 482 Directed Research Honours Research Performance (5)</item>
+		<item>MBB 483 Directed Research Honours Thesis Defense (5)</item>
+		<item>MBB 490 Directed Readings in Molecular Biology and Biochemistry (2)</item>
+		<item>MBB 491 Directed Research I (5)</item>
+		<item>MBB 492 Directed Research II (10)</item>
+		<item>MBB 496 Directed Research for MBB-BUS and MBB-CS Joint Honours (6)</item>
+		<item>MBB 498 Directed Research (3)</item>
+		<item>MBB 505 Problem Based Learning in Bioinformatics (3)</item>
+		<item>MBB 659 Special Topics in Bioinformatics (3)</item>
+		<item>MBB 669 Special Topics in Genomics (3)</item>
+		<item>MBB 679 Special Topics in Proteomics (3)</item>
+		<item>MBB 700 Selected Topics in Biotechnology and Business (1)</item>
+		<item>MBB 702 Developmental Biology of Cell Signalling (3)</item>
+		<item>MBB 721 Nucleic Acids (3)</item>
+		<item>MBB 722 Biological Membranes (3)</item>
+		<item>MBB 723 Protein Structure and Function (3)</item>
+		<item>MBB 726 The Immune System I: Basis of Innate and Adaptive Immunity (4)</item>
+		<item>MBB 727 Immune System II: Immune Responses in Health and Disease (3)</item>
+		<item>MBB 728 Microbial Pathogenesis (3)</item>
+		<item>MBB 729 RNA-mediated Gene Regulation (3)</item>
+		<item>MBB 730 Mechanisms of Secretory Transport  (3)</item>
+		<item>MBB 736 Gene Expression (3)</item>
+		<item>MBB 738 Human Molecular Genetics (3)</item>
+		<item>MBB 741 Bioinformatics (3)</item>
+		<item>MBB 743 Protein Biogenesis, Function and Degradation (3)</item>
+		<item>MBB 746 The Molecular Biology of Cancer (3)</item>
+		<item>MBB 761 Comparative Genomics (3)</item>
+		<item>MBB 762 Human Genomics (3)</item>
+		<item>MBB 801 Student Seminar in Molecular Biology and Biochemistry I (3)</item>
+		<item>MBB 806 PhD Graduate Research Candidacy Examination (3)</item>
+		<item>MBB 821 Cell and Molecular Biology Colloquium (1)</item>
+		<item>MBB 829 Special Topics in Biochemistry (3)</item>
+		<item>MBB 839 Special Topics in Molecular Biology (3)</item>
+		<item>MBB 841 Genomics and Bioinformatics Colloquium (1)</item>
+		<item>MBB 861 Biomolecular Structure and Function Colloquium (1)</item>
+		<item>MBB 871 Directed Readings in Molecular Biology and Biochemistry (1)</item>
+		<item>MBB 872 Directed Readings in Molecular Biology and Biochemistry (2)</item>
+		<item>MBB 873 Directed Readings in Molecular Biology and Biochemistry (3)</item>
+		<item>MBB 898 MSc Thesis (18)</item>
+		<item>MBB 899 PhD Thesis (6)</item>
+	</string-array>
+</resources>

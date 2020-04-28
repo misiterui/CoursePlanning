@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string-array name="tekx_spinner" tools:ignore="InconsistentArrays">
+		<item>TEKX 101 Introduction to 3D Printing and Laser Scanning Technologies (3)</item>
+	</string-array>
+</resources>

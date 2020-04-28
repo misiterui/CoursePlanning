@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string-array name="eas_spinner" tools:ignore="InconsistentArrays">
+		<item>EAS 101 English Language Fundamentals for the Arts and Social Sciences (4)</item>
+	</string-array>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string-array name="neur_spinner" tools:ignore="InconsistentArrays">
+		<item>NEUR 800 Foundations of Cellular and Molecular Neuroscience (3)</item>
+		<item>NEUR 801 Foundations of Systems Neuroscience (3)</item>
+		<item>NEUR 802 Translational and Integrative Neuroscience Workshop</item>
+	</string-array>
+</resources>

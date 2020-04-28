@@ -7,7 +7,7 @@ package com.example.courseplanningapp.model;
 
 import androidx.annotation.NonNull;
 
-import com.example.courseplanningapp.Constants;
+import com.example.courseplanningapp.constants.Constants;
 
 
 public class Course implements Comparable<Course> {
@@ -28,15 +28,15 @@ public class Course implements Comparable<Course> {
 
     // Constructor that parses a .csv line split by ","
     public Course(String[] courseData){
-        courseId = courseData[0];
-        subject = courseData[2];
-        courseNumber = courseData[3];
-        title = courseData[4];
-        w = Boolean.parseBoolean(courseData[5]);
-        q = Boolean.parseBoolean(courseData[6]);
-        bHum = Boolean.parseBoolean(courseData[7]);
-        bSoc = Boolean.parseBoolean(courseData[8]);
-        bSci = Boolean.parseBoolean(courseData[9]);
+        subject = courseData[0];
+        courseNumber = courseData[1];
+        courseId = subject + courseNumber;
+        title = courseData[2];
+//        w = Boolean.parseBoolean(courseData[5]);
+//        q = Boolean.parseBoolean(courseData[6]);
+//        bHum = Boolean.parseBoolean(courseData[7]);
+//        bSoc = Boolean.parseBoolean(courseData[8]);
+//        bSci = Boolean.parseBoolean(courseData[9]);
 
         year = Constants.SAMPLE_YEAR;
         semester = Constants.SAMPLE_SEMESTER;
@@ -48,7 +48,8 @@ public class Course implements Comparable<Course> {
         return courseId;
     }
 
-    public void setCourseId(String courseId) {
+    public void setCourseId(String subject, String courseNumber) {
+        courseId = "" + subject + courseNumber;
         this.courseId = courseId;
     }
 

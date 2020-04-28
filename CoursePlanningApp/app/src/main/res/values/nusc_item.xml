@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string-array name="nusc_spinner" tools:ignore="InconsistentArrays">
+		<item>NUSC 341 Introduction to Radiochemistry (3)</item>
+		<item>NUSC 342 Introduction to Nuclear Science (3)</item>
+		<item>NUSC 344 Nucleosynthesis and Distribution of the Elements (3)</item>
+		<item>NUSC 346 Radiochemistry Laboratory (3)</item>
+		<item>NUSC 444 Special Topics in Nuclear Science (3)</item>
+		<item>NUSC 482 Directed Study in Advanced Topics in Nuclear (3)</item>
+	</string-array>
+</resources>

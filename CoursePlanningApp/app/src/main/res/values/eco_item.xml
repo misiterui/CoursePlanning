@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string-array name="eco_spinner" tools:ignore="InconsistentArrays">
+		<item>ECO 600 Ecological Restoration</item>
+		<item>ECO 611 Concepts of Ecological Restoration and the Biological Environment (3)</item>
+		<item>ECO 621 Graduate Seminars in Research Methods (3)</item>
+		<item>ECO 622 Project Management and Policy for Ecological Restoration (3)</item>
+		<item>ECO 630 Applied Research Project I (3)</item>
+		<item>ECO 640 Applied Research Project II (3)</item>
+		<item>ECO 641 First Nations &amp; Social Perspectives of Ecological Restoration (3)</item>
+	</string-array>
+</resources>

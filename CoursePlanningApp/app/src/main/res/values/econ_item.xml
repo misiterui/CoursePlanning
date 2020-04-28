@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string-array name="econ_spinner" tools:ignore="InconsistentArrays">
+		<item>ECON 102 The World Economy (3)</item>
+		<item>ECON 103 Principles of Microeconomics (4)</item>
+		<item>ECON 104 Economics and Government (3)</item>
+		<item>ECON 105 Principles of Macroeconomics (4)</item>
+		<item>ECON 182 Selected Topics in Economics (3)</item>
+		<item>ECON 201 Microeconomic Theory I: Competitive Behavior (4)</item>
+		<item>ECON 220W Communication in Economics (4)</item>
+		<item>ECON 222 Introduction to Game Theory (3)</item>
+		<item>ECON 260 Environmental Economics (3)</item>
+		<item>ECON 280 Introduction to Labor Economics (3)</item>
+		<item>ECON 282 Selected Topics in Economics (3)</item>
+		<item>ECON 290 Canadian Microeconomic Policy (3)</item>
+		<item>ECON 291 Canadian Macroeconomic Policy (3)</item>
+		<item>ECON 302 Microeconomic Theory II: Strategic Behavior (4)</item>
+		<item>ECON 305 Intermediate Macroeconomic Theory (4)</item>
+		<item>ECON 310 Money and Banking (3)</item>
+		<item>ECON 325 Industrial Organization (3)</item>
+		<item>ECON 329 Experimental Economics (3)</item>
+		<item>ECON 331 Introduction to Mathematical Economics (5)</item>
+		<item>ECON 333 Statistical Analysis of Economic Data (4)</item>
+		<item>ECON 342 International Trade (3)</item>
+		<item>ECON 345 International Finance (3)</item>
+		<item>ECON 353 Economic History of Canada (4)</item>
+		<item>ECON 354 Comparative Economic Institutions (3)</item>
+		<item>ECON 355W Economic Development (4)</item>
+		<item>ECON 362 Economics of Natural Resources (3)</item>
+		<item>ECON 368 Regional Economic Analysis (3)</item>
+		<item>ECON 370 Health Economics (3)</item>
+		<item>ECON 372 The Economics of Globalization (3)</item>
+		<item>ECON 381 Labor Economics (3)</item>
+		<item>ECON 382 Selected Topics in Economics (3)</item>
+		<item>ECON 383 Selected Topics in Economics (3)</item>
+		<item>ECON 387 Selected Topics in Economics (3)</item>
+		<item>ECON 389 Selected Topics in Economics (3)</item>
+		<item>ECON 390 Public Policy (3)</item>
+		<item>ECON 392 Public Economics: Role of Government (3)</item>
+		<item>ECON 393 Public Economics: Taxation (3)</item>
+		<item>ECON 398 Directed Studies (3)</item>
+		<item>ECON 402 Advanced Microeconomic Theory (4)</item>
+		<item>ECON 403 Advanced Macroeconomic Theory (3)</item>
+		<item>ECON 404 Methodology of the Social Sciences (3)</item>
+		<item>ECON 409W Seminar in Economic Thought (3)</item>
+		<item>ECON 410 Seminar in Monetary Theory (3)</item>
+		<item>ECON 422 Seminar in Game Theory (3)</item>
+		<item>ECON 425 Industrial Organization: Imperfect Competition (3)</item>
+		<item>ECON 426W Industrial Organization: Governance and Institutions (3)</item>
+		<item>ECON 427W Industrial Organization: Law and Economics (3)</item>
+		<item>ECON 428 Seminar in Behavioral and Applied Economics (3)</item>
+		<item>ECON 431 Intermediate Mathematical Economics (5)</item>
+		<item>ECON 433 Financial Econometrics &amp; Trading (3)</item>
+		<item>ECON 435 Econometric Methods (5)</item>
+		<item>ECON 443 Seminar in International Trade (3)</item>
+		<item>ECON 446 Seminar in International Finance (3)</item>
+		<item>ECON 448W Seminar in the Economics of Crime (3)</item>
+		<item>ECON 450W Seminar in Quantitative Economic History (3)</item>
+		<item>ECON 451 Seminar in European Economic History (3)</item>
+		<item>ECON 452W Seminar in Economic Prehistory (3)</item>
+		<item>ECON 453 Seminar in the Economics of Education (3)</item>
+		<item>ECON 454W Seminar in the Economics of the Family (3)</item>
+		<item>ECON 455W Seminar in Economic Development (3)</item>
+		<item>ECON 460 Seminar in Environmental Economics (3)</item>
+		<item>ECON 470 Seminar in Health Economics (3)</item>
+		<item>ECON 480 Seminar in the Economics of Labor Market Policy (3)</item>
+		<item>ECON 482 Selected Topics in Economics (3)</item>
+		<item>ECON 483 Selected Topics in Economics (3)</item>
+		<item>ECON 484 Selected Topics in Economics (3)</item>
+		<item>ECON 490 Seminar in Public Choice (3)</item>
+		<item>ECON 492 Seminar in Public Economics (3)</item>
+		<item>ECON 494 Honours Research Proposal (3)</item>
+		<item>ECON 496 Selected Topics in Economics (3)</item>
+		<item>ECON 498 Directed Studies (3)</item>
+		<item>ECON 499W Honours Research Project (6)</item>
+		<item>ECON 750 Co-op I</item>
+		<item>ECON 751 Co-op II</item>
+		<item>ECON 752 Co-op III</item>
+		<item>ECON 798 Introduction to Mathematical Economics (4)</item>
+		<item>ECON 802 Microeconomic Theory I (4)</item>
+		<item>ECON 803 Microeconomic Theory II (4)</item>
+		<item>ECON 804 Advanced Topics in Microeconomic Theory (4)</item>
+		<item>ECON 807 Macroeconomic Theory and Policy (4)</item>
+		<item>ECON 808 Macroeconomic Theory (4)</item>
+		<item>ECON 809 Advanced Macroeconomic Theory (4)</item>
+		<item>ECON 810 Monetary Theory (4)</item>
+		<item>ECON 811 Advanced Monetary Theory (4)</item>
+		<item>ECON 815 Financial Economics (4)</item>
+		<item>ECON 818 Advanced Topics in Finance (4)</item>
+		<item>ECON 826 Applied Contract Theory (4)</item>
+		<item>ECON 828 Experimental Methods in Economics (4)</item>
+		<item>ECON 831 Mathematical Economics (4)</item>
+		<item>ECON 832 Computational Methods in Economics (4)</item>
+		<item>ECON 835 Econometrics (4)</item>
+		<item>ECON 836 Applied Econometrics (4)</item>
+		<item>ECON 837 Econometrics I (4)</item>
+		<item>ECON 838 Econometrics II (4)</item>
+		<item>ECON 839 Econometrics III (4)</item>
+		<item>ECON 840 Theory of International Trade (4)</item>
+		<item>ECON 842 International Monetary Economics (4)</item>
+		<item>ECON 855 Theories of Economic Development (4)</item>
+		<item>ECON 857 Studies in Economic Development (4)</item>
+		<item>ECON 860 Environmental Economics (4)</item>
+		<item>ECON 881 Labor Economics (4)</item>
+		<item>ECON 888 Law and Economics (4)</item>
+		<item>ECON 890 Public Economics: Expenditure (4)</item>
+		<item>ECON 891 The Economics of Public Choice (4)</item>
+		<item>ECON 892 Public Economics: Taxation (4)</item>
+		<item>ECON 899 MA Research Paper (4)</item>
+		<item>ECON 900 PhD Field Paper</item>
+		<item>ECON 911 Selected Topics in Economics (4)</item>
+		<item>ECON 912 Selected Topics in Economics (4)</item>
+		<item>ECON 913 Selected Topics in Economics (4)</item>
+		<item>ECON 921 Directed Readings (4)</item>
+		<item>ECON 922 Directed Readings (4)</item>
+		<item>ECON 923 Directed Readings (4)</item>
+		<item>ECON 985 Comprehensive Examination in Microeconomic Theory</item>
+		<item>ECON 986 Comprehensive Examination in Macroeconomic Theory</item>
+		<item>ECON 987 Field Comprehensive Examination</item>
+		<item>ECON 990 PhD Thesis (6)</item>
+		<item>ECON 991 MA Thesis (6)</item>
+		<item>ECON 999 MA Project (6)</item>
+	</string-array>
+</resources>

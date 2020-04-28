@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string-array name="sd_spinner" tools:ignore="InconsistentArrays">
+		<item>SD 281 Sustainable Communities, Sustainable World (3)</item>
+		<item>SD 301 Building a Sustainable World: Concepts and Cases (4)</item>
+		<item>SD 381 Building Sustainable Communities: Concepts and Cases (4)</item>
+		<item>SD 401 Sustainable Development Goals Studio (4)</item>
+		<item>SD 481 Sustainable Communities Leadership Lab (4)</item>
+		<item>SD 491 Directed Studies in Sustainable Development</item>
+		<item>SD 494 Project in Sustainable Development (4)</item>
+		<item>SD 499 Special Topics in Sustainable Development (4)</item>
+		<item>SD 801 Issues, Concepts &amp; Cases in Development and Sustainability (5)</item>
+		<item>SD 802 Selected Topics in Sustainable Development (5)</item>
+		<item>SD 803 Directed Studies in Sustainable Development (5)</item>
+	</string-array>
+</resources>

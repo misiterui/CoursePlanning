@@ -3,7 +3,6 @@ package com.example.courseplanningapp.model;
 
 import android.content.Context;
 import android.os.Build;
-import android.util.Log;
 import android.widget.Toast;
 
 import androidx.annotation.RequiresApi;
@@ -13,15 +12,12 @@ import com.example.courseplanningapp.R;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.lang.reflect.Array;
 import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
-import java.util.Comparator;
 
 /*
-    CourseManager class holds all courses
+    CourseManager class holds all courses_s
     provides a singleton to access the data from
 */
 public class CourseManager {
@@ -38,11 +34,11 @@ public class CourseManager {
 
         try {
             isr = new InputStreamReader(
-                    context.openFileInput("courses.txt"),
+                    context.openFileInput("select_courses.txt"),
                     StandardCharsets.UTF_8);
         } catch (IOException e){
             isr = new InputStreamReader(
-                    context.getResources().openRawResource(R.raw.courses),
+                    context.getResources().openRawResource(R.raw.select_courses),
                     StandardCharsets.UTF_8);
         }
 

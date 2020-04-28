@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string-array name="pers_spinner" tools:ignore="InconsistentArrays">
+		<item>PERS 118 Introduction to Persian I (3)</item>
+		<item>PERS 168 Introduction to Persian II (3)</item>
+		<item>PERS 190 STT-Persian I for Heritage Speakers (3)</item>
+	</string-array>
+</resources>

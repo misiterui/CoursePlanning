@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string-array name="lang_spinner" tools:ignore="InconsistentArrays">
+		<item>LANG 148 Special Topics (3)</item>
+		<item>LANG 222 Latin III (3)</item>
+	</string-array>
+</resources>

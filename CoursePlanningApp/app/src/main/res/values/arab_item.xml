@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string-array name="arab_spinner" tools:ignore="InconsistentArrays">
+		<item>ARAB 100 Introduction to Arabic I (3)</item>
+		<item>ARAB 101 Introduction to Arabic II (3)</item>
+	</string-array>
+</resources>

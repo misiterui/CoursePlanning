@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string-array name="fnst_spinner" tools:ignore="InconsistentArrays">
+		<item>FNST 101 Introduction to First Nations Studies (3)</item>
+		<item>FNST 110W International Indigenous Lifewriting (4)</item>
+		<item>FNST 111 Introduction to Participatory Indigenous Research Methods (3)</item>
+		<item>FNST 186 Coast Salish Studies (3)</item>
+		<item>FNST 201W Canadian Aboriginal Peoples Perspectives on History  (3)</item>
+		<item>FNST 212 Indigenous Perceptions of Landscape (3)</item>
+		<item>FNST 222 Selected Topics in First Nations Studies (3)</item>
+		<item>FNST 232 Introduction to Ethnoecology in First Nations Studies (3)</item>
+		<item>FNST 286 Indigenous Peoples and British Columbia: An Introduction (3)</item>
+		<item>FNST 301 Issues in Applied First Nations Studies Research (3)</item>
+		<item>FNST 322 Special Topics in First Nations Studies</item>
+		<item>FNST 325 History of Aboriginal Peoples of North America to 1850 (4)</item>
+		<item>FNST 326 History of Aboriginal Peoples of North America Since 1850 (4)</item>
+		<item>FNST 327 Aboriginal Women in Canada (4)</item>
+		<item>FNST 329 Sexuality and Gender: Indigenous Perspectives (3)</item>
+		<item>FNST 332 Ethnobotany of British Columbia First Nations (3)</item>
+		<item>FNST 333 Ethnozoology of British Columbia First Nations (3)</item>
+		<item>FNST 353W First Nations Heritage Stewardship (3)</item>
+		<item>FNST 360 Popular Writing by Indigenous Authors (4)</item>
+		<item>FNST 363 Indigenous Poetry, Poetics, Printmaking (4)</item>
+		<item>FNST 376 Indigenous Weaving Technologies: Community of Beings (4)</item>
+		<item>FNST 383 Indigenous Technology: Art and Sustainability (4)</item>
+		<item>FNST 401 Aboriginal Peoples and Public Policy (3)</item>
+		<item>FNST 402 The Discourse of Aboriginal Peoples (3)</item>
+		<item>FNST 402W The Discourse of Aboriginal Peoples (3)</item>
+		<item>FNST 403 Indigenous Knowledge in the Modern World (3)</item>
+		<item>FNST 419 Aboriginal/Indigenous Justice (3)</item>
+		<item>FNST 429 Indigenous Peoples and International Law (3)</item>
+		<item>FNST 433 Indigenous Environmental Justice and Activism (4)</item>
+		<item>FNST 442 Directed Readings in First Nations Studies (3)</item>
+		<item>FNST 443W Aboriginal Peoples, History and the Law (4)</item>
+		<item>FNST 447 Directed Studies in First Nations Studies (3)</item>
+		<item>FNST 462 Indigenous Oral Testimony: Theory, Practice, Purpose, Community (4)</item>
+	</string-array>
+</resources>

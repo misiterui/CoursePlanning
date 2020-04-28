@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string-array name="span_spinner" tools:ignore="InconsistentArrays">
+		<item>SPAN 102 Introductory Spanish I (3)</item>
+		<item>SPAN 103 Introductory Spanish II (3)</item>
+		<item>SPAN 201 Intermediate Spanish I (3)</item>
+		<item>SPAN 202 Intermediate Spanish II (3)</item>
+		<item>SPAN 204 Spanish Vocabulary (3)</item>
+		<item>SPAN 301 Advanced Spanish Grammar and Writing (3)</item>
+		<item>SPAN 302 Spanish Conversation Through Cinema (3)</item>
+		<item>SPAN 303 Spanish Composition, Translation and Conversation (3)</item>
+		<item>SPAN 304 Advanced Spanish Composition, Translation and Conversation (3)</item>
+		<item>SPAN 306 Spanish-English Translation (3)</item>
+	</string-array>
+</resources>

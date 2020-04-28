@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string-array name="dial_spinner" tools:ignore="InconsistentArrays">
+		<item>DIAL 390W Semester: Dialogue (5)</item>
+		<item>DIAL 391W Semester: Seminar (5)</item>
+		<item>DIAL 392W Semester: Final Project (5)</item>
+		<item>DIAL 460 Seminar in Dialogue and Public Issues (4)</item>
+		<item>DIAL 461 Field Placement in Dialogue (3)</item>
+	</string-array>
+</resources>

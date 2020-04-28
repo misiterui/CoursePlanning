@@ -4,6 +4,7 @@
     android:layout_height="wrap_content"
     android:foreground="?android:attr/selectableItemBackground"
     android:background="@drawable/rounded_white_bg"
+    android:layout_margin="16dp"
     android:orientation="vertical">
 
     <LinearLayout

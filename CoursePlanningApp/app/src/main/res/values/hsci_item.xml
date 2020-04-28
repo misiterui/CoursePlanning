@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string-array name="hsci_spinner" tools:ignore="InconsistentArrays">
+		<item>HSCI 100 Human Biology (3)</item>
+		<item>HSCI 120 Introduction to Human Sexuality and Sexual Behavior (3)</item>
+		<item>HSCI 130 Foundations of Health Science (4)</item>
+		<item>HSCI 140 Complementary and Alternative Medicine (3)</item>
+		<item>HSCI 160 Global Perspectives on Health (3)</item>
+		<item>HSCI 170 Working for Health (3)</item>
+		<item>HSCI 180 Drugs and Society (3)</item>
+		<item>HSCI 199 Special Topics in Health Sciences (3)</item>
+		<item>HSCI 210 Special Topics in Health Sciences (3)</item>
+		<item>HSCI 211 Perspectives on Cancer, Cardiovascular, and Metabolic Diseases (3)</item>
+		<item>HSCI 212 Perspectives on Infectious and Immunological Diseases (3)</item>
+		<item>HSCI 214 Perspectives on Mental Health and Illness (3)</item>
+		<item>HSCI 215 Perspectives on Disability and Injury (3)</item>
+		<item>HSCI 216 Ecological Determinants of Human Growth, Development and Health (3)</item>
+		<item>HSCI 304 Perspectives on Human Health and the Environment (3)</item>
+		<item>HSCI 305 The Canadian Health System (3)</item>
+		<item>HSCI 306 Principles of Health Economics (3)</item>
+		<item>HSCI 307 Research Methods in Health Sciences (3)</item>
+		<item>HSCI 308 Sickness and Wealth: Health in Global Perspective (3)</item>
+		<item>HSCI 312 Health Promotion: Individuals and Communities (3)</item>
+		<item>HSCI 319W Applied Health Ethics (3)</item>
+		<item>HSCI 321 Human Pathophysiology (3)</item>
+		<item>HSCI 323 Principles of Pharmacology and Toxicology (3)</item>
+		<item>HSCI 324 Human Population Genetics and Evolution (3)</item>
+		<item>HSCI 326 Introduction to the Immune System (3)</item>
+		<item>HSCI 327 Global Health Ethics (3)</item>
+		<item>HSCI 330 Exploratory Strategies in Epidemiology (3)</item>
+		<item>HSCI 333 Red, Hot, and True: A Semester of Blood (3)</item>
+		<item>HSCI 338 Animal Virology (3)</item>
+		<item>HSCI 340 Social Determinants of Health (3)</item>
+		<item>HSCI 345 Texts, Two-Fours and Tattoos...and Other Health Issues of the Tweens to Twenties (3)</item>
+		<item>HSCI 350 Co-op Practicum I (3)</item>
+		<item>HSCI 351 Co-op Practicum II (3)</item>
+		<item>HSCI 372 Special Topics in Health Sciences (3)</item>
+		<item>HSCI 373 Special Topics in Health Sciences (4)</item>
+		<item>HSCI 402 Substance Use, Addiction and Public Health (3)</item>
+		<item>HSCI 403 Health and the Built Environment (3)</item>
+		<item>HSCI 404 Public Policy and Health Systems (3)</item>
+		<item>HSCI 406 Global Perspectives in Indigenous Health (3)</item>
+		<item>HSCI 407 International Trade Agreements and Health Policy (3)</item>
+		<item>HSCI 408 Plagues, Pollutants and Poverty: The Origins and Evolution of Public Health (3)</item>
+		<item>HSCI 410 Exploratory Data Analysis (3)</item>
+		<item>HSCI 412 Health  Communication (3)</item>
+		<item>HSCI 416 Health Services Research (4)</item>
+		<item>HSCI 424 Strategic Applications of GIS in Health (4)</item>
+		<item>HSCI 427 Immune System II: Immune Responses in Health and Disease (3)</item>
+		<item>HSCI 431 The Global HIV/AIDS Epidemic (3)</item>
+		<item>HSCI 432 Seminar in Epidemiology (3)</item>
+		<item>HSCI 439 Pathogenesis of Human and Animal Viral Infectious Diseases (3)</item>
+		<item>HSCI 440 Cell Pathophysiology Laboratory (4)</item>
+		<item>HSCI 441 Virology Laboratory (4)</item>
+		<item>HSCI 442 Immunology Laboratory (4)</item>
+		<item>HSCI 449 Community and Health Service (3)</item>
+		<item>HSCI 450 Co-op Practicum III (3)</item>
+		<item>HSCI 451 Co-op Practicum IV (3)</item>
+		<item>HSCI 452 Co-op Practicum V (3)</item>
+		<item>HSCI 458 Prevention and Management of Cardiovascular Disease (3)</item>
+		<item>HSCI 460 Population and Public Health Advocacy (3)</item>
+		<item>HSCI 471 Special Topics in Health Sciences I (3)</item>
+		<item>HSCI 472 Special Topics in Health Sciences II (3)</item>
+		<item>HSCI 473 Special Topics in Health Sciences III (3)</item>
+		<item>HSCI 474 Seminar in Neuropharmacology (3)</item>
+		<item>HSCI 475 Seminar in Molecular Mechanisms of Epigenetics (3)</item>
+		<item>HSCI 476 Seminar in Molecular Basis of Drug Action and Environmental Exposure (3)</item>
+		<item>HSCI 477 Seminar in Vaccine Immunology (3)</item>
+		<item>HSCI 478 Seminar in Molecular Epidemiology of Infectious Diseases (3)</item>
+		<item>HSCI 481 Senior Seminar in Social Health Science (3)</item>
+		<item>HSCI 482 Senior Seminar in Infectious Diseases (3)</item>
+		<item>HSCI 483 Senior Seminar in Environmental Health (3)</item>
+		<item>HSCI 484 Senior Seminar in Population Health Research (3)</item>
+		<item>HSCI 485 Senior Seminar in Mental Health and Addictions (3)</item>
+		<item>HSCI 486 Senior Seminar in Global Health (3)</item>
+		<item>HSCI 488 Directed Studies in Health Sciences (3)</item>
+		<item>HSCI 489 Directed Research in Health Sciences (3)</item>
+		<item>HSCI 490 Research Proposal (3)</item>
+		<item>HSCI 491 Independent Research (3)</item>
+		<item>HSCI 492 Honours Research Thesis (3)</item>
+		<item>HSCI 493 Extended Independent Research (6)</item>
+		<item>HSCI 494 Independent Laboratory Research (9)</item>
+		<item>HSCI 495 Applied Health Science Project (4)</item>
+		<item>HSCI 496 Special Topics in Experiential Global Health Learning (3)</item>
+		<item>HSCI 727 Immune System II: Immune Responses in Health and Disease (3)</item>
+		<item>HSCI 774 Seminar in Neuropharmacology (3)</item>
+		<item>HSCI 775 Seminar in Molecular Mechanisms of Epigenetics (3)</item>
+		<item>HSCI 776 Seminar in Molecular Basis of Drug Action and Environmental Exposure (3)</item>
+		<item>HSCI 778 Seminar in Molecular Epidemiology of Infectious Diseases (3)</item>
+		<item>HSCI 801 Biostatistics for Population Health Practice I (3)</item>
+		<item>HSCI 802 Principles of Epidemiology for Public Health (3)</item>
+		<item>HSCI 803 Qualitative and Survey Research Methods (3)</item>
+		<item>HSCI 804 Biostatistics for Population Health Practice II (3)</item>
+		<item>HSCI 805 Intermediate Epidemiologic Methods (3)</item>
+		<item>HSCI 807 Theorizing and Researching Health Inequities (3)</item>
+		<item>HSCI 808 The Economics of Health and Health Care (3)</item>
+		<item>HSCI 821 Introduction to Global Health (3)</item>
+		<item>HSCI 822 Global Health Governance (3)</item>
+		<item>HSCI 823 Health, Gender and Development (3)</item>
+		<item>HSCI 825 Advocacy and Communication (3)</item>
+		<item>HSCI 826 Program Planning and Evaluation (3)</item>
+		<item>HSCI 827 Analysis of Health Care Systems (3)</item>
+		<item>HSCI 829 Health Policy Making in a Global Context (3)</item>
+		<item>HSCI 830 Health Promotion in Partnership: Catalyzing Change (3)</item>
+		<item>HSCI 835 Social Determinants of Health (3)</item>
+		<item>HSCI 839 Strategies for Reducing Health Inequities (3)</item>
+		<item>HSCI 841 Qualitative Research and Analytical Methods (3)</item>
+		<item>HSCI 842 Indigenous Health in Canada (3)</item>
+		<item>HSCI 845 Environmental and Occupational Health (3)</item>
+		<item>HSCI 846 Environmental Health Exposure Assessment and Analysis (3)</item>
+		<item>HSCI 847 Risk Assessment and Communication for Human Health (3)</item>
+		<item>HSCI 849 Regression Modeling for Public Health (3)</item>
+		<item>HSCI 855 Health Promotion in Practice (3)</item>
+		<item>HSCI 870 Global Health and International Affairs (3)</item>
+		<item>HSCI 880 Practicum (3)</item>
+		<item>HSCI 885 Special Topics in Experiential Global Health Learning (3)</item>
+		<item>HSCI 886 MSc Thesis Proposal (6)</item>
+		<item>HSCI 887 MSc Thesis (12)</item>
+		<item>HSCI 889 Special Topics in Infectious Diseases (3)</item>
+		<item>HSCI 890 Special Topics in Health Sciences (4)</item>
+		<item>HSCI 891 Special Topics in Health Sciences (3)</item>
+		<item>HSCI 893 Directed Studies in Health Sciences (3)</item>
+		<item>HSCI 894 Directed Studies in Health Sciences (4)</item>
+		<item>HSCI 897 MPH Project (3)</item>
+		<item>HSCI 898 MPH Thesis (6)</item>
+		<item>HSCI 900 Core Concepts and Practice for Public Health I (2)</item>
+		<item>HSCI 901 Core Concepts and Practice for Public Health II (2)</item>
+		<item>HSCI 902 Interdisciplinary Seminar in Health Sciences I (3)</item>
+		<item>HSCI 903 Interdisciplinary Seminar in Health Sciences II (3)</item>
+		<item>HSCI 983 Comprehensive Exam and Thesis Proposal (6)</item>
+		<item>HSCI 990 PhD Thesis (12)</item>
+	</string-array>
+</resources>

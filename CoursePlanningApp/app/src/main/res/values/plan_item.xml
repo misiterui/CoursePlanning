@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string-array name="plan_spinner" tools:ignore="InconsistentArrays">
+		<item>PLAN 200 Introduction to Planning (3)</item>
+		<item>PLAN 300 Methods for Planning Analysis (4)</item>
+		<item>PLAN 302 Planning Internship I (1)</item>
+		<item>PLAN 319 Environmental and Planning Law (3)</item>
+		<item>PLAN 400 Planning Theory and Policy Analysis (4)</item>
+		<item>PLAN 402 Planning Internship II (1)</item>
+		<item>PLAN 406 Rural Planning and Development (4)</item>
+		<item>PLAN 407 Indigenous Governance and Resource Relationships (4)</item>
+		<item>PLAN 408 Environmental Planning for Sustainable Communities (4)</item>
+		<item>PLAN 443 Public Engagement, Mediation and Conflict Resolution in Planning (4)</item>
+		<item>PLAN 495 Professional Planning Capstone (4)</item>
+	</string-array>
+</resources>

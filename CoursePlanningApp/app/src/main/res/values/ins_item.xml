@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string-array name="ins_spinner" tools:ignore="InconsistentArrays">
+		<item>INS 890 Comprehensive Exam</item>
+		<item>INS 891 Directed Readings (1)</item>
+		<item>INS 892 Directed Readings (2)</item>
+		<item>INS 893 Directed Readings (3)</item>
+		<item>INS 894 Directed Readings (4)</item>
+		<item>INS 895 Directed Readings (5)</item>
+		<item>INS 896 Special Topics (5)</item>
+		<item>INS 897 Presidents Dream Colloquium (5)</item>
+		<item>INS 898 Masters Thesis (18)</item>
+		<item>INS 899 PhD Thesis (18)</item>
+	</string-array>
+</resources>

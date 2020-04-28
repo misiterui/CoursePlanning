@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string-array name="sa_spinner" tools:ignore="InconsistentArrays">
+		<item>SA 100W Perspectives on Canadian Society (SA) (4)</item>
+		<item>SA 101 Introduction to Anthropology (A) (4)</item>
+		<item>SA 150 Introduction to Sociology (S) (4)</item>
+		<item>SA 201W Anthropology and Contemporary Life (A) (4)</item>
+		<item>SA 203 Violence in War and Peace (SA) (4)</item>
+		<item>SA 210 The Return of the Folk Devils (S) (4)</item>
+		<item>SA 218 Illness, Culture and Society (A) (4)</item>
+		<item>SA 231 Sociology of Families (S) (4)</item>
+		<item>SA 245 Cultures and Images (A) (4)</item>
+		<item>SA 250 Introduction to Sociological Theory (S) (4)</item>
+		<item>SA 255 Introduction to Social Research (SA) (4)</item>
+		<item>SA 257 Understanding Quantitative Research in Sociology and Anthropology (SA) (4)</item>
+		<item>SA 260 Individual and Society (S) (4)</item>
+		<item>SA 275 China in Transition (SA) (4)</item>
+		<item>SA 300 Canadian Social Structure (S) (4)</item>
+		<item>SA 301 Contemporary Ethnography (A) (4)</item>
+		<item>SA 302W Global Problems and the Culture of Capitalism (SA) (4)</item>
+		<item>SA 304 Social Control (S) (4)</item>
+		<item>SA 315 New Information Technology and Society (SA) (4)</item>
+		<item>SA 316 Tourism and Social Policy (S) (4)</item>
+		<item>SA 317 Sociology of Art Forms (S) (4)</item>
+		<item>SA 318 Technologies of Health and Expectation (A) (4)</item>
+		<item>SA 319 Transnational Aging (A) (4)</item>
+		<item>SA 321 Social Movements (S) (4)</item>
+		<item>SA 322 Religion and Society (SA) (4)</item>
+		<item>SA 323 Symbol, Myth and Meaning (A) (4)</item>
+		<item>SA 325 Political Sociology (S) (4)</item>
+		<item>SA 326 Food, Ecology and Social Thought (S) (4)</item>
+		<item>SA 327 Sociology of Knowledge (S) (4)</item>
+		<item>SA 328 States, Cultures and Global Transitions (SA) (4)</item>
+		<item>SA 329 Sex, Work, and International Capital (SA) (4)</item>
+		<item>SA 330 Global Islam (SA) (4)</item>
+		<item>SA 331 Politics of the Family (S) (4)</item>
+		<item>SA 332 The Anthropology of Childhood (A) (4)</item>
+		<item>SA 335 Gender Relations and Social Issues (S) (4)</item>
+		<item>SA 337 Sexuality and Society (S) (4)</item>
+		<item>SA 340 Social Issues and Social Policy Analysis (SA) (4)</item>
+		<item>SA 345 Race, Immigration and the Canadian State (S) (4)</item>
+		<item>SA 350 Classical Sociological Thought (S) (4)</item>
+		<item>SA 351 Classical Marxist Thought (S) (4)</item>
+		<item>SA 352 Games, Sports and Cultures (A) (4)</item>
+		<item>SA 353 Sociology of Sport (S) (4)</item>
+		<item>SA 355 Quantitative Methods (S) (4)</item>
+		<item>SA 356W Ethnography and Qualitative Methods (SA) (4)</item>
+		<item>SA 358 The Philosophy of the Social Sciences (S) (4)</item>
+		<item>SA 359 Special Topics in Anthropology (A) (4)</item>
+		<item>SA 360 Special Topics in Sociology and Anthropology (SA) (4)</item>
+		<item>SA 362 Society and the Changing Global Division of Labour (S) (4)</item>
+		<item>SA 363 Process of Development and Underdevelopment (S) (4)</item>
+		<item>SA 364 Urban Communities and Cultures (SA) (4)</item>
+		<item>SA 365 Selected Regional Areas (A) (4)</item>
+		<item>SA 366 Special Topics in Sociology (S) (4)</item>
+		<item>SA 368 Language, Ideology, and Power (A) (4)</item>
+		<item>SA 371 The Environment and Society (SA) (4)</item>
+		<item>SA 375 Labour and the Arts of Living (A) (4)</item>
+		<item>SA 386 The Ethnography of Politics (SA) (4)</item>
+		<item>SA 388 Comparative Studies of Minority Indigenous Peoples (A) (4)</item>
+		<item>SA 396 Selected Regional Areas (SA) (4)</item>
+		<item>SA 402 Turning Ideas into Action in the World (A) (4)</item>
+		<item>SA 410 Sociology of Dangerous Classes (S) (4)</item>
+		<item>SA 418 Global Health: Humanitarian Encounters (A) (4)</item>
+		<item>SA 420 Sociology of Aging (S) (4)</item>
+		<item>SA 421 Commodities and Substances: Bodies, Consumption and Ingestion (A) (4)</item>
+		<item>SA 450 Advanced Sociological Theory (S) (4)</item>
+		<item>SA 451 Issues in Anthropological Theory (A) (4)</item>
+		<item>SA 459 Special Topics in Anthropology (A) (4)</item>
+		<item>SA 460 Special Topics in Sociology and Anthropology I (SA) (4)</item>
+		<item>SA 461 Special Topics in Sociology (S) (4)</item>
+		<item>SA 472 Anthropology and the Past (A) (4)</item>
+		<item>SA 474 Cultures, Politics and Performances (A) (4)</item>
+		<item>SA 496 Directed Readings in Anthropology (A) (4)</item>
+		<item>SA 497 Directed Readings in Sociology (S) (4)</item>
+		<item>SA 498 Field Study in Sociology and/or Anthropology (SA) (8)</item>
+		<item>SA 499 Honours Essay (SA) (8)</item>
+		<item>SA 815 Theories of Latin American Development (4)</item>
+		<item>SA 835 Social and Political Change in Latin America (4)</item>
+		<item>SA 840 Graduate Seminar  (2)</item>
+		<item>SA 841 Graduate Seminar II (1)</item>
+		<item>SA 849 Selected Topics in the History of Sociological Thought (5)</item>
+		<item>SA 850 Selected Topics in Social Theory  (5)</item>
+		<item>SA 853 Readings in Sociology I (5)</item>
+		<item>SA 854 Readings in Sociology II (5)</item>
+		<item>SA 856 Qualitative Sociological Research Methods (5)</item>
+		<item>SA 857 Research Design Seminar (5)</item>
+		<item>SA 870 Theories in Anthropology (5)</item>
+		<item>SA 871 Readings in Anthropology I (5)</item>
+		<item>SA 872 Readings in Anthropology II (5)</item>
+		<item>SA 875 Ethnographic Methodology: Social/Cultural Anthropology (5)</item>
+		<item>SA 887 Special Topics in Sociology/Anthropology (5)</item>
+		<item>SA 897 PhD Qualifying Examinations (6)</item>
+		<item>SA 898 MA Thesis (10)</item>
+		<item>SA 899 PhD Thesis (10)</item>
+	</string-array>
+</resources>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string-array name="mse_spinner" tools:ignore="InconsistentArrays">
+		<item>MSE 100 Engineering Graphics and Design (3)</item>
+		<item>MSE 101W Process, Form, and Convention in Professional Genres (3)</item>
+		<item>MSE 102 Applied Science, Technology and Society (3)</item>
+		<item>MSE 110 Mechatronics Design I (3)</item>
+		<item>MSE 111 Mechatronics for non-Engineers (3)</item>
+		<item>MSE 193 Optional Job Practicum (3)</item>
+		<item>MSE 210 Engineering Measurement and Data Analysis (3)</item>
+		<item>MSE 211 Computational Methods for Engineers (3)</item>
+		<item>MSE 220 Engineering Materials (3)</item>
+		<item>MSE 221 Statics and Strength of Materials (4)</item>
+		<item>MSE 222 Kinematics and Dynamics of Rigid Bodies and Mechanisms (4)</item>
+		<item>MSE 223 Introduction to Fluid Mechanics (4)</item>
+		<item>MSE 250 Electric Circuits I (4)</item>
+		<item>MSE 251 Electronic Circuits (4)</item>
+		<item>MSE 280 Linear Systems (3)</item>
+		<item>MSE 293 Industrial Internship I (3)</item>
+		<item>MSE 294 Special Internship I (3)</item>
+		<item>MSE 300 The Business of Engineering I (3)</item>
+		<item>MSE 310 Introduction to Electro-Mechanical Sensors and Actuators (4)</item>
+		<item>MSE 311 Introduction to Microelectromechanical Systems (3)</item>
+		<item>MSE 312 Mechatronics Design II (4)</item>
+		<item>MSE 320 Machine Design (4)</item>
+		<item>MSE 321 Engineering Thermodynamics and Heat Transfer (4)</item>
+		<item>MSE 352 Digital Logic and Microcontrollers (4)</item>
+		<item>MSE 353 Power Electronics and Electric Machinery (4)</item>
+		<item>MSE 380 Systems Modeling and Simulation (3)</item>
+		<item>MSE 381 Feedback Control Systems (4)</item>
+		<item>MSE 390 Special Topics in Mechatronic Systems Engineering (3)</item>
+		<item>MSE 391 Special Topics in Mechatronic Systems Engineering (4)</item>
+		<item>MSE 393 Industrial Internship II (3)</item>
+		<item>MSE 394 Special Internship II (3)</item>
+		<item>MSE 400 The Business of Engineering II (3)</item>
+		<item>MSE 401W Project Documentation and Group Dynamics (1)</item>
+		<item>MSE 402 Engineering Ethics, Law, and Professional Practice (2)</item>
+		<item>MSE 403 Technology Entrepreneurship I (1)</item>
+		<item>MSE 404 Technology Entrepreneurship II (1)</item>
+		<item>MSE 405W The Business of Engineering II, Entrepreneurship for Engineers (4)</item>
+		<item>MSE 410 Capstone Design Technical Project I (3)</item>
+		<item>MSE 411 Capstone Design Technical Project II (3)</item>
+		<item>MSE 411W Capstone Design Technical Project II  (3)</item>
+		<item>MSE 420 Introduction to Biomechanical Engineering (3)</item>
+		<item>MSE 421 Advanced Vibration (3)</item>
+		<item>MSE 422 Fuel Cell Systems (3)</item>
+		<item>MSE 423 Energy Conversion (3)</item>
+		<item>MSE 424 Microfluidics (3)</item>
+		<item>MSE 425 Nano Manufacturing (3)</item>
+		<item>MSE 426 Introduction to Engineering Design Optimization (3)</item>
+		<item>MSE 427 Finite Element Analysis (3)</item>
+		<item>MSE 428 Design of Mechanism (3)</item>
+		<item>MSE 429 Advanced Kinematics for Robotic System (3)</item>
+		<item>MSE 450 Real-Time and Embedded Control Systems (3)</item>
+		<item>MSE 451 Advanced Electronic Circuits (4)</item>
+		<item>MSE 452 Power Conversion in Alternative Energy Systems (3)</item>
+		<item>MSE 480 Manufacturing Systems (3)</item>
+		<item>MSE 481 Industrial Control Systems (3)</item>
+		<item>MSE 483 Modern Control Systems (3)</item>
+		<item>MSE 486 Directed Studies in Mechatronic Systems Engineering  (4)</item>
+		<item>MSE 487 Directed Studies in Mechatronic Systems Engineering (4)</item>
+		<item>MSE 488 Directed Studies in Mechatronic Systems Engineering (4)</item>
+		<item>MSE 489 Directed Studies in Mechatronic Systems Engineering (3)</item>
+		<item>MSE 490 Special Topic in Mechatronic Systems Engineering (3)</item>
+		<item>MSE 491 Special Topic in Mechatronic Systems Engineering (3)</item>
+		<item>MSE 492 Special Topics in Mechatronic Systems Engineering (4)</item>
+		<item>MSE 493 Industrial Internship III (3)</item>
+		<item>MSE 494 Special Internship III (3)</item>
+		<item>MSE 495 Special Project Laboratory (2)</item>
+		<item>MSE 496 Special Project Laboratory (3)</item>
+		<item>MSE 497 Special Project Laboratory (4)</item>
+		<item>MSE 498 Mechatronic Systems Engineering Thesis Proposal (3)</item>
+		<item>MSE 499 Mechatronic Systems Engineering Undergraduate Thesis (9)</item>
+		<item>MSE 711 Introduction to MEMS (3)</item>
+		<item>MSE 720 Introduction to Biomechanical Engineering (3)</item>
+		<item>MSE 721 Advanced Vibrations (3)</item>
+		<item>MSE 722 Fuel Cell Systems (3)</item>
+		<item>MSE 725 Nano Manufacturing (3)</item>
+		<item>MSE 726 Introduction to Engineering Design Optimization (3)</item>
+		<item>MSE 727 Finite Element Analysis (3)</item>
+		<item>MSE 750 Real Time and Embedded Control (3)</item>
+		<item>MSE 780 Manufacturing Systems (3)</item>
+		<item>MSE 782 Introduction to State Space Control Systems (3)</item>
+		<item>MSE 793 Graduate Co-op I (3)</item>
+		<item>MSE 794 Graduate Co-op II (3)</item>
+		<item>MSE 795 Industrial Internship (3)</item>
+		<item>MSE 801 Writing for Engineers (3)</item>
+		<item>MSE 811 Microdevice Engineering and Characterization (3)</item>
+		<item>MSE 812 Advanced 3D Printing (3)</item>
+		<item>MSE 821 Advanced Conduction Heat Transfer (3)</item>
+		<item>MSE 822 Advanced Convection Heat Transfer (3)</item>
+		<item>MSE 881 Analysis and Control of Nonlinear Systems (3)</item>
+		<item>MSE 884 Advanced Dynamics (3)</item>
+		<item>MSE 890 PhD Qualifying Examination</item>
+		<item>MSE 891 Directed Studies I (3)</item>
+		<item>MSE 892 Directed Studies II (3)</item>
+		<item>MSE 893 Special Topics I (3)</item>
+		<item>MSE 894 Special Topics II (3)</item>
+		<item>MSE 895 Special Topics III (3)</item>
+		<item>MSE 898 MASc Thesis (18)</item>
+		<item>MSE 899 PhD Thesis  (6)</item>
+		<item>MSE 900 Engineering in the Canadian Context (3)</item>
+		<item>MSE 901 Becoming a Professional Engineer</item>
+		<item>MSE 921 Product Realization Project I (3)</item>
+		<item>MSE 922 Product Realization Project II (3)</item>
+		<item>MSE 995 Advanced Modeling and Prototyping (6)</item>
+	</string-array>
+</resources>

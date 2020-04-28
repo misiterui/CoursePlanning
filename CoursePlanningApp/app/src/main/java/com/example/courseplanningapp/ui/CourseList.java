@@ -5,6 +5,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Context;
+import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
@@ -44,12 +46,15 @@ public class CourseList extends AppCompatActivity {
         addBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // TODO: start addCourse activity
                 startActivity(AddCourse.makeIntent(CourseList.this));
             }
         });
     }
 
+    public static Intent makeIntent(Context context) {
+        Intent intent = new Intent(context, AddCourse.class);
+        return intent;
+    }
 
 
     public void refreshRecyclerView() {

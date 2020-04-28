@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string-array name="data_spinner" tools:ignore="InconsistentArrays">
+		<item>DATA 180 Undergraduate Seminar in Data Science (1)</item>
+		<item>DATA 481 Undergraduate Seminar in Data Science (1)</item>
+	</string-array>
+</resources>

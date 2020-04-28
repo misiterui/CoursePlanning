@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string-array name="dmed_spinner" tools:ignore="InconsistentArrays">
+		<item>DMED 500 Foundations of Digital Media (3)</item>
+		<item>DMED 501 The Visual Story (3)</item>
+		<item>DMED 502 Improvising Story and Character (3)</item>
+		<item>DMED 503 Foundations of Game Design (3)</item>
+		<item>DMED 520 Projects I: Building Virtual Worlds (6)</item>
+		<item>DMED 521 Projects II (12)</item>
+		<item>DMED 522 Projects III (12)</item>
+		<item>DMED 530 Internship (6)</item>
+		<item>DMED 531 Internship Continuation (6)</item>
+		<item>DMED 540 Special Topics in Digital Media (3)</item>
+		<item>DMED 550 Directed Studies in Digital Media (3)</item>
+	</string-array>
+</resources>

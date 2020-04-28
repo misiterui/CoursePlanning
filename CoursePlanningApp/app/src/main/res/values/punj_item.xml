@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string-array name="punj_spinner" tools:ignore="InconsistentArrays">
+		<item>PUNJ 100 Introduction to Punjabi I (3)</item>
+		<item>PUNJ 101 Introduction to Punjabi II (3)</item>
+	</string-array>
+</resources>

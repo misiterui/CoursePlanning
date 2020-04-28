@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string-array name="geog_spinner" tools:ignore="InconsistentArrays">
+		<item>GEOG 100 Our World: Introducing Human Geography (3)</item>
+		<item>GEOG 102 World Problems in Geographic Perspective (3)</item>
+		<item>GEOG 104 Climate Change, Water, and Society (3)</item>
+		<item>GEOG 111 Earth Systems (3)</item>
+		<item>GEOG 150 Digital Earth (3)</item>
+		<item>GEOG 162 Canada (3)</item>
+		<item>GEOG 213 Introduction to Geomorphology (3)</item>
+		<item>GEOG 214 Weather and Climate (3)</item>
+		<item>GEOG 215 Biogeography (3)</item>
+		<item>GEOG 221 Economic Worlds (3)</item>
+		<item>GEOG 241 People, Place, Society (3)</item>
+		<item>GEOG 251 Quantitative Geography (3)</item>
+		<item>GEOG 253 Introduction to Remote Sensing (3)</item>
+		<item>GEOG 255 Geographical Information Science I (3)</item>
+		<item>GEOG 261 Encountering the City (3)</item>
+		<item>GEOG 264 Canadian Cities (3)</item>
+		<item>GEOG 266W Geography in Practice (3)</item>
+		<item>GEOG 302 Geography Practicum I (3)</item>
+		<item>GEOG 303 Geography Practicum II (3)</item>
+		<item>GEOG 310 Physical Geography Field Course (4)</item>
+		<item>GEOG 311 Hydrology (4)</item>
+		<item>GEOG 312 Geography of Natural Hazards (4)</item>
+		<item>GEOG 313 River Geomorphology (4)</item>
+		<item>GEOG 314 The Climate System (4)</item>
+		<item>GEOG 315 World Ecosystems (4)</item>
+		<item>GEOG 316 Global Biogeochemical and Water Cycles (4)</item>
+		<item>GEOG 317 Soil Science (4)</item>
+		<item>GEOG 321 Geographies of Global Capitalism (4)</item>
+		<item>GEOG 322 World Resources (4)</item>
+		<item>GEOG 322W World Resources (4)</item>
+		<item>GEOG 324 Geography of Transportation (4)</item>
+		<item>GEOG 325 Geographies of Consumption (4)</item>
+		<item>GEOG 327 Geography of Tourism (4)</item>
+		<item>GEOG 328 Labour Geographies (4)</item>
+		<item>GEOG 351 Multimedia Cartography (4)</item>
+		<item>GEOG 352 Spatial Analysis (4)</item>
+		<item>GEOG 353 Advanced Remote Sensing (4)</item>
+		<item>GEOG 355 Geographical Information Science II (4)</item>
+		<item>GEOG 356 3D Geovisualization (4)</item>
+		<item>GEOG 362 Geography of Urban Built Environments (4)</item>
+		<item>GEOG 362W Geography of Urban Built Environments (4)</item>
+		<item>GEOG 363 Urban Planning and Policy (4)</item>
+		<item>GEOG 364 Cities and Crisis (4)</item>
+		<item>GEOG 377 Environmental History (4)</item>
+		<item>GEOG 381 Territory, Power, State (4)</item>
+		<item>GEOG 381W Territory, Power, State (4)</item>
+		<item>GEOG 382 World on the Move (4)</item>
+		<item>GEOG 385 Food and the City (4)</item>
+		<item>GEOG 386 Health Geography (4)</item>
+		<item>GEOG 387 Geography and Gender (4)</item>
+		<item>GEOG 389W Nature and Society (4)</item>
+		<item>GEOG 402 Geography Practicum III (3)</item>
+		<item>GEOG 403 Geography Practicum IV (3)</item>
+		<item>GEOG 404 Directed Readings (2)</item>
+		<item>GEOG 405 Directed Readings (4)</item>
+		<item>GEOG 409 Geography Practicum V (3)</item>
+		<item>GEOG 411 Advanced Hydrology (4)</item>
+		<item>GEOG 412W Glacial Processes and Environments (4)</item>
+		<item>GEOG 414 Climate Change (4)</item>
+		<item>GEOG 417 Advanced Soil Science  (4)</item>
+		<item>GEOG 417W Advanced Soil Science (4)</item>
+		<item>GEOG 420 Cultural Geography (4)</item>
+		<item>GEOG 421 Geographical Political Economy (4)</item>
+		<item>GEOG 423 Capitalist Natures (4)</item>
+		<item>GEOG 424 Cities, Transportation, Infrastructure (4)</item>
+		<item>GEOG 428 World Forests (4)</item>
+		<item>GEOG 432 Problems in Environmental History (4)</item>
+		<item>GEOG 440 Property, Land, Society (4)</item>
+		<item>GEOG 442 A World of Cities  (4)</item>
+		<item>GEOG 445 Resource Planning (4)</item>
+		<item>GEOG 449 City and Environment (4)</item>
+		<item>GEOG 451 Spatial Modeling (4)</item>
+		<item>GEOG 453 Theoretical and Applied Remote Sensing (4)</item>
+		<item>GEOG 455 Theoretical and Applied GIS (4)</item>
+		<item>GEOG 455W Theoretical and Applied GIS (4)</item>
+		<item>GEOG 457 Geovisualization Interfaces (4)</item>
+		<item>GEOG 486 Health Care Geographies (4)</item>
+		<item>GEOG 489 Selected Topics (4)</item>
+		<item>GEOG 490 Selected Topics (4)</item>
+		<item>GEOG 491 Honours Essay (4)</item>
+		<item>GEOG 492 Advanced Theory and Methods for Human Geographers (4)</item>
+		<item>GEOG 497 International Field Study (5)</item>
+		<item>GEOG 600 Introduction to Graduate Studies: Fall Semester (1)</item>
+		<item>GEOG 601 Introduction to Graduate Studies: Spring Semester (1)</item>
+		<item>GEOG 603 Theory and Methods for Human Geographers (5)</item>
+		<item>GEOG 606 Research Design and Analytical Techniques in Physical Geography (5)</item>
+		<item>GEOG 611 Hydrology (4)</item>
+		<item>GEOG 612 Glacial Geomorphology (4)</item>
+		<item>GEOG 613 Fluvial Geomorphology (4)</item>
+		<item>GEOG 614 Climatology (4)</item>
+		<item>GEOG 615 Quaternary Environments (4)</item>
+		<item>GEOG 617 Soil Science (4)</item>
+		<item>GEOG 620 Selected Topics: Economy, Environment and Development (4)</item>
+		<item>GEOG 621 Advanced Geographical Political Economy (4)</item>
+		<item>GEOG 640 Selected Topics in Social and Urban Geography (4)</item>
+		<item>GEOG 651 Advanced Spatial Analysis and Modeling (4)</item>
+		<item>GEOG 653 Remote Sensing of Environment (4)</item>
+		<item>GEOG 655 Advanced Principles of Geographic Information Science (4)</item>
+		<item>GEOG 657 Geovisualization Interfaces  (4)</item>
+		<item>GEOG 671 Doctoral Qualifying Exams (1)</item>
+		<item>GEOG 677 Msc Thesis Proposal (1)</item>
+		<item>GEOG 678 MA Thesis Proposal (1)</item>
+		<item>GEOG 679 PhD Thesis Proposal (1)</item>
+		<item>GEOG 681 Law and the Geographies of Power (4)</item>
+		<item>GEOG 686 Advanced Health Geography (4)</item>
+		<item>GEOG 691 Directed Readings (4)</item>
+		<item>GEOG 697 MSc Thesis (18)</item>
+		<item>GEOG 698 MA Thesis (18)</item>
+		<item>GEOG 699 PhD Thesis (18)</item>
+	</string-array>
+</resources>

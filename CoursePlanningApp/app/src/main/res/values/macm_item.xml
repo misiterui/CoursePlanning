@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string-array name="macm_spinner" tools:ignore="InconsistentArrays">
+		<item>MACM 101 Discrete Mathematics I (3)</item>
+		<item>MACM 201 Discrete Mathematics II (3)</item>
+		<item>MACM 203 Computing with Linear Algebra (2)</item>
+		<item>MACM 204 Computing with Calculus (2)</item>
+		<item>MACM 300 Introduction to Formal Languages and Automata with Applications (3)</item>
+		<item>MACM 316 Numerical Analysis I (3)</item>
+		<item>MACM 401 Introduction to Computer Algebra (3)</item>
+		<item>MACM 409 Numerical Linear Algebra: Algorithms, Implementation and Applications (3)</item>
+		<item>MACM 416 Numerical Analysis II (3)</item>
+		<item>MACM 442 Cryptography (3)</item>
+		<item>MACM 498 Special Topics in Mathematics and Computing Science (3)</item>
+	</string-array>
+</resources>

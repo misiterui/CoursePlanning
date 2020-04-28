@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string-array name="apma_spinner" tools:ignore="InconsistentArrays">
+		<item>APMA 900 Asymptotic Analysis of Differential Equations (4)</item>
+		<item>APMA 901 Partial Differential Equations (4)</item>
+		<item>APMA 905 Applied Functional Analysis (4)</item>
+		<item>APMA 912 Advanced Partial Differential Equations (4)</item>
+		<item>APMA 920 Numerical Linear Algebra (4)</item>
+		<item>APMA 922 Numerical Solution of Partial Differential Equations (4)</item>
+		<item>APMA 923 Numerical Methods in Continuous Optimization (4)</item>
+		<item>APMA 929 Selected Topics in Numerical Analysis (4)</item>
+		<item>APMA 930 Computational Fluid Dynamics (4)</item>
+		<item>APMA 934 Selected Topics in Fluid Dynamics (4)</item>
+		<item>APMA 935 Analysis and Computation of Models (4)</item>
+		<item>APMA 939 Selected Topics in Mathematical Image Processing (4)</item>
+		<item>APMA 981 Selected Topics in Continuum Mechanics (4)</item>
+		<item>APMA 982 Selected Topics in Mathematical Physics (4)</item>
+		<item>APMA 990 Selected Topics in Applied Mathematics (4)</item>
+		<item>APMA 995 PhD Oral Candidacy Exam</item>
+	</string-array>
+</resources>

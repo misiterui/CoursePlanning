@@ -2,26 +2,21 @@ package com.example.courseplanningapp.ui;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Context;
 import android.os.Build;
-import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ArrayAdapter;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.example.courseplanningapp.Constants;
+import com.example.courseplanningapp.constants.Constants;
 import com.example.courseplanningapp.R;
 import com.example.courseplanningapp.model.Course;
 import com.example.courseplanningapp.model.CourseManager;
-
-import org.w3c.dom.Text;
 
 
 /*
@@ -73,31 +68,11 @@ public class CourseRecyclerAdapter extends RecyclerView.Adapter<CourseRecyclerAd
         title.setText(course.getTitle());
 
         // set if the course is WQB course, if it is, set the text, otherwise set nothing
-        if(course.getW()){
-            w.setText("W");
-        }else{
-            w.setText("");
-        }
-        if(course.getQ()){
-            q.setText("Q");
-        }else{
-            q.setText("");
-        }
-        if(course.getbHum()){
-            bhum.setText("B-Hum");
-        }else{
-            bhum.setText("");
-        }
-        if(course.getbSoc()){
-            bsoc.setText("B-Soc");
-        }else{
-            bsoc.setText("");
-        }
-        if(course.getbSci()){
-            bsci.setText("B-Sci");
-        }else{
-            bsci.setText("");
-        }
+//        if(course.getW()){ w.setText("W"); }else{ w.setText(""); }
+//        if(course.getQ()){ q.setText("Q"); }else{ q.setText(""); }
+//        if(course.getbHum()){ bhum.setText("B-Hum"); }else{ bhum.setText(""); }
+//        if(course.getbSoc()){ bsoc.setText("B-Soc"); }else{ bsoc.setText(""); }
+//        if(course.getbSci()){ bsci.setText("B-Sci"); }else{ bsci.setText(""); }
 
         // set the remove button
         removeBtn.setOnClickListener(new View.OnClickListener() {

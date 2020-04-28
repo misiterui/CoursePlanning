@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string-array name="env_spinner" tools:ignore="InconsistentArrays">
+		<item>ENV 100 Great Ideas in Environment (3)</item>
+		<item>ENV 197 Environment Seminar I (1)</item>
+		<item>ENV 198 Environment Seminar II (1)</item>
+		<item>ENV 199 Special Topics in Environment  (3)</item>
+		<item>ENV 299 Special Topics in Environment (3)</item>
+		<item>ENV 302 Environment Practicum I (3)</item>
+		<item>ENV 303 Environment Practicum II (3)</item>
+		<item>ENV 320W Ethics and the Environment (3)</item>
+		<item>ENV 402 Environment Practicum III (3)</item>
+		<item>ENV 403 Environment Practicum IV (3)</item>
+		<item>ENV 404 Environment Practicum V (3)</item>
+		<item>ENV 412 Technologies, Cultures and a Sustainable World (3)</item>
+		<item>ENV 452 Environmental Education (8)</item>
+		<item>ENV 495 Environmental Capstone (4)</item>
+		<item>ENV 645 Special Topics in Environment (5)</item>
+	</string-array>
+</resources>

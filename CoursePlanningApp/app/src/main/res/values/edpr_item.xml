@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string-array name="edpr_spinner" tools:ignore="InconsistentArrays">
+		<item>EDPR 393 Special Topics</item>
+		<item>EDPR 394 Special Topics</item>
+		<item>EDPR 492 Special Topics</item>
+		<item>EDPR 493 Special Topics</item>
+		<item>EDPR 494 Special Topics</item>
+		<item>EDPR 495 Special Topics</item>
+		<item>EDPR 496 Special Topics</item>
+		<item>EDPR 497 Special Topics</item>
+		<item>EDPR 498 Special Topics</item>
+		<item>EDPR 499 Special Topics</item>
+		<item>EDPR 501 Special Topics</item>
+		<item>EDPR 502 Special Topics</item>
+		<item>EDPR 503 Special Topics</item>
+		<item>EDPR 504 Special Topics</item>
+		<item>EDPR 505 Special Topics</item>
+		<item>EDPR 506 Special Topics</item>
+		<item>EDPR 507 Special Topics</item>
+		<item>EDPR 508 Special Topics</item>
+		<item>EDPR 509 Special Topics</item>
+		<item>EDPR 510 Special Topics</item>
+		<item>EDPR 511 Special Topics</item>
+		<item>EDPR 512 Special Topics</item>
+		<item>EDPR 513 Special Topics</item>
+		<item>EDPR 514 Special Topics</item>
+		<item>EDPR 515 Special Topics</item>
+		<item>EDPR 516 Special Topics</item>
+		<item>EDPR 517 Special Topics</item>
+		<item>EDPR 518 Special Topics</item>
+		<item>EDPR 519 Special Topics</item>
+		<item>EDPR 520 Special Topics</item>
+		<item>EDPR 521 Special Topics</item>
+		<item>EDPR 522 Special Topics</item>
+		<item>EDPR 523 Special Topics</item>
+		<item>EDPR 524 Special Topics</item>
+		<item>EDPR 525 Special Topics</item>
+		<item>EDPR 526 Special Topics</item>
+		<item>EDPR 527 Special Topics</item>
+		<item>EDPR 528 Special Topics</item>
+		<item>EDPR 529 Special Topics</item>
+		<item>EDPR 530 Special Topics</item>
+		<item>EDPR 531 Special Topics</item>
+		<item>EDPR 532 Special Topics</item>
+		<item>EDPR 533 Special Topics</item>
+		<item>EDPR 534 Special Topics</item>
+		<item>EDPR 535 Special Topics</item>
+		<item>EDPR 536 Special Topics</item>
+		<item>EDPR 537 Special Topics</item>
+		<item>EDPR 538 Special Topics</item>
+		<item>EDPR 539 Special Topics</item>
+		<item>EDPR 540 Special Topics</item>
+		<item>EDPR 541 Advanced Field Studies in Curriculum Development I</item>
+		<item>EDPR 542 Advanced Field Studies in Curriculum Development I</item>
+		<item>EDPR 543 Advanced Field Studies in Curriculum Development I</item>
+		<item>EDPR 544 Advanced Field Studies in Curriculum Development I</item>
+		<item>EDPR 545 Advanced Field Studies in Curriculum Development I</item>
+		<item>EDPR 546 Advanced Field Studies in Curriculum Development I</item>
+		<item>EDPR 547 tudes de terrain avanc¨¦es dans le d¨¦veloppement du programme d¨¦tudes I</item>
+		<item>EDPR 548 tudes de terrain avanc¨¦es dans le d¨¦veloppement du programme d¨¦tudes I</item>
+		<item>EDPR 549 tudes de terrain avanc¨¦es dans le d¨¦veloppement du programme d¨¦tudes I</item>
+		<item>EDPR 550 tudes de terrain avanc¨¦es dans le d¨¦veloppement du programme d¨¦tudes I</item>
+		<item>EDPR 551 Advanced Field Studies in Curriculum Development II</item>
+		<item>EDPR 552 Advanced Field Studies in Curriculum Development II</item>
+		<item>EDPR 553 Advanced Field Studies in Curriculum Development II</item>
+		<item>EDPR 554 Advanced Field Studies in Curriculum Development II</item>
+		<item>EDPR 555 Advanced Field Studies in Curriculum Development II</item>
+		<item>EDPR 556 Advanced Field Studies in Curriculum Development II</item>
+		<item>EDPR 557 tudes de terrain avanc¨¦es dans le d¨¦veloppement du programme d¨¦tudes II</item>
+		<item>EDPR 558 tudes de terrain avanc¨¦es dans le d¨¦veloppement du programme d¨¦tudes II</item>
+		<item>EDPR 559 tudes de terrain avanc¨¦es dans le d¨¦veloppement du programme d¨¦tudes II</item>
+		<item>EDPR 560 tudes de terrain avanc¨¦es dans le d¨¦veloppement du programme d¨¦tudes II</item>
+		<item>EDPR 561 Advanced Field Studies in Educational Practice I</item>
+		<item>EDPR 562 Advanced Field Studies in Educational Practice I</item>
+		<item>EDPR 563 Advanced Field Studies in Educational Practice I</item>
+		<item>EDPR 564 Advanced Field Studies in Educational Practice I</item>
+		<item>EDPR 565 Advanced Field Studies in Educational Practice I</item>
+		<item>EDPR 566 Advanced Field Studies in Educational Practice I</item>
+		<item>EDPR 567 tudes de terrain avanc¨¦es en pratique ¨¦ducative I</item>
+		<item>EDPR 568 tudes de terrain avanc¨¦es en pratique ¨¦ducative I</item>
+		<item>EDPR 569 tudes de terrain avanc¨¦es en pratique ¨¦ducative I</item>
+		<item>EDPR 570 tudes de terrain avanc¨¦es en pratique ¨¦ducative I</item>
+		<item>EDPR 571 Advanced Field Studies in Educational Practice II</item>
+		<item>EDPR 572 Advanced Field Studies in Educational Practice II</item>
+		<item>EDPR 573 Advanced Field Studies in Educational Practice II</item>
+		<item>EDPR 574 Advanced Field Studies in Educational Practice II</item>
+		<item>EDPR 575 Advanced Field Studies in Educational Practice II</item>
+		<item>EDPR 576 Advanced Field Studies in Educational Practice II</item>
+		<item>EDPR 577 tudes de terrain avanc¨¦es en pratique ¨¦ducative II</item>
+		<item>EDPR 578 tudes de terrain avanc¨¦es en pratique ¨¦ducative II</item>
+		<item>EDPR 579 tudes de terrain avanc¨¦es en pratique ¨¦ducative II</item>
+		<item>EDPR 580 tudes de terrain avanc¨¦es en pratique ¨¦ducative II</item>
+		<item>EDPR 581 Advanced Field Studies in Collaborative Inquiry I</item>
+		<item>EDPR 582 Advanced Field Studies in Collaborative Inquiry I</item>
+		<item>EDPR 583 Advanced Field Studies in Collaborative Inquiry I</item>
+		<item>EDPR 584 Advanced Field Studies in Collaborative Inquiry I</item>
+		<item>EDPR 585 Advanced Field Studies in Collaborative Inquiry I</item>
+		<item>EDPR 586 Advanced Field Studies in Collaborative Inquiry I</item>
+		<item>EDPR 587 tudes de terrain avanc¨¦es en approche par l¡¯enqu¨ºte collaborative I</item>
+		<item>EDPR 588 tudes de terrain avanc¨¦es en approche par l¡¯enqu¨ºte collaborative I</item>
+		<item>EDPR 589 tudes de terrain avanc¨¦es en approche par l¡¯enqu¨ºte collaborative I</item>
+		<item>EDPR 590 tudes de terrain avanc¨¦es en approche par l¡¯enqu¨ºte collaborative I</item>
+		<item>EDPR 591 Advanced Field Studies in Collaborative Inquiry II</item>
+		<item>EDPR 592 Advanced Field Studies in Collaborative Inquiry II</item>
+		<item>EDPR 593 Advanced Field Studies in Collaborative Inquiry II</item>
+		<item>EDPR 594 Advanced Field Studies in Collaborative Inquiry II</item>
+		<item>EDPR 595 Advanced Field Studies in Collaborative Inquiry II</item>
+		<item>EDPR 596 Advanced Field Studies in Collaborative Inquiry II</item>
+		<item>EDPR 597 tudes de terrain avanc¨¦es en approche par l¡¯enqu¨ºte collaborative II</item>
+		<item>EDPR 598 tudes de terrain avanc¨¦es en approche par l¡¯enqu¨ºte collaborative II</item>
+		<item>EDPR 599 tudes de terrain avanc¨¦es en approche par l¡¯enqu¨ºte collaborative II</item>
+	</string-array>
+</resources>

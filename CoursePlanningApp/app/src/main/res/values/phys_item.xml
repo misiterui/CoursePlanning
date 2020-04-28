@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string-array name="phys_spinner" tools:ignore="InconsistentArrays">
+		<item>PHYS 100 Introduction to Physics (3)</item>
+		<item>PHYS 101 Physics for the Life Sciences I (3)</item>
+		<item>PHYS 102 Physics for the Life Sciences II (3)</item>
+		<item>PHYS 120 Mechanics and Modern Physics (3)</item>
+		<item>PHYS 121 Optics, Electricity and Magnetism (3)</item>
+		<item>PHYS 125 Mechanics and Special Relativity (3)</item>
+		<item>PHYS 126 Electricity, Magnetism and Light (3)</item>
+		<item>PHYS 130 Physics for the Life Sciences Laboratory (2)</item>
+		<item>PHYS 132 Physics Laboratory I (1)</item>
+		<item>PHYS 133 Physics Laboratory II (1)</item>
+		<item>PHYS 140 Studio Physics Mechanics and Modern Physics (4)</item>
+		<item>PHYS 141 Studio Physics Optics, Electricity and Magnetism (4)</item>
+		<item>PHYS 190 Introduction to Astronomy (3)</item>
+		<item>PHYS 192 Logarithm and Blues (3)</item>
+		<item>PHYS 201 Physics Undergraduate Seminar (1)</item>
+		<item>PHYS 211 Intermediate Mechanics (3)</item>
+		<item>PHYS 221 Electromagnetics (3)</item>
+		<item>PHYS 231 Physics Laboratory III (3)</item>
+		<item>PHYS 233 Physics Laboratory IV (3)</item>
+		<item>PHYS 255 Vibrations and Waves (3)</item>
+		<item>PHYS 285 Introduction to Relativity and Quantum Mechanics (3)</item>
+		<item>PHYS 321 Intermediate Electricity and Magnetism (3)</item>
+		<item>PHYS 326 Electronics and Instrumentation (4)</item>
+		<item>PHYS 332W Advanced Physics Laboratory I (4)</item>
+		<item>PHYS 335 Practicum I (3)</item>
+		<item>PHYS 336 Practicum II (3)</item>
+		<item>PHYS 344 Thermal Physics (3)</item>
+		<item>PHYS 346 Energy and the Environment (3)</item>
+		<item>PHYS 347 Introduction to Biological Physics (3)</item>
+		<item>PHYS 365 Semiconductor Device Physics (3)</item>
+		<item>PHYS 384 Methods of Theoretical Physics I (3)</item>
+		<item>PHYS 385 Quantum Mechanics I (3)</item>
+		<item>PHYS 390 Introduction to Cosmology and Astrophysics (3)</item>
+		<item>PHYS 395 Computational Physics (3)</item>
+		<item>PHYS 413 Advanced Mechanics (3)</item>
+		<item>PHYS 415 Quantum Mechanics II (3)</item>
+		<item>PHYS 416 Introduction to Quantum Information Science (3)</item>
+		<item>PHYS 421 Electromagnetic Waves (3)</item>
+		<item>PHYS 431 Advanced Physics Laboratory II (4)</item>
+		<item>PHYS 432 Undergraduate Honours Thesis (6)</item>
+		<item>PHYS 433 Biological Physics Laboratory (3)</item>
+		<item>PHYS 433W Biophysics Laboratory (4)</item>
+		<item>PHYS 435 Practicum III (3)</item>
+		<item>PHYS 436 Practicum IV (3)</item>
+		<item>PHYS 437 Practicum V (3)</item>
+		<item>PHYS 445 Statistical Physics (3)</item>
+		<item>PHYS 455 Modern Optics (3)</item>
+		<item>PHYS 465 Solid State Physics (3)</item>
+		<item>PHYS 485 Particle Physics (3)</item>
+		<item>PHYS 490 General Relativity and Gravitation (3)</item>
+		<item>PHYS 492 Special Topics in Physics (3)</item>
+		<item>PHYS 493 Special Topics in Physics (3)</item>
+		<item>PHYS 801 Student Seminar (1)</item>
+		<item>PHYS 802 Introduction to Graduate Studies: Research and Teaching in Physics (2)</item>
+		<item>PHYS 810 Advanced Quantum Mechanics (3)</item>
+		<item>PHYS 811 Topics in Quantum Mechanics (3)</item>
+		<item>PHYS 812 Introduction to Quantum Field Theory (3)</item>
+		<item>PHYS 821 Advanced Electromagnetism I  (3)</item>
+		<item>PHYS 822 Advanced Electromagnetism II (3)</item>
+		<item>PHYS 833 Biological Physics Laboratory (3)</item>
+		<item>PHYS 841 Statistical Mechanics (3)</item>
+		<item>PHYS 847 Topics in Soft-Condensed Matter and Biological Physics (3)</item>
+		<item>PHYS 849 Topics in Nanophysics (3)</item>
+		<item>PHYS 855 Modern Optics (3)</item>
+		<item>PHYS 861 Introduction to Solid State Physics (3)</item>
+		<item>PHYS 862 Solid State Physics II (3)</item>
+		<item>PHYS 863 Surface Science, Thin Films and Interfaces (3)</item>
+		<item>PHYS 864 Structural Analysis of Materials (3)</item>
+		<item>PHYS 871 Introduction to Elementary Particle Physics (3)</item>
+		<item>PHYS 881 Special Topics I (3)</item>
+		<item>PHYS 882 Special Topics II (3)</item>
+		<item>PHYS 883 Special Topics III (3)</item>
+		<item>PHYS 884 Special Topics IV (2)</item>
+		<item>PHYS 885 Special Topics V (2)</item>
+		<item>PHYS 886 Special Topics VI (2)</item>
+		<item>PHYS 887 Special Topics VII (1)</item>
+		<item>PHYS 888 Special Topics VIII (1)</item>
+		<item>PHYS 889 Special Topics IX (1)</item>
+		<item>PHYS 890 General Relativity and Gravitation (3)</item>
+		<item>PHYS 891 Cosmology (3)</item>
+		<item>PHYS 898 MSc Thesis (18)</item>
+		<item>PHYS 899 PhD Thesis (18)</item>
+	</string-array>
+</resources>

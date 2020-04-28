@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string-array name="pol_spinner" tools:ignore="InconsistentArrays">
+		<item>POL 100 Introduction to Politics and Government (3)</item>
+		<item>POL 101W Introduction to Politics and Government (3)</item>
+		<item>POL 121 Political Engagement: From the Streets to the Ballot Box (3)</item>
+		<item>POL 131 Politics of Prosperity and Inequality (3)</item>
+		<item>POL 132 From Dictatorship to Democracy: Political Regimes in the 21st Century (3)</item>
+		<item>POL 141 War, International Cooperation and Development (3)</item>
+		<item>POL 150 Science, Policy, and Innovation (3)</item>
+		<item>POL 151 Justice and Law (3)</item>
+		<item>POL 200W Investigating Politics: Research Design and Qualitative Methods (4)</item>
+		<item>POL 201 Introductory Quantitative Methods in Political Science (4)</item>
+		<item>POL 210 Introduction to Political Philosophy (3)</item>
+		<item>POL 221 Introduction to Canadian Government (3)</item>
+		<item>POL 222 Introduction to Canadian Politics (3)</item>
+		<item>POL 231 Comparative Politics (3)</item>
+		<item>POL 232 US Politics (3)</item>
+		<item>POL 244 Canada in the World (3)</item>
+		<item>POL 251 Introduction to Canadian Public Administration (3)</item>
+		<item>POL 252 Local Democracy and Governance (3)</item>
+		<item>POL 253 Introduction to Public Policy (3)</item>
+		<item>POL 300 Selected Topics: Comparative Politics (4)</item>
+		<item>POL 310 Identity Politics (4)</item>
+		<item>POL 311 Contemporary Perspectives on Ancient Political Thought (4)</item>
+		<item>POL 312 Modern and Contemporary Political Thought (4)</item>
+		<item>POL 313 Political Ideologies (4)</item>
+		<item>POL 314 Theory and Explanation in Political Science (4)</item>
+		<item>POL 315 Intermediate Quantitative Methods (4)</item>
+		<item>POL 316 Sex, Love, and Politics (4)</item>
+		<item>POL 317 Migration, Identity, and Citizenship (4)</item>
+		<item>POL 318 Fake News and Alt-Facts: Navigating Post-Truths Politics (4)</item>
+		<item>POL 319 Selected Topics in Political Theory (4)</item>
+		<item>POL 321 The Canadian Federal System (4)</item>
+		<item>POL 322 Canadian Political Parties (4)</item>
+		<item>POL 324 The Canadian Constitution (4)</item>
+		<item>POL 325 Language and Politics (4)</item>
+		<item>POL 329 Selected Topics in Canadian Government and Politics (4)</item>
+		<item>POL 330 Protecting Human Rights: Courts, Constitutions and Legislatures (4)</item>
+		<item>POL 332 Separatist Movements: Conflict and Accommodation (4)</item>
+		<item>POL 339 Selected Topics in Comparative Government and Politics (4)</item>
+		<item>POL 340 Terrorism, Counterterrorism, and the Mass Media (4)</item>
+		<item>POL 342 Developing Countries in Global Politics (4)</item>
+		<item>POL 343 Global Political Economy (4)</item>
+		<item>POL 344 International Law (4)</item>
+		<item>POL 346 International Organization (4)</item>
+		<item>POL 347 Canadian Foreign Policy (4)</item>
+		<item>POL 348 Theories of War, Peace and Conflict Resolution (4)</item>
+		<item>POL 349 Selected Topics in International Relations (4)</item>
+		<item>POL 350 Public Policy for Women (4)</item>
+		<item>POL 351 Immigration, Integration, and Public Policy in Canada (4)</item>
+		<item>POL 354 Comparative Metropolitan Governance (4)</item>
+		<item>POL 357 Selected Topics in Urban and Local Government (4)</item>
+		<item>POL 358 Selected Topics in Public Policy (4)</item>
+		<item>POL 359 Selected Topics in Governance (4)</item>
+		<item>POL 373 Human Security (4)</item>
+		<item>POL 374 Africa in the Global Political Economy (4)</item>
+		<item>POL 381 Japanese Politics (4)</item>
+		<item>POL 405W Interpretation, Conflict, and Controversy in Public Policy  (4)</item>
+		<item>POL 411 Normative Political Theory (4)</item>
+		<item>POL 414 Global Feminist Politics: Gender at the Nexus of Comparative and International Politics (4)</item>
+		<item>POL 415 The Liberal Tradition and Its Critics (4)</item>
+		<item>POL 416W Feminist Social and Political Thought  (4)</item>
+		<item>POL 417 Human Rights Theories (4)</item>
+		<item>POL 418 Selected Topics in Political Theory (4)</item>
+		<item>POL 419 Selected Topics in Political Theory II (4)</item>
+		<item>POL 421W Rights, Equality, and the Charter  (4)</item>
+		<item>POL 422 Canadian International Security Relations (4)</item>
+		<item>POL 426W Political Behavior (4)</item>
+		<item>POL 428 Selected Topics in Canadian Government and Politics I (4)</item>
+		<item>POL 429 Selected Topics in Canadian Government and Politics II (4)</item>
+		<item>POL 430W Democracy in a Global World (4)</item>
+		<item>POL 433 Comparative Development (4)</item>
+		<item>POL 434W Nationalism and Ethnic Conflict (4)</item>
+		<item>POL 436 Elections, Parties and Governments in Comparative Perspectives (4)</item>
+		<item>POL 438 Selected Topics in Comparative Government and Politics I (4)</item>
+		<item>POL 439 Selected Topics in Comparative Government and Politics II (4)</item>
+		<item>POL 443 Nuclear Strategy, Arms Control, and International Security (4)</item>
+		<item>POL 445W American Foreign Policy (4)</item>
+		<item>POL 446W International Relations in East Asia (4)</item>
+		<item>POL 447 Theories of Global Political Economy (4)</item>
+		<item>POL 448 Selected Topics in International Relations (4)</item>
+		<item>POL 449 Selected Topics in International Relations II (4)</item>
+		<item>POL 451 Public Policy Analysis (4)</item>
+		<item>POL 451W Public Policy Analysis  (4)</item>
+		<item>POL 452W Energy Policy (4)</item>
+		<item>POL 454 Urban Public Policy Making (4)</item>
+		<item>POL 455 States and Markets (4)</item>
+		<item>POL 456 Governing Instruments (4)</item>
+		<item>POL 457W Technology and Innovation Policy  (4)</item>
+		<item>POL 458 Selected Topics in Local and Urban Governance (4)</item>
+		<item>POL 459 Selected Topics in Governance (4)</item>
+		<item>POL 460 Selected Topics in Public Policy (4)</item>
+		<item>POL 463 Diversity in Cities (4)</item>
+		<item>POL 470 African Social and Political Thought (4)</item>
+		<item>POL 472 Diplomacy and Global Governance (4)</item>
+		<item>POL 484 NATO Field School, Simulation and Experiential Learning Program (12)</item>
+		<item>POL 490 Honours Seminar (5)</item>
+		<item>POL 496 Political Science Extra Essay Option (1)</item>
+		<item>POL 497 Experiential Learning in Political Science (4)</item>
+		<item>POL 498 Directed Readings in Political Science (4)</item>
+		<item>POL 499 Honours Essay (5)</item>
+		<item>POL 800 Research Design in Political Science (5)</item>
+		<item>POL 801 Epistemological and Theoretical Perspectives in Political Science (5)</item>
+		<item>POL 802 Quantitative Research Methods in Political Science (5)</item>
+		<item>POL 803 Qualitative Research Methods in Political Science (5)</item>
+		<item>POL 804 Topics in Advanced Political Research Design and Methodology (5)</item>
+		<item>POL 812 Seminar in Modern Political Theory (5)</item>
+		<item>POL 814 Normative Political Theory (5)</item>
+		<item>POL 816 Feminist Social and Political Thought (5)</item>
+		<item>POL 826 Parties and Ideologies in Canada (5)</item>
+		<item>POL 827 Issues in Canadian Government and Politics (5)</item>
+		<item>POL 829 Practicum (5)</item>
+		<item>POL 830 Political Opinion, Electoral Behaviour and Democratic Legitimacy (5)</item>
+		<item>POL 837 Issues in Comparative Politics (5)</item>
+		<item>POL 840 Issues in International Relations, Foreign Policy, and Security (5)</item>
+		<item>POL 841 International Relations (5)</item>
+		<item>POL 842 International Law and Organizations (5)</item>
+		<item>POL 843 Canadian Foreign Policy (5)</item>
+		<item>POL 844 International Political Economy (5)</item>
+		<item>POL 845 Foreign Policy Analysis (5)</item>
+		<item>POL 846 International Security Studies (5)</item>
+		<item>POL 851 Public Policy in Canada (5)</item>
+		<item>POL 852 Urban Government and Politics (5)</item>
+		<item>POL 854 Conflict and Controversy in Public Policy (5)</item>
+		<item>POL 855 Science, Technology and Public Policy (5)</item>
+		<item>POL 856 Issues in Social and Economic Policy (5)</item>
+		<item>POL 880 NATO Field School, Simulation, and Experiential Learning Program (6)</item>
+		<item>POL 890 PhD Seminar</item>
+		<item>POL 891 Masters Seminar</item>
+		<item>POL 892 Research Project (6)</item>
+		<item>POL 893 Readings in Political Sciences (5)</item>
+		<item>POL 894 Readings in Political Science II (5)</item>
+		<item>POL 895 Extended Essays (6)</item>
+		<item>POL 896 PhD Comprehensive Exam (6)</item>
+		<item>POL 897 Field Exam in Major Areas of MA Concentration (6)</item>
+		<item>POL 898 MA Thesis (6)</item>
+		<item>POL 899 PhD Thesis Research (6)</item>
+	</string-array>
+</resources>

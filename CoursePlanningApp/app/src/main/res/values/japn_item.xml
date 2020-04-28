@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string-array name="japn_spinner" tools:ignore="InconsistentArrays">
+		<item>JAPN 100 Introduction to Japanese I (3)</item>
+		<item>JAPN 101 Introduction to Japanese II (3)</item>
+		<item>JAPN 200 Advanced Beginners Japanese I (3)</item>
+		<item>JAPN 201 Advanced Beginners Japanese II (3)</item>
+		<item>JAPN 300 Intermediate Japanese I  (3)</item>
+		<item>JAPN 301 Intermediate Japanese II  (3)</item>
+		<item>JAPN 351 STT Japanese Language and Culture through Film (3)</item>
+	</string-array>
+</resources>

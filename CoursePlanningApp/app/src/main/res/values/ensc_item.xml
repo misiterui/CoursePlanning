@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string-array name="ensc_spinner" tools:ignore="InconsistentArrays">
+		<item>ENSC 100W Engineering, Science and Society (3)</item>
+		<item>ENSC 105W Process, Form, and Convention in Professional Genres (3)</item>
+		<item>ENSC 120 Introduction to Electronics Laboratory Instruments Operation and Measurement Techniques (2)</item>
+		<item>ENSC 180 Introduction to Engineering Analysis  (3)</item>
+		<item>ENSC 194 Optional Job Practicum (3)</item>
+		<item>ENSC 195 Industrial Internship I (3)</item>
+		<item>ENSC 196 Special Internship I (3)</item>
+		<item>ENSC 204 Graphical Communication for Engineering (1)</item>
+		<item>ENSC 220 Electric Circuits I (4)</item>
+		<item>ENSC 225 Microelectronics I (4)</item>
+		<item>ENSC 251 Software Design and Analysis for Engineers (4)</item>
+		<item>ENSC 252 Fundamentals of Digital Logic &amp; Design (4)</item>
+		<item>ENSC 254 Introduction to Computer Organization (4)</item>
+		<item>ENSC 263 Special Topics in Engineering Science (3)</item>
+		<item>ENSC 264 Special Topics in Engineering Science (4)</item>
+		<item>ENSC 280 Engineering Measurement and Data Analysis (4)</item>
+		<item>ENSC 295 Industrial Internship II (3)</item>
+		<item>ENSC 296 Special Internship II (3)</item>
+		<item>ENSC 303 Directed Studies in Engineering Science (3)</item>
+		<item>ENSC 316 Engineering Electromagnetics I (3)</item>
+		<item>ENSC 320 Electric Circuits II (4)</item>
+		<item>ENSC 324 Electronic Devices  (3)</item>
+		<item>ENSC 325 Microelectronics II (4)</item>
+		<item>ENSC 327 Communication Systems (4)</item>
+		<item>ENSC 328 Random Processes in Engineering (1)</item>
+		<item>ENSC 350 Digital Systems Design (4)</item>
+		<item>ENSC 351 Embedded and Real Time System Software (4)</item>
+		<item>ENSC 363 Special Topics in Engineering Science (3)</item>
+		<item>ENSC 364 Special Topics in Engineering Science (4)</item>
+		<item>ENSC 370 Biomedical Engineering Directions (3)</item>
+		<item>ENSC 380 Linear Systems (3)</item>
+		<item>ENSC 383 Feedback Control Systems (4)</item>
+		<item>ENSC 385 Statics and Strength of Materials (3)</item>
+		<item>ENSC 386 Introduction to Mechanical Design (4)</item>
+		<item>ENSC 387 Introduction to Electro-Mechanical Sensors and Actuators (4)</item>
+		<item>ENSC 395 Industrial Internship III (3)</item>
+		<item>ENSC 396 Special Internship III (3)</item>
+		<item>ENSC 400 Directed Studies in Engineering Science (4)</item>
+		<item>ENSC 401 Directed Studies in Engineering Science (4)</item>
+		<item>ENSC 402 Directed Studies in Engineering Science (4)</item>
+		<item>ENSC 403 Directed Studies in Engineering Science (3)</item>
+		<item>ENSC 405W Capstone A: Project Design, Management, and Documentation (3)</item>
+		<item>ENSC 406 Engineering Ethics, Law, and Professional Practice (2)</item>
+		<item>ENSC 410 The Business of Engineering (3)</item>
+		<item>ENSC 411 The Business of Entrepreneurial Engineering (4)</item>
+		<item>ENSC 412 Technologies, Cultures and a Sustainable World (3)</item>
+		<item>ENSC 413 Deep Learning Systems in Engineering (4)</item>
+		<item>ENSC 416 Engineering Electromagnetics II: Design (4)</item>
+		<item>ENSC 424 Multimedia Communications Engineering (4)</item>
+		<item>ENSC 425 Electronic System Design (4)</item>
+		<item>ENSC 426 High Frequency Electronics (4)</item>
+		<item>ENSC 427 Communication Networks (4)</item>
+		<item>ENSC 428 Digital Communications (4)</item>
+		<item>ENSC 429 Digital Signal Processing (4)</item>
+		<item>ENSC 440 Capstone B: Engineering Design Project (3)</item>
+		<item>ENSC 450 VLSI Systems Design (4)</item>
+		<item>ENSC 452 Advanced Digital System Design (4)</item>
+		<item>ENSC 460 Special Topics in Engineering Science (4)</item>
+		<item>ENSC 461 Special Topics in Engineering Science (4)</item>
+		<item>ENSC 462 Special Topics in Engineering Science (4)</item>
+		<item>ENSC 470 Optical and Laser Engineering Applications (4)</item>
+		<item>ENSC 472 Orthopaedic and Rehabilitation Engineering  (4)</item>
+		<item>ENSC 474 Digital/Medical Image Processing (4)</item>
+		<item>ENSC 475 Biomedical Instrumentation (4)</item>
+		<item>ENSC 476 Biophotonics and Microscopy Techniques (4)</item>
+		<item>ENSC 477 Biomedical Image Acquisition (4)</item>
+		<item>ENSC 481 Designing for Reliability (4)</item>
+		<item>ENSC 482 Introduction to Decision Making in Engineering (4)</item>
+		<item>ENSC 483 Modern Control Systems (4)</item>
+		<item>ENSC 488 Introduction to Robotics (4)</item>
+		<item>ENSC 489 Computer Aided Design and Manufacturing (4)</item>
+		<item>ENSC 491 Special Project Laboratory (1)</item>
+		<item>ENSC 492 Special Project Laboratory (2)</item>
+		<item>ENSC 493 Special Project Laboratory (3)</item>
+		<item>ENSC 494 Special Project Laboratory (4)</item>
+		<item>ENSC 495 Introduction to Microelectronic Fabrication (4)</item>
+		<item>ENSC 498 Engineering Science Thesis Proposal (1)</item>
+		<item>ENSC 499 Engineering Science Undergraduate Thesis (9)</item>
+		<item>ENSC 701 Graduate Co-op I (3)</item>
+		<item>ENSC 702 Graduate Co-op II (3)</item>
+		<item>ENSC 703 Graduate Co-op III (3)</item>
+		<item>ENSC 704 Industrial Internship (3)</item>
+		<item>ENSC 801 Linear Systems Theory (3)</item>
+		<item>ENSC 802 Stochastic Systems (3)</item>
+		<item>ENSC 803 Writing for Publication (3)</item>
+		<item>ENSC 805 Advanced Digital Communications (3)</item>
+		<item>ENSC 808 Information Theory (3)</item>
+		<item>ENSC 810 Statistical Signal Processing (3)</item>
+		<item>ENSC 813 Deep Learning Systems in Engineering (3)</item>
+		<item>ENSC 815 Subband and Sparse Signal Processing (3)</item>
+		<item>ENSC 820 Engineering Management for Development Projects (3)</item>
+		<item>ENSC 833 Network Protocols and Performance (3)</item>
+		<item>ENSC 835 Communication Networks (3)</item>
+		<item>ENSC 850 Semiconductor Device Theory (3)</item>
+		<item>ENSC 851 Integrated Circuit Technology (3)</item>
+		<item>ENSC 852 Analog Integrated Circuits (3)</item>
+		<item>ENSC 853 Digital CMOS Integrated Circuits (3)</item>
+		<item>ENSC 854 Integrated Microsensors and Actuators (3)</item>
+		<item>ENSC 859 Biomedical Microdevices and Systems (3)</item>
+		<item>ENSC 861 Advanced Multimedia Compression (3)</item>
+		<item>ENSC 870 MEng Course Option Portfolio</item>
+		<item>ENSC 880 PhD Qualifying Examination</item>
+		<item>ENSC 887 Computational Robotics (3)</item>
+		<item>ENSC 891 Directed Studies I (3)</item>
+		<item>ENSC 892 Directed Studies II (3)</item>
+		<item>ENSC 893 Special Topics I  (3)</item>
+		<item>ENSC 894 Special Topics II  (3)</item>
+		<item>ENSC 895 Special Topics III  (3)</item>
+		<item>ENSC 896 MEng Project (Completion) (6)</item>
+		<item>ENSC 897 MEng Project (6)</item>
+		<item>ENSC 898 MASc Thesis (18)</item>
+		<item>ENSC 899 PhD Thesis (6)</item>
+	</string-array>
+</resources>

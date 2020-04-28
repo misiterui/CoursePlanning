@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string-array name="crim_spinner" tools:ignore="InconsistentArrays">
+		<item>CRIM 101 Introduction to Criminology (3)</item>
+		<item>CRIM 103 Psychological Explanations of Criminal and Deviant Behavior (3)</item>
+		<item>CRIM 104 Sociological Explanations of Criminal and Deviant Behavior (3)</item>
+		<item>CRIM 131 Introduction to the Criminal Justice System A Total System Approach (3)</item>
+		<item>CRIM 135 Introduction to Canadian Law and Legal Institutions: A Criminal Justice Perspective (3)</item>
+		<item>CRIM 203 Historical Reactions to Crime and Deviance (3)</item>
+		<item>CRIM 205 Crime Myths (3)</item>
+		<item>CRIM 210 Law, Youth and Young Offenders (3)</item>
+		<item>CRIM 213 Women and Criminal Justice (3)</item>
+		<item>CRIM 218 Introductory Special Topics in Criminology (3)</item>
+		<item>CRIM 220 Research Methods in Criminology (3)</item>
+		<item>CRIM 230 Criminal Law (3)</item>
+		<item>CRIM 241 Introduction to Corrections (3)</item>
+		<item>CRIM 251 Introduction to Policing (3)</item>
+		<item>CRIM 300W Current Theories and Perspectives in Criminology (3)</item>
+		<item>CRIM 301 Crime in Contemporary Society (3)</item>
+		<item>CRIM 302 Critical Approaches to Crime and Deviance (3)</item>
+		<item>CRIM 310 Young Offenders and Criminal Justice: Advanced Topics (3)</item>
+		<item>CRIM 311 Minorities and the Criminal Justice System (3)</item>
+		<item>CRIM 312 Criminological Perspectives on Social Problems (3)</item>
+		<item>CRIM 313 Specific Types of Crimes (3)</item>
+		<item>CRIM 314 Mental Disorder, Criminality and the Law (3)</item>
+		<item>CRIM 315 Restorative Justice (4)</item>
+		<item>CRIM 316 Sexual Offenders and Sexual Offences (3)</item>
+		<item>CRIM 317 Sex, Work, and the Law (3)</item>
+		<item>CRIM 318 Special Topics in Criminology (3)</item>
+		<item>CRIM 319 Special Topics in Criminology (3)</item>
+		<item>CRIM 320 Quantitative Research Methods in Criminology (3)</item>
+		<item>CRIM 321 Qualitative Research Methods in Criminology (3)</item>
+		<item>CRIM 330 Criminal Procedure and Evidence (3)</item>
+		<item>CRIM 331 Advanced Criminal Law (3)</item>
+		<item>CRIM 332 Sociology of Law (3)</item>
+		<item>CRIM 333 Gender, Law and the State (3)</item>
+		<item>CRIM 334 Law and Human Reproduction (3)</item>
+		<item>CRIM 335 Human Rights and Civil Liberties (3)</item>
+		<item>CRIM 336 Corporate Crime and Corporate Regulation (3)</item>
+		<item>CRIM 338 Philosophy of Law (3)</item>
+		<item>CRIM 340 Criminal Justice Policy Making and Policy Analysis (3)</item>
+		<item>CRIM 343 Correctional Practice (3)</item>
+		<item>CRIM 345 Theoretical Perspectives on Punishment (3)</item>
+		<item>CRIM 346 Current Issues in Corrections (3)</item>
+		<item>CRIM 350 Techniques of Crime Prevention I (3)</item>
+		<item>CRIM 351 Police Accountability and Ethics (3)</item>
+		<item>CRIM 352 Environmental Criminology: Theory and Practice (3)</item>
+		<item>CRIM 355 The Forensic Sciences (3)</item>
+		<item>CRIM 356 The Forensic Sciences II (3)</item>
+		<item>CRIM 357 Forensic Anatomy (3)</item>
+		<item>CRIM 358 Forensic Entomology (3)</item>
+		<item>CRIM 370 Directed Readings (3)</item>
+		<item>CRIM 380 Introduction to Cybercrime (3)</item>
+		<item>CRIM 384 Crime and Literature (3)</item>
+		<item>CRIM 402 Biological Explanations of Crime (3)</item>
+		<item>CRIM 406 Family Violence and Criminal Justice (3)</item>
+		<item>CRIM 410 Decision-making in Criminal Justice (3)</item>
+		<item>CRIM 413 Terrorism (3)</item>
+		<item>CRIM 414 Special Topics in Criminology (3)</item>
+		<item>CRIM 415 Special Topics in Criminology (3)</item>
+		<item>CRIM 416 Current Issues in Criminology and Criminal Justice (3)</item>
+		<item>CRIM 417 Current Issues in Criminology and Criminal Justice (3)</item>
+		<item>CRIM 418 Current Issues in Criminology and Criminal Justice (3)</item>
+		<item>CRIM 419 Aboriginal/Indigenous Justice (3)</item>
+		<item>CRIM 423 Advanced Issues in Terrorism (3)</item>
+		<item>CRIM 429 Indigenous Peoples and International Law (3)</item>
+		<item>CRIM 431 Comparative Criminal Justice Systems (3)</item>
+		<item>CRIM 432 Gender in the Courts and the Legal Profession (3)</item>
+		<item>CRIM 433 Communities and Crime (3)</item>
+		<item>CRIM 436 Corporate Crime and Corporate Regulation: Advanced Topics (3)</item>
+		<item>CRIM 437 Crime and Misconduct in the Professions (3)</item>
+		<item>CRIM 438 Wrongful Convictions and Other Miscarriages of Justice (3)</item>
+		<item>CRIM 440 Correctional Administration and Planning (3)</item>
+		<item>CRIM 441 Preventing Crime and Antisocial Behaviour: Designing &amp; Evaluating Programs (3)</item>
+		<item>CRIM 442 Restorative Justice Practice: Advanced Topics (3)</item>
+		<item>CRIM 450 Techniques of Crime Prevention II (5)</item>
+		<item>CRIM 451 Advanced Techniques in Forensic Science (3)</item>
+		<item>CRIM 452 Skeletal Pathology and Criminalistics (3)</item>
+		<item>CRIM 453 Policing Illegal Drug Markets (3)</item>
+		<item>CRIM 454 Criminal Profiling (3)</item>
+		<item>CRIM 455 Advanced Issues in Policing (3)</item>
+		<item>CRIM 456 Investigative Psychology in Policing (3)</item>
+		<item>CRIM 457 Crime and Criminal Intelligence Analysis (4)</item>
+		<item>CRIM 458 Community Policing (3)</item>
+		<item>CRIM 459 Organized Crime (3)</item>
+		<item>CRIM 464 Street Gang Patterns and Policies (3)</item>
+		<item>CRIM 470 Directed Studies (5)</item>
+		<item>CRIM 480 Computer Forensics and Cybercrime (3)</item>
+		<item>CRIM 481 Advanced Issues in Cybercrime (3)</item>
+		<item>CRIM 485 Professional Development Criminal Justice Practice (1)</item>
+		<item>CRIM 486 Field Placement Agency Part Time (1)</item>
+		<item>CRIM 487 Field Placement Agency Full Time (4)</item>
+		<item>CRIM 488 Field Placement Academic Part Time (4)</item>
+		<item>CRIM 489 Field Placement Academic Full Time (8)</item>
+		<item>CRIM 490 Honours Thesis I (3)</item>
+		<item>CRIM 491 Current Theory and Research in Criminology: Advanced Topics (4)</item>
+		<item>CRIM 499 Honours Thesis II (9)</item>
+		<item>CRIM 800 Criminological Theory I (3)</item>
+		<item>CRIM 801 Criminological Theory II (3)</item>
+		<item>CRIM 810 Spatial-temporal criminology (3)</item>
+		<item>CRIM 811 Young Offenders (3)</item>
+		<item>CRIM 812 Criminal Networks (3)</item>
+		<item>CRIM 813 Policing (3)</item>
+		<item>CRIM 814 Restorative Justice (3)</item>
+		<item>CRIM 815 Cybercrime (3)</item>
+		<item>CRIM 816 Terrorism (3)</item>
+		<item>CRIM 817 Corrections (3)</item>
+		<item>CRIM 818 Contemporary Issues in Forensic Science (3)</item>
+		<item>CRIM 820 Criminal Justice Policy Analysis (3)</item>
+		<item>CRIM 830 Crime, Law, and Policy (3)</item>
+		<item>CRIM 831 Sexual Violence (3)</item>
+		<item>CRIM 860 Research Methods I: Research Design (3)</item>
+		<item>CRIM 861 Research Methods II: Quantitative Methods (3)</item>
+		<item>CRIM 862 Research Methods III: Qualitative Methods (3)</item>
+		<item>CRIM 863 Research Methods IV: Advanced Quantitative Methods (3)</item>
+		<item>CRIM 864 Research Methods V: Advanced Qualitative Methods (3)</item>
+		<item>CRIM 865 Research Methods VI: The Theory and Practice of Program Evaluation (3)</item>
+		<item>CRIM 870 Directed Readings (3)</item>
+		<item>CRIM 871 Selected Topics (3)</item>
+		<item>CRIM 872 Selected Topics (3)</item>
+		<item>CRIM 873 Selected Topics (3)</item>
+		<item>CRIM 880 Field Practicum (3)</item>
+		<item>CRIM 890 PhD Thesis Prospectus</item>
+		<item>CRIM 897 Comprehensive Exam (6)</item>
+		<item>CRIM 898 MA Thesis (12)</item>
+		<item>CRIM 899 PhD Thesis (12)</item>
+	</string-array>
+</resources>

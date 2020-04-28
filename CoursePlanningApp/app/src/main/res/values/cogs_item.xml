@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string-array name="cogs_spinner" tools:ignore="InconsistentArrays">
+		<item>COGS 100 Exploring the Mind (3)</item>
+		<item>COGS 110 Learning in Everyday Life: The Art and Science of Hacking your Brain (3)</item>
+		<item>COGS 200 Foundations in Cognitive Science (3)</item>
+		<item>COGS 300 Selected Topics in Cognitive Science (3)</item>
+		<item>COGS 310 Consciousness (3)</item>
+		<item>COGS 350 Directed Readings (3)</item>
+		<item>COGS 380 Directed Research (3)</item>
+		<item>COGS 381 Directed Research  (3)</item>
+		<item>COGS 480 Directed Research (3)</item>
+		<item>COGS 490 Honours Project I (5)</item>
+		<item>COGS 491 Honours Project II (5)</item>
+	</string-array>
+</resources>

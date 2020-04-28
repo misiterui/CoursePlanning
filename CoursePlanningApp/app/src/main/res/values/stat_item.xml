@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string-array name="stat_spinner" tools:ignore="InconsistentArrays">
+		<item>STAT 100 Chance and Data Analysis (3)</item>
+		<item>STAT 180 Career Development Seminar for Statistics and Actuarial Science (1)</item>
+		<item>STAT 201 Statistics for the Life Sciences (3)</item>
+		<item>STAT 203 Introduction to Statistics for the Social Sciences (3)</item>
+		<item>STAT 205 Introduction to Statistics (3)</item>
+		<item>STAT 240 Introduction to Data Science (3)</item>
+		<item>STAT 260 Introductory R for Data Science (2)</item>
+		<item>STAT 261 Laboratory for Introductory R for Data Science (1)</item>
+		<item>STAT 270 Introduction to Probability and Statistics (3)</item>
+		<item>STAT 285 Intermediate Probability and Statistics (3)</item>
+		<item>STAT 290 Selected Topics in Probability and Statistics (3)</item>
+		<item>STAT 300W Statistics Communication (3)</item>
+		<item>STAT 302 Analysis of Experimental and Observational Data (3)</item>
+		<item>STAT 305 Introduction to Biostatistical Methods for Health Sciences (3)</item>
+		<item>STAT 310 Introduction to Data Science for the Social Sciences (2)</item>
+		<item>STAT 311 Data Science Laboratory for the Social Sciences (2)</item>
+		<item>STAT 320 Introduction to Data Science for the Life Sciences (2)</item>
+		<item>STAT 330 Introduction to Mathematical Statistics (3)</item>
+		<item>STAT 336 Job Practicum I (3)</item>
+		<item>STAT 337 Job Practicum II (3)</item>
+		<item>STAT 341 Introduction to Statistical Computing and Exploratory Data Analysis R  (2)</item>
+		<item>STAT 342 Introduction to Statistical Computing and Exploratory Data Analysis SAS  (2)</item>
+		<item>STAT 350 Linear Models in Applied Statistics (3)</item>
+		<item>STAT 360 Advanced R for Data Science (2)</item>
+		<item>STAT 361 Laboratory for Advanced R for Data Science (1)</item>
+		<item>STAT 380 Introduction to Stochastic Processes (3)</item>
+		<item>STAT 390 Selected Topics in Probability and Statistics (3)</item>
+		<item>STAT 403 Intermediate Sampling and Experimental Design (3)</item>
+		<item>STAT 410 Statistical Analysis of Sample Surveys (3)</item>
+		<item>STAT 430 Statistical Design and Analysis of Experiments (3)</item>
+		<item>STAT 436 Job Practicum III (3)</item>
+		<item>STAT 437 Job Practicum IV (3)</item>
+		<item>STAT 438 Job Practicum V (3)</item>
+		<item>STAT 440 Learning from Big Data (3)</item>
+		<item>STAT 445 Applied Multivariate Analysis (3)</item>
+		<item>STAT 450 Statistical Theory (3)</item>
+		<item>STAT 452 Statistical Learning and Prediction (3)</item>
+		<item>STAT 460 Bayesian Statistics (3)</item>
+		<item>STAT 475 Applied Discrete Data Analysis (3)</item>
+		<item>STAT 485 Applied Time Series Analysis (3)</item>
+		<item>STAT 490 Selected Topics in Probability and Statistics (3)</item>
+		<item>STAT 495 Directed Studies in Probability and Statistics (3)</item>
+		<item>STAT 603 Quantitative Analysis of Research Studies (5)</item>
+		<item>STAT 604 Analysis of Experimental and Observational Data (3)</item>
+		<item>STAT 605 Biostatistical Methods (3)</item>
+		<item>STAT 641 Introduction to Statistical Computing and Exploratory Data Analysis R (2)</item>
+		<item>STAT 642 Introduction to Statistical Computing and Exploratory Data Analysis SAS (2)</item>
+		<item>STAT 645 Applied Multivariate Analysis (3)</item>
+		<item>STAT 652 Statistical Learning and Prediction (3)</item>
+		<item>STAT 675 Applied Discrete Data Analysis (3)</item>
+		<item>STAT 685 Applied Time Series Analysis (3)</item>
+		<item>STAT 811 Statistical Consulting I (2)</item>
+		<item>STAT 812 Statistical Consulting II (2)</item>
+		<item>STAT 830 Statistical Theory I (4)</item>
+		<item>STAT 831 Statistical Theory II (4)</item>
+		<item>STAT 832 Applied Probability Models (4)</item>
+		<item>STAT 840 Statistical Genetics and Genomics (4)</item>
+		<item>STAT 841 Advanced Design of Experiments (4)</item>
+		<item>STAT 842 Environmetrics (4)</item>
+		<item>STAT 843 Functional Data Analysis (4)</item>
+		<item>STAT 850 Linear Models and Applications (4)</item>
+		<item>STAT 851 Generalized Linear Models and Discrete Data Analysis (4)</item>
+		<item>STAT 852 Modern Methods in Applied Statistics (4)</item>
+		<item>STAT 853 Applications of Statistical Computing (4)</item>
+		<item>STAT 854 Biometrics: Methods in Biomedical Studies (4)</item>
+		<item>STAT 855 Lifetime Data Analysis (4)</item>
+		<item>STAT 856 Longitudinal Data Analysis (4)</item>
+		<item>STAT 857 Space-Time Models (4)</item>
+		<item>STAT 880 Co-op I</item>
+		<item>STAT 881 Co-op II</item>
+		<item>STAT 882 Co-op III</item>
+		<item>STAT 890 Statistics: Selected Topics (4)</item>
+		<item>STAT 891 Seminar (2)</item>
+		<item>STAT 894 Reading (2)</item>
+		<item>STAT 895 Reading (4)</item>
+		<item>STAT 897 PhD Comprehensive Exam</item>
+		<item>STAT 898 MSc Project (6)</item>
+		<item>STAT 899 PhD Thesis (6)</item>
+	</string-array>
+</resources>
