@@ -44,6 +44,7 @@ public class CourseList extends AppCompatActivity {
     private void initAddBtn() {
         ImageButton addBtn = findViewById(R.id.addBtn);
         addBtn.setOnClickListener(new View.OnClickListener() {
+            @RequiresApi(api = Build.VERSION_CODES.KITKAT)
             @Override
             public void onClick(View v) {
                 startActivity(AddCourse.makeIntent(CourseList.this));
@@ -52,7 +53,7 @@ public class CourseList extends AppCompatActivity {
     }
 
     public static Intent makeIntent(Context context) {
-        Intent intent = new Intent(context, AddCourse.class);
+        Intent intent = new Intent(context, CourseList.class);
         return intent;
     }
 
