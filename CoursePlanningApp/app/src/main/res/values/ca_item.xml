@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string-array name="ca_spinner" tools:ignore="InconsistentArrays">
+		<item>CA 104 Music Fundamentals (3)</item>
+		<item>CA 117 Visual Art and Culture I (3)</item>
+		<item>CA 118 Visual Art and Culture II (3)</item>
+		<item>CA 120 Introduction to Dance Forms: Contemporary and Popular (3)</item>
+		<item>CA 122 Contemporary Dance I (5)</item>
+		<item>CA 123 Contemporary Dance II (5)</item>
+		<item>CA 124 Dance Improvisation and Composition (3)</item>
+		<item>CA 129 Movement Fundamentals (3)</item>
+		<item>CA 130 Fundamentals of Film (4)</item>
+		<item>CA 131 Filmmaking I (4)</item>
+		<item>CA 135 Introduction to Cinema (3)</item>
+		<item>CA 136 The History and Aesthetics of Cinema I (3)</item>
+		<item>CA 137 The History and Aesthetics of Cinema II (3)</item>
+		<item>CA 140 Music after 1900 (3)</item>
+		<item>CA 142 21st Century Music Appreciation (3)</item>
+		<item>CA 145 Introduction to Music Composition and Theory (3)</item>
+		<item>CA 146 Introduction to Music Composition and Theory II (3)</item>
+		<item>CA 149 Sound (3)</item>
+		<item>CA 150 Introduction to Acting (3)</item>
+		<item>CA 152 Acting I: Thinking as an Artist (3)</item>
+		<item>CA 153 Acting II: Playing with Form (3)</item>
+		<item>CA 160 Introductory Studio in Visual Art I (3)</item>
+		<item>CA 161 Introductory Studio in Visual Art II (3)</item>
+		<item>CA 170 Introduction to Production Technology (3)</item>
+		<item>CA 171 Introduction to Stage and Production Management (3)</item>
+		<item>CA 186 Art and the Moving Image (3)</item>
+		<item>CA 210 Artworks, Theories, Contexts (3)</item>
+		<item>CA 210W Artworks, Theories, Contexts (3)</item>
+		<item>CA 220 Contemporary Dance III (4)</item>
+		<item>CA 221 Contemporary Dance IV (4)</item>
+		<item>CA 227 History of Dance: From the 20th Century to the Present (3)</item>
+		<item>CA 228W Dance Aesthetics (3)</item>
+		<item>CA 229 Selected Topics in Dance I (3)</item>
+		<item>CA 230 Filmmaking II (5)</item>
+		<item>CA 231 Filmmaking III (5)</item>
+		<item>CA 232 Film Sound (3)</item>
+		<item>CA 233 The Techniques of Film (2)</item>
+		<item>CA 235 Experimental Film and Video (3)</item>
+		<item>CA 236 Cinema in Canada (3)</item>
+		<item>CA 237 Selected Topics in Film and Video Studies (3)</item>
+		<item>CA 238W Screenwriting I (3)</item>
+		<item>CA 243 Gamelan I (3)</item>
+		<item>CA 245 Music Composition I (3)</item>
+		<item>CA 246 Music Composition II (3)</item>
+		<item>CA 247 Electroacoustic Music I (3)</item>
+		<item>CA 248 Conducting I (3)</item>
+		<item>CA 249 Selected Topics in Music I (3)</item>
+		<item>CA 250 Acting III: Composing Through Materials (3)</item>
+		<item>CA 251 Acting IV: Text as Action (3)</item>
+		<item>CA 252 Playmaking (3)</item>
+		<item>CA 253 BlackBox Playmaking (3)</item>
+		<item>CA 254 Voice/Movement I (4)</item>
+		<item>CA 255 Voice/Movement II (4)</item>
+		<item>CA 257W Context of Theatre I (3)</item>
+		<item>CA 260 Studio in Visual Art I (3)</item>
+		<item>CA 261 Studio in Visual Art II (3)</item>
+		<item>CA 262 Methods and Concepts: Drawing-based Practices (3)</item>
+		<item>CA 263 Methods and Concepts: Painting-based Practices (3)</item>
+		<item>CA 264 Methods and Concepts: Sculptural Practices (3)</item>
+		<item>CA 265 Methods and Concepts: Photo-based Practices (3)</item>
+		<item>CA 269 Methods and Concepts: Selected Topics (3)</item>
+		<item>CA 270 Production Ensemble I (6)</item>
+		<item>CA 271 Production Ensemble II (6)</item>
+		<item>CA 285 Interdisciplinary Studio Composition/Collaboration (3)</item>
+		<item>CA 289 Selected Topics in the Fine and Performing Arts (3)</item>
+		<item>CA 305 Explorations in Contemporary Arts I (3)</item>
+		<item>CA 306 Internship in Contemporary Arts I (3)</item>
+		<item>CA 308 Contemporary Arts Field School I (Theory/History) (4)</item>
+		<item>CA 309 Contemporary Arts Field School II (Studio) (4)</item>
+		<item>CA 312 Selected Topics in Art and Culture Studies (3)</item>
+		<item>CA 314 Readings in the History of Art and Culture (3)</item>
+		<item>CA 317 Introduction to Performance Studies (4)</item>
+		<item>CA 319W Critical Writing in the Arts (3)</item>
+		<item>CA 320 Contemporary Dance V (4)</item>
+		<item>CA 321 Contemporary Dance VI (4)</item>
+		<item>CA 322 Intermediate Ballet I (3)</item>
+		<item>CA 323 Intermediate Ballet II (3)</item>
+		<item>CA 324 New Dance Composition (3)</item>
+		<item>CA 325 Special Project in Dance Composition (3)</item>
+		<item>CA 326 Repertory I (5)</item>
+		<item>CA 327 Repertory II (5)</item>
+		<item>CA 329 Selected Topics in Dance II (3)</item>
+		<item>CA 332 Film Production Seminar (3)</item>
+		<item>CA 334 Selected Topics in Film and Video Production (3)</item>
+		<item>CA 335 Introduction to Film Theory (4)</item>
+		<item>CA 337 Intermediate Selected Topics in Film and Video Studies (4)</item>
+		<item>CA 338W Screenwriting II (3)</item>
+		<item>CA 339 Directing and Acting for Film and Video (3)</item>
+		<item>CA 340 Contemporary Music Performance II (3)</item>
+		<item>CA 341 World Music (3)</item>
+		<item>CA 343 Gamelan II (3)</item>
+		<item>CA 344 Contemporary Music Analysis and Criticism (3)</item>
+		<item>CA 345 Music Composition III (4)</item>
+		<item>CA 346 Music Composition IV (4)</item>
+		<item>CA 347 Electroacoustic Music II (4)</item>
+		<item>CA 348 Conducting II (3)</item>
+		<item>CA 349 Selected Topics in Music II (3)</item>
+		<item>CA 350 Acting V: Text in Dramatic Forms (3)</item>
+		<item>CA 351 Acting VI: The Artist in Ensemble Process (3)</item>
+		<item>CA 352 Mainstage Playmaking (3)</item>
+		<item>CA 353 BlackBox Performance (4)</item>
+		<item>CA 354 Voice/Movement III (2)</item>
+		<item>CA 355 Voice/Movement IV (2)</item>
+		<item>CA 357W Context of Theatre II (3)</item>
+		<item>CA 359 Selected Topics in Theatre (3)</item>
+		<item>CA 360 Studio in Visual Art III (4)</item>
+		<item>CA 361 Studio in Visual Art IV (4)</item>
+		<item>CA 362 Methods and Concepts: Drawing-based Practices (3)</item>
+		<item>CA 363 Methods and Concepts: Painting Practices (3)</item>
+		<item>CA 364 Methods and Concepts: Sculptural Practices (3)</item>
+		<item>CA 365 Methods and Concepts: Photo-based Practices (3)</item>
+		<item>CA 366 Seminar in Visual Art I (3)</item>
+		<item>CA 367 Seminar in Visual Art II (3)</item>
+		<item>CA 369 Methods and Concepts: Selected Topics (3)</item>
+		<item>CA 370 Production Ensemble III (6)</item>
+		<item>CA 371 Production Ensemble IV (6)</item>
+		<item>CA 374 Stage Lighting (4)</item>
+		<item>CA 375 Stage Design (4)</item>
+		<item>CA 381 Thriving as a Cultural Entrepreneur (3)</item>
+		<item>CA 386 Film Music: An Overview of the Relationship between Music and Moving Pictures (3)</item>
+		<item>CA 389 Selected Topics in the Fine and Performing Arts II (3)</item>
+		<item>CA 390 Filmmaking IV (4)</item>
+		<item>CA 393 Filmmaking V (4)</item>
+		<item>CA 400 Directed Studies (Studio) (3)</item>
+		<item>CA 401 Directed Studies (Theory/History) (3)</item>
+		<item>CA 405 Explorations in Contemporary Arts II (5)</item>
+		<item>CA 406 Internship in Contemporary Arts II (4)</item>
+		<item>CA 408 Contemporary Arts Field School III (Theory/History) (4)</item>
+		<item>CA 409 Contemporary Arts Field School IV (Studio) (4)</item>
+		<item>CA 412 Advanced Seminar in Art and Culture Studies (4)</item>
+		<item>CA 412W Advanced Seminar in Art and Culture Studies (4)</item>
+		<item>CA 414 Advanced Topic in the History of Art and Culture (3)</item>
+		<item>CA 420 Contemporary Dance VII (4)</item>
+		<item>CA 421 Contemporary Dance VIII: Choreography Lab (4)</item>
+		<item>CA 425 Intensive Studies in Performance (5)</item>
+		<item>CA 426 Dance/Movement Analysis (3)</item>
+		<item>CA 427 Advanced Ballet I (3)</item>
+		<item>CA 428 Advanced Ballet II (3)</item>
+		<item>CA 430 Filmmaking VI (6)</item>
+		<item>CA 432 Filmmaking VII (6)</item>
+		<item>CA 436 Advanced Seminar in Film and Video Studies (4)</item>
+		<item>CA 443 Gamelan III (3)</item>
+		<item>CA 445 Music Composition V (4)</item>
+		<item>CA 446 Senior Project in Music Composition (5)</item>
+		<item>CA 447 Computer Music Composition (4)</item>
+		<item>CA 450 Mainstage Performance (4)</item>
+		<item>CA 453 Directing/Performance (4)</item>
+		<item>CA 457 Context of Theatre III (4)</item>
+		<item>CA 460 Studio in Visual Art V (4)</item>
+		<item>CA 461 Studio in Visual Art VI (5)</item>
+		<item>CA 462 Honours Studio in Visual Art (5)</item>
+		<item>CA 470 Production Ensemble V (6)</item>
+		<item>CA 471 Production Ensemble VI (6)</item>
+		<item>CA 485 Interdisciplinary Collaboration in Contemporary Arts (5)</item>
+		<item>CA 489 Interdisciplinary Project in Contemporary Arts (5)</item>
+		<item>CA 811 Interdisciplinary Graduate Seminar I (5)</item>
+		<item>CA 812 Interdisciplinary Graduate Seminar II (5)</item>
+		<item>CA 813 Interdisciplinary Graduate Studio (5)</item>
+		<item>CA 821 Research Methods in Contemporary Arts (4)</item>
+		<item>CA 822 Research Colloquium in Contemporary Arts (4)</item>
+		<item>CA 823 New Approaches in Visual Art and Culture (4)</item>
+		<item>CA 824 New Approaches in Moving-Image Studies (4)</item>
+		<item>CA 825 New Approaches in Digital Art Studies (4)</item>
+		<item>CA 826 New Approaches in Performance Studies (4)</item>
+		<item>CA 827 Practicum in Contemporary Arts (4)</item>
+		<item>CA 829 Extended Essays in Contemporary Arts (6)</item>
+		<item>CA 877 Selected Topics in Fine and Performing Arts (5)</item>
+		<item>CA 883 Studio in Fine and Performing Arts I (5)</item>
+		<item>CA 885 Studio in Fine and Performing Arts II (5)</item>
+		<item>CA 887 Selected Topics in Fine and Performing Arts (5)</item>
+		<item>CA 888 Directed Study in Fine and Performing Arts (1)</item>
+		<item>CA 889 Directed Study in Fine and Performing Arts (5)</item>
+		<item>CA 898 Master of Fine Arts Graduating Project (10)</item>
+	</string-array>
+</resources>

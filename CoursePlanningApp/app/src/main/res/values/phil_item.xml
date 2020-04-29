@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string-array name="phil_spinner" tools:ignore="InconsistentArrays">
+		<item>PHIL 100W Knowledge and Reality (3)</item>
+		<item>PHIL 105 Critical Thinking (3)</item>
+		<item>PHIL 110 Introduction to Logic and Reasoning (3)</item>
+		<item>PHIL 120W Moral and Legal Problems (3)</item>
+		<item>PHIL 121 Global Justice (3)</item>
+		<item>PHIL 131 Selected Topics (3)</item>
+		<item>PHIL 144 Introduction to Philosophy of Science (3)</item>
+		<item>PHIL 150 Great Works in the History of Philosophy (3)</item>
+		<item>PHIL 201 Epistemology (3)</item>
+		<item>PHIL 203 Metaphysics (3)</item>
+		<item>PHIL 221 Ethical Theory (3)</item>
+		<item>PHIL 280 Introduction to Existentialism (3)</item>
+		<item>PHIL 300 Introduction to Philosophy (3)</item>
+		<item>PHIL 302 Topics in Epistemology and Metaphysics (3)</item>
+		<item>PHIL 310 Logic, Proofs and Set Theory (3)</item>
+		<item>PHIL 314 Topics in Logic (3)</item>
+		<item>PHIL 315 Formal Methods in Philosophy (3)</item>
+		<item>PHIL 320 Social and Political Philosophy (3)</item>
+		<item>PHIL 321 Topics in Moral Philosophy (3)</item>
+		<item>PHIL 322 History of Ethics (3)</item>
+		<item>PHIL 326 Topics in Law and Philosophy (3)</item>
+		<item>PHIL 327 Global Health Ethics (3)</item>
+		<item>PHIL 328 Environmental Philosophy (3)</item>
+		<item>PHIL 329 Law and Justice (3)</item>
+		<item>PHIL 331 Selected Topics (3)</item>
+		<item>PHIL 332 Selected Topics (3)</item>
+		<item>PHIL 333 Selected Topics (3)</item>
+		<item>PHIL 341 Philosophy of Science (3)</item>
+		<item>PHIL 343 Topics in the Philosophy of Mind (3)</item>
+		<item>PHIL 344 Topics in the Philosophy of Language (3)</item>
+		<item>PHIL 345W Philosophy of Mathematics (3)</item>
+		<item>PHIL 350 Ancient Philosophy (3)</item>
+		<item>PHIL 352 17th Century Philosophy (3)</item>
+		<item>PHIL 356 18th Century Philosophy (3)</item>
+		<item>PHIL 357 Topics in the History of Philosophy (3)</item>
+		<item>PHIL 358 19th Century Philosophy (3)</item>
+		<item>PHIL 421W Advanced Topics in Ethical Theory (4)</item>
+		<item>PHIL 435 Selected Topics (4)</item>
+		<item>PHIL 451W Advanced Topics in the History of Philosophy (4)</item>
+		<item>PHIL 455W Contemporary Issues in Epistemology and Metaphysics (4)</item>
+		<item>PHIL 467W Seminar II (4)</item>
+		<item>PHIL 477 Honours Tutorial I (5)</item>
+		<item>PHIL 478 Honours Tutorial II (5)</item>
+		<item>PHIL 802 Selected Topics in Epistemology (5)</item>
+		<item>PHIL 803 Selected Topics in Metaphysics (5)</item>
+		<item>PHIL 804 Selected Topics in Philosophy of Science (5)</item>
+		<item>PHIL 805 Selected Topics in Philosophy of Mind (5)</item>
+		<item>PHIL 806 Selected Topics in Philosophy of Language (5)</item>
+		<item>PHIL 812 Selected Topics in Logic I (5)</item>
+		<item>PHIL 813 Selected Topics in Logic II (5)</item>
+		<item>PHIL 814 Selected Topics in Philosophy of Mathematics (5)</item>
+		<item>PHIL 815 Selected Topics in Formal Studies (5)</item>
+		<item>PHIL 822 Selected Topics in Normative Ethics (5)</item>
+		<item>PHIL 823 Selected Topics Meta-Ethics (5)</item>
+		<item>PHIL 824 Selected Topics Moral Psychology (5)</item>
+		<item>PHIL 825 Selected Topics in Social and Political Philosophy (5)</item>
+		<item>PHIL 826 Selected Topics in Aesthetics (5)</item>
+		<item>PHIL 852 Selected Topics in Ancient Philosophy (5)</item>
+		<item>PHIL 853 Selected Topics in Medieval Philosophy (5)</item>
+		<item>PHIL 854 Selected Topics in Seventeenth and Eighteenth Century Philosophy (5)</item>
+		<item>PHIL 855 Selected Topics in Nineteenth and Twentieth Century Philosophy (5)</item>
+		<item>PHIL 861 Directed Studies: Selected Topics I (5)</item>
+		<item>PHIL 862 Directed Studies: Selected Topics II (5)</item>
+		<item>PHIL 864 Directed Studies: Selected Topics IV (3)</item>
+		<item>PHIL 865 Directed Studies: Selected Topics V (2)</item>
+		<item>PHIL 880 Pro-Seminar (5)</item>
+		<item>PHIL 898 MA Thesis (11)</item>
+		<item>PHIL 899 Professional Paper Project Completion (6)</item>
+		<item>PHIL 998 PhD Thesis (6)</item>
+	</string-array>
+</resources>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string-array name="cmns_spinner" tools:ignore="InconsistentArrays">
+		<item>CMNS 110 Introduction to Communication Studies (3)</item>
+		<item>CMNS 130 Communication and Social Change (3)</item>
+		<item>CMNS 201 Empirical Communication Research Methods (4)</item>
+		<item>CMNS 201W Empirical Communication Research Methods (4)</item>
+		<item>CMNS 202 Design and Method in Qualitative Communication Research (4)</item>
+		<item>CMNS 210 Media History (3)</item>
+		<item>CMNS 220 Understanding Television (3)</item>
+		<item>CMNS 221 Media and Popular Cultures (3)</item>
+		<item>CMNS 223W Advertising as Social Communication (3)</item>
+		<item>CMNS 226 Digital Media Communication Techniques (3)</item>
+		<item>CMNS 230 The Cultural Industries in Canada: Global Context (3)</item>
+		<item>CMNS 235 News Media, the Public, and Democracy (3)</item>
+		<item>CMNS 240 The Political Economy of Communication (3)</item>
+		<item>CMNS 247 International Communication (3)</item>
+		<item>CMNS 253W Introduction to Information Technology: The New Media (3)</item>
+		<item>CMNS 258 History of Sound in Media (3)</item>
+		<item>CMNS 259 Listening, Culture and Society (3)</item>
+		<item>CMNS 286 Selected Topics (3)</item>
+		<item>CMNS 287 Selected Topics (3)</item>
+		<item>CMNS 304W Communication in Everyday Life (4)</item>
+		<item>CMNS 310 Media and Modernity (4)</item>
+		<item>CMNS 321 Cultural Production of Popular Music (4)</item>
+		<item>CMNS 322 Documentary Media (4)</item>
+		<item>CMNS 323W Cultural Dimensions in Advertising (4)</item>
+		<item>CMNS 324 Media, Sports and Popular Culture (4)</item>
+		<item>CMNS 325 Visualization and Visual Culture in Communication (4)</item>
+		<item>CMNS 326 Applied Media Workshop: On the Hill (4)</item>
+		<item>CMNS 327 Media, Learning, and Social Change (4)</item>
+		<item>CMNS 331 News Discourse as Political Communication (4)</item>
+		<item>CMNS 332 Communication and Rhetoric (4)</item>
+		<item>CMNS 333 Digital Policies in a Global Context: Current Issues, Concepts and Analysis (4)</item>
+		<item>CMNS 334 Cultural Policy (4)</item>
+		<item>CMNS 342 Science and Public Policy: Risk Communication (4)</item>
+		<item>CMNS 346 Development Communication (4)</item>
+		<item>CMNS 347 Communication in Conflict and Intervention (4)</item>
+		<item>CMNS 348 Globalization and Media (4)</item>
+		<item>CMNS 349 Environment, Media and Communication (4)</item>
+		<item>CMNS 353 Topics in Technology and Society (4)</item>
+		<item>CMNS 354 Communication and Social Issues in Design (4)</item>
+		<item>CMNS 355 Technologies of Gender and Sexuality (4)</item>
+		<item>CMNS 356 Communication to Mitigate Disasters (4)</item>
+		<item>CMNS 357 Audio Media Analysis (4)</item>
+		<item>CMNS 358 Sound Recording: Theory and Design (4)</item>
+		<item>CMNS 359 The Culture and Politics of Sound (4)</item>
+		<item>CMNS 362 Evaluation Methods for Applied Communication Research (6)</item>
+		<item>CMNS 386 Special Topics in Communication (4)</item>
+		<item>CMNS 387 Special Topics in Communication (4)</item>
+		<item>CMNS 388 Special Topics in Communication (4)</item>
+		<item>CMNS 395 Communication Practicum I (3)</item>
+		<item>CMNS 396 Communication Practicum II (3)</item>
+		<item>CMNS 408 Communication Network Project Group (4)</item>
+		<item>CMNS 410 Media and Ideology (4)</item>
+		<item>CMNS 423 Globalization: Cultural Issues (4)</item>
+		<item>CMNS 424 Colonialism, Culture and Identity (4)</item>
+		<item>CMNS 425 Applied Communication for Social Issues (4)</item>
+		<item>CMNS 426 Video Design for Social Communication (4)</item>
+		<item>CMNS 427 Participatory Youth Media Cultures (4)</item>
+		<item>CMNS 428 Media Analysis Project Group (4)</item>
+		<item>CMNS 431 News Research and Analysis (4)</item>
+		<item>CMNS 432 Political Communication, Public Opinion and Political Marketing (4)</item>
+		<item>CMNS 433 Issues in Communication and Cultural Policy (4)</item>
+		<item>CMNS 437 Media Democratization: From Critique to Transformation (4)</item>
+		<item>CMNS 440 Labour, Communication and the Media (4)</item>
+		<item>CMNS 443 Comparative Asian Media Systems (4)</item>
+		<item>CMNS 444 Political Economy of International Communication (4)</item>
+		<item>CMNS 445 Media and Popular Culture in China (4)</item>
+		<item>CMNS 446 Communication, Science and Technology (4)</item>
+		<item>CMNS 447 Negotiation and Dialogue as Communication (4)</item>
+		<item>CMNS 448 International Communication Project Group (4)</item>
+		<item>CMNS 452 Race and the Media (4)</item>
+		<item>CMNS 453 Issues in the Information Society (4)</item>
+		<item>CMNS 454 Computer Supported Cooperative Work: Critical Perspectives (4)</item>
+		<item>CMNS 455W Women and New Information Technologies (4)</item>
+		<item>CMNS 458 Information Technology Project Group (4)</item>
+		<item>CMNS 460 Seminar in Dialogue and Public Issues (4)</item>
+		<item>CMNS 461 Field Placement in Dialogue (3)</item>
+		<item>CMNS 479 Directed Study (1)</item>
+		<item>CMNS 480 Directed Study (2)</item>
+		<item>CMNS 481 Directed Study (3)</item>
+		<item>CMNS 482 Directed Study (4)</item>
+		<item>CMNS 483 Directed Study (5)</item>
+		<item>CMNS 486 Special Topics in Communication (4)</item>
+		<item>CMNS 487 Special Topics in Communication (4)</item>
+		<item>CMNS 488 Selected Topics in Communication (4)</item>
+		<item>CMNS 489 Field Placement in Communication (4)</item>
+		<item>CMNS 494 Communication Practicum III (3)</item>
+		<item>CMNS 495 Communication Practicum IV (3)</item>
+		<item>CMNS 496 Communication Practicum V (3)</item>
+		<item>CMNS 497 Honours Research Proposal (5)</item>
+		<item>CMNS 498 Honours Research Project (10)</item>
+		<item>CMNS 800 Contemporary Approaches in Communication Studies (5)</item>
+		<item>CMNS 801 Design and Methodology in Communication Research (5)</item>
+		<item>CMNS 802 History of Communication Theory (5)</item>
+		<item>CMNS 804 Seminar in Advanced Communication Theory (5)</item>
+		<item>CMNS 815 Social Construction of Communication Technologies (5)</item>
+		<item>CMNS 820 Media, Democratic Communication and the Concept of the Public (5)</item>
+		<item>CMNS 824 Colonialism, Culture and Identity (5)</item>
+		<item>CMNS 830 Media &amp; Cultural Studies (5)</item>
+		<item>CMNS 835 Communication and Cultural Policies, Power and Governance (3)</item>
+		<item>CMNS 840 Political Economy of Communications (5)</item>
+		<item>CMNS 844 Communication and Global Power Shifts (5)</item>
+		<item>CMNS 848 Communication and Global Social Justice (5)</item>
+		<item>CMNS 850 Directed Readings and Research (5)</item>
+		<item>CMNS 851 Directed Studies (5)</item>
+		<item>CMNS 855 Selected Topics in Communication Studies (5)</item>
+		<item>CMNS 856 Graduate Seminar (5)</item>
+		<item>CMNS 857 Selected Topics in Communication Studies (5)</item>
+		<item>CMNS 858 Selected Topics in Communication Studies (5)</item>
+		<item>CMNS 859 Acoustic Dimensions of Communications (5)</item>
+		<item>CMNS 860 Graduate Colloquium in Global Communication (2)</item>
+		<item>CMNS 880 Directed Readings and Research (5)</item>
+		<item>CMNS 881 Research Practicum (5)</item>
+		<item>CMNS 882 Research Field Work (5)</item>
+		<item>CMNS 891 Co-op I</item>
+		<item>CMNS 892 Co-op II</item>
+		<item>CMNS 893 MA Project (6)</item>
+		<item>CMNS 894 MA Extended Essay (5)</item>
+		<item>CMNS 895 Comprehensive Examination (6)</item>
+		<item>CMNS 896 MA Extended Essays (6)</item>
+		<item>CMNS 897 MA Project (10)</item>
+		<item>CMNS 898 MA Thesis (10)</item>
+		<item>CMNS 899 PhD Thesis (6)</item>
+	</string-array>
+</resources>

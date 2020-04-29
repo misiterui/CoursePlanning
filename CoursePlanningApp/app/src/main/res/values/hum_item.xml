@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string-array name="hum_spinner" tools:ignore="InconsistentArrays">
+		<item>HUM 101W Introduction to the Humanities (3)</item>
+		<item>HUM 102W Classical Mythology (3)</item>
+		<item>HUM 103 The Invention of the Book: Alphabets, Papyrus, Parchment, and Print (3)</item>
+		<item>HUM 105 Many Europes: Ancient, Medieval, Early Modern (3)</item>
+		<item>HUM 106 Art and the Humanities (3)</item>
+		<item>HUM 130 Introduction to Religious Studies (3)</item>
+		<item>HUM 151 Ancient Greek I (3)</item>
+		<item>HUM 152 Ancient Greek II (3)</item>
+		<item>HUM 161 Latin I (3)</item>
+		<item>HUM 162 Latin II (3)</item>
+		<item>HUM 201 Great Texts: Ancient World to Renaissance (3)</item>
+		<item>HUM 202 Great Texts: Renaissance to Modernity (3)</item>
+		<item>HUM 203 Great Texts: Asian Thought and Literature (3)</item>
+		<item>HUM 204 Great Religious Texts (3)</item>
+		<item>HUM 211 Art and Literature of the Italian Renaissance (3)</item>
+		<item>HUM 216 The Ancient World (3)</item>
+		<item>HUM 219 The Early Middle Ages (3)</item>
+		<item>HUM 222 Cross-Cultural Perspectives on Art (3)</item>
+		<item>HUM 240 Studies in Modern Culture (3)</item>
+		<item>HUM 302W The Golden Age of Greece: An Integrated Society (4)</item>
+		<item>HUM 303 The Latin Humanist Tradition (4)</item>
+		<item>HUM 305 Medieval Studies (4)</item>
+		<item>HUM 307 Carolingian Civilization (4)</item>
+		<item>HUM 309 Literatures and the Arts Across Cultures (4)</item>
+		<item>HUM 311 Italian Renaissance Humanism (4)</item>
+		<item>HUM 312W Renaissance Studies (4)</item>
+		<item>HUM 320 Cross-Cultural Philosophy in the Humanities (4)</item>
+		<item>HUM 321 The Humanities and Critical Thinking (4)</item>
+		<item>HUM 321W The Humanities and Critical Thinking (4)</item>
+		<item>HUM 325 The Humanities and the Natural World (4)</item>
+		<item>HUM 330 Religions in Context (4)</item>
+		<item>HUM 331 Special Topics in Asian Religious Traditions (4)</item>
+		<item>HUM 332 Mythology in Context (4)</item>
+		<item>HUM 340 Great Cities in Their Time (4)</item>
+		<item>HUM 350 Special Topics: Great Figures in the Humanistic Tradition (4)</item>
+		<item>HUM 360 Special Topics: Great Themes in the Humanistic Tradition (4)</item>
+		<item>HUM 375 The Woodsworth Seminar (4)</item>
+		<item>HUM 381 Selected Topics in the Humanities I (4)</item>
+		<item>HUM 382 Selected Topics in Asian Cultures (4)</item>
+		<item>HUM 385 Selected Topics in European Cultures (4)</item>
+		<item>HUM 387 Selected Topics in European Art and Culture (4)</item>
+		<item>HUM 390 Directed Studies in Humanities (4)</item>
+		<item>HUM 422 The Humanities and the Critique of Culture (4)</item>
+		<item>HUM 480 Advanced Topics in the Humanities (4)</item>
+		<item>HUM 800 Theories and Methods in the Humanities (5)</item>
+		<item>HUM 801 Research Development Seminar in the Humanities (5)</item>
+		<item>HUM 802 Themes in the Humanities (5)</item>
+		<item>HUM 803 MA Thesis (10)</item>
+		<item>HUM 804 Directed Readings (5)</item>
+		<item>HUM 805 Special Topics (5)</item>
+	</string-array>
+</resources>

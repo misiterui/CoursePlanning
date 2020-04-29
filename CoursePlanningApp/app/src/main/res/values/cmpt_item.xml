@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string-array name="cmpt_spinner" tools:ignore="InconsistentArrays">
+		<item>CMPT 102 Introduction to Scientific Computer Programming (3)</item>
+		<item>CMPT 105W Process, Form, and Convention in Professional Genres (3)</item>
+		<item>CMPT 106 Applied Science, Technology and Society (3)</item>
+		<item>CMPT 110 Programming in Visual Basic (3)</item>
+		<item>CMPT 118 Special Topics in Computer and Information Technology (3)</item>
+		<item>CMPT 120 Introduction to Computing Science and Programming I (3)</item>
+		<item>CMPT 125 Introduction to Computing Science and Programming II (3)</item>
+		<item>CMPT 126 Introduction to Computing Science and Programming (3)</item>
+		<item>CMPT 127 Computing Laboratory (3)</item>
+		<item>CMPT 128 Introduction to Computing Science and Programming for Engineers (3)</item>
+		<item>CMPT 129 Introduction to Computing Science and Programming for Mathematics and Statistics (3)</item>
+		<item>CMPT 130 Introduction to Computer Programming I (3)</item>
+		<item>CMPT 135 Introduction to Computer Programming II (3)</item>
+		<item>CMPT 150 Introduction to Computer Design (3)</item>
+		<item>CMPT 165 Introduction to the Internet and the World Wide Web (3)</item>
+		<item>CMPT 166 An Animated Introduction to Programming (3)</item>
+		<item>CMPT 170 Introduction to Web Application Development (3)</item>
+		<item>CMPT 213 Object oriented design in Java (3)</item>
+		<item>CMPT 218 Special Topics in Computing Science (3)</item>
+		<item>CMPT 225 Data Structures and Programming (3)</item>
+		<item>CMPT 250 Introduction to Computer Architecture (3)</item>
+		<item>CMPT 261 Spatial Computing (3)</item>
+		<item>CMPT 275 Software Engineering I (4)</item>
+		<item>CMPT 276 Introduction to Software Engineering (3)</item>
+		<item>CMPT 295 Introduction to Computer Systems (3)</item>
+		<item>CMPT 300 Operating Systems I (3)</item>
+		<item>CMPT 305 Computer Simulation and Modelling (3)</item>
+		<item>CMPT 307 Data Structures and Algorithms (3)</item>
+		<item>CMPT 308 Computability and Complexity (3)</item>
+		<item>CMPT 310 Artificial Intelligence Survey (3)</item>
+		<item>CMPT 318 Special Topics in Computing Science (3)</item>
+		<item>CMPT 320 Social Implications Computerized Society (3)</item>
+		<item>CMPT 322W Professional Responsibility and Ethics (3)</item>
+		<item>CMPT 340 Biomedical Computing (3)</item>
+		<item>CMPT 353 Computational Data Science (3)</item>
+		<item>CMPT 354 Database Systems I (3)</item>
+		<item>CMPT 361 Introduction to Computer Graphics (3)</item>
+		<item>CMPT 363 User Interface Design (3)</item>
+		<item>CMPT 365 Multimedia Systems (3)</item>
+		<item>CMPT 371 Data Communications and Networking (3)</item>
+		<item>CMPT 373 Software Development Methods (3)</item>
+		<item>CMPT 376W Technical Writing and Group Dynamics (3)</item>
+		<item>CMPT 379 Principles of Compiler Design (3)</item>
+		<item>CMPT 383 Comparative Programming Languages (3)</item>
+		<item>CMPT 384 Symbolic Computing (3)</item>
+		<item>CMPT 404 Cryptography and Cryptographic Protocols (3)</item>
+		<item>CMPT 405 Design and Analysis of Computing Algorithms (3)</item>
+		<item>CMPT 406 Computational Geometry (3)</item>
+		<item>CMPT 407 Computational Complexity (3)</item>
+		<item>CMPT 408 Theory of Computing Networks/Communications (3)</item>
+		<item>CMPT 409 Special Topics in Theoretical Computing Science (3)</item>
+		<item>CMPT 411 Knowledge Representation (3)</item>
+		<item>CMPT 412 Computational Vision (3)</item>
+		<item>CMPT 413 Computational Linguistics (3)</item>
+		<item>CMPT 414 Model-Based Computer Vision (3)</item>
+		<item>CMPT 415 Special Research Projects (3)</item>
+		<item>CMPT 416 Special Research Projects (3)</item>
+		<item>CMPT 417 Intelligent Systems (3)</item>
+		<item>CMPT 419 Special Topics in Artificial Intelligence (3)</item>
+		<item>CMPT 426 Practicum I (3)</item>
+		<item>CMPT 427 Practicum II (3)</item>
+		<item>CMPT 428 Practicum III (3)</item>
+		<item>CMPT 429 Practicum IV (3)</item>
+		<item>CMPT 430 Practicum V (3)</item>
+		<item>CMPT 431 Distributed Systems (3)</item>
+		<item>CMPT 433 Embedded Systems (3)</item>
+		<item>CMPT 441 Computational Biology (3)</item>
+		<item>CMPT 454 Database Systems II (3)</item>
+		<item>CMPT 456 Information Retrieval and Web Search (3)</item>
+		<item>CMPT 459 Special Topics in Database Systems (3)</item>
+		<item>CMPT 461 Image Synthesis (3)</item>
+		<item>CMPT 464 Geometric Modelling in Computer Graphics (3)</item>
+		<item>CMPT 466 Animation (3)</item>
+		<item>CMPT 469 Special Topics in Computer Graphics (3)</item>
+		<item>CMPT 470 Web-based Information Systems (3)</item>
+		<item>CMPT 471 Networking II (3)</item>
+		<item>CMPT 473 Software Testing, Reliability and Security (3)</item>
+		<item>CMPT 474 Web Systems Architecture (3)</item>
+		<item>CMPT 475 Requirements Engineering  (3)</item>
+		<item>CMPT 477 Introduction to Formal Verification (3)</item>
+		<item>CMPT 479 Special Topics in Computing Systems (3)</item>
+		<item>CMPT 489 Special Topics in Programming Language (3)</item>
+		<item>CMPT 496 Directed Studies (3)</item>
+		<item>CMPT 497 Dual Degree Program Capstone Project (6)</item>
+		<item>CMPT 498 Honours Research Project (6)</item>
+		<item>CMPT 499 Special Topics in Computer Hardware (3)</item>
+		<item>CMPT 626 Graduate Co-op I (3)</item>
+		<item>CMPT 627 Graduate Co-op II (3)</item>
+		<item>CMPT 628 Graduate Co-op III (3)</item>
+		<item>CMPT 629 Graduate Project (3)</item>
+		<item>CMPT 631 Industrial Internship (3)</item>
+		<item>CMPT 701 Computability and Logic (3)</item>
+		<item>CMPT 705 Design and Analysis of Algorithms (3)</item>
+		<item>CMPT 706 Design and Analysis of Algorithms for Big Data (3)</item>
+		<item>CMPT 710 Computational Complexity (3)</item>
+		<item>CMPT 711 Bioinformatics Algorithms (3)</item>
+		<item>CMPT 712 Approximation and Randomized Algorithms (3)</item>
+		<item>CMPT 720 Robotic Autonomy: Algorithms and Computation (3)</item>
+		<item>CMPT 721 Knowledge Representation and Reasoning (3)</item>
+		<item>CMPT 726 Machine Learning (3)</item>
+		<item>CMPT 727 Statistical Machine Learning (3)</item>
+		<item>CMPT 729 Reinforcement Learning (3)</item>
+		<item>CMPT 732 Programming for Big Data 1 (6)</item>
+		<item>CMPT 733 Programming for Big Data 2 (6)</item>
+		<item>CMPT 740 Database Systems (3)</item>
+		<item>CMPT 741 Data Mining (3)</item>
+		<item>CMPT 742 Practices in Visual Computing I (6)</item>
+		<item>CMPT 743 Practices in Visual Computing II (6)</item>
+		<item>CMPT 745 Software Engineering (3)</item>
+		<item>CMPT 756 Systems For Big Data (3)</item>
+		<item>CMPT 757 Frontiers of Visual Computing (3)</item>
+		<item>CMPT 762 Computer Vision (3)</item>
+		<item>CMPT 763 Biomedical Computer Vision (3)</item>
+		<item>CMPT 764 Geometric Modelling in Computer Graphics (3)</item>
+		<item>CMPT 766 Computer Animation and Simulation (3)</item>
+		<item>CMPT 767 Visualization (3)</item>
+		<item>CMPT 770 Parallel and Distributed Computing (3)</item>
+		<item>CMPT 771 Computer Networks (3)</item>
+		<item>CMPT 777 Formal Verification (3)</item>
+		<item>CMPT 780 Computer Security and Ethics (3)</item>
+		<item>CMPT 782 Cybersecurity Lab I (6)</item>
+		<item>CMPT 783 Cybersecurity Lab II (6)</item>
+		<item>CMPT 784 Cyber Risk Assessment and Management (3)</item>
+		<item>CMPT 785 Secure Software Design (3)</item>
+		<item>CMPT 786 Cloud and Network Security (3)</item>
+		<item>CMPT 787 Ethical Hacking (3)</item>
+		<item>CMPT 788 Information Privacy (6)</item>
+		<item>CMPT 789 Applied Cryptography (3)</item>
+		<item>CMPT 813 Computational Geometry (3)</item>
+		<item>CMPT 814 Algorithmic Graph Theory (3)</item>
+		<item>CMPT 815 Algorithms of Optimization (3)</item>
+		<item>CMPT 816 Theory of Communication Networks (3)</item>
+		<item>CMPT 820 Multimedia Systems (3)</item>
+		<item>CMPT 822 Computational Vision (3)</item>
+		<item>CMPT 823 Formal Topics Knowledge Representation (3)</item>
+		<item>CMPT 825 Natural Language Processing (3)</item>
+		<item>CMPT 827 Intelligent Systems (3)</item>
+		<item>CMPT 828 Illumination in Images and Video (3)</item>
+		<item>CMPT 829 Special Topics in Bioinformatics (3)</item>
+		<item>CMPT 843 Database and Knowledge-base Systems (3)</item>
+		<item>CMPT 875 Computation for Biomolecular Data (4)</item>
+		<item>CMPT 886 Special Topics in Operating Systems (3)</item>
+		<item>CMPT 889 Special Topics in Interdisciplinary Computing (3)</item>
+		<item>CMPT 891 Advanced Seminar (3)</item>
+		<item>CMPT 894 Directed Reading (3)</item>
+		<item>CMPT 895 Master Program Extended Essay (3)</item>
+		<item>CMPT 896 MSc Course Option Portfolio</item>
+		<item>CMPT 897 MSc Project (6)</item>
+		<item>CMPT 898 MSc Thesis (15)</item>
+		<item>CMPT 899 PhD Thesis (6)</item>
+		<item>CMPT 980 Special Topics in Computing Science (3)</item>
+		<item>CMPT 981 Special Topics in Theoretical Computing Science (3)</item>
+		<item>CMPT 982 Special Topics in Networks and Systems (3)</item>
+		<item>CMPT 983 Special Topics in Artificial Intelligence (3)</item>
+		<item>CMPT 984 Special Topics in Databases, Data Mining, Computational Biology (3)</item>
+		<item>CMPT 985 Special Topics in Graphics, HCI, Visualization, Vision, Multimedia (3)</item>
+		<item>CMPT XX1 Computers and the Activity of People (3)</item>
+	</string-array>
+</resources>

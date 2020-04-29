@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string-array name="ispo_spinner" tools:ignore="InconsistentArrays">
+		<item>ISPO 431 Europe in Comparative Perspective (4)</item>
+	</string-array>
+</resources>

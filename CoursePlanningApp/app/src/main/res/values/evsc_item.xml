@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string-array name="evsc_spinner" tools:ignore="InconsistentArrays">
+		<item>EVSC 100 Introduction to Environmental Science (3)</item>
+		<item>EVSC 201W Environmental Science in Practice (4)</item>
+		<item>EVSC 300 Seminar in Environmental Science (3)</item>
+		<item>EVSC 305 Methods in Environmental Science (4)</item>
+		<item>EVSC 334 STT-Earths Climate: Past and Future (3)</item>
+		<item>EVSC 380 Practicum I (3)</item>
+		<item>EVSC 381 Practicum II (3)</item>
+		<item>EVSC 391 Directed Study in Environmental Science (3)</item>
+		<item>EVSC 395 Special Topics in Environmental Science (3)</item>
+		<item>EVSC 399 Environmental Science Seminar I (1)</item>
+		<item>EVSC 400 Environmental Science Capstone (4)</item>
+		<item>EVSC 480 Practicum III (3)</item>
+		<item>EVSC 481 Practicum IV (3)</item>
+		<item>EVSC 482 Practicum V (3)</item>
+		<item>EVSC 490 Environmental Science Thesis (4)</item>
+		<item>EVSC 490W Environmental Science Thesis (4)</item>
+		<item>EVSC 491 Directed Study in Environmental Science (3)</item>
+		<item>EVSC 495 Special Topics in Environmental Science (3)</item>
+		<item>EVSC 499 Environmental Science Seminar II (1)</item>
+	</string-array>
+</resources>

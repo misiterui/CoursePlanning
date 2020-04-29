@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string-array name="ls_spinner" tools:ignore="InconsistentArrays">
+		<item>LS 800 Reflections on Reason and Passion I (5)</item>
+		<item>LS 801 Reflections on Reason and Passion II (5)</item>
+		<item>LS 810 Self and Society (5)</item>
+		<item>LS 811 Tradition and Modernity (5)</item>
+		<item>LS 812 Science and Human Values (5)</item>
+		<item>LS 813 Religious and Secular World Views (5)</item>
+		<item>LS 814 Liberty and Authority (5)</item>
+		<item>LS 815 Organizing Social Realities: Gender, Class, Race, Nation (5)</item>
+		<item>LS 819 Selected Topics (5)</item>
+		<item>LS 829 Directed Study (5)</item>
+		<item>LS 898 Liberal Studies Graduating Seminar (5)</item>
+		<item>LS 990 Extended Essays (Completion) (2.5)</item>
+		<item>LS 991 MA Project (Completion) (2.5)</item>
+		<item>LS 998 MA Extended Essays (5)</item>
+		<item>LS 999 MA Project (5)</item>
+	</string-array>
+</resources>

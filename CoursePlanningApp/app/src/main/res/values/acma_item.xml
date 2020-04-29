@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string-array name="acma_spinner" tools:ignore="InconsistentArrays">
+        <item>ACMA 101 Introduction to Insurance (3)</item>
+        <item>ACMA 210 Mathematics of Compound Interest (3)</item>
+        <item>ACMA 320 Actuarial Mathematics I (5)</item>
+        <item>ACMA 336 Job Practicum I (3)</item>
+        <item>ACMA 337 Job Practicum II (3)</item>
+        <item>ACMA 340 Financial Economics for Actuaries (3)</item>
+        <item>ACMA 355 Loss Models I (3)</item>
+        <item>ACMA 360W Actuarial Communication (3)</item>
+        <item>ACMA 395 Special Topics in Actuarial Science (3)</item>
+        <item>ACMA 425 Actuarial Mathematics II (3)</item>
+        <item>ACMA 436 Job Practicum III (3)</item>
+        <item>ACMA 437 Job Practicum IV (3)</item>
+        <item>ACMA 438 Job Practicum V (3)</item>
+        <item>ACMA 440 Models for Financial Economics (3)</item>
+        <item>ACMA 455 Loss Models II (3)</item>
+        <item>ACMA 465 Demography and Mortality Models (3)</item>
+        <item>ACMA 470 Property and Casualty Insurance (3)</item>
+        <item>ACMA 475 Theory of Pension (3)</item>
+        <item>ACMA 490 Selected Topics in Actuarial Science (3)</item>
+        <item>ACMA 494 Directed Studies in Actuarial Science (2)</item>
+        <item>ACMA 495 Directed Studies in Actuarial Science (3)</item>
+        <item>ACMA 815 Rate of Return Models (2)</item>
+        <item>ACMA 816 Stochastic Claims Processes (2)</item>
+        <item>ACMA 820 Stochastic Analysis of Insurance Portfolios (4)</item>
+        <item>ACMA 821 Advanced Actuarial Models (4)</item>
+        <item>ACMA 822 Risk Measures and Ordering (4)</item>
+        <item>ACMA 850 Actuarial Science: Selected Topics (4)</item>
+    </string-array>
+</resources>

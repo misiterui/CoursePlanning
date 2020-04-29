@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string-array name="etec_spinner" tools:ignore="InconsistentArrays">
+		<item>ETEC 691 Directed Studies (1)</item>
+		<item>ETEC 692 Directed Studies (1)</item>
+		<item>ETEC 693 Directed Studies (1)</item>
+		<item>ETEC 694 Directed Studies (2)</item>
+		<item>ETEC 695 Directed Studies (2)</item>
+		<item>ETEC 696 Directed Studies (2)</item>
+		<item>ETEC 697 Directed Studies (3)</item>
+		<item>ETEC 698 Directed Studies (3)</item>
+		<item>ETEC 699 Directed Studies (3)</item>
+	</string-array>
+</resources>

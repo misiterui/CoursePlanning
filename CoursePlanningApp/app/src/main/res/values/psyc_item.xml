@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string-array name="psyc_spinner" tools:ignore="InconsistentArrays">
+		<item>PSYC 100 Introduction to Psychology I (3)</item>
+		<item>PSYC 102 Introduction to Psychology II (3)</item>
+		<item>PSYC 106 Psychological Issues in Contemporary Society (3)</item>
+		<item>PSYC 109W Brain, Mind and Society  (3)</item>
+		<item>PSYC 201W Introduction to Research Methods in Psychology (4)</item>
+		<item>PSYC 210 Introduction to Data Analysis in Psychology (4)</item>
+		<item>PSYC 221 Introduction to Cognitive Psychology (3)</item>
+		<item>PSYC 241 Introduction to Abnormal Psychology (3)</item>
+		<item>PSYC 250 Introduction to Developmental Psychology (3)</item>
+		<item>PSYC 260 Introduction to Social Psychology (3)</item>
+		<item>PSYC 268 Introduction to Law and Psychology (3)</item>
+		<item>PSYC 280 Introduction to Biological Psychology (3)</item>
+		<item>PSYC 300W Critical Analysis of Issues in Psychology (4)</item>
+		<item>PSYC 301 Intermediate Research Methods and Data Analysis (4)</item>
+		<item>PSYC 303 Perception (3)</item>
+		<item>PSYC 308 History and Systems of Modern Psychology (3)</item>
+		<item>PSYC 325 Learning and Memory (3)</item>
+		<item>PSYC 330 Attention (3)</item>
+		<item>PSYC 352 Culture and Cognition (3)</item>
+		<item>PSYC 354 Development of Childrens Thinking (3)</item>
+		<item>PSYC 355 Adolescent Development (3)</item>
+		<item>PSYC 356 Developmental Psychopathology (3)</item>
+		<item>PSYC 357 Adulthood and Aging (3)</item>
+		<item>PSYC 358 Language and Social Interaction (3)</item>
+		<item>PSYC 359 Developmental Disabilities (3)</item>
+		<item>PSYC 362 Close Relationships (3)</item>
+		<item>PSYC 363 Intergroup Relations (3)</item>
+		<item>PSYC 365 Health Psychology (3)</item>
+		<item>PSYC 366 Psychology and Environmental Sustainability (3)</item>
+		<item>PSYC 367 Psychological Perspectives on Human Sexuality (3)</item>
+		<item>PSYC 370 Introduction to Theories of Personality (3)</item>
+		<item>PSYC 371 Intervention: Process and Outcome (3)</item>
+		<item>PSYC 376 Experimental Psychology and Law (3)</item>
+		<item>PSYC 379 Clinical Forensic Psychology (3)</item>
+		<item>PSYC 381 Behavioral Endocrinology (3)</item>
+		<item>PSYC 382 Cognitive Neuroscience (3)</item>
+		<item>PSYC 383 Psychopharmacology (3)</item>
+		<item>PSYC 385 Evolution and Psychology (3)</item>
+		<item>PSYC 386 Laboratory in Behavioral Neuroscience (4)</item>
+		<item>PSYC 387 Human Neuropsychology (3)</item>
+		<item>PSYC 388 Biological Rhythms and Sleep (3)</item>
+		<item>PSYC 389 Emotion and Motivation (3)</item>
+		<item>PSYC 391 Selected Topics in Psychology (3)</item>
+		<item>PSYC 393 Research Engagement</item>
+		<item>PSYC 402 Advanced Topics in History and Theoretical Psychology (4)</item>
+		<item>PSYC 410 Research Design I (4)</item>
+		<item>PSYC 411 Research Design II (4)</item>
+		<item>PSYC 425 Field School I</item>
+		<item>PSYC 426 Field School II</item>
+		<item>PSYC 430 Advanced Topics in Cognitive Psychology (4)</item>
+		<item>PSYC 441 Advanced Topics in Clinical Psychology (4)</item>
+		<item>PSYC 450 Advanced Topics in Developmental Psychology (4)</item>
+		<item>PSYC 457 Behavioral Neuroscience Undergraduate Honours Thesis Proposal (3)</item>
+		<item>PSYC 459 Behavioral Neuroscience Undergraduate Honours Thesis (9)</item>
+		<item>PSYC 461 Advanced Topics in Social Psychology (4)</item>
+		<item>PSYC 476 Advanced Topics in Law and Forensic Psychology (4)</item>
+		<item>PSYC 480 Advanced Topics in Biological Psychology (4)</item>
+		<item>PSYC 490 Honours  Project (4)</item>
+		<item>PSYC 491 Advanced Topics in Psychology (4)</item>
+		<item>PSYC 493 Directed Studies (3)</item>
+		<item>PSYC 494 Directed Studies (3)</item>
+		<item>PSYC 495 Directed Studies (3)</item>
+		<item>PSYC 499 Honours Project (9)</item>
+		<item>PSYC 600 Biological Bases of Behavior (3)</item>
+		<item>PSYC 603 Individual Differences  (3)</item>
+		<item>PSYC 705 Proseminar in History and Systems (3)</item>
+		<item>PSYC 715 Proseminar in Measurement (1.5)</item>
+		<item>PSYC 744 Proseminar in Psychopathology (3)</item>
+		<item>PSYC 750 Proseminar in Developmental Psychology (3)</item>
+		<item>PSYC 770 Proseminar in Personality (3)</item>
+		<item>PSYC 790 Proseminar in Law and Psychology (3)</item>
+		<item>PSYC 791 Proseminar 2 in Law and Psychology (3)</item>
+		<item>PSYC 806 Advanced Topics in Assessment (3)</item>
+		<item>PSYC 807A Advanced Topics in Intervention: Child Therapy (3)</item>
+		<item>PSYC 807B Advanced Topics in Intervention: Family Therapy (3)</item>
+		<item>PSYC 807D Advanced Topics in Intervention: Couples Research and Therapy (3)</item>
+		<item>PSYC 807E Advanced Topics in Intervention: Cognitive-Behavior Therapy (3)</item>
+		<item>PSYC 815 Mental Health Law and Policy (3)</item>
+		<item>PSYC 819 Ethics and Professional Issues (3)</item>
+		<item>PSYC 820A Psychological Assessment I (3)</item>
+		<item>PSYC 820B Psychological Assessment II (3)</item>
+		<item>PSYC 821A Practicum in Psychological Assessment I (2)</item>
+		<item>PSYC 821B Practicum in Psychological Assessment II (2)</item>
+		<item>PSYC 822 Psychological Intervention I (3)</item>
+		<item>PSYC 823 Psychological Intervention II (3)</item>
+		<item>PSYC 824 Research Issues in Psychology (3)</item>
+		<item>PSYC 825 Clinical Practice (2)</item>
+		<item>PSYC 830 Seminar in Child Evaluation and Treatment Formulation (3)</item>
+		<item>PSYC 831 Practicum in Child Evaluation and Treatment Formulation (2)</item>
+		<item>PSYC 836 Forensic Assessment (3)</item>
+		<item>PSYC 880 Junior Practicum (3)</item>
+		<item>PSYC 881 Senior Practicum (3)</item>
+		<item>PSYC 882 Neuropsychology Practicum (3)</item>
+		<item>PSYC 886 Internship (9)</item>
+		<item>PSYC 890 Practicum in Clinical Forensic Psychology (3)</item>
+		<item>PSYC 892 Research/Policy Practicum in Law and Psychology (3)</item>
+		<item>PSYC 895 MA Thesis Proposal (3)</item>
+		<item>PSYC 896 PhD Thesis Proposal (3)</item>
+		<item>PSYC 897 Research Project/Law &amp; Psyc/Forensic Psyc (3)</item>
+		<item>PSYC 898 MA Thesis (12)</item>
+		<item>PSYC 899 PhD Thesis (12)</item>
+		<item>PSYC 907B Neurocognitive Disorders (3)</item>
+		<item>PSYC 907D Advanced Topics in Biological Psychology: Cognitive Aging and Dementia (3)</item>
+		<item>PSYC 907F Advanced Topics in Biological Psychology: Cognitive Neuroscience (3)</item>
+		<item>PSYC 910 Research Design I: Experiments (3)</item>
+		<item>PSYC 911 Research Design II: Research Studies (3)</item>
+		<item>PSYC 912 Research Seminar (1.5)</item>
+		<item>PSYC 913 Research Seminar (1.5)</item>
+		<item>PSYC 914 Research Seminar (1.5)</item>
+		<item>PSYC 916 Research Seminar (1.5)</item>
+		<item>PSYC 917 Research Seminar (1.5)</item>
+		<item>PSYC 918 Research Seminar (1.5)</item>
+		<item>PSYC 925 Seminar in Cognitive Processes (3)</item>
+		<item>PSYC 944 Seminar in Psychopathology (3)</item>
+		<item>PSYC 950 Seminar in Developmental Psychology (3)</item>
+		<item>PSYC 960 Seminar in Social Psychology (3)</item>
+		<item>PSYC 980 Biological Psychology (3)</item>
+		<item>PSYC 990 Seminar in Law and Psychology (3)</item>
+		<item>PSYC 991 Research Comprehensive Examination 1 (3)</item>
+		<item>PSYC 992 Research Comprehensive Examination 2 (3)</item>
+		<item>PSYC 993 Research Comprehensive Examination 3 (3)</item>
+		<item>PSYC 997 Directed Studies (3)</item>
+		<item>PSYC 998 Directed Readings (3)</item>
+		<item>PSYC 999 PhD Clinical Comprehensive Examination (6)</item>
+	</string-array>
+</resources>

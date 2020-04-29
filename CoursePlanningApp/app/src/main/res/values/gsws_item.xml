@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string-array name="gsws_spinner" tools:ignore="InconsistentArrays">
+		<item>GSWS 100 Sex Talk: Introduction to Contemporary Issues in Sexuality Studies (3)</item>
+		<item>GSWS 101 Gender Talk (3)</item>
+		<item>GSWS 102 Feminist Action (3)</item>
+		<item>GSWS 200 Feminism without Borders (3)</item>
+		<item>GSWS 201 Colonizing Women: Canadian Women in Historical Perspective, 1600-1870s (3)</item>
+		<item>GSWS 204 Sex and the City (3)</item>
+		<item>GSWS 205 Gender and Popular Culture (3)</item>
+		<item>GSWS 210 Gender Today (3)</item>
+		<item>GSWS 211 STT-Gender &amp; Sexuality in Indigenous Film and Literature (3)</item>
+		<item>GSWS 306 Gender, Sexuality and Autobiographical Media  (4)</item>
+		<item>GSWS 308 Gendering Economy: Paid and Unpaid Labour (4)</item>
+		<item>GSWS 309 Gender and International Development (4)</item>
+		<item>GSWS 311 Modernizing Women: Canadian Women in Historical Perspective, 1870s-1970s (4)</item>
+		<item>GSWS 312 Immigrants, Women and Transnational Migration (4)</item>
+		<item>GSWS 314 Race, Class and Gender (4)</item>
+		<item>GSWS 315 Critical Disability Studies (4)</item>
+		<item>GSWS 316 Disciplining Sex: Feminist Science Studies and Sociobiology (4)</item>
+		<item>GSWS 317 Bread Riots to Riot Grrls: Gender, Resistance and Protest in Historical Perspective (4)</item>
+		<item>GSWS 318 Special Topics in Gender, Sexuality, and Womens Studies (4)</item>
+		<item>GSWS 319 Special Topics in Gender, Sexuality, and Womens Studies (4)</item>
+		<item>GSWS 320 Special Topics in Gender, Sexuality, and Womens Studies (4)</item>
+		<item>GSWS 321 Special Topics in Gender, Sexuality, and Womens Studies (4)</item>
+		<item>GSWS 322 Feminist Approaches to Research (4)</item>
+		<item>GSWS 327 Aboriginal Women in Canada (4)</item>
+		<item>GSWS 330 Masculinities (4)</item>
+		<item>GSWS 331 Queer Genders (4)</item>
+		<item>GSWS 333 Ruth Wynn Woodward Advanced Seminar (4)</item>
+		<item>GSWS 334 Law and Human Reproduction (3)</item>
+		<item>GSWS 335W Through a Gendered Lens (4)</item>
+		<item>GSWS 341 History of Women in Europe: Ideas and Debates from the Renaissance to the Present (4)</item>
+		<item>GSWS 350 Public Policy for Women (4)</item>
+		<item>GSWS 398W Feminist Currents (4)</item>
+		<item>GSWS 399 Gender, Sex and Numbers (4)</item>
+		<item>GSWS 401 Research Project (5)</item>
+		<item>GSWS 402 Directed Readings (2)</item>
+		<item>GSWS 403 Directed Readings (3)</item>
+		<item>GSWS 405 Theoretical Issues in Gender, Sexuality and Womens Studies (4)</item>
+		<item>GSWS 411 Special Topics in Gender, Sexuality, and Womens Studies (4)</item>
+		<item>GSWS 414 Dude, Wheres My Body?: Biopolitics, Biotechnologies, Bioecologies (4)</item>
+		<item>GSWS 431 Local Sex on Global Screen (4)</item>
+		<item>GSWS 432 Sex in the Sixties (4)</item>
+		<item>GSWS 433 Gender, Violence, Resistance (4)</item>
+		<item>GSWS 800 Toolkit for GSWS Research (5)</item>
+		<item>GSWS 811 Professional Development Colloquium I (3)</item>
+		<item>GSWS 812 Professional Development Colloquium II (3)</item>
+		<item>GSWS 820 History of Gender and Women (5)</item>
+		<item>GSWS 822 Graduate Seminar in Feminist Theory (5)</item>
+		<item>GSWS 823 Feminist Cultural Criticism (5)</item>
+		<item>GSWS 824 Gender and Social Policy (5)</item>
+		<item>GSWS 826 Graduate Seminar on Queer/Trans Studies (5)</item>
+		<item>GSWS 830 Selected Topics Graduate Seminar I (5)</item>
+		<item>GSWS 831 Selected Topics Graduate Seminar II (5)</item>
+		<item>GSWS 840 Directed Studies (5)</item>
+		<item>GSWS 844 Directed Studies II (5)</item>
+		<item>GSWS 898 MA Thesis (10)</item>
+		<item>GSWS 997 PhD Comprehensive Examination</item>
+		<item>GSWS 998 PhD Thesis (6)</item>
+		<item>GSWS 999 MA Field Exam (6)</item>
+	</string-array>
+</resources>

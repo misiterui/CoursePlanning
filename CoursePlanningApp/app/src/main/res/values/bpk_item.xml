@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string-array name="bpk_spinner" tools:ignore="InconsistentArrays">
+		<item>BPK 105 Fundamentals of Human Structure and Function (3)</item>
+		<item>BPK 110 Human Nutrition: Current Issues (3)</item>
+		<item>BPK 140 Contemporary Health Issues (3)</item>
+		<item>BPK 141 Theory of Exercise Program Design (3)</item>
+		<item>BPK 142 Introduction to Biomedical Physiology and Kinesiology (3)</item>
+		<item>BPK 143 Exercise: Health and Performance (3)</item>
+		<item>BPK 180W Introduction to Ergonomics (3)</item>
+		<item>BPK 201 Biomechanics (3)</item>
+		<item>BPK 205 Introduction to Human Physiology (3)</item>
+		<item>BPK 207 Sensorimotor Control and Learning (3)</item>
+		<item>BPK 208 Introduction to Physiological Systems (3)</item>
+		<item>BPK 221 Special Topics in Kinesiology (3)</item>
+		<item>BPK 241 Sports Injuries Prevention and Rehabilitation (3)</item>
+		<item>BPK 301 Biomechanics Laboratory (3)</item>
+		<item>BPK 303 Kinanthropometry (3)</item>
+		<item>BPK 304 Inquiry and Measurement in Kinesiology (3)</item>
+		<item>BPK 304W Inquiry and Measurement in Biomedical Physiology and Kinesiology (3)</item>
+		<item>BPK 305 Human Physiology I (3)</item>
+		<item>BPK 306 Human Physiology II (3)</item>
+		<item>BPK 307 Human Physiology III (3)</item>
+		<item>BPK 308 Experiments and Models in Systems Physiology (3)</item>
+		<item>BPK 310 Exercise/Work Physiology (3)</item>
+		<item>BPK 311 Applied Human Nutrition (3)</item>
+		<item>BPK 312 Nutrition for Fitness and Sport (3)</item>
+		<item>BPK 313 Nutrition and the Life Cycle (3)</item>
+		<item>BPK 314 Nutrition and Chronic Disease (3)</item>
+		<item>BPK 324 Principles of Human Anatomy (3)</item>
+		<item>BPK 325 Basic Human Anatomy (3)</item>
+		<item>BPK 326 Functional Anatomy (4)</item>
+		<item>BPK 336 Histology (3)</item>
+		<item>BPK 340 Active Health: Behavior and Promotion (3)</item>
+		<item>BPK 342 Active Health (3)</item>
+		<item>BPK 343 Active Health: Assessment and Programming (3)</item>
+		<item>BPK 351 Practicum I (3)</item>
+		<item>BPK 352 Practicum II (3)</item>
+		<item>BPK 375 Human Growth and Development (3)</item>
+		<item>BPK 381 Psychology of Work (3)</item>
+		<item>BPK 382 Workplace Health (3)</item>
+		<item>BPK 401 Muscle Biomechanics (3)</item>
+		<item>BPK 402 Mechanical Behavior of Biological Tissues (3)</item>
+		<item>BPK 405 Clinical Exercise Physiology I: Cardiorespiratory and Metabolic Disorders (3)</item>
+		<item>BPK 406 Clinical Exercise Physiology II: Musculoskeletal, Neuromuscular, and Immunological Disorders (3)</item>
+		<item>BPK 407 Human Physiology Laboratory (3)</item>
+		<item>BPK 408W Cellular Physiology Laboratory (3)</item>
+		<item>BPK 412 Molecular Cardiac Physiology (3)</item>
+		<item>BPK 415 Neural Control of Movement (3)</item>
+		<item>BPK 417 Obesity, Adipocyte Function and Weight management (3)</item>
+		<item>BPK 417W Obesity, Adipocyte Function and Weight Management (3)</item>
+		<item>BPK 420 Selected Topics in Biomedical Physiology and Kinesiology I (3)</item>
+		<item>BPK 421 Selected Topics in Biomedical Physiology and Kinesiology II (3)</item>
+		<item>BPK 422 Selected Topics in Biomedical Physiology and Kinesiology III (3)</item>
+		<item>BPK 423 Selected Topics in Biomedical Physiology and Kinesiology IV (3)</item>
+		<item>BPK 426 Functional Human Neuroanatomy (3)</item>
+		<item>BPK 430 Human Energy Metabolism (3)</item>
+		<item>BPK 431 Integrative Cancer Biology (3)</item>
+		<item>BPK 432 Physiological Basis of Temperature Regulation (3)</item>
+		<item>BPK 443 Advanced Exercise Prescription (3)</item>
+		<item>BPK 444 Cardiac Disease: Pathophysiology and Assessment (3)</item>
+		<item>BPK 445 Advanced Cardiac Rehabilitation (3)</item>
+		<item>BPK 446 Neurological Disorders (3)</item>
+		<item>BPK 448 Rehabilitation of Movement Control (3)</item>
+		<item>BPK 451 Practicum III (3)</item>
+		<item>BPK 451W Practicum III (3)</item>
+		<item>BPK 452 Practicum IV (3)</item>
+		<item>BPK 453 Practicum V (3)</item>
+		<item>BPK 457 Behavioural Neuroscience Undergraduate Honours Thesis Proposal (3)</item>
+		<item>BPK 458 Prevention and Management of Cardiovascular Disease (3)</item>
+		<item>BPK 459 Behavioural Neuroscience Undergraduate Honours Thesis (9)</item>
+		<item>BPK 481 Musculoskeletal Disorders (3)</item>
+		<item>BPK 482 Ergonomics and Rehabilitation (3)</item>
+		<item>BPK 484 Altitude and Aerospace Physiology (3)</item>
+		<item>BPK 491 Undergraduate Honours Thesis Proposal (3)</item>
+		<item>BPK 495 Undergraduate Honours Research Performance (6)</item>
+		<item>BPK 496 Directed Study Literature (3)</item>
+		<item>BPK 498 Directed Study Experiential (3)</item>
+		<item>BPK 499 Undergraduate Honours Thesis Reporting (6)</item>
+		<item>BPK 801 Seminar on Research in Biomedical Physiology and Kinesiology (3)</item>
+		<item>BPK 805 Directed Studies (3)</item>
+		<item>BPK 806 Special Topics (3)</item>
+		<item>BPK 807 Special Topics (3)</item>
+		<item>BPK 808 Special Topics (3)</item>
+		<item>BPK 811 Special Topics Anatomy (3)</item>
+		<item>BPK 812 Molecular and Cellular Cardiology (3)</item>
+		<item>BPK 831 Current Topics in Thermophysiology (3)</item>
+		<item>BPK 840 Human Biomechanics (3)</item>
+		<item>BPK 851 Recent Advances in Experimental Carcinogenesis (3)</item>
+		<item>BPK 870 Experiments and Models in Physiology (3)</item>
+		<item>BPK 895 MSc Proposal</item>
+		<item>BPK 896 PhD Comprehensive Examination</item>
+		<item>BPK 897 PhD Seminar</item>
+		<item>BPK 898 MSc Thesis (18)</item>
+		<item>BPK 899 PhD Thesis (18)</item>
+	</string-array>
+</resources>

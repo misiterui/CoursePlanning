@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string-array name="easc_spinner" tools:ignore="InconsistentArrays">
+		<item>EASC 101 Dynamic Earth (3)</item>
+		<item>EASC 103 The Rise and Fall of the Dinosaurs (3)</item>
+		<item>EASC 104 Geohazards Earth in Turmoil (3)</item>
+		<item>EASC 106 Earth Through Time (3)</item>
+		<item>EASC 107 Economic Geological Resources (3)</item>
+		<item>EASC 108 Exploring the Solar System (3)</item>
+		<item>EASC 201 Stratigraphy and Sedimentation (3)</item>
+		<item>EASC 202 Introduction to Mineralogy (3)</item>
+		<item>EASC 204 Structural Geology I (3)</item>
+		<item>EASC 205 Introduction to Petrology (3)</item>
+		<item>EASC 206 Field Geology I (2)</item>
+		<item>EASC 207 Introduction to Applied Geophysics (3)</item>
+		<item>EASC 208 Introduction to Geochemistry (3)</item>
+		<item>EASC 209W Environmental Geoscience (4)</item>
+		<item>EASC 210 Evolving Earth (3)</item>
+		<item>EASC 300 Selected Topics in Earth Sciences (3)</item>
+		<item>EASC 301 Igneous Petrology (3)</item>
+		<item>EASC 302 Sedimentary Petrology (3)</item>
+		<item>EASC 304 Hydrogeology (3)</item>
+		<item>EASC 305 Quantitative Methods for the Earth Sciences (3)</item>
+		<item>EASC 306 Field Geology II (3)</item>
+		<item>EASC 307 Applied Geophysics (3)</item>
+		<item>EASC 308 Field Geology III (3)</item>
+		<item>EASC 309 Global Tectonics (3)</item>
+		<item>EASC 310W Paleontology (3)</item>
+		<item>EASC 311 Metamorphic Petrology (3)</item>
+		<item>EASC 312 Stratigraphy (3)</item>
+		<item>EASC 313 Introduction to Soil and Rock Engineering (3)</item>
+		<item>EASC 314 Principles of Glaciology (3)</item>
+		<item>EASC 315W Geochemistry of Natural Waters (3)</item>
+		<item>EASC 317 Global Geophysics (3)</item>
+		<item>EASC 400 Selected Topics in Earth Sciences (3)</item>
+		<item>EASC 401 Mineral Deposits (3)</item>
+		<item>EASC 402 Sedimentology (3)</item>
+		<item>EASC 403 Quaternary Geology (3)</item>
+		<item>EASC 404 Structural Geology II (3)</item>
+		<item>EASC 405 Water, Environment, and Climate Change (3)</item>
+		<item>EASC 408 Regional Geology of Western Canada (3)</item>
+		<item>EASC 410 Groundwater Contamination and Transport (3)</item>
+		<item>EASC 411 Terrain Analysis (3)</item>
+		<item>EASC 413 Resource Geotechnics (3)</item>
+		<item>EASC 415 Groundwater Modelling (3)</item>
+		<item>EASC 416 Field and Lab Techniques in Hydrogeology (3)</item>
+		<item>EASC 420 Petroleum Geology (3)</item>
+		<item>EASC 421 Volcanology (3)</item>
+		<item>EASC 491 Directed Readings (1)</item>
+		<item>EASC 492 Directed Readings (2)</item>
+		<item>EASC 493 Directed Readings (3)</item>
+		<item>EASC 499 Honours Thesis (6)</item>
+		<item>EASC 600 Introduction to Graduate Studies</item>
+		<item>EASC 601 Advanced Groundwater Geochemistry (3)</item>
+		<item>EASC 602 Environmental Isotopes (3)</item>
+		<item>EASC 603 Field and Lab Techniques in Hydrogeology (3)</item>
+		<item>EASC 604 Deformation Mechanisms and Continental Tectonics (3)</item>
+		<item>EASC 605 Advanced Glaciology (3)</item>
+		<item>EASC 606 Advanced Field Methods in Earth Sciences (3)</item>
+		<item>EASC 607 Exploration Seismology (3)</item>
+		<item>EASC 608 Advanced Metamorphic Petrology (3)</item>
+		<item>EASC 609 Interferometric Synthetic Aperture Radar Remote Sensing Applications (3)</item>
+		<item>EASC 610 Petroleum Geology (3)</item>
+		<item>EASC 611 Sedimentology (3)</item>
+		<item>EASC 612 Stratigraphy (3)</item>
+		<item>EASC 613 Groundwater Modelling (3)</item>
+		<item>EASC 617 Quaternary Geology (3)</item>
+		<item>EASC 619 Environmental Geoscience (3)</item>
+		<item>EASC 620 Volcanology (3)</item>
+		<item>EASC 621 Tectonics and Magmatism Convergent Plate Margins (3)</item>
+		<item>EASC 622 Principles of Ichnology (3)</item>
+		<item>EASC 623 Groundwater Resource Evaluation (3)</item>
+		<item>EASC 624 Geology of the Canadian Cordillera (3)</item>
+		<item>EASC 625 Issues in Canadian Cordillera Geology and Tectonics (3)</item>
+		<item>EASC 626 Applied Geochronology (3)</item>
+		<item>EASC 628 Advanced Mineral Deposits (3)</item>
+		<item>EASC 630 Groundwater Contamination and Transport (3)</item>
+		<item>EASC 635 Water, Environment and Climate Change (3)</item>
+		<item>EASC 703 Special Topics in Earth Sciences III (3)</item>
+		<item>EASC 704 Special Topics (3)</item>
+		<item>EASC 705 Special Topics (3)</item>
+		<item>EASC 706 Special Topics (3)</item>
+		<item>EASC 707 Special Topics (3)</item>
+		<item>EASC 708 Special Topics (3)</item>
+		<item>EASC 709 Directed Readings (1)</item>
+		<item>EASC 710 Directed Readings (2)</item>
+		<item>EASC 711 Directed Readings (3)</item>
+		<item>EASC 810 MSc Thesis Proposal</item>
+		<item>EASC 898 MSc Thesis (18)</item>
+		<item>EASC 901 PhD Research Seminar (1)</item>
+		<item>EASC 910 PhD Candidacy Examination</item>
+		<item>EASC 998 PhD Thesis (18)</item>
+	</string-array>
+</resources>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string-array name="rem_spinner" tools:ignore="InconsistentArrays">
+		<item>REM 100 Global Change (3)</item>
+		<item>REM 200 Introduction to Resource and Environmental Management in Canada (3)</item>
+		<item>REM 202W Technical Communication for Environmental Professionals and Planners (3)</item>
+		<item>REM 207 STT Indigenous Peoples and Resource Management (3)</item>
+		<item>REM 221 Systems Thinking and the Environment (3)</item>
+		<item>REM 281 Sustainable Communities, Sustainable World (3)</item>
+		<item>REM 311 Applied Ecology and Sustainable Environments (3)</item>
+		<item>REM 319 Environmental and Planning Law (3)</item>
+		<item>REM 321 Ecological Economics (4)</item>
+		<item>REM 334 STT-Earths Climate: Past and Future (3)</item>
+		<item>REM 350 Sustainable Energy and Materials Management (4)</item>
+		<item>REM 355 Sustainable Transportation Management (3)</item>
+		<item>REM 356 Institutional Arrangements for Sustainable Environmental Management (3)</item>
+		<item>REM 356W Institutional Arrangements for Sustainable Environmental Management (3)</item>
+		<item>REM 363 Special Topics (3)</item>
+		<item>REM 370 Global Resource Issues in Oceanography (4)</item>
+		<item>REM 375 Ecology and Conservation of Coastal BC (3)</item>
+		<item>REM 381 Building Sustainable Communities: Concepts and Cases (4)</item>
+		<item>REM 388 STT Wildlife Conservation (3)</item>
+		<item>REM 391 Directed Studies (3)</item>
+		<item>REM 406 Indigenous People and Co-management (4)</item>
+		<item>REM 407 Indigenous Governance and Resource Relationships (4)</item>
+		<item>REM 412 Environmental Modeling (4)</item>
+		<item>REM 423 Research Methods in Fisheries Assessment (4)</item>
+		<item>REM 427 Avalanche Risk Management (4)</item>
+		<item>REM 431 STT-Climate Change and Environmental Management (4)</item>
+		<item>REM 445 Environmental Risk Assessment (4)</item>
+		<item>REM 446 Environmental and Social Impact Assessment (4)</item>
+		<item>REM 454 Water Security (4)</item>
+		<item>REM 463 Special Topics (3)</item>
+		<item>REM 471 Forest Ecosystem Management (4)</item>
+		<item>REM 481 Sustainable Communities Leadership Lab (4)</item>
+		<item>REM 491 Directed Studies (3)</item>
+		<item>REM 495 Resource and Environmental Management Capstone (4)</item>
+		<item>REM 499 Resource and Environmental Management Honours Thesis (4)</item>
+		<item>REM 601 Social Science of Natural Resources Management (5)</item>
+		<item>REM 602 Professional Planning Practice: Advanced Seminar (5)</item>
+		<item>REM 606 Indigenous People and Co-management (5)</item>
+		<item>REM 607 Indigenous Governance and Resource Relationships (5)</item>
+		<item>REM 610 Applied Environmental Toxicology and Environmental Management of Contaminants (5)</item>
+		<item>REM 611 Population and Community Ecology (5)</item>
+		<item>REM 612 Simulation Modelling in Natural Resource Management (5)</item>
+		<item>REM 613 Methods in Fisheries Assessment (5)</item>
+		<item>REM 614 Advanced Methods in Fisheries Assessment (5)</item>
+		<item>REM 621 Ecological Economics (5)</item>
+		<item>REM 625 Risk Assessment and Decision Analysis for Management of Natural Resources (5)</item>
+		<item>REM 627 Avalanche Risk Management (5)</item>
+		<item>REM 631 Earth Systems and Global Change in Environmental Management (5)</item>
+		<item>REM 641 Environmental and Planning Law (5)</item>
+		<item>REM 642 Sustainable Community Planning and Regional Development (5)</item>
+		<item>REM 643 Environmental Conflict and Dispute Resolution (5)</item>
+		<item>REM 644 Public Policy Analysis and Administration (5)</item>
+		<item>REM 646 Environmental and Social Impact Assessment and Environmental Management Systems (5)</item>
+		<item>REM 647 Parks and Outdoor Recreation Planning (5)</item>
+		<item>REM 648 The Tourism System (5)</item>
+		<item>REM 650 Energy and Materials Management and Policy (5)</item>
+		<item>REM 651 Project Evaluation and Non-market Valuation Methods (5)</item>
+		<item>REM 652 Community Tourism Planning and Development (5)</item>
+		<item>REM 654 STT Water Security (5)</item>
+		<item>REM 655 Water Planning and Management (5)</item>
+		<item>REM 656 Environment and Development (5)</item>
+		<item>REM 658 Energy and Materials Systems Modeling (5)</item>
+		<item>REM 660 Special Topics in Natural Resources Management (5)</item>
+		<item>REM 661 Special Topics in Resources Management (5)</item>
+		<item>REM 662 Special Topics in Resource Management (5)</item>
+		<item>REM 663 Special Topics in Resource Management (5)</item>
+		<item>REM 664 Directed Studies (5)</item>
+		<item>REM 665 Directed Studies (5)</item>
+		<item>REM 667 Special Topics (3)</item>
+		<item>REM 668 Special Topics (3)</item>
+		<item>REM 670 Introduction to Forestry (5)</item>
+		<item>REM 690 Co-op I</item>
+		<item>REM 691 Co-op II</item>
+		<item>REM 697 MRM Thesis (18)</item>
+		<item>REM 698 Field Resource Management Workshop (3)</item>
+		<item>REM 699 Research Project (6)</item>
+		<item>REM 801 Principles of Research Methods (5)</item>
+		<item>REM 802 Research Approaches for REM PhD Students (5)</item>
+		<item>REM 898 Thesis Proposal</item>
+		<item>REM 899 PhD Thesis (18)</item>
+	</string-array>
+</resources>

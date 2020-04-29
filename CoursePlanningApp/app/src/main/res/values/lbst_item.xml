@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string-array name="lbst_spinner" tools:ignore="InconsistentArrays">
+		<item>LBST 101 Introducing Labour Studies (3)</item>
+		<item>LBST 201 Workers in the Global Economy: Globalization, Labour and Uneven Development (3)</item>
+		<item>LBST 202 Labour Research for Social Change: Methods and Approaches (3)</item>
+		<item>LBST 230 Special Topics in Labour Studies (3)</item>
+		<item>LBST 301W Labour Movements: Issues, Images and Popular Culture (3)</item>
+		<item>LBST 306 The Political Economy of Labour Markets: Critical and Radical Approaches (3)</item>
+		<item>LBST 307 Unfree Labour and Modern Slavery: Understanding Coercion and Exploitation in Contemporary Labour Markets (3)</item>
+		<item>LBST 308 The Labour Process: Technological Change and the Future of Work (3)</item>
+		<item>LBST 309 Labour and Collective Bargaining (3)</item>
+		<item>LBST 310 The Politics of Labour (3)</item>
+		<item>LBST 311 Labour and the Environment (3)</item>
+		<item>LBST 312 Global Labour Migration (3)</item>
+		<item>LBST 313 Introduction to Canadian Labour Law (3)</item>
+		<item>LBST 328 Labour Geographies (4)</item>
+		<item>LBST 330 Selected Topics in Labour Studies (3)</item>
+		<item>LBST 331 Selected Topics in Labour Studies (4)</item>
+		<item>LBST 431 Selected Topics in Labour Studies (4)</item>
+	</string-array>
+</resources>

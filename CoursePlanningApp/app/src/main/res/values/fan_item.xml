@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string-array name="fan_spinner" tools:ignore="InconsistentArrays">
+		<item>FAN X99 Foundations of Analytical and Quantitative Reasoning (4)</item>
+	</string-array>
+</resources>

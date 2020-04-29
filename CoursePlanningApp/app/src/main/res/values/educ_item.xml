@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string-array name="educ_spinner" tools:ignore="InconsistentArrays">
+		<item>EDUC 100W Selected Questions and Issues in Education (3)</item>
+		<item>EDUC 199 Foundations of Personal Agency: Finding Voice and Place in Academia (4)</item>
+		<item>EDUC 211 Mathematical Experience I: Numbers and Beyond (3)</item>
+		<item>EDUC 212 Mathematical Experience II: Shape and Space (3)</item>
+		<item>EDUC 220 Introduction to Educational Psychology (3)</item>
+		<item>EDUC 222 Research Methods in Educational Psychology (3)</item>
+		<item>EDUC 230 Introduction to Philosophy of Education (3)</item>
+		<item>EDUC 240 Social Issues in Education (3)</item>
+		<item>EDUC 250 Studies in the History of Education in the Western World (3)</item>
+		<item>EDUC 252 Introduction to Reflective Practice (4)</item>
+		<item>EDUC 298 Special Topics</item>
+		<item>EDUC 299 Special Topics</item>
+		<item>EDUC 311 Foundations in Aboriginal Education, Language, and Culture (3)</item>
+		<item>EDUC 313 Numeracy and Society (3)</item>
+		<item>EDUC 315 Individual and Developmental Differences in Language Acquisition (3)</item>
+		<item>EDUC 320 Instructional Psychology (3)</item>
+		<item>EDUC 322 The Social Lives of School Children (3)</item>
+		<item>EDUC 323 Introduction to Counselling Theories (3)</item>
+		<item>EDUC 324 Foundations of Multicultural Counselling (3)</item>
+		<item>EDUC 325 Assessment for Classroom Teaching (3)</item>
+		<item>EDUC 326 Creating Positive Learning Communities (3)</item>
+		<item>EDUC 327 Self, Psychology and Education (3)</item>
+		<item>EDUC 328 Career Education and Career Counselling (3)</item>
+		<item>EDUC 330 Movement Language Elements for Dance in Education (3)</item>
+		<item>EDUC 339 Practicum 1 (3)</item>
+		<item>EDUC 341 Literacy, Education and Culture (3)</item>
+		<item>EDUC 342W Contemporary Approaches to Literacy Instruction (3)</item>
+		<item>EDUC 343 Literacy Practicum (5)</item>
+		<item>EDUC 349 Practicum II (3)</item>
+		<item>EDUC 351 Teaching the Older Adult (3)</item>
+		<item>EDUC 352W Building on Reflective Practice (4)</item>
+		<item>EDUC 355 Theatre in an Educational Context (4)</item>
+		<item>EDUC 358 Foundations of Educational Technology (3)</item>
+		<item>EDUC 359 Introduction to Outdoor Education (4)</item>
+		<item>EDUC 360 Language in Education and Society: Inequality in Globalization (4)</item>
+		<item>EDUC 370 International and Intercultural Education (4)</item>
+		<item>EDUC 371W School Health Education (4)</item>
+		<item>EDUC 375 Struggle with Mathematics: Sources and Recovery (3)</item>
+		<item>EDUC 376 Introduction to Educational Leadership (3)</item>
+		<item>EDUC 380 Introduction to Teaching French in Canadian Contexts (4)</item>
+		<item>EDUC 382 Diversity in Education: Theories, Policies, Practices (4)</item>
+		<item>EDUC 383 Special Topics</item>
+		<item>EDUC 384 Special Topics</item>
+		<item>EDUC 385 Special Topics</item>
+		<item>EDUC 386 Special Topics</item>
+		<item>EDUC 387 Special Topics</item>
+		<item>EDUC 388 Special Topics</item>
+		<item>EDUC 389 Special Topics</item>
+		<item>EDUC 390 Special Topics</item>
+		<item>EDUC 391 Special Topics</item>
+		<item>EDUC 392 Special Topics</item>
+		<item>EDUC 393 Special Topics</item>
+		<item>EDUC 394 Special Topics</item>
+		<item>EDUC 395 Special Topics</item>
+		<item>EDUC 396 Special Topics</item>
+		<item>EDUC 397 Special Topics</item>
+		<item>EDUC 398 Special Topics</item>
+		<item>EDUC 399 Special Topics</item>
+		<item>EDUC 400 Foundations of Education and Schooling (15)</item>
+		<item>EDUC 401W Introduction to Classroom Teaching (8)</item>
+		<item>EDUC 402W Studies of Educational Theory and Practice (7)</item>
+		<item>EDUC 403 Studies in Teaching and Learning (11)</item>
+		<item>EDUC 404 Coursework Semester</item>
+		<item>EDUC 405 Teaching Semester (15)</item>
+		<item>EDUC 406 Supervised Observation and Teaching (12)</item>
+		<item>EDUC 411 Investigations in Mathematics for Secondary Teachers (3)</item>
+		<item>EDUC 412W Designs for Learning: Secondary Language Arts (4)</item>
+		<item>EDUC 414 Designs for Learning: Secondary Social Studies (4)</item>
+		<item>EDUC 415 Designs for Learning: Secondary Mathematics (4)</item>
+		<item>EDUC 416 Designs for Learning: Secondary Science (4)</item>
+		<item>EDUC 422 Learning Disabilities (4)</item>
+		<item>EDUC 423 Helping Relationships (4)</item>
+		<item>EDUC 424 Learning Disabilities: Laboratory (4)</item>
+		<item>EDUC 426 Teaching Children and Youth with Special Needs (4)</item>
+		<item>EDUC 427 Teaching Students with Special Needs in Inclusive Settings. (4)</item>
+		<item>EDUC 428W Nature and Nurture of Gifted Students (4)</item>
+		<item>EDUC 430 Designs for Learning: Dance (4)</item>
+		<item>EDUC 433 Philosophical Issues in Curriculum (4)</item>
+		<item>EDUC 435 Infusing Global Perspectives into Curriculum (4)</item>
+		<item>EDUC 437 Ethical Issues in Education (4)</item>
+		<item>EDUC 438 Education and Popular Culture (4)</item>
+		<item>EDUC 439 Practicum III (3)</item>
+		<item>EDUC 441 Multicultural and Anti-racist Education (4)</item>
+		<item>EDUC 445 Legal Context of Teaching (4)</item>
+		<item>EDUC 446 Law for the Classroom Teacher (4)</item>
+		<item>EDUC 448 Teaching about Justice, Law and Citizenship (4)</item>
+		<item>EDUC 449 Practicum IV (3)</item>
+		<item>EDUC 450 Classroom French Curriculum Studies (4)</item>
+		<item>EDUC 452 Environmental Education (8)</item>
+		<item>EDUC 454 Quantitative Approaches to Environmental Education (4)</item>
+		<item>EDUC 456 Models of Contemporary Arts in Education (4)</item>
+		<item>EDUC 457 Drama and Education (4)</item>
+		<item>EDUC 458 Pedagogy and Practice of Arts for Social Change (4)</item>
+		<item>EDUC 459 Instructional Activities in Physical Education (4)</item>
+		<item>EDUC 464 Early Childhood Education (4)</item>
+		<item>EDUC 465 Childrens Literature (4)</item>
+		<item>EDUC 466 Early Childhood Education: Curriculum and Instruction (4)</item>
+		<item>EDUC 467 Curriculum and Instruction in Teaching English as an Additional Language (4)</item>
+		<item>EDUC 468 Sociocultural Perspectives on Language, Cognitive Development and EAL Instruction (4)</item>
+		<item>EDUC 469 Music Education as Thinking in Sound (4)</item>
+		<item>EDUC 471 Curriculum Development: Theory and Practice (4)</item>
+		<item>EDUC 472 Designs for Learning: Elementary Language Arts (4)</item>
+		<item>EDUC 473W Designs for Learning: Reading (4)</item>
+		<item>EDUC 474 Designs for Learning: Elementary Social Studies (4)</item>
+		<item>EDUC 475 Designs for Learning: Elementary Mathematics (4)</item>
+		<item>EDUC 476 Designs for Learning: Elementary Science (4)</item>
+		<item>EDUC 477 Designs for Learning: Art (4)</item>
+		<item>EDUC 478 Designs for Learning: Music (4)</item>
+		<item>EDUC 480 Designs for Learning: French as a Second Language (4)</item>
+		<item>EDUC 481 Designs for Learning: French Immersion Programs and Francophone Schools (4)</item>
+		<item>EDUC 482 Designs for Learning: Information Technology (4)</item>
+		<item>EDUC 483 Designs for Learning: Curriculum Studies (8)</item>
+		<item>EDUC 484 Exploring Students Scientific Misconceptions (4)</item>
+		<item>EDUC 485W Designs for Learning: Writing (8)</item>
+		<item>EDUC 486 Special Topics</item>
+		<item>EDUC 487 Special Topics</item>
+		<item>EDUC 488 Special Topics</item>
+		<item>EDUC 490 Directed Study</item>
+		<item>EDUC 491 Directed Study</item>
+		<item>EDUC 492 Directed Study</item>
+		<item>EDUC 493 Directed Studies in Environmental Education (4)</item>
+		<item>EDUC 495 Special Topics</item>
+		<item>EDUC 496 Special Topics</item>
+		<item>EDUC 497 Special Topics</item>
+		<item>EDUC 498 Special Topics</item>
+		<item>EDUC 702 Directed Readings (2)</item>
+		<item>EDUC 703 Directed Readings (3)</item>
+		<item>EDUC 704 Directed Readings (4)</item>
+		<item>EDUC 705 Directed Readings (5)</item>
+		<item>EDUC 710 Special Topics</item>
+		<item>EDUC 711 Special Topics</item>
+		<item>EDUC 712 Special Topics</item>
+		<item>EDUC 713 Special Topics</item>
+		<item>EDUC 714 Special Topics</item>
+		<item>EDUC 718 Landscapes of Practitioner Inquiry (5)</item>
+		<item>EDUC 720 Special Topics</item>
+		<item>EDUC 725 Engaging Students Imaginations K-Post Secondary: Introducing Cognitive Tools (3)</item>
+		<item>EDUC 726 Engaging Students Imaginations K-Post Sec: Deepening Understanding and Applying IE to Subject Areas (3)</item>
+		<item>EDUC 728 Assessing &amp; Evaluating Imaginative Education (IE): Theoretical and Practical Issues (3)</item>
+		<item>EDUC 729 Field Study in Imaginative Education (IE): Introduction to Action Research (3)</item>
+		<item>EDUC 730 Field Study in Imaginative Education (IE): Conducting Action Research (3)</item>
+		<item>EDUC 740 Issues in Pre-Service Teacher Education (5)</item>
+		<item>EDUC 760 Academic and Social Behaviour Assessment in Education (3)</item>
+		<item>EDUC 799 Supervised Counselling Clinic I (3)</item>
+		<item>EDUC 800 Supervised Counselling Clinic II (3)</item>
+		<item>EDUC 801 Counselling Practicum I (1.5)</item>
+		<item>EDUC 802 Counselling Practicum II (1.5)</item>
+		<item>EDUC 805 Social Development in the School Context (3)</item>
+		<item>EDUC 806 Selected Problems in Higher Education (5)</item>
+		<item>EDUC 807 Inquiry into Practice (5)</item>
+		<item>EDUC 810 Methods of Inquiry in Educational Psychology (3)</item>
+		<item>EDUC 811 Fieldwork I (5)</item>
+		<item>EDUC 812 Fieldwork II (5)</item>
+		<item>EDUC 813 Organizational Theory and Analyses (5)</item>
+		<item>EDUC 815 Administrative Processes (5)</item>
+		<item>EDUC 816 Developing Educational Programs and Practices for Diverse Educational Settings (5)</item>
+		<item>EDUC 817 Policy Processes (5)</item>
+		<item>EDUC 818 Leadership Studies (5)</item>
+		<item>EDUC 819 Studies in Teacher-Student Interaction (5)</item>
+		<item>EDUC 820 Current Issues in Curriculum and Pedagogy (5)</item>
+		<item>EDUC 822 Evaluation of Educational Programs (5)</item>
+		<item>EDUC 823 Curriculum and Instruction in an Individual Teaching Speciality (5)</item>
+		<item>EDUC 824 Seminar in Second Language Teaching (5)</item>
+		<item>EDUC 825 Second Language Learning and Education (5)</item>
+		<item>EDUC 826 The Neurobiology of Language and Reading Development (3)</item>
+		<item>EDUC 828 Instructional Practices for Inclusive Classrooms (3)</item>
+		<item>EDUC 829 Contemporary Issues in Learning and Developmental Disorders (3)</item>
+		<item>EDUC 830 Implementation of Educational Programs (5)</item>
+		<item>EDUC 832 The Art and Discipline of Writing and Teaching Writing (5)</item>
+		<item>EDUC 833 Social and Moral Philosophy in Education (5)</item>
+		<item>EDUC 834 Multilingualism, Language Acquisition, and Language Learning in the School Context (5)</item>
+		<item>EDUC 835 Graduate Study in Second Language Education (5)</item>
+		<item>EDUC 836 Equity Issues in Language, Education, and Society  (5)</item>
+		<item>EDUC 837 Seminar in Education, Equity, and Social Theories (5)</item>
+		<item>EDUC 840 Graduate Seminar</item>
+		<item>EDUC 841 Seminar in Educational Psychology (3)</item>
+		<item>EDUC 842 Sociocultural Perspectives on the Psychology of Development and Education (3)</item>
+		<item>EDUC 843 Embodiment and Curriculum Inquiry (5)</item>
+		<item>EDUC 844 Issues in Mathematics Education (5)</item>
+		<item>EDUC 845 Learning Mathematics with Computers (5)</item>
+		<item>EDUC 846 Foundations of Mathematics Education (5)</item>
+		<item>EDUC 847 Teaching and Learning Mathematics (5)</item>
+		<item>EDUC 848 Ideas and Issues in Aesthetic Education (5)</item>
+		<item>EDUC 849 Artists, Society and Arts Education (5)</item>
+		<item>EDUC 850 Creativity and Education (5)</item>
+		<item>EDUC 852 Inquiry, Creativity and Community: Drama in Education (5)</item>
+		<item>EDUC 854 Teachers as Agents of Change (5)</item>
+		<item>EDUC 855 Multicultural and Race Relations Education: Policy Development and Program Implementation (5)</item>
+		<item>EDUC 856 Sociocultural Perspectives on Education and Identity (5)</item>
+		<item>EDUC 857 Issues and Topics in Environmental Education (5)</item>
+		<item>EDUC 858 Intercultural Perspectives and Practices in Francophone School Contexts (5)</item>
+		<item>EDUC 859 Philosophy of Science and Perspectives on Education (5)</item>
+		<item>EDUC 860 The Learning Sciences and Education (3)</item>
+		<item>EDUC 861 Study of Learning Environments (5)</item>
+		<item>EDUC 862 Individual Assessment in Counselling (3)</item>
+		<item>EDUC 863 Quantitative Methods in Educational Research (3)</item>
+		<item>EDUC 864 Research Designs in Education (5)</item>
+		<item>EDUC 866 Qualitative Methods in Educational Research (5)</item>
+		<item>EDUC 867 Advanced Qualitative Research in Education (5)</item>
+		<item>EDUC 868 Curriculum Theory and Art Education (5)</item>
+		<item>EDUC 869 Music Education as Thinking in Sound (5)</item>
+		<item>EDUC 870 Theories of Counselling (3)</item>
+		<item>EDUC 871 Family Counselling (3)</item>
+		<item>EDUC 872 Ethics in Counselling Psychology (3)</item>
+		<item>EDUC 873 Career Counselling (3)</item>
+		<item>EDUC 874 Counselling Skills and Strategies (5)</item>
+		<item>EDUC 876 Prevention and Intervention for Neurodevelopmental Disorders (3)</item>
+		<item>EDUC 877 Contemporary School Counselling (3)</item>
+		<item>EDUC 878 Group Counselling (5)</item>
+		<item>EDUC 879 Lev Vygotskys Theories in Education (5)</item>
+		<item>EDUC 881 Project (5)</item>
+		<item>EDUC 882 MA Extended Essays (6)</item>
+		<item>EDUC 883 MEd Comprehensive Examination (5)</item>
+		<item>EDUC 885 MEd Extended Essays (6)</item>
+		<item>EDUC 886 MA Thesis (15)</item>
+		<item>EDUC 890 Educational Media as Foundations of Curriculum (4)</item>
+		<item>EDUC 891 Learning Design in Technology-Mediated Environments (4)</item>
+		<item>EDUC 892 Cognitive Tools and Multimedia Learning (4)</item>
+		<item>EDUC 893 Organizational and Social Aspects of Learning Technology Design (4)</item>
+		<item>EDUC 894 Methods for Evaluation and Inquiry in Learning Technologies (4)</item>
+		<item>EDUC 895 Conceptions of Numeracy (5)</item>
+		<item>EDUC 898 Masters Thesis (10)</item>
+		<item>EDUC 899 Doctoral Thesis (15)</item>
+		<item>EDUC 901A Seminar in the History of Educational Theory A (3)</item>
+		<item>EDUC 901B Seminar in the History of Educational Theory B (3)</item>
+		<item>EDUC 902A Interdisciplinary Seminar in Contemporary Educational Theory A (3)</item>
+		<item>EDUC 902B Interdisciplinary Seminar in Contemporary Educational Theory B (3)</item>
+		<item>EDUC 904 Fieldwork III (5)</item>
+		<item>EDUC 905 Fieldwork IV (5)</item>
+		<item>EDUC 907 Selected Topics (5)</item>
+		<item>EDUC 908 Selected Topics (5)</item>
+		<item>EDUC 910 Directed Readings (5)</item>
+		<item>EDUC 911 Colloquium in Curriculum Theory (I) (3)</item>
+		<item>EDUC 912 Colloquium in Curriculum Theory (II) (3)</item>
+		<item>EDUC 921 Seminar in Philosophy and Educational Theory (3)</item>
+		<item>EDUC 922 Advanced Seminar in Epistemology and Education (3)</item>
+		<item>EDUC 923 Critical and Sociocultural Approaches to Educational Research (3)</item>
+		<item>EDUC 924 Multilingualism, Globalization, and Identities  (3)</item>
+		<item>EDUC 925 Multiliteracies and Multimodalities (3)</item>
+		<item>EDUC 926 Ethnographic and Multimodal Approaches to Educational Research (3)</item>
+		<item>EDUC 927 Doctoral Seminar A (3)</item>
+		<item>EDUC 928 Doctoral Seminar B (3)</item>
+		<item>EDUC 931 Doctoral Seminar I in Educational Technology and Learning Design (4)</item>
+		<item>EDUC 932 Doctoral Seminar II in Educational Technology and Learning Design (4)</item>
+		<item>EDUC 934 Learning Design Development Workshop (4)</item>
+		<item>EDUC 935 Learning Design Demonstration of Mastery</item>
+		<item>EDUC 941 Mathematical Learning and Thinking: Historical, Philosophical, and Psychological Dimensions (5)</item>
+		<item>EDUC 942 Contemporary Theories and Methodologies in Mathematics Education (5)</item>
+		<item>EDUC 943 Arts-Based Inquiry in Educational Research (5)</item>
+		<item>EDUC 944 Aesthetic Ways of Knowing and Education (5)</item>
+		<item>EDUC 945 Doctoral Seminar in Arts Education (5)</item>
+		<item>EDUC 946 Doctoral Seminar in Mathematics Education (5)</item>
+		<item>EDUC 950 Approaches to Educational Research (5)</item>
+		<item>EDUC 960 Ethics, Law and Professional Leadership (5)</item>
+		<item>EDUC 961 Educational Governance, Reform and Diversity (5)</item>
+		<item>EDUC 962 Leadership, Accountability and the Public Interest (5)</item>
+		<item>EDUC 964 Seminar in Educational Theory (5)</item>
+		<item>EDUC 970 Systems and Paradigms in Educational Psychology (3)</item>
+		<item>EDUC 971 Advanced Topics in Educational Psychology (4)</item>
+		<item>EDUC 975 Advanced Quantitative Methods in Educational Research (4)</item>
+		<item>EDUC 983 Doctoral Comprehensive Examination (5)</item>
+		<item>EDUC 984 Qualifying Examination (3)</item>
+	</string-array>
+</resources>

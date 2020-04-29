@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string-array name="germ_spinner" tools:ignore="InconsistentArrays">
+		<item>GERM 102 Introductory German I (3)</item>
+		<item>GERM 103 Introductory German II (3)</item>
+		<item>GERM 104 German for Reading Knowledge I (3)</item>
+		<item>GERM 201 Intermediate German I (3)</item>
+		<item>GERM 202 Intermediate German II (3)</item>
+		<item>GERM 300 Advanced German: Composition and Conversation (3)</item>
+	</string-array>
+</resources>

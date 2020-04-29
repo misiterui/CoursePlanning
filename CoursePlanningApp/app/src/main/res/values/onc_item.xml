@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string-array name="onc_spinner" tools:ignore="InconsistentArrays">
+		<item>ONC 502 Concepts in Oncology (3)</item>
+		<item>ONC 510 Seminars in Oncology (3)</item>
+		<item>ONC 548 Rotation in Oncology (3)</item>
+	</string-array>
+</resources>

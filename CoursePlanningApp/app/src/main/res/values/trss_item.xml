@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string-array name="trss_spinner" tools:ignore="InconsistentArrays">
+		<item>TRSS 710 Current Issues in Terrorism (3)</item>
+		<item>TRSS 711 Radicalization and Recruitment to Terrorism (3)</item>
+		<item>TRSS 720 Fundamentals of Security Risk Management (3)</item>
+		<item>TRSS 721 Psychological Assessment of Risk for Terrorism and Group-Based Violence (3)</item>
+		<item>TRSS 730 Security and Civil Liberties: Canadian, Comparative and International Perspectives (3)</item>
+		<item>TRSS 731 Policy Making and Decision Analysis in Security Studies (3)</item>
+		<item>TRSS 740 Introduction to Research Methods for Security Studies (3)</item>
+		<item>TRSS 742 Cybersecurity (3)</item>
+		<item>TRSS 798 MA Project (Research Report) (6)</item>
+	</string-array>
+</resources>

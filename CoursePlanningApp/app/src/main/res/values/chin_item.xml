@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string-array name="chin_spinner" tools:ignore="InconsistentArrays">
+		<item>CHIN 100 Mandarin Chinese I (3)</item>
+		<item>CHIN 101 Mandarin Chinese II (3)</item>
+		<item>CHIN 112 STT Introduction to Mandarin Chinese and Society II (3)</item>
+		<item>CHIN 151 Spoken Mandarin for Speakers of Other Chinese Dialects I (3)</item>
+		<item>CHIN 152 Spoken Mandarin for Speakers of Other Chinese Dialects II (3)</item>
+		<item>CHIN 153 Spoken Mandarin for Speakers of Other Chinese Dialects III (3)</item>
+		<item>CHIN 180 Intensive Mandarin Chinese for Beginners I (3)</item>
+		<item>CHIN 181 Intensive Mandarin Chinese for Beginners II (3)</item>
+		<item>CHIN 190 Heritage Mandarin Chinese I (3)</item>
+		<item>CHIN 191 Heritage Mandarin Chinese II (3)</item>
+		<item>CHIN 200 Mandarin Chinese III (3)</item>
+		<item>CHIN 201 Mandarin Chinese IV (3)</item>
+		<item>CHIN 280 Intensive Mandarin Chinese for Beginners III (3)</item>
+		<item>CHIN 281 Intensive Mandarin Chinese for Beginners IV (3)</item>
+		<item>CHIN 290 Heritage Mandarin Chinese III (3)</item>
+		<item>CHIN 291 Heritage Mandarin Chinese IV (3)</item>
+		<item>CHIN 330 Intermediate Chinese for Business I (3)</item>
+		<item>CHIN 390 Advanced Chinese Reading (3)</item>
+	</string-array>
+</resources>

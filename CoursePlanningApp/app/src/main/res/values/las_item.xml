@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string-array name="las_spinner" tools:ignore="InconsistentArrays">
+		<item>LAS 312 Special Topics: Latin American Cultural Topics (3)</item>
+		<item>LAS 493 Directed Readings (3)</item>
+		<item>LAS 498 Capstone Project (5)</item>
+		<item>LAS 851 Directed Readings in Latin American Studies (5)</item>
+		<item>LAS 898 MA Thesis (6)</item>
+	</string-array>
+</resources>

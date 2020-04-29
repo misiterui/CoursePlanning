@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string-array name="sci_spinner" tools:ignore="InconsistentArrays">
+		<item>SCI 190 Special Topics in Science Interdisciplinarity (3)</item>
+		<item>SCI 191 Introduction to Modern Scientific Research (1)</item>
+		<item>SCI 192 The Science Around Us Interdisciplinary Science for Pre-Service Teachers (4)</item>
+		<item>SCI 300 Science and its Impact on Society (3)</item>
+		<item>SCI 301 Science Communication: An Introduction (3)</item>
+		<item>SCI 390 Special Topics in Science Interdisciplinarity (3)</item>
+	</string-array>
+</resources>

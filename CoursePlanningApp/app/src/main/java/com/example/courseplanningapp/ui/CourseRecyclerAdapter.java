@@ -2,26 +2,21 @@ package com.example.courseplanningapp.ui;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Context;
 import android.os.Build;
-import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ArrayAdapter;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.example.courseplanningapp.Constants;
+import com.example.courseplanningapp.constants.Constants;
 import com.example.courseplanningapp.R;
 import com.example.courseplanningapp.model.Course;
 import com.example.courseplanningapp.model.CourseManager;
-
-import org.w3c.dom.Text;
 
 
 /*
@@ -50,7 +45,7 @@ public class CourseRecyclerAdapter extends RecyclerView.Adapter<CourseRecyclerAd
     @Override
     public void onBindViewHolder(@NonNull CourseRecyclerAdapter.ViewHolder holder, final int position) {
 
-        final Course course = courseManager.getFilteredRestaurants().get(position);
+        final Course course = courseManager.getFilteredCourses().get(position);
 
         // init views
         TextView year = holder.layout.findViewById(R.id.year);
@@ -58,46 +53,26 @@ public class CourseRecyclerAdapter extends RecyclerView.Adapter<CourseRecyclerAd
         TextView subject = holder.layout.findViewById(R.id.subject);
         TextView courseNumber = holder.layout.findViewById(R.id.course_number);
         TextView title = holder.layout.findViewById(R.id.title);
-        TextView w = holder.layout.findViewById(R.id.w);
-        TextView q = holder.layout.findViewById(R.id.q);
-        TextView bhum = holder.layout.findViewById(R.id.bhum);
-        TextView bsoc = holder.layout.findViewById(R.id.bsoc);
-        TextView bsci = holder.layout.findViewById(R.id.bsci);
+//        TextView w = holder.layout.findViewById(R.id.w);
+//        TextView q = holder.layout.findViewById(R.id.q);
+//        TextView bhum = holder.layout.findViewById(R.id.bhum);
+//        TextView bsoc = holder.layout.findViewById(R.id.bsoc);
+//        TextView bsci = holder.layout.findViewById(R.id.bsci);
         ImageButton removeBtn = holder.layout.findViewById(R.id.removeBtn);
 
         // set values to each view
-        year.setText(Constants.SAMPLE_YEAR);
-        semester.setText(Constants.SAMPLE_SEMESTER);
+        year.setText(course.getYear());
+        semester.setText(course.getSemester());
         subject.setText(course.getSubject());
         courseNumber.setText(course.getCourseNumber());
         title.setText(course.getTitle());
 
         // set if the course is WQB course, if it is, set the text, otherwise set nothing
-        if(course.getW()){
-            w.setText("W");
-        }else{
-            w.setText("");
-        }
-        if(course.getQ()){
-            q.setText("Q");
-        }else{
-            q.setText("");
-        }
-        if(course.getbHum()){
-            bhum.setText("B-Hum");
-        }else{
-            bhum.setText("");
-        }
-        if(course.getbSoc()){
-            bsoc.setText("B-Soc");
-        }else{
-            bsoc.setText("");
-        }
-        if(course.getbSci()){
-            bsci.setText("B-Sci");
-        }else{
-            bsci.setText("");
-        }
+//        if(course.getW()){ w.setText("W"); }else{ w.setText(""); }
+//        if(course.getQ()){ q.setText("Q"); }else{ q.setText(""); }
+//        if(course.getbHum()){ bhum.setText("B-Hum"); }else{ bhum.setText(""); }
+//        if(course.getbSoc()){ bsoc.setText("B-Soc"); }else{ bsoc.setText(""); }
+//        if(course.getbSci()){ bsci.setText("B-Sci"); }else{ bsci.setText(""); }
 
         // set the remove button
         removeBtn.setOnClickListener(new View.OnClickListener() {
@@ -116,7 +91,7 @@ public class CourseRecyclerAdapter extends RecyclerView.Adapter<CourseRecyclerAd
 
     @Override
     public int getItemCount() {
-        return courseManager.getFilteredRestaurants().size();
+        return courseManager.getFilteredCourses().size();
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder{

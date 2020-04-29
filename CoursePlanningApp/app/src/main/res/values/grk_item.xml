@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string-array name="grk_spinner" tools:ignore="InconsistentArrays">
+		<item>GRK 191 Modern Greek for Beginners Level I (3)</item>
+		<item>GRK 192 Modern Greek for Beginners Level II (3)</item>
+		<item>GRK 291 Modern Greek Intermediate Level I (3)</item>
+		<item>GRK 292 Modern Greek Intermediate Level II (3)</item>
+	</string-array>
+</resources>

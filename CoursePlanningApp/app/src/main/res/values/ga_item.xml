@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string-array name="ga_spinner" tools:ignore="InconsistentArrays">
+		<item>GA 101 Introduction to Global Asia (3)</item>
+		<item>GA 200 Introduction to Chinese Civilization (3)</item>
+		<item>GA 201 Introduction to Japanese Civilization (3)</item>
+		<item>GA 202 Studies in Asian Cultures (3)</item>
+		<item>GA 205 Special Topics: Field Studies in Chinese Culture (3)</item>
+		<item>GA 300 Asians and North Americans in Public Discourse (3)</item>
+		<item>GA 301 Asia-Canada Identities: Experiences and Perspectives (3)</item>
+		<item>GA 302 Selected Topics in Chinese Studies (3)</item>
+		<item>GA 303 Selected Topics in Japanese Studies (3)</item>
+		<item>GA 400 Selected Topics in Global Asia (3)</item>
+		<item>GA 401 Directed Studies (3)</item>
+	</string-array>
+</resources>

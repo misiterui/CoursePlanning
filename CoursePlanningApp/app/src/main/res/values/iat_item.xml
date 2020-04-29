@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string-array name="iat_spinner" tools:ignore="InconsistentArrays">
+		<item>IAT 100 Digital Image Design (3)</item>
+		<item>IAT 102 Graphic Design (3)</item>
+		<item>IAT 103W Design Communication and Collaboration (3)</item>
+		<item>IAT 106 Spatial Thinking and Communicating (3)</item>
+		<item>IAT 110 Visual Communication Design (3)</item>
+		<item>IAT 167 Digital Games: Genre, Structure, Programming and Play (3)</item>
+		<item>IAT 201 Human-Computer Interaction and Cognition (3)</item>
+		<item>IAT 202 New Media Images (3)</item>
+		<item>IAT 206W Media Across Cultures (3)</item>
+		<item>IAT 208 Drawing as Inquiry (3)</item>
+		<item>IAT 210 Introduction to Game Studies: Theory and Design (3)</item>
+		<item>IAT 222 Interactive Arts (3)</item>
+		<item>IAT 233 Spatial Design (3)</item>
+		<item>IAT 235 Information Design (3)</item>
+		<item>IAT 244 Digital Photography I:  Post Photography (3)</item>
+		<item>IAT 265 Multimedia Programming for Art and Design (3)</item>
+		<item>IAT 267 Introduction to Technological Systems (3)</item>
+		<item>IAT 271 Co-op Practicum I (3)</item>
+		<item>IAT 272 Co-op Practicum II (3)</item>
+		<item>IAT 309W Writing Methods for Research (3)</item>
+		<item>IAT 312 Foundations of Game Design (3)</item>
+		<item>IAT 313 Narrative and New Media (3)</item>
+		<item>IAT 320 Body Interface (3)</item>
+		<item>IAT 330 Business of Design I: Introduction (3)</item>
+		<item>IAT 333 Interaction Design Methods (3)</item>
+		<item>IAT 334 Interface Design (3)</item>
+		<item>IAT 336 Materials in Design (3)</item>
+		<item>IAT 339 Web Design and Development (3)</item>
+		<item>IAT 340 Sound Design (3)</item>
+		<item>IAT 343 Animation (3)</item>
+		<item>IAT 344 Moving Images (3)</item>
+		<item>IAT 351 Advanced Human-Computer Interaction (3)</item>
+		<item>IAT 352 Internet Computing Technologies (3)</item>
+		<item>IAT 355 Introduction to Visual Analytics (3)</item>
+		<item>IAT 359 Mobile Computing (3)</item>
+		<item>IAT 373 Co-op Practicum III (3)</item>
+		<item>IAT 374 Co-op Practicum IV (3)</item>
+		<item>IAT 375 Co-op Practicum V (3)</item>
+		<item>IAT 380 Special Topics in Interactive Arts and Technology (Arts) (3)</item>
+		<item>IAT 381 Special Topics in Interactive Arts and Technology (Science) (3)</item>
+		<item>IAT 382 Special Topics (3)</item>
+		<item>IAT 383 Special Topics (3)</item>
+		<item>IAT 384 Special Topics (3)</item>
+		<item>IAT 385 Special Topics (3)</item>
+		<item>IAT 386 Directed Studies (3)</item>
+		<item>IAT 387 Directed Studies (3)</item>
+		<item>IAT 391 Italian Design History (3)</item>
+		<item>IAT 392 Italian Design in Context: Learning from La Citta (3)</item>
+		<item>IAT 393 Interaction Design Workshop I (3)</item>
+		<item>IAT 394 Interaction Design Workshop II (3)</item>
+		<item>IAT 395 North Europe Design Field School: Contexts of Design (3)</item>
+		<item>IAT 396 North Europe Design Field School: Design Inquiry (6)</item>
+		<item>IAT 397 North Europe Design Field School: Design Synthesis (3)</item>
+		<item>IAT 410 Advanced Game Design (3)</item>
+		<item>IAT 430 Business of Design III: Refinement and Production (3)</item>
+		<item>IAT 431 Speculative Design (3)</item>
+		<item>IAT 432 Design Evaluation (3)</item>
+		<item>IAT 437 Representation and Fabrication (3)</item>
+		<item>IAT 438 Interactive Objects and Environments (3)</item>
+		<item>IAT 443 Interactive Video (3)</item>
+		<item>IAT 445 Immersive Environments (3)</item>
+		<item>IAT 452 Developing Design Tools (3)</item>
+		<item>IAT 455 Computational Media (3)</item>
+		<item>IAT 480 Special Topics in Interactive Arts and Technology (Arts) (3)</item>
+		<item>IAT 481 Special Topics in Interactive Arts and Technology (Science) (3)</item>
+		<item>IAT 482 Special Topics in Performance and Media Arts (3)</item>
+		<item>IAT 483 Special Topics in New Media Environments (3)</item>
+		<item>IAT 484 Special Topics in Technology in Art and Design (3)</item>
+		<item>IAT 485 Special Topics in Interactive Design (3)</item>
+		<item>IAT 486 Directed Studies (3)</item>
+		<item>IAT 487 Directed Studies (3)</item>
+		<item>IAT 488 Directed Studies (3)</item>
+		<item>IAT 490 Honours Project I (3)</item>
+		<item>IAT 491 Honours Project II (3)</item>
+		<item>IAT 499 Graduation Project (6)</item>
+		<item>IAT 800 Foundations of Computational Art and Design (3)</item>
+		<item>IAT 801 Qualitative Research Methods and Design (3)</item>
+		<item>IAT 802 Quantitative Research Methods and Design (3)</item>
+		<item>IAT 803 Science, Technology &amp; Culture (3)</item>
+		<item>IAT 804 Foundations of Research Design for Human-Centred Design of Interactive Technologies (3)</item>
+		<item>IAT 805 Research Colloquium</item>
+		<item>IAT 806 Interdisciplinary Design Approaches to Computing (3)</item>
+		<item>IAT 810 New Media (3)</item>
+		<item>IAT 811 Computational Poetics (3)</item>
+		<item>IAT 812 Cognition, Learning and Collaboration (3)</item>
+		<item>IAT 813 Artificial Intelligence in Computational Art and Design (3)</item>
+		<item>IAT 814 Visualization and Visual Analytics (3)</item>
+		<item>IAT 830 Learning Design and Media (3)</item>
+		<item>IAT 831 Encloding Media Practice (3)</item>
+		<item>IAT 832 Exploring Interactivity (3)</item>
+		<item>IAT 833 Performance, Technology and Embodiment (3)</item>
+		<item>IAT 834 Mixed Methods in Design Research (3)</item>
+		<item>IAT 835 Sustainable Interaction Design (3)</item>
+		<item>IAT 840 Models of Networked Practice (3)</item>
+		<item>IAT 842 Theory and Design of Games (3)</item>
+		<item>IAT 846 Interactive Systems for Design (3)</item>
+		<item>IAT 848 Mediated, Virtual, and Augmented Reality (3)</item>
+		<item>IAT 854 Visually Enabled Reasoning (3)</item>
+		<item>IAT 856 Visual Analytics Graduate Seminar (1)</item>
+		<item>IAT 871 Directed Readings I (3)</item>
+		<item>IAT 872 Directed Readings II (3)</item>
+		<item>IAT 873 Directed Readings III (3)</item>
+		<item>IAT 881 Special Topics I (3)</item>
+		<item>IAT 882 Special Topics II (3)</item>
+		<item>IAT 883 Special Topics III (3)</item>
+		<item>IAT 884 Special Topics IV (3)</item>
+		<item>IAT 885 Special Topics V (3)</item>
+		<item>IAT 886 Special Topics VI (3)</item>
+		<item>IAT 887 Special Topics VII (3)</item>
+		<item>IAT 888 Special Topics VIII (3)</item>
+		<item>IAT 890 PhD Comprehensive Exam</item>
+		<item>IAT 897 MA Thesis (15)</item>
+		<item>IAT 898 MSc Thesis (15)</item>
+		<item>IAT 899 PhD Thesis (6)</item>
+	</string-array>
+</resources>

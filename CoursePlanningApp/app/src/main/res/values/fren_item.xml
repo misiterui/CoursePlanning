@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string-array name="fren_spinner" tools:ignore="InconsistentArrays">
+		<item>FREN 120 French for Beginners (3)</item>
+		<item>FREN 121 Introductory French I (3)</item>
+		<item>FREN 122 Introductory French II (3)</item>
+		<item>FREN 198 French for Reading Knowledge I (3)</item>
+		<item>FREN 210 Intermediate French I (3)</item>
+		<item>FREN 211 Intermediate French II (3)</item>
+		<item>FREN 212 French for Immersion Program Students (3)</item>
+		<item>FREN 215 Intermediate French: Oral Practice (3)</item>
+		<item>FREN 217 Intermediate French: Oral Practice Through Drama (3)</item>
+		<item>FREN 221 French Writing I (3)</item>
+		<item>FREN 222 French Writing II (3)</item>
+		<item>FREN 226 Introduction to Textual Analysis (3)</item>
+		<item>FREN 245 Introduction to Literary Studies (3)</item>
+		<item>FREN 275 French Linguistics Today (3)</item>
+		<item>FREN 300 Advanced French: Oral Practice (3)</item>
+		<item>FREN 301W Advanced Writing (3)</item>
+		<item>FREN 304 Advanced French Grammar (3)</item>
+		<item>FREN 307 The Right Word: Advanced Vocabulary and Translation (3)</item>
+		<item>FREN 320 Field School: Special Topics in French I (3)</item>
+		<item>FREN 321 Field School: Special Topics in French II (3)</item>
+		<item>FREN 322 Field School: Special Topics in French III (3)</item>
+		<item>FREN 330 Francophone World (3)</item>
+		<item>FREN 331 Accents of French (3)</item>
+		<item>FREN 332 Social Approaches to French (3)</item>
+		<item>FREN 333 The Magic of French Words (3)</item>
+		<item>FREN 334 Topics in French Applied Linguistics (3)</item>
+		<item>FREN 340 Survey of Quebecois Literature (3)</item>
+		<item>FREN 341 Survey of French Literature to 1600 (3)</item>
+		<item>FREN 342 Francophone World Literature in Translation (3)</item>
+		<item>FREN 344 Survey of French Literature after 1789 (3)</item>
+		<item>FREN 345 Survey of French Literature from 1600 to 1789 (3)</item>
+		<item>FREN 352 French and Francophone Cultures through Films and/or Media Texts (3)</item>
+		<item>FREN 407W Language in Translation: A Contextual Approach to French (3)</item>
+		<item>FREN 416 Acquisition of French as a Second Language (3)</item>
+		<item>FREN 417 Topics in the Structure of French (3)</item>
+		<item>FREN 420 Discourse Analysis of French (3)</item>
+		<item>FREN 423 Topics in the History of French (3)</item>
+		<item>FREN 424 Topics in French Linguistics (3)</item>
+		<item>FREN 425 Topics in the Varieties of French (3)</item>
+		<item>FREN 430 Topics in Qu¨¦b¨¦cois Literature (3)</item>
+		<item>FREN 440 Topics in French Genre Studies (3)</item>
+		<item>FREN 441 Topics in French Literature from the Middle Ages to the Eighteenth Century (pre-1789) (3)</item>
+		<item>FREN 442 Topics in French Literature from 1789 to 1989 (3)</item>
+		<item>FREN 444 Topics in Contemporary Literature in French (3)</item>
+		<item>FREN 452 Topics in French and Francophone Cultures or Cinemas (3)</item>
+		<item>FREN 476 Interdisciplinary Approaches in French Literature (3)</item>
+		<item>FREN 480 Seminar I (2)</item>
+		<item>FREN 491 Readings in French Linguistics and/or Literary Criticism (3)</item>
+		<item>FREN 492 Honours Essay (3)</item>
+		<item>FREN 803 Research Methods in French Linguistics and/or French Literature (3)</item>
+		<item>FREN 804 Topics in the Structure of French I (3)</item>
+		<item>FREN 806 Topics in the Acquisition of French  (3)</item>
+		<item>FREN 811 Topics in the Varieties of French (3)</item>
+		<item>FREN 812 Approaches to the Linguistic Analysis of French  (3)</item>
+		<item>FREN 816 Sociolinguistic Approaches to French Studies (3)</item>
+		<item>FREN 820 Types of Discourse (3)</item>
+		<item>FREN 821 Theories and Methods of Literary Analysis  (3)</item>
+		<item>FREN 823 Interdisciplinary Approaches to French Literature (3)</item>
+		<item>FREN 824 Topics in French Canadian Literature  (3)</item>
+		<item>FREN 825 Topics in French Literature (3)</item>
+		<item>FREN 826 Monographic Studies  (3)</item>
+		<item>FREN 852 Selected Topics in French or Francophone Cinema (3)</item>
+		<item>FREN 896 Thesis Proposal</item>
+		<item>FREN 897 MA Project (6)</item>
+		<item>FREN 898 MA Thesis (15)</item>
+		<item>FREN 998 Extended Essays (6)</item>
+		<item>FREN 999 Field Examination (6)</item>
+	</string-array>
+</resources>

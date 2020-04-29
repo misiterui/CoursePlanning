@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string-array name="see_spinner" tools:ignore="InconsistentArrays">
+		<item>SEE 100 Engineering Graphics and Software for Design (3)</item>
+		<item>SEE 101W Process, Form and Convention in Professional Genres (3)</item>
+		<item>SEE 110 Energy, Environment and Society (3)</item>
+		<item>SEE 111 Integrated Energy Solution I (4)</item>
+		<item>SEE 221 Statics and Mechanics of Materials (4)</item>
+		<item>SEE 222 Engineering Materials for Energy Systems (3)</item>
+		<item>SEE 224 Thermodynamics for Energy Engineering (3)</item>
+		<item>SEE 225 Fluid Mechanics (4)</item>
+		<item>SEE 230 Electric Circuits (4)</item>
+		<item>SEE 231 Electronic Devices and Systems (4)</item>
+		<item>SEE 241 Measurement, Analysis and Forecasting (3)</item>
+		<item>SEE 242 Computational Methods for Engineers (3)</item>
+		<item>SEE 251 Electric Machines and Energy Conversion (3)</item>
+		<item>SEE 290 Industrial Internship I (3)</item>
+		<item>SEE 294 Special Internship I (3)</item>
+		<item>SEE 300 The Business of Engineering (3)</item>
+		<item>SEE 310 Integrated Energy Solution II (4)</item>
+		<item>SEE 324 Heat and Mass Transfer for Energy Engineering (3)</item>
+		<item>SEE 325 Mechanical Design and Finite Element Analysis (3)</item>
+		<item>SEE 331 Power Electronics (4)</item>
+		<item>SEE 332 Power Systems Analysis and Design (3)</item>
+		<item>SEE 333 Network and Communication Systems (3)</item>
+		<item>SEE 341 Signals and Systems (3)</item>
+		<item>SEE 342 Feedback Control Systems (4)</item>
+		<item>SEE 351 Bioprocess Engineering Systems (3)</item>
+		<item>SEE 352 Power Generation and Conversion (3)</item>
+		<item>SEE 354 Energy Storage (3)</item>
+		<item>SEE 390 Industrial Internship II (3)</item>
+		<item>SEE 394 Special Internship II (3)</item>
+		<item>SEE 402 Professional Engineering Ethics and Practice (2)</item>
+		<item>SEE 410W Sustainable Energy Design Project I (3)</item>
+		<item>SEE 411 Sustainable Energy Systems Design Project (3)</item>
+		<item>SEE 460 Additive Manufacturing and Sustainable Design (3)</item>
+		<item>SEE 461 Electronics Manufacturing and Assembly (3)</item>
+		<item>SEE 462 Manufacturing Processes and Materials (3)</item>
+		<item>SEE 463 Embedded Computer Systems (3)</item>
+		<item>SEE 490 Industrial Internship III (3)</item>
+		<item>SEE 494 Special Internship III (3)</item>
+		<item>SEE 820 Materials Design for Energy Systems (3)</item>
+		<item>SEE 821 Membranes and Filtration (3)</item>
+		<item>SEE 850 Energy Storage Systems (3)</item>
+		<item>SEE 890 PhD Qualifying Exam</item>
+		<item>SEE 891 Directed Studies (3)</item>
+		<item>SEE 893 Special Topics I (3)</item>
+		<item>SEE 894 Special Topics II (3)</item>
+		<item>SEE 895 Special Topics III (3)</item>
+		<item>SEE 896 MASc Research Seminar</item>
+		<item>SEE 897 PhD Research Seminar</item>
+		<item>SEE 898 MASc Thesis (18)</item>
+		<item>SEE 899 PhD Thesis (18)</item>
+	</string-array>
+</resources>

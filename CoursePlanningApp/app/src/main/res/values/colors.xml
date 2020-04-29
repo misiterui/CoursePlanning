@@ -7,5 +7,6 @@
     <color name="white">#FFFFFF</color>
     <color name="yellow">#F7E9DF</color>
     <color name="light_gray">#888888</color>
+    <color name="gray">#666666</color>
     <color name="add_btn_bg">#4C9D8D</color>
 </resources>

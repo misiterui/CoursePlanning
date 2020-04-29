@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string-array name="chem_spinner" tools:ignore="InconsistentArrays">
+		<item>CHEM 109 Introduction to Chemistry for Health Careers (4)</item>
+		<item>CHEM 110 Introductory Chemistry (3)</item>
+		<item>CHEM 111 Introductory Chemistry and Laboratory (4)</item>
+		<item>CHEM 120 General Chemistry I (3)</item>
+		<item>CHEM 121 General Chemistry and Laboratory I (4)</item>
+		<item>CHEM 122 General Chemistry II (2)</item>
+		<item>CHEM 123 Enriched Chemistry I and Laboratory (4)</item>
+		<item>CHEM 124 Enriched Chemistry II (3)</item>
+		<item>CHEM 126 General Chemistry Laboratory II (2)</item>
+		<item>CHEM 180 The Chemistry of Life (3)</item>
+		<item>CHEM 191 Living in a Materials World: From the Stone Age to Nanoscience (3)</item>
+		<item>CHEM 192 Chemistry in Your Home, Work, and Environment (3)</item>
+		<item>CHEM 215 Introduction to Analytical Chemistry (4)</item>
+		<item>CHEM 230 Inorganic Chemistry (3)</item>
+		<item>CHEM 236W Inorganic Chemistry Laboratory (3)</item>
+		<item>CHEM 260 Atoms, Molecules, Spectroscopy (4)</item>
+		<item>CHEM 266 Physical Chemistry Laboratory I  (2)</item>
+		<item>CHEM 281 Organic Chemistry I (4)</item>
+		<item>CHEM 282 Organic Chemistry II (2)</item>
+		<item>CHEM 283 Organic Chemistry IIb (3)</item>
+		<item>CHEM 284 Organic Chemistry IIb (1)</item>
+		<item>CHEM 286 Organic Chemistry Laboratory II (2)</item>
+		<item>CHEM 306 Practicum I (3)</item>
+		<item>CHEM 307 Practicum II (3)</item>
+		<item>CHEM 316 Introductory Instrumental Analysis (4)</item>
+		<item>CHEM 317 Analytical Environmental Chemistry (2)</item>
+		<item>CHEM 332 The Chemistry of Transition Metals (3)</item>
+		<item>CHEM 336 Advanced Inorganic Chemistry Laboratory (2)</item>
+		<item>CHEM 340 Materials Chemistry (3)</item>
+		<item>CHEM 360 Thermodynamics and Chemical Kinetics (3)</item>
+		<item>CHEM 363 Chemical Kinetics and Reaction Dynamics (3)</item>
+		<item>CHEM 364 Quantum Chemistry  (3)</item>
+		<item>CHEM 366W Physical Chemistry Laboratory II (3)</item>
+		<item>CHEM 367 Advanced Physical Chemistry Laboratory (2)</item>
+		<item>CHEM 371 Chemistry of the Aqueous Environment (3)</item>
+		<item>CHEM 372 Chemistry of the Atmospheric Environment (3)</item>
+		<item>CHEM 380 Chemical and Instrumental Methods of Identification of Organic Compounds (4)</item>
+		<item>CHEM 381 Intermediate Organic Chemistry (4)</item>
+		<item>CHEM 382 Introduction to Chemical Biology (4)</item>
+		<item>CHEM 391 Industrial Chemistry (3)</item>
+		<item>CHEM 399 Special Topics in Chemistry and Society (3)</item>
+		<item>CHEM 406 Practicum III (3)</item>
+		<item>CHEM 407 Practicum IV (3)</item>
+		<item>CHEM 408 Practicum V (3)</item>
+		<item>CHEM 419 Special Topics in Analytical Chemistry (3)</item>
+		<item>CHEM 432 Organometallic Chemistry (3)</item>
+		<item>CHEM 433 Bioinorganic Chemistry (3)</item>
+		<item>CHEM 439 Special Topics in Inorganic Chemistry (3)</item>
+		<item>CHEM 440 Solid State Materials Chemistry (3)</item>
+		<item>CHEM 442 Polymeric Materials Chemistry (3)</item>
+		<item>CHEM 444 Organic Materials Chemistry (3)</item>
+		<item>CHEM 449 Special Topics in Materials Chemistry (3)</item>
+		<item>CHEM 450 Physical Organic Chemistry (3)</item>
+		<item>CHEM 452 Bio-organic Chemistry (3)</item>
+		<item>CHEM 455 Synthetic Organic Chemistry (3)</item>
+		<item>CHEM 459 Special Topics in Organic Chemistry (3)</item>
+		<item>CHEM 460 Advanced Physical Chemistry (3)</item>
+		<item>CHEM 462 Molecular Spectroscopy (3)</item>
+		<item>CHEM 465 Electrochemistry (3)</item>
+		<item>CHEM 469 Special Topics in Physical Chemistry (3)</item>
+		<item>CHEM 481 Undergraduate Research (5)</item>
+		<item>CHEM 482 Directed Study in Advanced Topics of Chemistry (3)</item>
+		<item>CHEM 483 Undergraduate Research II (5)</item>
+		<item>CHEM 484 Two-Semester Undergraduate Research in Chemistry (10)</item>
+		<item>CHEM 740 Solid State Materials Chemistry (3)</item>
+		<item>CHEM 742 Polymeric Materials (3)</item>
+		<item>CHEM 744 Organic Materials Chemistry (3)</item>
+		<item>CHEM 750 Physical Organic Chemistry (3)</item>
+		<item>CHEM 752 Bio-organic Chemistry (3)</item>
+		<item>CHEM 754 Advanced Glycoscience (3)</item>
+		<item>CHEM 755 Synthetic Organic Chemistry (3)</item>
+		<item>CHEM 759 Special Topics in Organic Chemistry (3)</item>
+		<item>CHEM 801 Student Seminar (3)</item>
+		<item>CHEM 802 M.Sc. Research Proposal and Examination (3)</item>
+		<item>CHEM 808 PhD Candidacy Examination (3)</item>
+		<item>CHEM 819 Special Topics in Analytical Chemistry (3)</item>
+		<item>CHEM 832 Organometallic Chemistry (3)</item>
+		<item>CHEM 839 Special Topics in Inorganic Chemistry (3)</item>
+		<item>CHEM 842 Special Topics in Radiochemistry (3)</item>
+		<item>CHEM 849 Special Topics in Materials Chemistry (3)</item>
+		<item>CHEM 862 Molecular Spectroscopy (3)</item>
+		<item>CHEM 864 Quantum Chemistry (3)</item>
+		<item>CHEM 865 Electrochemistry (3)</item>
+		<item>CHEM 869 Special Topics in Physical Chemistry (3)</item>
+		<item>CHEM 898 MSc Thesis (18)</item>
+		<item>CHEM 899 PhD Thesis (6)</item>
+	</string-array>
+</resources>

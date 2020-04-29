@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string-array name="bisc_spinner" tools:ignore="InconsistentArrays">
+		<item>BISC 100 Introduction to Biology (4)</item>
+		<item>BISC 101 General Biology (4)</item>
+		<item>BISC 102 General Biology (4)</item>
+		<item>BISC 111 Special Topics: Current Topics in Biology I (3)</item>
+		<item>BISC 112 Special Topics: Current Topics in Biology II (3)</item>
+		<item>BISC 113 Biology in Everyday Life (3)</item>
+		<item>BISC 202 Genetics (3)</item>
+		<item>BISC 204 Introduction to Ecology (3)</item>
+		<item>BISC 212 Biological Research (3)</item>
+		<item>BISC 272 Special Topics in Biology (3)</item>
+		<item>BISC 298 Introduction to Undergraduate Research in Biological Sciences (3)</item>
+		<item>BISC 300 Evolution (3)</item>
+		<item>BISC 302 Genetic Analysis (3)</item>
+		<item>BISC 302W Genetic Analysis (3)</item>
+		<item>BISC 303 Microbiology (4)</item>
+		<item>BISC 305 Animal Physiology (3)</item>
+		<item>BISC 306 Invertebrate Biology (4)</item>
+		<item>BISC 308 Environmental Toxicology: An Ecological Perspective (3)</item>
+		<item>BISC 309 Conservation Biology (3)</item>
+		<item>BISC 313 Environmental Toxicology: A Mechanistic Perspective (3)</item>
+		<item>BISC 316 Vertebrate Biology (4)</item>
+		<item>BISC 317 Insect Biology (3)</item>
+		<item>BISC 318 Parasitology (3)</item>
+		<item>BISC 326 Biology of Algae and Fungi (3)</item>
+		<item>BISC 333 Developmental Biology (3)</item>
+		<item>BISC 337 Plant Biology (4)</item>
+		<item>BISC 341 Practicum I (3)</item>
+		<item>BISC 342 Practicum II (3)</item>
+		<item>BISC 357 Genetic Engineering (4)</item>
+		<item>BISC 360W Techniques in Ecology and Evolution (3)</item>
+		<item>BISC 366 Plant Physiology (3)</item>
+		<item>BISC 371 Special Topics in Biology for Non-majors (3)</item>
+		<item>BISC 372 Special Topics in Biology (3)</item>
+		<item>BISC 373 Brewing Science (3)</item>
+		<item>BISC 374 Brewing Science with Lab (3)</item>
+		<item>BISC 403 Current Topics in Cell Biology (3)</item>
+		<item>BISC 405 Neurobiology (3)</item>
+		<item>BISC 406 Marine Biology and Oceanography (3)</item>
+		<item>BISC 407 Population Dynamics (3)</item>
+		<item>BISC 410 Behavioral Ecology (3)</item>
+		<item>BISC 412 Aquatic Ecology (3)</item>
+		<item>BISC 413 Fisheries Ecology (3)</item>
+		<item>BISC 414 Limnology (3)</item>
+		<item>BISC 420 Community Ecology (3)</item>
+		<item>BISC 421 Models in Biology: From Molecules to Migration (3)</item>
+		<item>BISC 422 Population Genetics (3)</item>
+		<item>BISC 423 Developmental Neurobiology (3)</item>
+		<item>BISC 424 Applied Genomics (3)</item>
+		<item>BISC 425 Sensory Biology (3)</item>
+		<item>BISC 428 Cell Anatomy (3)</item>
+		<item>BISC 430 Microbe-Plant Interactions (3)</item>
+		<item>BISC 434 Paleoecology and Palynology (3)</item>
+		<item>BISC 435 Introduction to Pest Management (3)</item>
+		<item>BISC 439 Industrial Microbiology (4)</item>
+		<item>BISC 440 Biodiversity (3)</item>
+		<item>BISC 440W Biodiversity (3)</item>
+		<item>BISC 441 Evolution of Health and Disease (3)</item>
+		<item>BISC 443 Practicum III (3)</item>
+		<item>BISC 444 Practicum IV (3)</item>
+		<item>BISC 445 Environmental Physiology of Animals (3)</item>
+		<item>BISC 446 Practicum V (3)</item>
+		<item>BISC 455 Endocrinology (3)</item>
+		<item>BISC 457 Plant Molecular Biology and Biotechnology (3)</item>
+		<item>BISC 471 Special Topics in Cells, Molecules and Physiology (3)</item>
+		<item>BISC 472 Special Topics in Cells, Molecules and Physiology (3)</item>
+		<item>BISC 473 Special Topics in Ecology, Evolution and Conservation (3)</item>
+		<item>BISC 474 Special Topics in Ecology, Evolution and Conservation (3)</item>
+		<item>BISC 475 Special Topics in Biology (3)</item>
+		<item>BISC 490 Research Design (5)</item>
+		<item>BISC 491 Research Technique (5)</item>
+		<item>BISC 492W Research Reporting (5)</item>
+		<item>BISC 497W Undergraduate Research: Writing Intensive (3)</item>
+		<item>BISC 498 Undergraduate Research I (3)</item>
+		<item>BISC 499 Undergraduate Research II (3)</item>
+		<item>BISC 601 Agriculture, Horticulture and Urban Pest Management (2)</item>
+		<item>BISC 602 Forest Pest Management (2)</item>
+		<item>BISC 650 Environmental Risk Assessment (3)</item>
+		<item>BISC 651 Toxicity Tests I: Ecological Effects Based Tests (3)</item>
+		<item>BISC 652 ET Tests II: Mammalian Toxicity Tests (3)</item>
+		<item>BISC 654 Food and Drug Toxicology (3)</item>
+		<item>BISC 655 Environmental Toxicology Seminar (3)</item>
+		<item>BISC 656 Master of Environmental Toxicology Project (6)</item>
+		<item>BISC 657 Co-op I</item>
+		<item>BISC 658 Co-op II</item>
+		<item>BISC 800 Skills for the Successful Scientist (1)</item>
+		<item>BISC 806 Evolutionary Theory (3)</item>
+		<item>BISC 807 Ecological and Evolutionary Physiology (3)</item>
+		<item>BISC 820 Molecular Mechanisms of Microbial Pathogenesis (3)</item>
+		<item>BISC 824 Survival and Reproductive Strategies  (3)</item>
+		<item>BISC 827 Seminar in Evolutionary, Behavioural, and Conservation Ecology (1)</item>
+		<item>BISC 830 Community Ecology and Macroecology (3)</item>
+		<item>BISC 831 Research Seminars in Biological Sciences (1)</item>
+		<item>BISC 832 Research Seminars in Biological Sciences (1)</item>
+		<item>BISC 833 Research Seminars in Biological Sciences (1)</item>
+		<item>BISC 834 Essential Cell Biology (3)</item>
+		<item>BISC 838 Population Dynamics and Demography (3)</item>
+		<item>BISC 839 Industrial Microbiology  (3)</item>
+		<item>BISC 841 Plant diseases and plant biotechnology (3)</item>
+		<item>BISC 844 Biological Controls (3)</item>
+		<item>BISC 846 Insecticide Chemistry and Toxicology (3)</item>
+		<item>BISC 847 Pest Management in Practice (3)</item>
+		<item>BISC 849 Master of Pest Management Thesis (18)</item>
+		<item>BISC 852 Ecological and Molecular Interactions between Insect Vectors and Parasites (3)</item>
+		<item>BISC 854 Ecotoxicology (3)</item>
+		<item>BISC 855 Biochemical Toxicology (3)</item>
+		<item>BISC 859 Special Topics I (3)</item>
+		<item>BISC 869 Special Topics II (3)</item>
+		<item>BISC 879 Special Topics III (3)</item>
+		<item>BISC 880 Special Topics in Behavioral Ecology (3)</item>
+		<item>BISC 881 Special Topics in Cell and Molecular Biology (3)</item>
+		<item>BISC 883 Special Topics in Environmental Toxicology (3)</item>
+		<item>BISC 884 Special Topics in Pest Ecology and Management (3)</item>
+		<item>BISC 885 Special Topics in Animal Physiology (3)</item>
+		<item>BISC 886 Special Topics in Marine and Aquatic Biology (3)</item>
+		<item>BISC 887 Special Topics in Plant Biology (3)</item>
+		<item>BISC 888 Directed Readings in Biology (1)</item>
+		<item>BISC 889 Directed Readings in Biology (2)</item>
+		<item>BISC 890 Directed Readings in Biology (3)</item>
+		<item>BISC 892 PhD Graduate Candidacy Exam</item>
+		<item>BISC 898 MSc Thesis (18)</item>
+		<item>BISC 899 PhD Thesis (6)</item>
+	</string-array>
+</resources>

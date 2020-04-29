@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string-array name="math_spinner" tools:ignore="InconsistentArrays">
+		<item>MATH 100 Precalculus (3)</item>
+		<item>MATH 113 Euclidean Geometry (3)</item>
+		<item>MATH 125 Introduction to Mathematical Methods in the Physical Sciences-l (3)</item>
+		<item>MATH 126 Introduction to Mathematical Methods in the Physical Sciences-ll (3)</item>
+		<item>MATH 130 Geometry for Computer Graphics (3)</item>
+		<item>MATH 150 Calculus I with Review (4)</item>
+		<item>MATH 151 Calculus I (3)</item>
+		<item>MATH 152 Calculus II (3)</item>
+		<item>MATH 154 Calculus I for the Biological Sciences (3)</item>
+		<item>MATH 155 Calculus II for the Biological Sciences (3)</item>
+		<item>MATH 157 Calculus I for the Social Sciences (3)</item>
+		<item>MATH 158 Calculus II for the Social Sciences (3)</item>
+		<item>MATH 160W Mathematics in Action (3)</item>
+		<item>MATH 178W Fractals and Chaos (3)</item>
+		<item>MATH 190 Principles of Mathematics for Teachers (4)</item>
+		<item>MATH 197 Hitchhikers Guide to Everyday Math (3)</item>
+		<item>MATH 198 Introduction to Quantitative Reasoning (4)</item>
+		<item>MATH 208W Introduction to Operations Research (3)</item>
+		<item>MATH 232 Applied Linear Algebra (3)</item>
+		<item>MATH 240 Algebra I: Linear Algebra (3)</item>
+		<item>MATH 242 Introduction to Analysis I (3)</item>
+		<item>MATH 251 Calculus III (3)</item>
+		<item>MATH 252 Vector Calculus (3)</item>
+		<item>MATH 254 Vector and Complex Analysis for Applied Sciences (3)</item>
+		<item>MATH 291 Selected Topics in Mathematics (2)</item>
+		<item>MATH 292 Selected Topics in Mathematics (3)</item>
+		<item>MATH 301 Mathematical Journeys I (3)</item>
+		<item>MATH 302 Mathematical Journeys II (3)</item>
+		<item>MATH 303 Mathematical Journeys III (3)</item>
+		<item>MATH 304 Mathematical Journeys IV (3)</item>
+		<item>MATH 308 Linear Optimization (3)</item>
+		<item>MATH 309 Continuous Optimization (3)</item>
+		<item>MATH 310 Introduction to Ordinary Differential Equations (3)</item>
+		<item>MATH 314 Introduction to Fourier Methods and Partial Differential Equations (3)</item>
+		<item>MATH 320 Introduction to Analysis II (3)</item>
+		<item>MATH 322 Complex Variables (3)</item>
+		<item>MATH 336 Job Practicum I (3)</item>
+		<item>MATH 337 Job Practicum II (3)</item>
+		<item>MATH 338 Advanced Linear Algebra (3)</item>
+		<item>MATH 340 Algebra II: Rings and Fields (3)</item>
+		<item>MATH 341 Algebra III: Groups (3)</item>
+		<item>MATH 342 Elementary Number Theory (3)</item>
+		<item>MATH 343 Applied Discrete Mathematics (3)</item>
+		<item>MATH 345 Introduction to Graph Theory (3)</item>
+		<item>MATH 348 Probabilistic Models in Operations Research (3)</item>
+		<item>MATH 380W History of Mathematics (3)</item>
+		<item>MATH 381W Mathematics Undergraduate Seminar (3)</item>
+		<item>MATH 396 Selected Topics in Mathematics (3)</item>
+		<item>MATH 397 Selected Topics in Mathematics (3)</item>
+		<item>MATH 398 Selected Topics in Mathematics (3)</item>
+		<item>MATH 402W Operations Research Clinic (4)</item>
+		<item>MATH 408 Discrete Optimization (3)</item>
+		<item>MATH 418 Partial Differential Equations (3)</item>
+		<item>MATH 419 Linear Analysis (3)</item>
+		<item>MATH 424 Complex Analysis (3)</item>
+		<item>MATH 425 Real Analysis (3)</item>
+		<item>MATH 436 Job Practicum III (3)</item>
+		<item>MATH 437 Job Practicum IV (3)</item>
+		<item>MATH 439 Selected Topics in Algebra (3)</item>
+		<item>MATH 440 Galois Theory (3)</item>
+		<item>MATH 441 Commutative Algebra and Algebraic Geometry (3)</item>
+		<item>MATH 443 Combinatorial Theory (3)</item>
+		<item>MATH 445 Graph Theory (3)</item>
+		<item>MATH 447 Coding Theory (3)</item>
+		<item>MATH 448 Network Flows (3)</item>
+		<item>MATH 461 Continuous Mathematical Models (3)</item>
+		<item>MATH 462 Fluid Dynamics (3)</item>
+		<item>MATH 467 Dynamical Systems (3)</item>
+		<item>MATH 470 Variational Calculus (3)</item>
+		<item>MATH 480W The Art and Craft of Problem Solving (3)</item>
+		<item>MATH 486 Job Practicum V (3)</item>
+		<item>MATH 491 Honours Essay (2)</item>
+		<item>MATH 492 Directed Studies (4)</item>
+		<item>MATH 493 Directed Studies (4)</item>
+		<item>MATH 494 Directed Studies (4)</item>
+		<item>MATH 495 Selected Topics in Applied Mathematics (3)</item>
+		<item>MATH 496 Selected Topics in Mathematics (3)</item>
+		<item>MATH 497 Directed Studies (3)</item>
+		<item>MATH 498 Communication and Research Skills in the Mathematical Sciences (1)</item>
+		<item>MATH 499W Honours Research Project (5)</item>
+		<item>MATH 603 Foundations of Mathematics (4)</item>
+		<item>MATH 604 Geometry (4)</item>
+		<item>MATH 701 Computer Algebra (3)</item>
+		<item>MATH 708 Discrete Optimization (3)</item>
+		<item>MATH 709 Numerical Linear Algebra and Optimization (3)</item>
+		<item>MATH 716 Numerical Analysis II (3)</item>
+		<item>MATH 718 Partial Differential Equations (3)</item>
+		<item>MATH 719 Linear Analysis (3)</item>
+		<item>MATH 724 Applications of Complex Analysis (3)</item>
+		<item>MATH 725 Real Analysis (3)</item>
+		<item>MATH 739 Algebraic Systems Selected Topics in Algebra (3)</item>
+		<item>MATH 740 Galois Theory (3)</item>
+		<item>MATH 741 Commutative Algebra and Algebraic Geometry (3)</item>
+		<item>MATH 742 Cryptography (3)</item>
+		<item>MATH 743 Combinatorial Theory (3)</item>
+		<item>MATH 745 Graph Theory (3)</item>
+		<item>MATH 747 Coding Theory (3)</item>
+		<item>MATH 748 Network Flows (3)</item>
+		<item>MATH 761 Continuous Mathematical Models (3)</item>
+		<item>MATH 762 Fluid Dynamics (3)</item>
+		<item>MATH 767 Dynamical Systems (3)</item>
+		<item>MATH 770 Variational Calculus (3)</item>
+		<item>MATH 795 Selected Topics in Applied Mathematics (3)</item>
+		<item>MATH 796 Selected Topics in Mathematics (3)</item>
+		<item>MATH 800 Mathematics: Selected Topics (4)</item>
+		<item>MATH 801 Computer Algebra (4)</item>
+		<item>MATH 804 Operations Research: Selected Topics (4)</item>
+		<item>MATH 808 Advanced Linear Programming (4)</item>
+		<item>MATH 817 Groups and Rings (4)</item>
+		<item>MATH 818 Algebra and Geometry (4)</item>
+		<item>MATH 819 Algebra: Selected Topics (4)</item>
+		<item>MATH 820 Graph Theory (4)</item>
+		<item>MATH 821 Combinatorics (4)</item>
+		<item>MATH 827 Discrete Mathematics: Selected Topics (4)</item>
+		<item>MATH 831 Real Analysis I (4)</item>
+		<item>MATH 833 Analysis:  Selected Topics (4)</item>
+		<item>MATH 841 Topology: Selected Topics (4)</item>
+		<item>MATH 842 Algebraic Number Theory (4)</item>
+		<item>MATH 843 Analytic and Diophantine Number Theory (4)</item>
+		<item>MATH 845 Number Theory: Selected Topics (4)</item>
+		<item>MATH 846 Cryptography (4)</item>
+		<item>MATH 875 PhD Preliminary Examination</item>
+		<item>MATH 876 PhD Comprehensive Examination</item>
+		<item>MATH 877 Supplementary Reading (1)</item>
+		<item>MATH 878 PhD Comprehensive Examination</item>
+		<item>MATH 879 PhD Thesis Proposal</item>
+		<item>MATH 880 MSc Project (6)</item>
+		<item>MATH 888 Ph.D. Comprehensive Exam: Operations Research</item>
+		<item>MATH 890 Co-op I</item>
+		<item>MATH 891 Co-op II</item>
+		<item>MATH 894 Reading (2)</item>
+		<item>MATH 895 Reading (4)</item>
+		<item>MATH 898 MSc Thesis (12)</item>
+		<item>MATH 899 PhD Thesis (12)</item>
+	</string-array>
+</resources>

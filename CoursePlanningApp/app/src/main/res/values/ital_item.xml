@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string-array name="ital_spinner" tools:ignore="InconsistentArrays">
+		<item>ITAL 100 Introductory Italian I (3)</item>
+		<item>ITAL 101 Introductory Italian II (3)</item>
+		<item>ITAL 200 Intermediate Italian I (3)</item>
+		<item>ITAL 201 Intermediate Italian II (3)</item>
+		<item>ITAL 300 Advanced Italian: Language and Culture (3)</item>
+		<item>ITAL 390 STT Dantes Inferno (3)</item>
+		<item>ITAL 392 STT Boccaccios Decameron (3)</item>
+		<item>ITAL 400 Topics in Italian Literature: Contemporary Prose, Poetry and Theatre (4)</item>
+		<item>ITAL 491 Directed Readings in Italian (3)</item>
+	</string-array>
+</resources>

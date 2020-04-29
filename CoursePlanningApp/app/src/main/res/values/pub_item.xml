@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string-array name="pub_spinner" tools:ignore="InconsistentArrays">
+		<item>PUB 101 Publication of Self in Everyday Life (3)</item>
+		<item>PUB 131 Publication Design Technologies (3)</item>
+		<item>PUB 201 The Publication of Professional Self (3)</item>
+		<item>PUB 210W Professional Writing Workshop (3)</item>
+		<item>PUB 212 Public Relations and Public Engagement (3)</item>
+		<item>PUB 231 Graphic Design Fundamentals (3)</item>
+		<item>PUB 331 Graphic Design in Transition: Print and Digital Books (4)</item>
+		<item>PUB 332 Graphic Design in Transition: Print and Digital Periodicals (4)</item>
+		<item>PUB 350 Marketing for Book Publishers (4)</item>
+		<item>PUB 355W Online Marketing for Publishers (4)</item>
+		<item>PUB 371 The Structure of the Book Publishing Industry in Canada (4)</item>
+		<item>PUB 372 The Book Publishing Process (4)</item>
+		<item>PUB 375 Magazine Media Publishing (4)</item>
+		<item>PUB 401 Technology and the Evolving Book (4)</item>
+		<item>PUB 431 Graphic Design: The Page and the Screen (4)</item>
+		<item>PUB 438 Design Awareness in Publishing Processes and Products (4)</item>
+		<item>PUB 448 Publishing and Social Change: Tech, Texts, and Revolution (4)</item>
+		<item>PUB 450 The Business of Book Publishing (4)</item>
+		<item>PUB 456 Institutional and International Event Planning and Management (4)</item>
+		<item>PUB 477 Publishing Practicum (4)</item>
+		<item>PUB 478 Publishing Workshop (4)</item>
+		<item>PUB 480 Special Topics in Publishing (4)</item>
+		<item>PUB 483 Directed Readings in Publishing (3)</item>
+		<item>PUB 484 Directed Readings in Publishing  (4)</item>
+		<item>PUB 600 Topics in Publishing Management (4)</item>
+		<item>PUB 601 Editorial Theory and Practice (4)</item>
+		<item>PUB 602 Design and Production Management (4)</item>
+		<item>PUB 605 Book Publishing Project (5)</item>
+		<item>PUB 606 Magazine Publishing Project (4)</item>
+		<item>PUB 607 Publishing Technology Project (4)</item>
+		<item>PUB 800 Text &amp; Context: Publishing in Contemporary Culture (4)</item>
+		<item>PUB 801 History of Publishing (4)</item>
+		<item>PUB 802 Technology and the Evolving Form of Publishing (4)</item>
+		<item>PUB 877 Special Topics in Publishing (4)</item>
+		<item>PUB 897 Internship Project Report (Completion) (6)</item>
+		<item>PUB 898 Internship Project Report Supervision and Evaluation (6)</item>
+		<item>PUB 899 Publishing Internship or Project (6)</item>
+	</string-array>
+</resources>

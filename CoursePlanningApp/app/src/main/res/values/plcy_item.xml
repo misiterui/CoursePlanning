@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string-array name="plcy_spinner" tools:ignore="InconsistentArrays">
+		<item>PLCY 800 Introduction to Policy Issues and Analysis I (5)</item>
+		<item>PLCY 801 Economic Foundations of Policy Analysis I (5)</item>
+		<item>PLCY 802 Economic Foundations of Policy Analysis II (5)</item>
+		<item>PLCY 803 Political Foundations of Policy Analysis I (5)</item>
+		<item>PLCY 804 Political Foundations of Policy Analysis II (5)</item>
+		<item>PLCY 805 Research Techniques and Quantitative Methods I (5)</item>
+		<item>PLCY 806 Research Techniques and Quantitative Methods II (5)</item>
+		<item>PLCY 807 Introduction to Policy Analysis and Issues II (5)</item>
+		<item>PLCY 808 Advanced Policy Analysis  I (5)</item>
+		<item>PLCY 809 Advanced Policy Analysis II (5)</item>
+		<item>PLCY 810 Issues in Public Policy (5)</item>
+		<item>PLCY 811 Issues in Public Policy II (5)</item>
+		<item>PLCY 812 Selected Topics in Public Policy (5)</item>
+		<item>PLCY 813 Selected Topics in Public Policy II (5)</item>
+		<item>PLCY 814 Selected Topics in Public Policy III (5)</item>
+		<item>PLCY 815 Selected Topics in Public Policy IV (5)</item>
+		<item>PLCY 816 Selected Topics in Public Policy V (5)</item>
+		<item>PLCY 817 Advanced Qualitative Analysis for Public Policy (5)</item>
+		<item>PLCY 818 Quantitative Methods for Policy Analysts (5)</item>
+		<item>PLCY 819 Public Management (5)</item>
+		<item>PLCY 820 Public Participation in Public Policy (5)</item>
+		<item>PLCY 821 Indigenous Policy (5)</item>
+		<item>PLCY 823 Health Policy (5)</item>
+		<item>PLCY 824 Analysis, Formulation, and Evaluation of Social Policy (5)</item>
+		<item>PLCY 825 MPP Directed Readings I (5)</item>
+		<item>PLCY 826 Directed Readings II (5)</item>
+		<item>PLCY 827 Managing Compliance: Delivering Policy (5)</item>
+		<item>PLCY 828 Multiple Account Benefit-Cost Analysis (5)</item>
+		<item>PLCY 829 Environmental Policy (5)</item>
+		<item>PLCY 830 Law, Public Policy and Conflict Resolution (5)</item>
+		<item>PLCY 850 Co-op</item>
+	</string-array>
+</resources>

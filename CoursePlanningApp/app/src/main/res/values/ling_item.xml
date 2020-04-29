@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string-array name="ling_spinner" tools:ignore="InconsistentArrays">
+		<item>LING 100 Communication and Language (3)</item>
+		<item>LING 111 Introduction to English Vocabulary Analysis (3)</item>
+		<item>LING 160 Language, Culture and Society (3)</item>
+		<item>LING 200 Introduction to English Sentence Analysis (3)</item>
+		<item>LING 220 Introduction to Linguistics (3)</item>
+		<item>LING 280 Interdisciplinary Topics in Linguistics (3)</item>
+		<item>LING 282W Writing for Linguistics (3)</item>
+		<item>LING 290 The Science of Speech (3)</item>
+		<item>LING 301W Linguistic Argumentation (3)</item>
+		<item>LING 309W Sociolinguistics (3)</item>
+		<item>LING 321 Phonology (3)</item>
+		<item>LING 322 Syntax (3)</item>
+		<item>LING 323 Morphology (3)</item>
+		<item>LING 324 Semantics (3)</item>
+		<item>LING 330 Phonetics (3)</item>
+		<item>LING 350 First Language Acquisition (3)</item>
+		<item>LING 360 Introduction to Applied Linguistics (3)</item>
+		<item>LING 362 Introduction to Teaching English as a Second Language to Adults (3)</item>
+		<item>LING 363 Practicum in Teaching English as a Second Language to Adults (3)</item>
+		<item>LING 400 Formal Linguistics (3)</item>
+		<item>LING 401 Topics in Phonetics (3)</item>
+		<item>LING 407 Historical Linguistics (3)</item>
+		<item>LING 408 Field Linguistics (3)</item>
+		<item>LING 410 Theories of Applied Linguistics (3)</item>
+		<item>LING 411 Topics in Applied Phonetics (3)</item>
+		<item>LING 415 Neurolinguistics (3)</item>
+		<item>LING 430 Aboriginal Languages of the Americas (3)</item>
+		<item>LING 431 Language Structures I (3)</item>
+		<item>LING 432 Language Structures II (3)</item>
+		<item>LING 441 Linguistic Universals and Typology (3)</item>
+		<item>LING 480 Topics in Linguistics I (3)</item>
+		<item>LING 481 Topics in Linguistics II (3)</item>
+		<item>LING 482W Topics in Linguistics III (3)</item>
+		<item>LING 490 Honours Essay (3)</item>
+		<item>LING 491 Directed Research (3)</item>
+		<item>LING 492 Directed Research (3)</item>
+		<item>LING 800 Phonology (3)</item>
+		<item>LING 801 Syntax (3)</item>
+		<item>LING 802 Semantics (3)</item>
+		<item>LING 803 Discourse and Pragmatics (3)</item>
+		<item>LING 804 Field Methods (3)</item>
+		<item>LING 805 Historical and Comparative Linguistics (3)</item>
+		<item>LING 806 Sociolinguistics (3)</item>
+		<item>LING 807 Computational Linguistics (3)</item>
+		<item>LING 810 Topics in Linguistics I (3)</item>
+		<item>LING 811 Topics in Linguistics II (3)</item>
+		<item>LING 812 Topics in Linguistics III (3)</item>
+		<item>LING 813 Topics in Linguistics IV (3)</item>
+		<item>LING 820 Formal Linguistics (3)</item>
+		<item>LING 821 Phonetics (3)</item>
+		<item>LING 830 Phonetics and Phonology of a First Nations Language (4)</item>
+		<item>LING 831 Morphology and Syntax of a First Nations Language (4)</item>
+		<item>LING 832 Narrative and Discourse Structure of a First Nations Language (4)</item>
+		<item>LING 833 Socio-cultural and Cognitive Aspects of a First Nations Language (4)</item>
+		<item>LING 834 Effective Pedagogies and Materials Development for First Nations Language (4)</item>
+		<item>LING 850 Foundations of Applied Linguistics (3)</item>
+		<item>LING 851 Research Techniques and Experimental Design (3)</item>
+		<item>LING 855 Topics in Applied Linguistics (3)</item>
+		<item>LING 890 Graduate Seminar I (1)</item>
+		<item>LING 891 Graduate Seminar II (1)</item>
+		<item>LING 893 First Nations Linguistics MA Project (6)</item>
+		<item>LING 894 Qualifying Paper I (6)</item>
+		<item>LING 895 Qualifying Paper II (6)</item>
+		<item>LING 896 Directed Research (3)</item>
+		<item>LING 898 MA Thesis (10)</item>
+		<item>LING 899 PhD Thesis (10)</item>
+	</string-array>
+</resources>

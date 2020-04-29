@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string-array name="wl_spinner" tools:ignore="InconsistentArrays">
+		<item>WL 100 What is World Literature? (3)</item>
+		<item>WL 101W Writing in World Literature (3)</item>
+		<item>WL 103W Early World Literatures (3)</item>
+		<item>WL 104W Modern World Literatures (3)</item>
+		<item>WL 105W World Literature Lab (3)</item>
+		<item>WL 200 How to Do Things with World Literature (3)</item>
+		<item>WL 201 East/West Encounters (3)</item>
+		<item>WL 202 North/South Intersections (3)</item>
+		<item>WL 203 Subversive Genres (3)</item>
+		<item>WL 204 Rights and Activism in Literature (3)</item>
+		<item>WL 300 How Ideas Travel (4)</item>
+		<item>WL 301W Writing and Research (3)</item>
+		<item>WL 303 Global Culture and Its Discontents (4)</item>
+		<item>WL 304 Exile and Migration (4)</item>
+		<item>WL 305W Sages and Poets (4)</item>
+		<item>WL 306 Transnational Literary Rebellions (4)</item>
+		<item>WL 307 Creative Writing in World Literature (4)</item>
+		<item>WL 308 Travel and Trade (4)</item>
+		<item>WL 309 Empire and Resistance (4)</item>
+		<item>WL 320 Interdisciplinary Approaches to World Literature (3)</item>
+		<item>WL 330 Special Topic in World Literature (4)</item>
+		<item>WL 340 Directed Studies (1)</item>
+		<item>WL 345 Directed Studies (2)</item>
+		<item>WL 350 Directed Studies (3)</item>
+		<item>WL 400 Early Literary Cultures (4)</item>
+		<item>WL 401 Early Modernities Beyond the Medieval (4)</item>
+		<item>WL 402 Stories of Modernity (4)</item>
+		<item>WL 403 Contemporary World Literature (4)</item>
+		<item>WL 404W Literature and Translation (4)</item>
+		<item>WL 410 Selected Topic in World Literature I (4)</item>
+		<item>WL 450 Directed Readings in Language and Literature (4)</item>
+		<item>WL 460 Directed Studies (4)</item>
+		<item>WL 480 Research Seminar for Honours Essay (4)</item>
+		<item>WL 490 Honours Graduate Essay (4)</item>
+	</string-array>
+</resources>

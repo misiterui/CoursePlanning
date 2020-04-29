@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string-array name="arch_spinner" tools:ignore="InconsistentArrays">
+		<item>ARCH 100 Ancient Peoples and Places (3)</item>
+		<item>ARCH 131 Human Origins (3)</item>
+		<item>ARCH 200 Special Topics in World Prehistory (3)</item>
+		<item>ARCH 201 Reconstructing the Human Past (3)</item>
+		<item>ARCH 226 The Prehistory of Religion: Shamans, Sorcerers and Saints (3)</item>
+		<item>ARCH 252 Ancient Egypt and Africa (3)</item>
+		<item>ARCH 272W Archaeology of the Old World (4)</item>
+		<item>ARCH 273 Archaeology of the New World (4)</item>
+		<item>ARCH 285 Archaeological Science  (4)</item>
+		<item>ARCH 286 Cultural Heritage Management (3)</item>
+		<item>ARCH 301 Ancient Visual Art (3)</item>
+		<item>ARCH 312 Greek Art and Archaeology (4)</item>
+		<item>ARCH 313 Roman Art and Archaeology (4)</item>
+		<item>ARCH 321 Select Regions in World Archaeology I (3)</item>
+		<item>ARCH 322 Special Topics in Biological Anthropology I (3)</item>
+		<item>ARCH 323 Special Topics in Biological Anthropology II (3)</item>
+		<item>ARCH 329 Special Topics in Environmental Archaeology (3)</item>
+		<item>ARCH 331 Select Regions in World Archaeology II (3)</item>
+		<item>ARCH 332 Special Topics in Archaeology I (3)</item>
+		<item>ARCH 333 Special Topics in Archaeology II (3)</item>
+		<item>ARCH 340 Zooarchaeology (5)</item>
+		<item>ARCH 344 Primate Behaviour (3)</item>
+		<item>ARCH 348 Archaeological Conservation (5)</item>
+		<item>ARCH 349 Management of Archaeological Collections (5)</item>
+		<item>ARCH 350 Practicum I (3)</item>
+		<item>ARCH 351 Practicum II (3)</item>
+		<item>ARCH 363 Landscape Archaeology (3)</item>
+		<item>ARCH 365 Archaeological Perspectives on Human Ecology (3)</item>
+		<item>ARCH 372 Material Culture Analysis (4)</item>
+		<item>ARCH 373 Human Osteology (5)</item>
+		<item>ARCH 375 From Soup to Nuts: The Archaeology of Food (3)</item>
+		<item>ARCH 376 Quantitative Methods in Archaeology (4)</item>
+		<item>ARCH 377 Historical Archaeology (5)</item>
+		<item>ARCH 378 Pacific Northwest North America (3)</item>
+		<item>ARCH 383 Molecular Bioarchaeology (3)</item>
+		<item>ARCH 385 Paleoanthropology (5)</item>
+		<item>ARCH 386 Archaeological Resource Management (3)</item>
+		<item>ARCH 388 Geoarchaeology (5)</item>
+		<item>ARCH 389 Ethnoecology (3)</item>
+		<item>ARCH 390 Archaeobotany (5)</item>
+		<item>ARCH 425 Archaeometry (3)</item>
+		<item>ARCH 428 Soil Micromorphology (5)</item>
+		<item>ARCH 431 Historical Ecology &amp; Coastal Archaeology (3)</item>
+		<item>ARCH 433 Background to Field Work (3)</item>
+		<item>ARCH 434 Archaeological Field Methods (3)</item>
+		<item>ARCH 435 Field Work Practicum</item>
+		<item>ARCH 436 Biological Anthropology Field Practicum</item>
+		<item>ARCH 442 Forensic Anthropology (5)</item>
+		<item>ARCH 450 Practicum III (3)</item>
+		<item>ARCH 451 Practicum IV (3)</item>
+		<item>ARCH 452 Introduction to Paleopathology (5)</item>
+		<item>ARCH 471W Archaeological Theory (5)</item>
+		<item>ARCH 479 Directed Readings (3)</item>
+		<item>ARCH 480 Directed Laboratory/Library/Field Research</item>
+		<item>ARCH 485 Lithic Technology (5)</item>
+		<item>ARCH 498 Honours Reading (5)</item>
+		<item>ARCH 499 Honours Thesis (5)</item>
+		<item>ARCH 531 HRM Law and Policy (5)</item>
+		<item>ARCH 541 HRM Professional Practice and Ethics (5)</item>
+		<item>ARCH 551 HRM Business Management (5)</item>
+		<item>ARCH 561 HRM Archaeological Research Design and Methods (5)</item>
+		<item>ARCH 591 Directed Study in Heritage Resource Management (5)</item>
+		<item>ARCH 871 Archaeological Theory (5)</item>
+		<item>ARCH 872 Graduate Seminar in Archaeology and Prehistory (1)</item>
+		<item>ARCH 873 Graduate Seminar in Archaeology and Prehistory (1)</item>
+		<item>ARCH 874 PhD Prospectus &amp; Colloquium</item>
+		<item>ARCH 875 PhD Comprehensive Examination</item>
+		<item>ARCH 876 Research Design (5)</item>
+		<item>ARCH 892 Directed Readings in Prehistory (5)</item>
+		<item>ARCH 893 Directed Readings (3)</item>
+		<item>ARCH 894 Special Topics (3)</item>
+		<item>ARCH 895 Special Topics (5)</item>
+		<item>ARCH 896 Directed Laboratory/Library/Field Research (5)</item>
+		<item>ARCH 898 MA Thesis (18)</item>
+		<item>ARCH 899 PhD Thesis (6)</item>
+	</string-array>
+</resources>

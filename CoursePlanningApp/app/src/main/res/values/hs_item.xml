@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string-array name="hs_spinner" tools:ignore="InconsistentArrays">
+		<item>HS 100 The Greek World (3)</item>
+		<item>HS 150 Warfare in the Hellenic World: From Plato to NATO (3)</item>
+		<item>HS 201 Rome: From Republic to Empire (3)</item>
+		<item>HS 209 Heroic Greek Tales: From the Trojans to Frankenstein (3)</item>
+		<item>HS 216 War and Society (3)</item>
+		<item>HS 231 Daily Life in Ancient Greece and Rome (3)</item>
+		<item>HS 232 The Religions of Ancient Greece and Rome (3)</item>
+		<item>HS 275 From Alexander to the Caesars: The Hellenic and Roman Worlds to the end of Antiquity (4)</item>
+		<item>HS 276 Social, Economic, and Political History of the Mediterranean (3)</item>
+		<item>HS 277 History of Greek Civilization (3)</item>
+		<item>HS 278 The Greeks in the Ottoman Empire (3)</item>
+		<item>HS 279 Greece in the 20th Century (3)</item>
+		<item>HS 280 War in the Balkans and the Making of the 21st Century (3)</item>
+		<item>HS 303 Selected Topics in Hellenic Studies (4)</item>
+		<item>HS 304 Alexander the Great and the Quest for World Empire (4)</item>
+		<item>HS 307 Selected Topics in Hellenic Studies (4)</item>
+		<item>HS 309 Narrating Trauma: Civil War Literature in the Balkans and the Mediterranean (4)</item>
+		<item>HS 312 Greek Art and Archaeology (4)</item>
+		<item>HS 313 Roman Art and Archaeology (4)</item>
+		<item>HS 318 Heroines in Greece and Beyond: Political Representations of Women in Film and Literature (4)</item>
+		<item>HS 349 Rome after Rome: The Byzantine Middle Ages from the end of Antiquity to the Crusades (4)</item>
+		<item>HS 359 Constructing the Nation State in Greece, the Balkans, and the Mediterranean (4)</item>
+		<item>HS 364 Traveller, Diplomatic, and Media Narratives in Greece, the Balkans and the Mediterranean (4)</item>
+		<item>HS 403 Selected Topics in Hellenic Studies (4)</item>
+		<item>HS 418 Greeks Go Global: From Antigone to Atwood (4)</item>
+		<item>HS 422 Greece, 1935-1944: Occupation and Resistance (4)</item>
+		<item>HS 441 Women, Property, and the Law in the Mediterranean (4)</item>
+		<item>HS 460 Themes in Byzantine History (4)</item>
+		<item>HS 476 History of Modern Greece (4)</item>
+		<item>HS 477 War in the Shadows: Espionage, Insurgency, &amp; Violence in the Eastern Mediterranean (4)</item>
+	</string-array>
+</resources>

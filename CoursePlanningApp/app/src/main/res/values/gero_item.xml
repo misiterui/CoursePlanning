@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string-array name="gero_spinner" tools:ignore="InconsistentArrays">
+		<item>GERO 101 Aging and Society (3)</item>
+		<item>GERO 300 Introduction to Gerontology (3)</item>
+		<item>GERO 301 Research Methods in Gerontology (3)</item>
+		<item>GERO 302 Health Promotion and Aging (3)</item>
+		<item>GERO 401 Environment and Aging (3)</item>
+		<item>GERO 403 Counselling Issues with Older Adults (3)</item>
+		<item>GERO 404 Health and Illness in Later Life (3)</item>
+		<item>GERO 406 Death and Dying (3)</item>
+		<item>GERO 407 Nutrition and Aging (3)</item>
+		<item>GERO 408 Families over the Life Course (4)</item>
+		<item>GERO 409 Mental Health and Aging (3)</item>
+		<item>GERO 410 Special Topics in Gerontology I (3)</item>
+		<item>GERO 411 Special Topics in Gerontology II (3)</item>
+		<item>GERO 412 Special Topics in Gerontology III (3)</item>
+		<item>GERO 413 Sexuality and Aging (3)</item>
+		<item>GERO 420 Sociology of Aging (4)</item>
+		<item>GERO 450 Evaluation of Health Programs for Older Adults (4)</item>
+		<item>GERO 801 Health Policy and Applied Issues in Gerontology  (4)</item>
+		<item>GERO 802 Development and Evaluation of Health Promotion Programs for the Elderly (4)</item>
+		<item>GERO 803 Analytical Techniques for Gerontological Research (4)</item>
+		<item>GERO 804 Advanced Qualitative Methods in Gerontology (4)</item>
+		<item>GERO 806 Interdisciplinary Theories in Gerontology (4)</item>
+		<item>GERO 810 Community-based Housing, Health and Support Services for Older Adults (4)</item>
+		<item>GERO 811 Institutional Living Environments (4)</item>
+		<item>GERO 820 Principles and Practices of Health Promotion (4)</item>
+		<item>GERO 822 Families, Communities and Health (4)</item>
+		<item>GERO 823 Mental Health and Illness in Later Life (4)</item>
+		<item>GERO 830 Aging in a Technological World (4)</item>
+		<item>GERO 840 Special Topics in Gerontology (4)</item>
+		<item>GERO 850 MA Practicum (4)</item>
+		<item>GERO 889 Directed Studies (4)</item>
+		<item>GERO 896 Project Proposal</item>
+		<item>GERO 897 Thesis Proposal</item>
+		<item>GERO 898 MA Project (6)</item>
+		<item>GERO 899 MA Thesis (6)</item>
+		<item>GERO 994 Comprehensive Examination I (3)</item>
+		<item>GERO 995 Comprehensive Examination II (3)</item>
+		<item>GERO 996 Thesis Proposal</item>
+		<item>GERO 998 PhD Thesis (6)</item>
+	</string-array>
+</resources>

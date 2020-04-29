@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string-array name="bus_spinner" tools:ignore="InconsistentArrays">
+		<item>BUS 200 Business Fundamentals (3)</item>
+		<item>BUS 201 Introduction to Business (3)</item>
+		<item>BUS 202 Foundations for Collaborative Work Environments (3)</item>
+		<item>BUS 207 Managerial Economics (3)</item>
+		<item>BUS 216 Introduction to Essentials of Business Communications (3)</item>
+		<item>BUS 217W Critical Thinking in Business (3)</item>
+		<item>BUS 221 Personal Finance (3)</item>
+		<item>BUS 225 Co-op Practicum I (3)</item>
+		<item>BUS 232 Data and Decisions I (4)</item>
+		<item>BUS 233 Introduction to Business Law and Ethics (3)</item>
+		<item>BUS 237 Introduction to Business Technology Management (3)</item>
+		<item>BUS 238 Introduction to Entrepreneurship and Innovation (3)</item>
+		<item>BUS 251 Financial Accounting I (3)</item>
+		<item>BUS 254 Managerial Accounting I (3)</item>
+		<item>BUS 272 Behaviour in Organizations (3)</item>
+		<item>BUS 291 Selected Topics in Business Administration (3)</item>
+		<item>BUS 292 Selected Topics in Business Administration (3)</item>
+		<item>BUS 303 Business, Society and Ethics (3)</item>
+		<item>BUS 307 Business Applications of Game Theory (3)</item>
+		<item>BUS 311 Introduction to Managerial Accounting and Financial Management (4)</item>
+		<item>BUS 312 Introduction to Finance (4)</item>
+		<item>BUS 314 Resourcing New Ventures (3)</item>
+		<item>BUS 315 Investments (4)</item>
+		<item>BUS 316 Derivative Securities (3)</item>
+		<item>BUS 318 Management of Equity and Fixed Income Investments (3)</item>
+		<item>BUS 320 Financial Accounting:  Assets (3)</item>
+		<item>BUS 321 Financial Accounting: Equities (3)</item>
+		<item>BUS 322 Intermediate Managerial Accounting (3)</item>
+		<item>BUS 325 Co-op Practicum II (3)</item>
+		<item>BUS 326 Co-op Practicum III (3)</item>
+		<item>BUS 327 Co-op Practicum IV (3)</item>
+		<item>BUS 328 International Co-op Practicum (3)</item>
+		<item>BUS 330 Income Taxation for Individuals (3)</item>
+		<item>BUS 331 Corporate Taxation (3)</item>
+		<item>BUS 336 Data and Decisions II (4)</item>
+		<item>BUS 338 Foundations of Innovation (3)</item>
+		<item>BUS 339 Business of Design II Iteration and Prototyping (4)</item>
+		<item>BUS 340 International Business Strategy (4)</item>
+		<item>BUS 341 Fundamentals of Marketing (4)</item>
+		<item>BUS 343 Introduction to Marketing (3)</item>
+		<item>BUS 345 Marketing Research (4)</item>
+		<item>BUS 346 Global Business Environment (3)</item>
+		<item>BUS 347 Consumer Behaviour (3)</item>
+		<item>BUS 360W Business Communication (4)</item>
+		<item>BUS 361 Project Management (3)</item>
+		<item>BUS 362 Business Process Analysis (4)</item>
+		<item>BUS 371 Critical Thinking Through Business Case Analysis (3)</item>
+		<item>BUS 374 Organization Theory (3)</item>
+		<item>BUS 381 Introduction to Human Resource Management (3)</item>
+		<item>BUS 393 Commercial Law (3)</item>
+		<item>BUS 394 Selected Topics in Business Administration (3)</item>
+		<item>BUS 395 Selected Topics in Business Administration (3)</item>
+		<item>BUS 396 Directed Studies (3)</item>
+		<item>BUS 401 Developing Organizational Opportunities (4)</item>
+		<item>BUS 404 Technology Entrepreneurship I (1)</item>
+		<item>BUS 405 Technology Entrepreneurship II (1)</item>
+		<item>BUS 406 Startup Accelerator (3)</item>
+		<item>BUS 410 Financial Institutions (3)</item>
+		<item>BUS 413 Corporate Finance (4)</item>
+		<item>BUS 414 Real Estate Investments (3)</item>
+		<item>BUS 415 Applied Portfolio Management (3)</item>
+		<item>BUS 417 Security Analysis (4)</item>
+		<item>BUS 418 International Financial Management (3)</item>
+		<item>BUS 419 Advanced Derivative Securities (3)</item>
+		<item>BUS 420 Advanced Accounting (3)</item>
+		<item>BUS 421 Accounting Theory (3)</item>
+		<item>BUS 424 Advanced Managerial Accounting (3)</item>
+		<item>BUS 425 Co-op Practicum V (3)</item>
+		<item>BUS 426 Auditing and Assurance: Concepts and Methods (3)</item>
+		<item>BUS 427 Financial Statement Analysis (3)</item>
+		<item>BUS 428 Forensic Accounting and Data Analytics (3)</item>
+		<item>BUS 430 Cross-Cultural Management (3)</item>
+		<item>BUS 431 Business with East Asian Countries (3)</item>
+		<item>BUS 432 International Human Resource Management (3)</item>
+		<item>BUS 434 Foreign Market Entry (3)</item>
+		<item>BUS 435 Management of International Firms (3)</item>
+		<item>BUS 437 Decision Analysis in Business (3)</item>
+		<item>BUS 439 Analytics Project (3)</item>
+		<item>BUS 440 Simulation in Management Decision-making (4)</item>
+		<item>BUS 441 Web Analytics (3)</item>
+		<item>BUS 443 New Product Development and Design (3)</item>
+		<item>BUS 444 Business to Business Marketing (3)</item>
+		<item>BUS 445 Customer Analytics (3)</item>
+		<item>BUS 446 Marketing Strategy (4)</item>
+		<item>BUS 447 Global Marketing Management (3)</item>
+		<item>BUS 448 Integrated Marketing Communications (4)</item>
+		<item>BUS 449 Ethical Issues in Marketing (3)</item>
+		<item>BUS 450 Managing Emerging Opportunities (3)</item>
+		<item>BUS 453 Sustainable Innovation (3)</item>
+		<item>BUS 455 Product &amp; Brand Management (3)</item>
+		<item>BUS 459 Services Marketing (3)</item>
+		<item>BUS 462 Business Analytics (3)</item>
+		<item>BUS 464 Business Data Management (3)</item>
+		<item>BUS 465 Business Systems Development (3)</item>
+		<item>BUS 466 Web-Enabled Business (3)</item>
+		<item>BUS 468 Managing Information Technology for Business Value (3)</item>
+		<item>BUS 471 Strategic Decision Making (3)</item>
+		<item>BUS 473 Operations Management (4)</item>
+		<item>BUS 474 Supply Chain Management (3)</item>
+		<item>BUS 475 Sustainable Operations (3)</item>
+		<item>BUS 476 Business of Design IV Promotion, Packaging and Launch Launching a Design-Led Business (4)</item>
+		<item>BUS 477 Startup Experience (4)</item>
+		<item>BUS 478 Strategy (3)</item>
+		<item>BUS 479 Strategy Analysis Practicum (3)</item>
+		<item>BUS 481 Recruitment and Selection (3)</item>
+		<item>BUS 482 Performance Management (3)</item>
+		<item>BUS 483 Introduction to Employment Law For Business (3)</item>
+		<item>BUS 484 Employment Systems (3)</item>
+		<item>BUS 485 Negotiations and Conflict Management (3)</item>
+		<item>BUS 486 Leadership (3)</item>
+		<item>BUS 487 Organizational Development and Change Management (3)</item>
+		<item>BUS 488 Group Dynamics and Teamwork (3)</item>
+		<item>BUS 489 Management Practices for Sustainability (3)</item>
+		<item>BUS 490 Selected Topics in Business Administration (3)</item>
+		<item>BUS 491 Selected Topics in Business Administration (3)</item>
+		<item>BUS 492 Selected Topics in Business Administration (3)</item>
+		<item>BUS 493 Selected Topics in Business Administration (3)</item>
+		<item>BUS 494 Selected Topics in Business Administration (3)</item>
+		<item>BUS 495 Selected Topics in Business Administration (3)</item>
+		<item>BUS 496 Selected Topics in Business Administration (5)</item>
+		<item>BUS 497 STT-International Corporate Finance: A China Focus (4)</item>
+		<item>BUS 498 Directed Studies (3)</item>
+		<item>BUS 499 Directed Studies (5)</item>
+		<item>BUS 510 Financial and Managerial Accounting (4)</item>
+		<item>BUS 511 Business Ethics (2)</item>
+		<item>BUS 552 Managerial Economics (4)</item>
+		<item>BUS 553 Business Analytics  (4)</item>
+		<item>BUS 554 Information Technology Management (4)</item>
+		<item>BUS 555 Managerial Finance (4)</item>
+		<item>BUS 556 Marketing Management (4)</item>
+		<item>BUS 557 Managing People and Organizations (4)</item>
+		<item>BUS 558 Special Topics (3)</item>
+		<item>BUS 559 Special Topics (4)</item>
+		<item>BUS 560 Directed Studies (3)</item>
+		<item>BUS 561 Special Topics (2)</item>
+		<item>BUS 562 Special Topics (2)</item>
+		<item>BUS 563 Social Entrepreneurship and Innovation (4)</item>
+		<item>BUS 564 Innovation and Design Thinking (4)</item>
+		<item>BUS 565 Social Entrepreneurship Field Project (4)</item>
+		<item>BUS 570 Project Management (4)</item>
+		<item>BUS 602 International Management (4)</item>
+		<item>BUS 603 Structure and Change in Organizations (4)</item>
+		<item>BUS 606 Finance (4)</item>
+		<item>BUS 607 Strategy (4)</item>
+		<item>BUS 610 Directed Studies in Business Administration (2)</item>
+		<item>BUS 611 Directed Studies in Business Administration (4)</item>
+		<item>BUS 612 Directed Studies in Business Administration (4)</item>
+		<item>BUS 615 Marketing (4)</item>
+		<item>BUS 616 Philosophy of Management (4)</item>
+		<item>BUS 621 Information Technology and Organizational Transformation (4)</item>
+		<item>BUS 632 Operations Management (4)</item>
+		<item>BUS 633 Topics in Sustainability (4)</item>
+		<item>BUS 634 Policy and Governance (4)</item>
+		<item>BUS 635 Operational Finance (2)</item>
+		<item>BUS 636 Corporate Finance (2)</item>
+		<item>BUS 637 Marketing Management (2)</item>
+		<item>BUS 638 Marketing Strategy (2)</item>
+		<item>BUS 639 Financial Statement Analysis (2)</item>
+		<item>BUS 640 Managerial Accounting (2)</item>
+		<item>BUS 641 Cross Cultural Management (2)</item>
+		<item>BUS 642 International Competitive Strategy (2)</item>
+		<item>BUS 643 Entrepreneurship (2)</item>
+		<item>BUS 644 Entrepreneurial Finance (2)</item>
+		<item>BUS 645 Capstone Simulation (2)</item>
+		<item>BUS 646 Managing Innovation (2)</item>
+		<item>BUS 647 Entrepreneurship and Innovation (4)</item>
+		<item>BUS 648 Indigenous Business and Communities (2)</item>
+		<item>BUS 649 Corporate Responsibility (2)</item>
+		<item>BUS 650 Business Ethics (2)</item>
+		<item>BUS 651 Managerial Economics (4)</item>
+		<item>BUS 652 Special Topics in Business Administration (3)</item>
+		<item>BUS 653 Special Topics in Business Administration (2)</item>
+		<item>BUS 654 Special Topics in Business Administration (2)</item>
+		<item>BUS 655 Special Topics in Business Administration (2)</item>
+		<item>BUS 660 Special Topics in Business Administration (4)</item>
+		<item>BUS 661 Special Topics in Business Administration (4)</item>
+		<item>BUS 662 Negotiations (2)</item>
+		<item>BUS 663 Special Topics in Business Administration (4)</item>
+		<item>BUS 664 New Ventures (4)</item>
+		<item>BUS 670 Accounting for Decision Making (4)</item>
+		<item>BUS 681 Leadership and Teamwork (4)</item>
+		<item>BUS 689 Special Topics in Business Administration (3)</item>
+		<item>BUS 691 Business, Community and Government (4)</item>
+		<item>BUS 696 Applied Project (6)</item>
+		<item>BUS 698 Directed Studies in Business Administration (4)</item>
+		<item>BUS 699 Orientation Retreat</item>
+		<item>BUS 702 Marketing Management (3)</item>
+		<item>BUS 703 Managerial Economics (3)</item>
+		<item>BUS 704 Leadership and Teamwork (3)</item>
+		<item>BUS 705 Financial/Managerial Accounting (3)</item>
+		<item>BUS 706 Business Analytics (3)</item>
+		<item>BUS 707 Business Ethics (2)</item>
+		<item>BUS 708 Financial Management (3)</item>
+		<item>BUS 709 Managing Information (3)</item>
+		<item>BUS 710 Managing Global Enterprises (3)</item>
+		<item>BUS 711 Negotiation and Conflict Resolution (3)</item>
+		<item>BUS 712 Managing a Globalized Workforce (2)</item>
+		<item>BUS 713 Essays (4)</item>
+		<item>BUS 714 Entrepreneurship (3)</item>
+		<item>BUS 715 Operations Management (3)</item>
+		<item>BUS 716 Sustainability (3)</item>
+		<item>BUS 718 Business Strategy (3)</item>
+		<item>BUS 719 Managing People and Organizations (3)</item>
+		<item>BUS 720 Special Topics in Business Administration (2)</item>
+		<item>BUS 721 Special Topics in Business Administration (3)</item>
+		<item>BUS 722 Special Topics in Business Administration (4)</item>
+		<item>BUS 723 Introduction to Managerial Thought (2)</item>
+		<item>BUS 724 Organizational Analysis (2)</item>
+		<item>BUS 725 International Applied Project (2)</item>
+		<item>BUS 726 Business Innovation and Creativity (2)</item>
+		<item>BUS 727 MBA Internship</item>
+		<item>BUS 728 Research Practicum</item>
+		<item>BUS 729 Capstone Simulation (2)</item>
+		<item>BUS 730 Business and Indigenous Communities (2)</item>
+		<item>BUS 733 Negotiations (2)</item>
+		<item>BUS 734 Entrepreneurship (4)</item>
+		<item>BUS 735 Sustainability (4)</item>
+		<item>BUS 736 Leading Self &amp; Others (2)</item>
+		<item>BUS 737 Business Strategy (4)</item>
+		<item>BUS 738 Operations Management (4)</item>
+		<item>BUS 739 Managing Information (4)</item>
+		<item>BUS 740 Managing Across Cultures (2)</item>
+		<item>BUS 741 Business and Indigenous Peoples (2)</item>
+		<item>BUS 750 Managing Technological Innovation (4)</item>
+		<item>BUS 751 Managerial Economics for Technology Firms (4)</item>
+		<item>BUS 752 Strategic Management of Technology-Based Firms (4)</item>
+		<item>BUS 753 Business Ethics (2)</item>
+		<item>BUS 754 Marketing Tech-based Products and Services (4)</item>
+		<item>BUS 755 Topics in International Business (2)</item>
+		<item>BUS 756 Strategic Use of Information and Knowledge (4)</item>
+		<item>BUS 757 Negotiations (2)</item>
+		<item>BUS 758 Business Operations Design (4)</item>
+		<item>BUS 759 Special Topics (4)</item>
+		<item>BUS 761 Leadership for the Technology Driven Enterprise (2)</item>
+		<item>BUS 762 Project Management (4)</item>
+		<item>BUS 763 Managing Self and Others: An Organizational Simulation (2)</item>
+		<item>BUS 764 Financing the Organization (4)</item>
+		<item>BUS 766 Financial and Managerial Accounting (4)</item>
+		<item>BUS 770 Special Topics (2)</item>
+		<item>BUS 771 Special Topics (2)</item>
+		<item>BUS 772 Special Topics (2)</item>
+		<item>BUS 773 Special Topics (2)</item>
+		<item>BUS 774 Special Topics (4)</item>
+		<item>BUS 776 Special Topics in Biotechnology (4)</item>
+		<item>BUS 778 Directed Studies in Management of Technology (4)</item>
+		<item>BUS 780 Applied Project (6)</item>
+		<item>BUS 782 Capstone Simulation (2)</item>
+		<item>BUS 783 Entrepreneurship (4)</item>
+		<item>BUS 784 Special Topics (2)</item>
+		<item>BUS 790 Lab to Market (2)</item>
+		<item>BUS 791 Opportunity Identification and Assessment  (2)</item>
+		<item>BUS 792 Financial Literacy for Entrepreneurs (2)</item>
+		<item>BUS 793 Business Models (2)</item>
+		<item>BUS 794 Leadership and Managing Teams (2)</item>
+		<item>BUS 795 Financing the New Venture  (2)</item>
+		<item>BUS 796 Business Plan I  (2)</item>
+		<item>BUS 797 Business Plan II (2)</item>
+		<item>BUS 801 Financial Modeling Tools (3)</item>
+		<item>BUS 802 Financial Economics I (3)</item>
+		<item>BUS 803 Financial Econometrics (3)</item>
+		<item>BUS 805 Financial Economics II (3)</item>
+		<item>BUS 809 Equity Security Analysis and Portfolio Management I (3)</item>
+		<item>BUS 810 Fixed Income Security Analysis and Portfolio Management (3)</item>
+		<item>BUS 814 Derivative Securities I (3)</item>
+		<item>BUS 816 Strategic Asset Allocation (3)</item>
+		<item>BUS 818 Derivative Securities II (3)</item>
+		<item>BUS 823 Equity Security Analysis and Portfolio Management II (3)</item>
+		<item>BUS 825 Financial Statement Analysis (3)</item>
+		<item>BUS 826 Portfolio Theory and Asset Pricing (3)</item>
+		<item>BUS 830 Foundations of Business Systems and Data (3)</item>
+		<item>BUS 831 Analyzing and Visualizing Accounting Data (3)</item>
+		<item>BUS 832 Data Analytics for Auditing Practice (3)</item>
+		<item>BUS 838 Collaboration, Teaming, and Agile Methods (3)</item>
+		<item>BUS 839 Applied Project (3)</item>
+		<item>BUS 840 Data Mining and Business Intelligence (3)</item>
+		<item>BUS 841 Predictive Analytics for Accounting (3)</item>
+		<item>BUS 842 Advanced Analytical Auditing (3)</item>
+		<item>BUS 844 Fraudulent Financial Reporting (3)</item>
+		<item>BUS 845 Advanced Applied Project I (3)</item>
+		<item>BUS 846 Advanced Applied Project II (3)</item>
+		<item>BUS 856 Special Topics in Financial Risk Management (4)</item>
+		<item>BUS 857 Numerical Methods (3)</item>
+		<item>BUS 859 Directed Studies in Financial Risk Management (4)</item>
+		<item>BUS 864 Credit Risk Management (3)</item>
+		<item>BUS 865 Market Risk Management (3)</item>
+		<item>BUS 866 Enterprise Risk Management  (3)</item>
+		<item>BUS 870 Final Project (3)</item>
+		<item>BUS 876 Special Topics  (3)</item>
+		<item>BUS 877 Mathematics for Computational Finance (3)</item>
+		<item>BUS 878 Statistics for Financial Economics (3)</item>
+		<item>BUS 880 Student Investment Advisory Service Practicum</item>
+		<item>BUS 961 Selected Topics (4)</item>
+		<item>BUS 962 Selected Topics (2)</item>
+		<item>BUS 963 Research Seminar in Selected Topics (2)</item>
+		<item>BUS 980 Theory Development in Business Administration (4)</item>
+		<item>BUS 981 Research Methods in Business Administration (4)</item>
+		<item>BUS 982 Dissertation Development  Workshop (4)</item>
+		<item>BUS 983 Directed Studies I (4)</item>
+		<item>BUS 984 Directed Studies II (4)</item>
+		<item>BUS 985 Directed Studies III (4)</item>
+		<item>BUS 986 Directed Studies IV (4)</item>
+		<item>BUS 987 Selected Topics I (4)</item>
+		<item>BUS 988 Selected Topics II (4)</item>
+		<item>BUS 989 Selected Topics III (4)</item>
+		<item>BUS 990 Research Project (6)</item>
+		<item>BUS 991 PhD Comprehensive Exam (6)</item>
+		<item>BUS 992 PhD Thesis (6)</item>
+		<item>BUS 993 Thesis Proposal (6)</item>
+	</string-array>
+</resources>
