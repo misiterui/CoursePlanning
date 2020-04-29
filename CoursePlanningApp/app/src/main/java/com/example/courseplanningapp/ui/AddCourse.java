@@ -113,6 +113,7 @@ public class AddCourse extends AppCompatActivity {
                 Course courseSelected = new Course(year, semester, subject, courseNumber, title);
                 System.out.println("比较器：" + courseSelected.getSemesterCode());
                 courseManager.addCourse(courseSelected);
+                courseManager.saveAddedCourses(AddCourse.this);
                 System.out.println(courseSelected.getTitle());
                 Intent intent = CourseList.makeIntent(AddCourse.this);
                 startActivity(intent);

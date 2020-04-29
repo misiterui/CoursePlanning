@@ -76,6 +76,7 @@ public class CourseRecyclerAdapter extends RecyclerView.Adapter<CourseRecyclerAd
 
         // set the remove button
         removeBtn.setOnClickListener(new View.OnClickListener() {
+            @RequiresApi(api = Build.VERSION_CODES.KITKAT)
             @Override
             public void onClick(View v) {
                 notifyItemRemoved(position);
@@ -101,4 +102,9 @@ public class CourseRecyclerAdapter extends RecyclerView.Adapter<CourseRecyclerAd
             layout = (LinearLayout) itemView;
         }
     }
+
+    public void resort() {
+        courseManager.resort();
+    }
+    
 }
