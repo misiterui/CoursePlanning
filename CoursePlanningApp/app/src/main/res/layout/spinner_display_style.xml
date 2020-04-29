@@ -7,7 +7,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/textview_border"
-        android:textColor="@color/grey"
+        android:textColor="@color/gray"
         android:textStyle="bold|italic" />
 
 </LinearLayout>

@@ -45,7 +45,7 @@ public class CourseRecyclerAdapter extends RecyclerView.Adapter<CourseRecyclerAd
     @Override
     public void onBindViewHolder(@NonNull CourseRecyclerAdapter.ViewHolder holder, final int position) {
 
-        final Course course = courseManager.getFilteredRestaurants().get(position);
+        final Course course = courseManager.getFilteredCourses().get(position);
 
         // init views
         TextView year = holder.layout.findViewById(R.id.year);
@@ -53,16 +53,16 @@ public class CourseRecyclerAdapter extends RecyclerView.Adapter<CourseRecyclerAd
         TextView subject = holder.layout.findViewById(R.id.subject);
         TextView courseNumber = holder.layout.findViewById(R.id.course_number);
         TextView title = holder.layout.findViewById(R.id.title);
-        TextView w = holder.layout.findViewById(R.id.w);
-        TextView q = holder.layout.findViewById(R.id.q);
-        TextView bhum = holder.layout.findViewById(R.id.bhum);
-        TextView bsoc = holder.layout.findViewById(R.id.bsoc);
-        TextView bsci = holder.layout.findViewById(R.id.bsci);
+//        TextView w = holder.layout.findViewById(R.id.w);
+//        TextView q = holder.layout.findViewById(R.id.q);
+//        TextView bhum = holder.layout.findViewById(R.id.bhum);
+//        TextView bsoc = holder.layout.findViewById(R.id.bsoc);
+//        TextView bsci = holder.layout.findViewById(R.id.bsci);
         ImageButton removeBtn = holder.layout.findViewById(R.id.removeBtn);
 
         // set values to each view
-        year.setText(Constants.SAMPLE_YEAR);
-        semester.setText(Constants.SAMPLE_SEMESTER);
+        year.setText(course.getYear());
+        semester.setText(course.getSemester());
         subject.setText(course.getSubject());
         courseNumber.setText(course.getCourseNumber());
         title.setText(course.getTitle());
@@ -91,7 +91,7 @@ public class CourseRecyclerAdapter extends RecyclerView.Adapter<CourseRecyclerAd
 
     @Override
     public int getItemCount() {
-        return courseManager.getFilteredRestaurants().size();
+        return courseManager.getFilteredCourses().size();
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder{

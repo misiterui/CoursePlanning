@@ -12,8 +12,8 @@ import com.example.courseplanningapp.constants.Constants;
 
 public class Course implements Comparable<Course> {
     private String courseId;
-    private String semester;
     private String year;
+    private String semester;
     private String semesterCode;
     private String subject;
     private String courseNumber;
@@ -27,21 +27,39 @@ public class Course implements Comparable<Course> {
 
 
     // Constructor that parses a .csv line split by ","
-    public Course(String[] courseData){
-        subject = courseData[0];
-        courseNumber = courseData[1];
+    public Course(String year, String semester, String subject, String courseNumber, String title){
+        this.year = year;
+        this.semester = semester;
+        this.subject = subject;
+        this.courseNumber = courseNumber;
+        this.title = title;
+
         courseId = subject + courseNumber;
-        title = courseData[2];
+
+        // set up semester code
+        double tempSemesterCode;
+        if(semester.equals("")) {
+            tempSemesterCode = Integer.parseInt(year) + 0.0;
+            semesterCode = Double.toString(tempSemesterCode);
+        }else if(semester.equals(Constants.SPRING_SEMESTER)) {
+            tempSemesterCode = Integer.parseInt(year) + 0.1;
+            semesterCode = Double.toString(tempSemesterCode);
+        }else if(semester.equals(Constants.SUMMER_SEMESTER)) {
+            tempSemesterCode = Integer.parseInt(year) + 0.2;
+            semesterCode = Double.toString(tempSemesterCode);
+        }else if(semester.equals(Constants.FALL_SEMESTER)) {
+            tempSemesterCode = Integer.parseInt(year) + 0.3;
+            semesterCode = Double.toString(tempSemesterCode);
+        }else{
+            semesterCode = "";
+        }
+
 //        w = Boolean.parseBoolean(courseData[5]);
 //        q = Boolean.parseBoolean(courseData[6]);
 //        bHum = Boolean.parseBoolean(courseData[7]);
 //        bSoc = Boolean.parseBoolean(courseData[8]);
 //        bSci = Boolean.parseBoolean(courseData[9]);
 
-        year = Constants.SAMPLE_YEAR;
-        semester = Constants.SAMPLE_SEMESTER;
-
-        getSemesterCode();
     }
 
     public String getCourseId() {
@@ -70,23 +88,6 @@ public class Course implements Comparable<Course> {
     }
 
     public String getSemesterCode() {
-        double tempSemesterCode;
-        if(semester.equals("")) {
-            tempSemesterCode = Integer.parseInt(year) + 0.0;
-            semesterCode = Double.toString(tempSemesterCode);
-        }
-        if(semester.equals(Constants.SPRING_SEMESTER)) {
-            tempSemesterCode = Integer.parseInt(year) + 0.1;
-            semesterCode = Double.toString(tempSemesterCode);
-        }
-        if(semester.equals(Constants.SUMMER_SEMESTER)) {
-            tempSemesterCode = Integer.parseInt(year) + 0.2;
-            semesterCode = Double.toString(tempSemesterCode);
-        }
-        if(semester.equals(Constants.FALL_SEMESTER)) {
-            tempSemesterCode = Integer.parseInt(year) + 0.3;
-            semesterCode = Double.toString(tempSemesterCode);
-        }
         return semesterCode;
     }
 

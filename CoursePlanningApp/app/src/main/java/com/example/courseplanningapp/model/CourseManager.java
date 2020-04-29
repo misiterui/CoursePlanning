@@ -31,7 +31,6 @@ public class CourseManager {
     @RequiresApi(api = Build.VERSION_CODES.KITKAT)
     private CourseManager(Context context) throws IOException {
         InputStreamReader isr;
-
         try {
             isr = new InputStreamReader(
                     context.openFileInput("select_courses.txt"),
@@ -55,9 +54,10 @@ public class CourseManager {
         // iteratively read the whole file
         while((line = reader.readLine()) != null) {
             String[] courseData = line.split(",");
-            courses.add(new Course(courseData));
+            //courses.add(new Course());
             System.out.println("标识："+line);
         }
+
 
         Collections.sort(courses);
 
@@ -72,7 +72,7 @@ public class CourseManager {
     }
 
 
-    public ArrayList<Course> getFilteredRestaurants() {
+    public ArrayList<Course> getFilteredCourses() {
         return filteredCourses == null ? courses : filteredCourses;
     }
 

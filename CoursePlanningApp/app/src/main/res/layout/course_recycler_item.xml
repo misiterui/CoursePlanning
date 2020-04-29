@@ -4,7 +4,6 @@
     android:layout_height="wrap_content"
     android:foreground="?android:attr/selectableItemBackground"
     android:background="@drawable/rounded_white_bg"
-    android:layout_margin="16dp"
     android:orientation="vertical">
 
     <LinearLayout
@@ -88,59 +87,60 @@
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
                 android:layout_weight="1"
+                android:textSize="12sp"
                 android:text="Intro.Cmpt.Sci/Programming I" />
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="1">
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="0dp"-->
+<!--                android:layout_weight="1">-->
 
-                <TextView
-                    android:id="@+id/w"
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:textSize="18sp"
-                    android:text="W"
-                    android:layout_marginRight="6dp" />
+<!--                <TextView-->
+<!--                    android:id="@+id/w"-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:textSize="18sp"-->
+<!--                    android:text="W"-->
+<!--                    android:layout_marginRight="6dp" />-->
 
-                <TextView
-                    android:id="@+id/q"
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:textSize="18sp"
-                    android:text="Q"
-                    android:layout_marginRight="6dp" />
+<!--                <TextView-->
+<!--                    android:id="@+id/q"-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:textSize="18sp"-->
+<!--                    android:text="Q"-->
+<!--                    android:layout_marginRight="6dp" />-->
 
-                <TextView
-                    android:id="@+id/bhum"
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="4"
-                    android:textSize="18sp"
-                    android:text="B-Hum"
-                    android:layout_marginRight="6dp" />
+<!--                <TextView-->
+<!--                    android:id="@+id/bhum"-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:layout_weight="4"-->
+<!--                    android:textSize="18sp"-->
+<!--                    android:text="B-Hum"-->
+<!--                    android:layout_marginRight="6dp" />-->
 
-                <TextView
-                    android:id="@+id/bsoc"
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="4"
-                    android:textSize="18sp"
-                    android:text="B-Soc"
-                    android:layout_marginRight="6dp" />
+<!--                <TextView-->
+<!--                    android:id="@+id/bsoc"-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:layout_weight="4"-->
+<!--                    android:textSize="18sp"-->
+<!--                    android:text="B-Soc"-->
+<!--                    android:layout_marginRight="6dp" />-->
 
-                <TextView
-                    android:id="@+id/bsci"
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_marginRight="6dp"
-                    android:layout_weight="3"
-                    android:text="B-Sci"
-                    android:textSize="18sp" />
+<!--                <TextView-->
+<!--                    android:id="@+id/bsci"-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:layout_marginRight="6dp"-->
+<!--                    android:layout_weight="3"-->
+<!--                    android:text="B-Sci"-->
+<!--                    android:textSize="18sp" />-->
 
-            </LinearLayout>
+<!--            </LinearLayout>-->
 
         </LinearLayout>
 

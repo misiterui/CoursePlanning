@@ -31,6 +31,10 @@ public class CourseList extends AppCompatActivity {
 
         initRecyclerView();
         initAddBtn();
+        Intent intent = getIntent();
+        if (intent != null){
+            refreshRecyclerView();
+        }
     }
 
     @RequiresApi(api = Build.VERSION_CODES.KITKAT)
