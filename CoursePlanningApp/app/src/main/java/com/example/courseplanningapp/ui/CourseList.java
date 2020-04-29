@@ -20,11 +20,11 @@ import com.example.courseplanningapp.model.CourseManager;
 
 import java.util.Collections;
 
+@RequiresApi(api = Build.VERSION_CODES.KITKAT)
 public class CourseList extends AppCompatActivity {
 
     public static CourseRecyclerAdapter recyclerAdapter;
 
-    @RequiresApi(api = Build.VERSION_CODES.KITKAT)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -36,6 +36,7 @@ public class CourseList extends AppCompatActivity {
         Intent intent = getIntent();
         if (intent != null){
             refreshRecyclerView();
+            recyclerAdapter.resort();
         }
     }
 
