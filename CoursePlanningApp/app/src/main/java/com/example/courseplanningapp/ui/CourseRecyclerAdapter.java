@@ -106,5 +106,6 @@ public class CourseRecyclerAdapter extends RecyclerView.Adapter<CourseRecyclerAd
     public void resort() {
         courseManager.resort();
     }
+
     
 }
