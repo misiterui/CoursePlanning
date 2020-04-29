@@ -2,6 +2,7 @@ package com.example.courseplanningapp.model;
 
 
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.os.Build;
 import android.widget.Toast;
 
@@ -13,8 +14,12 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Date;
+import java.util.Locale;
 
 /*
     CourseManager class holds all courses_s
@@ -23,6 +28,7 @@ import java.util.Collections;
 public class CourseManager {
     private ArrayList<Course> courses = new ArrayList<>();
     private ArrayList<Course> filteredCourses = null;
+    private ArrayList<String> addedCourseId = new ArrayList<>();
 
     // Singleton
     private static CourseManager instance;
@@ -30,6 +36,7 @@ public class CourseManager {
     // read the course data file
     @RequiresApi(api = Build.VERSION_CODES.KITKAT)
     private CourseManager(Context context) throws IOException {
+        loadAddedCourses(context);
         InputStreamReader isr;
         try {
             isr = new InputStreamReader(
@@ -63,12 +70,45 @@ public class CourseManager {
 
     }
 
+    public void resort() {
+        Collections.sort(courses);
+    }
+
     public void addCourse(Course course){
         courses.add(course);
     }
 
     public void removeCourse(Course course) {
         courses.remove(course);
+    }
+
+    public void saveAddedCourses(Context context) {
+        SharedPreferences preferences = context.getSharedPreferences("sharedPreference", Context.MODE_PRIVATE);
+        SharedPreferences.Editor editor = preferences.edit();
+
+        StringBuilder serializedCourses = new StringBuilder();
+        for (Course course : courses) {
+
+            for (int i = 0; i < courses.size(); i++) {
+                String courseId = courses.get(i).getCourseId();
+                serializedCourses.append(courseId);
+                serializedCourses.append(",");
+
+            }
+            editor.putString("AddedCourseId", serializedCourses.toString());
+            editor.commit();
+        }
+    }
+
+    public void loadAddedCourses(Context context) {
+        SharedPreferences preferences = context.getSharedPreferences("sharedPreference", Context.MODE_PRIVATE);
+        String serializedCourses = preferences.getString("AddedCourseId", "");
+        String[] serializedCoursesId = serializedCourses.split(",");
+        for (String courseId: serializedCoursesId){
+            if (courseId != null && !courseId.isEmpty()) {
+                addedCourseId.add(courseId);
+            }
+        }
     }
 
 

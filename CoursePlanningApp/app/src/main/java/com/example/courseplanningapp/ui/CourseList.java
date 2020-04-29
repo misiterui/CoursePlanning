@@ -36,6 +36,7 @@ public class CourseList extends AppCompatActivity {
         Intent intent = getIntent();
         if (intent != null){
             refreshRecyclerView();
+
             recyclerAdapter.resort();
         }
     }
@@ -61,6 +62,7 @@ public class CourseList extends AppCompatActivity {
 
     public static Intent makeIntent(Context context) {
         Intent intent = new Intent(context, CourseList.class);
+        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
         return intent;
     }
 
