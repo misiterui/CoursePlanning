@@ -16,10 +16,10 @@
         <androidx.appcompat.widget.Toolbar
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:title="Course Plan"
-            android:background="?android:attr/colorPrimaryDark"
-            />
-
+            android:background="@color/colorPrimary"
+            app:titleTextColor="@color/white"
+            app:title="Course Plan" />
+            
         <ImageButton
             android:id="@+id/addBtn"
             android:layout_width="match_parent"

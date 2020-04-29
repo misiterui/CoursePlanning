@@ -15,5 +15,9 @@ public class Constants {
     public static final String FALL_SEMESTER = "Fall";
 
 
+    public static final String COURSE_LIST_TOOL_BAR_TITLE = "Your Course Plan";
+    public static final String ADD_COURSE_TOOL_BAR_TITLE = "Select a Course";
+
+
 
 }

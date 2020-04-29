@@ -15,6 +15,7 @@ import android.widget.Button;
 import android.widget.ImageButton;
 
 import com.example.courseplanningapp.R;
+import com.example.courseplanningapp.constants.Constants;
 import com.example.courseplanningapp.model.CourseManager;
 
 import java.util.Collections;
@@ -28,6 +29,7 @@ public class CourseList extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_course_list);
+        setTitle(Constants.COURSE_LIST_TOOL_BAR_TITLE);
 
         initRecyclerView();
         initAddBtn();

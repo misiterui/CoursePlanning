@@ -37,6 +37,8 @@ public class AddCourse extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_course);
+        setTitle(Constants.ADD_COURSE_TOOL_BAR_TITLE);
+
         initUI();
     }
 
