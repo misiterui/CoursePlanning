@@ -39,7 +39,8 @@ import java.util.Locale;
 public class CourseManager {
     private ArrayList<Course> courses = new ArrayList<>();
     private ArrayList<Course> filteredCourses = null;
-    private ArrayList<String> removedCourseId = new ArrayList<>();
+    private ArrayList<String> addedCourseId = new ArrayList<>();
+
 
     // Singleton
     private static CourseManager instance;
@@ -47,6 +48,15 @@ public class CourseManager {
     // read the course data file
     @RequiresApi(api = Build.VERSION_CODES.KITKAT)
     private CourseManager(Context context) throws IOException {
+        SharedPreferences sharedPreferences = context.getSharedPreferences("addedCoursePref", Context.MODE_PRIVATE);
+        String serializedCourses = sharedPreferences.getString("addedCourse", "");
+        String[] coursesData = serializedCourses.split(",");
+        for(String courseId : coursesData) {
+            if(courseId != null && !courseId.isEmpty()) {
+                addedCourseId.add(courseId);
+            }
+        }
+
         //loadCourseInfoFromFile(context);
         InputStreamReader isr;
         try {
@@ -75,15 +85,22 @@ public class CourseManager {
 //            }
             System.out.println("line里面是：" + line);
             System.out.println("courseInfo里面是：" + courseInfo);
-            year = courseInfo[0];
-            semester = courseInfo[1];
-            subject = courseInfo[2];
-            courseNumber = courseInfo[3];
-            title = courseInfo[4];
-            Course course = new Course(year, semester, subject, courseNumber, title);
-            courses.add(course);
-            System.out.println("此时的course是：" + course.toString());
-            System.out.println("此时的courses是：" + courses.toString());
+
+
+            for(String courseId: addedCourseId){
+                if (courseIsAdded(courseInfo[2]+courseInfo[3])){
+                    year = courseInfo[0];
+                    semester = courseInfo[1];
+                    subject = courseInfo[2];
+                    courseNumber = courseInfo[3];
+                    title = courseInfo[4];
+                    Course course = new Course(year, semester, subject, courseNumber, title);
+                    courses.add(course);
+                    System.out.println("此时的course是：" + course.toString());
+                    System.out.println("此时的courses是：" + courses.toString());
+                }
+            }
+
         }
 
 
@@ -99,11 +116,28 @@ public class CourseManager {
 
     public void addCourse(Course course){
         courses.add(course);
+        addedCourseId.add(course.getCourseId());
     }
 
     public void removeCourse(Course course) {
         courses.remove(course);
-        removedCourseId.add(course.getCourseId());
+        addedCourseId.remove(course.getCourseId());
+    }
+
+    public boolean courseIsAdded(String courseId) {
+        return addedCourseId.contains(courseId);
+    }
+
+    public void saveCourseIdIntoSharedPreference(Context context) {
+        SharedPreferences sharedPreferences = context.getSharedPreferences("addedCoursePref", Context.MODE_PRIVATE);
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+
+        StringBuilder serializedCourses = new StringBuilder();
+        for (String courseId : addedCourseId) {
+            serializedCourses.append(courseId).append(",");
+        }
+        editor.putString("addedCourse", serializedCourses.toString());
+        editor.commit();
     }
 
 
