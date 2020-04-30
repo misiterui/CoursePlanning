@@ -51,11 +51,14 @@ public class CourseManager {
         SharedPreferences sharedPreferences = context.getSharedPreferences("addedCoursePref", Context.MODE_PRIVATE);
         String serializedCourses = sharedPreferences.getString("addedCourse", "");
         String[] coursesData = serializedCourses.split(",");
+        String addedC = "";
         for(String courseId : coursesData) {
             if(courseId != null && !courseId.isEmpty()) {
                 addedCourseId.add(courseId);
+                addedC += courseId + ",";
             }
         }
+        System.out.println("coursesData现在有: " + addedC);
 
         //loadCourseInfoFromFile(context);
         InputStreamReader isr;
@@ -73,6 +76,7 @@ public class CourseManager {
 
         // populate the data structure
         courses.clear();
+        System.out.println(courses);
 
         String line;
         String year, semester, subject, courseNumber, title;
@@ -80,31 +84,30 @@ public class CourseManager {
         // iteratively read the whole file
         while((line = reader.readLine()) != null) {
             String[] courseInfo = line.split(",");
-//            if(!Boolean.parseBoolean(courseInfo[5])){
-//                continue;
-//            }
             System.out.println("line里面是：" + line);
-            System.out.println("courseInfo里面是：" + courseInfo);
+            System.out.println("addedCourseId是" + addedCourseId);
+            year = courseInfo[0];
+            semester = courseInfo[1];
+            subject = courseInfo[2];
+            courseNumber = courseInfo[3];
+            title = courseInfo[4];
+            Course course = new Course(year, semester, subject, courseNumber, title);
 
-
-            for(String courseId: addedCourseId){
-                if (courseIsAdded(courseInfo[2]+courseInfo[3])){
-                    year = courseInfo[0];
-                    semester = courseInfo[1];
-                    subject = courseInfo[2];
-                    courseNumber = courseInfo[3];
-                    title = courseInfo[4];
-                    Course course = new Course(year, semester, subject, courseNumber, title);
-                    courses.add(course);
-                    System.out.println("此时的course是：" + course.toString());
-                    System.out.println("此时的courses是：" + courses.toString());
-                }
+            if(addedCourseId.contains(course.getCourseId())){
+                courses.add(course);
+                System.out.println("此时的course是：" + course.toString());
+                System.out.println("此时的courses是：" + courses.toString());
             }
 
+//            for(String courseId: addedCourseId){
+//                if (course.getCourseId().equals(courseId)){
+//                    courses.add(course);
+//                    System.out.println("此时的course是：" + course.toString());
+//                    System.out.println("此时的courses是：" + courses.toString());
+//                }
+//            }
+
         }
-
-
-        System.out.println("标识："+line);
 
         Collections.sort(courses);
 
@@ -138,6 +141,22 @@ public class CourseManager {
         }
         editor.putString("addedCourse", serializedCourses.toString());
         editor.commit();
+        System.out.println("点击save按钮后，addedCourse状态：" + addedCourseId);
+    }
+
+    public void removeCourseIdFromSharedPreference(Context context, String courseIdToRemove) {
+        SharedPreferences sharedPreferences = context.getSharedPreferences("addedCoursePref", Context.MODE_PRIVATE);
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+        StringBuilder serializedCourses = new StringBuilder();
+        for (String courseId : addedCourseId) {
+            if (courseId.equals(courseIdToRemove)){
+                serializedCourses.append("");
+            }else{
+                serializedCourses.append(courseId);
+            }
+            editor.putString("addedCourse", serializedCourses.toString());
+            editor.commit();
+        }
     }
 
 

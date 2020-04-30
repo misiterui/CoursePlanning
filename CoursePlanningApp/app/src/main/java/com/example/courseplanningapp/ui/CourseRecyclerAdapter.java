@@ -44,7 +44,6 @@ public class CourseRecyclerAdapter extends RecyclerView.Adapter<CourseRecyclerAd
 
     @Override
     public void onBindViewHolder(@NonNull CourseRecyclerAdapter.ViewHolder holder, final int position) {
-
         final Course course = courseManager.getFilteredCourses().get(position);
 
         // init views
@@ -80,6 +79,7 @@ public class CourseRecyclerAdapter extends RecyclerView.Adapter<CourseRecyclerAd
             @Override
             public void onClick(View v) {
                 notifyItemRemoved(position);
+                courseManager.removeCourseIdFromSharedPreference(context, course.getCourseId());
                 courseManager.removeCourse(course);
                 CourseList.recyclerAdapter.notifyDataSetChanged();
             }
@@ -107,5 +107,4 @@ public class CourseRecyclerAdapter extends RecyclerView.Adapter<CourseRecyclerAd
         courseManager.resort();
     }
 
-    
 }

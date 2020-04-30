@@ -24,6 +24,7 @@ public class Course implements Comparable<Course> {
     private Boolean bSoc;
     private Boolean bSci;
     private String url;
+    Boolean isVisible = true;
 
 
     // Constructor that parses a .csv line split by ","
@@ -165,6 +166,19 @@ public class Course implements Comparable<Course> {
 
     public void setUrl(String url) {
         this.url = url;
+    }
+
+    public String getVisible() {
+        if(isVisible){
+            return "true";
+        }else{
+            return "false";
+        }
+
+    }
+
+    public void setVisible(Boolean visible) {
+        isVisible = visible;
     }
 
     @NonNull
