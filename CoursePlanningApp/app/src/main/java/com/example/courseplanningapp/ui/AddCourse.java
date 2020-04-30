@@ -3,8 +3,10 @@ package com.example.courseplanningapp.ui;
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
@@ -113,7 +115,8 @@ public class AddCourse extends AppCompatActivity {
                 Course courseSelected = new Course(year, semester, subject, courseNumber, title);
                 System.out.println("比较器：" + courseSelected.getSemesterCode());
                 courseManager.addCourse(courseSelected);
-                courseManager.saveAddedCourses(AddCourse.this);
+                courseManager.saveCourseIdIntoSharedPreference(AddCourse.this);
+                courseManager.saveCourseInfoToFile(AddCourse.this, courseSelected, Constants.SAVE_DATA_FILENAME);
                 System.out.println(courseSelected.getTitle());
                 Intent intent = CourseList.makeIntent(AddCourse.this);
                 startActivity(intent);

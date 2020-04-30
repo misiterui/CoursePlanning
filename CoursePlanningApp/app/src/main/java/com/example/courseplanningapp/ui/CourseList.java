@@ -36,7 +36,6 @@ public class CourseList extends AppCompatActivity {
         Intent intent = getIntent();
         if (intent != null){
             refreshRecyclerView();
-
             recyclerAdapter.resort();
         }
     }
