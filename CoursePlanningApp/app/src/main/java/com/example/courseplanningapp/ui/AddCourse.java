@@ -7,6 +7,7 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
@@ -23,6 +24,16 @@ import com.example.courseplanningapp.constants.Subject;
 import com.example.courseplanningapp.constants.Year;
 import com.example.courseplanningapp.model.Course;
 import com.example.courseplanningapp.model.CourseManager;
+import com.google.gson.JsonArray;
+import com.google.gson.JsonElement;
+import com.google.gson.JsonParser;
+
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.net.URL;
+import java.net.URLConnection;
+import java.util.ArrayList;
+import java.util.HashSet;
 
 @RequiresApi(api = Build.VERSION_CODES.KITKAT)
 public class AddCourse extends AppCompatActivity {
@@ -31,7 +42,8 @@ public class AddCourse extends AppCompatActivity {
     private ArrayAdapter yearAdapter, subjectAdapter, courseNumberAdapter;
     RadioGroup semesterRadioGroup;
     String year, semester, subject, courseNumber, title;
-    String splitTemp;
+    public ArrayList<String> subjectList = new ArrayList<>();
+    String url, specificSemester;
 
     private CourseManager courseManager = CourseManager.getInstance(this);
 
@@ -82,6 +94,7 @@ public class AddCourse extends AppCompatActivity {
                     default:
                         break;
                 }
+                specificSemester = year + semester;
             }
         });
     }
@@ -143,17 +156,22 @@ public class AddCourse extends AppCompatActivity {
         return intent;
     }
 
-    private class SpinnerXMLSelectedListener implements android.widget.AdapterView.OnItemSelectedListener {
+
+
+    protected class SpinnerXMLSelectedListener implements android.widget.AdapterView.OnItemSelectedListener {
 
         @Override
         public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
             System.out.println("父类是：" + parent.getSelectedItem());
             String temp = parent.getSelectedItem().toString();
             if(temp != null){
-                if (temp.length()==4){
+                if (temp.equals("2020") || temp.equals("2021") || temp.equals("2022") ||
+                        temp.equals("2023") || temp.equals("2024") || temp.equals("2025") ||
+                        temp.equals("2026") || temp.equals("2027") || temp.equals("2028") ||
+                        temp.equals("2029")){
                     year = temp;
                 } else if(temp.equals(Subject.ACMA)){
-                    subject = Subject.ACMA;
+                    subject = "ACMA";
                     courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.acma_spinner, android.R.layout.select_dialog_item);
                     courseNemberSpinner.setAdapter(courseNumberAdapter);
                 }else if(temp.equals(Subject.ALS)){
@@ -522,6 +540,57 @@ public class AddCourse extends AppCompatActivity {
             title = temp[2];
             for (int i=3; i<temp.length; i++){
                 title = title + " " + temp[i];
+            }
+        }
+
+        protected class DataUpdater extends AsyncTask<AddCourse, String, AddCourse> {
+            String specificSemesterJson, subjectJson;
+
+            @RequiresApi(api = Build.VERSION_CODES.KITKAT)
+            @Override
+            protected AddCourse doInBackground(AddCourse... addCoursesActivity) {
+                AddCourse activity = addCoursesActivity[0];
+                getJsonResource(url);
+                        return activity;
+            }
+
+            public void getJsonResource(String url) {
+                try {
+                    URLConnection connection = new URL(url).openConnection();
+                    connection.connect();
+
+                    JsonParser parser = new JsonParser();
+                    JsonElement element = parser.parse(new InputStreamReader((InputStream) connection.getContent()));
+                    JsonArray result = element.getAsJsonObject().get("data").getAsJsonArray();
+
+                    subjectList.clear();
+                    for(int i=0; i< result.size(); i++){
+                        i++;
+                        JsonArray resArray = result.get(i).getAsJsonArray();
+                        System.out.println(resArray.toString());
+                        specificSemesterJson = resArray.get(0).toString().replaceAll("\\\"",""); //ex.Summer 2020
+                        String course = resArray.get(1).toString().split("\\s+")[1] + " " +
+                                        resArray.get(1).toString().split("\\s+")[2];
+                        subjectJson = course.split(">")[1]; //ex.ARCH
+                        subjectList.add(subjectJson);
+                        subjectList = removeDuplicate(subjectList);
+
+                    }
+                    System.out.println(subjectList.toString());
+                    System.out.println(subjectList.size());
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }
+
+            private ArrayList removeDuplicate(ArrayList arrayList) {
+                ArrayList listTemp = new ArrayList();
+                for(int i=0; i<arrayList.size(); i++) {
+                    if(!listTemp.contains(arrayList.get(i))){
+                        listTemp.add(arrayList.get(i));
+                    }
+                }
+                return listTemp;
             }
         }
     }
