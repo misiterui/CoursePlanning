@@ -270,7 +270,11 @@ public class AddCourse extends AppCompatActivity {
                             url = "";
                             break;
                     }
-                } else {
+                } else if (temp.equals("selective course")) {
+                    subject = "selective course";
+                        courseNumber = "";
+                        title = "selective course";
+                }else {
                     Toast.makeText(AddCourse.this, "Not available in current version", Toast.LENGTH_SHORT).show();
                 }
                 System.out.println("此时url是：" + url);

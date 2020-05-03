@@ -7,6 +7,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
@@ -30,6 +31,7 @@ public class CourseList extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_course_list);
         setTitle(Constants.COURSE_LIST_TOOL_BAR_TITLE);
+        this.getWindow().setStatusBarColor(Color.RED);
 
         initRecyclerView();
         initAddBtn();
