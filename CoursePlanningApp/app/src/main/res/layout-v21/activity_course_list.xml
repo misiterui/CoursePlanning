@@ -13,12 +13,12 @@
         android:background="@color/bg"
         android:orientation="vertical">
 
-        <androidx.appcompat.widget.Toolbar
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@color/colorPrimary"
-            app:titleTextColor="@color/white"
-            app:title="Course Plan" />
+<!--        <androidx.appcompat.widget.Toolbar-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:background="@color/sfu_bg"-->
+<!--            app:titleTextColor="@color/white"-->
+<!--            app:title="Course Plan" />-->
             
         <ImageButton
             android:id="@+id/addBtn"
