@@ -6,6 +6,13 @@
     android:layout_height="wrap_content"
     android:scrollbars="vertical">
 
+<!--    <androidx.appcompat.widget.Toolbar-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="@color/sfu_bg"-->
+<!--        app:titleTextColor="@color/white"-->
+<!--        app:title="Add a Course" />-->
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -191,11 +198,14 @@
                 android:background="@drawable/textview_border"
                 android:orientation="horizontal">
 
-                <Spinner
-                    android:id="@+id/numberSpinner"
+                <org.angmarch.views.NiceSpinner
+                    android:id="@+id/text_nice_spinner"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="4dp" />
+                    android:layout_margin="5dp"
+                    android:textSize="20sp"
+                    app:arrowTint="@color/colorPrimary"
+                    app:textTint="@color/black" />
 
             </LinearLayout>
 

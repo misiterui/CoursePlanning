@@ -3,10 +3,12 @@
     <color name="colorPrimary">#6200EE</color>
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
+    <color name="sfu_bg">#FF0000</color>
     <color name="bg">#EEEEEE</color>
     <color name="white">#FFFFFF</color>
     <color name="yellow">#F7E9DF</color>
     <color name="light_gray">#888888</color>
     <color name="gray">#666666</color>
+    <color name="black">#111111</color>
     <color name="add_btn_bg">#4C9D8D</color>
 </resources>

@@ -15,8 +15,8 @@ public class Constants {
     public static final String FALL_SEMESTER = "Fall";
 
 
-    public static final String COURSE_LIST_TOOL_BAR_TITLE = "Your Course Plan";
-    public static final String ADD_COURSE_TOOL_BAR_TITLE = "Select a Course";
+    public static final String COURSE_LIST_TOOL_BAR_TITLE = "Course TO DO";
+    public static final String ADD_COURSE_TOOL_BAR_TITLE = "Add a Course";
 
     public static final String SAVE_DATA_FILENAME = "select_courses.txt";
 

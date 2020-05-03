@@ -1,15 +1,18 @@
 package com.example.courseplanningapp.ui;
 
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.app.Activity;
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
-import android.content.SharedPreferences;
+import android.graphics.Color;
 import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
+import android.view.MotionEvent;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -17,23 +20,33 @@ import android.widget.ImageButton;
 import android.widget.RadioGroup;
 import android.widget.Spinner;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.courseplanningapp.R;
 import com.example.courseplanningapp.constants.Constants;
+import com.example.courseplanningapp.constants.SpecificSemester;
 import com.example.courseplanningapp.constants.Subject;
-import com.example.courseplanningapp.constants.Year;
+import com.example.courseplanningapp.constants.WebConstants;
 import com.example.courseplanningapp.model.Course;
 import com.example.courseplanningapp.model.CourseManager;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonParser;
 
+import org.angmarch.views.NiceSpinner;
+
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.lang.reflect.Field;
 import java.net.URL;
 import java.net.URLConnection;
 import java.util.ArrayList;
-import java.util.HashSet;
+import java.util.Collection;
+import java.util.Iterator;
+import java.util.List;
+import java.util.ListIterator;
+
+import static android.icu.lang.UCharacter.GraphemeClusterBreak.T;
 
 @RequiresApi(api = Build.VERSION_CODES.KITKAT)
 public class AddCourse extends AppCompatActivity {
@@ -42,25 +55,30 @@ public class AddCourse extends AppCompatActivity {
     private ArrayAdapter yearAdapter, subjectAdapter, courseNumberAdapter;
     RadioGroup semesterRadioGroup;
     String year, semester, subject, courseNumber, title;
-    public ArrayList<String> subjectList = new ArrayList<>();
-    String url, specificSemester;
+    public List<String> subjectList = new ArrayList<>();
+    String url;
+    String specificSemester;
 
     private CourseManager courseManager = CourseManager.getInstance(this);
 
+    @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_course);
         setTitle(Constants.ADD_COURSE_TOOL_BAR_TITLE);
+        this.getWindow().setStatusBarColor(Color.RED);
 
         initUI();
     }
 
     private void initUI(){
+        url = "https://coursys.sfu.ca/browse/?draw=5&columns%5B0%5D%5Bdata%5D=0&columns%5B0%5D%5Bname%5D=&columns%5B0%5D%5Bsearchable%5D=true&columns%5B0%5D%5Borderable%5D=true&columns%5B0%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B0%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B1%5D%5Bdata%5D=1&columns%5B1%5D%5Bname%5D=&columns%5B1%5D%5Bsearchable%5D=true&columns%5B1%5D%5Borderable%5D=true&columns%5B1%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B1%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B2%5D%5Bdata%5D=2&columns%5B2%5D%5Bname%5D=&columns%5B2%5D%5Bsearchable%5D=true&columns%5B2%5D%5Borderable%5D=true&columns%5B2%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B2%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B3%5D%5Bdata%5D=3&columns%5B3%5D%5Bname%5D=&columns%5B3%5D%5Bsearchable%5D=true&columns%5B3%5D%5Borderable%5D=true&columns%5B3%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B3%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B4%5D%5Bdata%5D=4&columns%5B4%5D%5Bname%5D=&columns%5B4%5D%5Bsearchable%5D=true&columns%5B4%5D%5Borderable%5D=false&columns%5B4%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B4%5D%5Bsearch%5D%5Bregex%5D=false&columns%5B5%5D%5Bdata%5D=5&columns%5B5%5D%5Bname%5D=&columns%5B5%5D%5Bsearchable%5D=true&columns%5B5%5D%5Borderable%5D=true&columns%5B5%5D%5Bsearch%5D%5Bvalue%5D=&columns%5B5%5D%5Bsearch%5D%5Bregex%5D=false&order%5B0%5D%5Bcolumn%5D=0&order%5B0%5D%5Bdir%5D=desc&order%5B1%5D%5Bcolumn%5D=1&order%5B1%5D%5Bdir%5D=asc&start=0&length=20&search%5Bvalue%5D=&search%5Bregex%5D=false&semester%5B%5D=1204&subject%5B%5D=ACMA&tabledata=yes";
+        semester = SpecificSemester.SUMMER_2020;
         setupYearSpinner();
         setupSemesterRadioGroup();
         setupSubjectSpinner();
-        setupCourseNumberSpinner(subject);
+        //setupCourseNumberSpinner(subject);
         setupSaveActivity();
         setupCancelActivity();
     }
@@ -94,7 +112,7 @@ public class AddCourse extends AppCompatActivity {
                     default:
                         break;
                 }
-                specificSemester = year + semester;
+                specificSemester = semester + " " + year;
             }
         });
     }
@@ -106,12 +124,12 @@ public class AddCourse extends AppCompatActivity {
         subjectSpinner.setOnItemSelectedListener(new SpinnerXMLSelectedListener());
     }
 
-    private void setupCourseNumberSpinner(String subject) {
-        courseNemberSpinner = findViewById(R.id.numberSpinner);
-        courseNumberAdapter = ArrayAdapter.createFromResource(this, R.array.acma_spinner, android.R.layout.select_dialog_item);
-        courseNemberSpinner.setAdapter(courseNumberAdapter);
-        courseNemberSpinner.setOnItemSelectedListener(new SpinnerXMLSelectedListener());
-    }
+//    private void setupCourseNumberSpinner(String subject) {
+//        courseNemberSpinner = findViewById(R.id.numberSpinner);
+////        courseNumberAdapter = ArrayAdapter.createFromResource(this, R.array.acma_spinner, android.R.layout.select_dialog_item);
+////        courseNemberSpinner.setAdapter(courseNumberAdapter);
+//        courseNemberSpinner.setOnItemSelectedListener(new SpinnerXMLSelectedListener());
+//    }
 
 
     private void setupSaveActivity() {
@@ -120,7 +138,7 @@ public class AddCourse extends AppCompatActivity {
         saveBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                System.out.println("Year = " + year);
+                System.out.println("SpecificSemester = " + year);
                 System.out.println("Semester = "+semester);
                 System.out.println("Subject = "+subject);
                 System.out.println("CourseNumber = "+courseNumber);
@@ -156,6 +174,25 @@ public class AddCourse extends AppCompatActivity {
         return intent;
     }
 
+    public void writeToNiceSpinner(){
+        NiceSpinner mTextNiceSpinner = (NiceSpinner) findViewById(R.id.text_nice_spinner);
+        mTextNiceSpinner.attachDataSource(subjectList);
+        mTextNiceSpinner.addOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                String mTextNiceSpinnerValue = subjectList.get(position);
+                System.out.println(mTextNiceSpinnerValue);
+            }
+        });
+        String courseInfo = mTextNiceSpinner.getText().toString();
+        subject = courseInfo.split("\\s+")[0];
+        courseNumber = courseInfo.split("\\s+")[1];
+        title = courseInfo.split("-")[1];
+        System.out.println("subject是：" + subject);
+        System.out.println("courseNumber是：" + courseNumber);
+        System.out.println("title是：" + title);
+    }
+
 
 
     protected class SpinnerXMLSelectedListener implements android.widget.AdapterView.OnItemSelectedListener {
@@ -163,384 +200,136 @@ public class AddCourse extends AppCompatActivity {
         @Override
         public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
             System.out.println("父类是：" + parent.getSelectedItem());
-            String temp = parent.getSelectedItem().toString();
-            if(temp != null){
-                if (temp.equals("2020") || temp.equals("2021") || temp.equals("2022") ||
-                        temp.equals("2023") || temp.equals("2024") || temp.equals("2025") ||
-                        temp.equals("2026") || temp.equals("2027") || temp.equals("2028") ||
-                        temp.equals("2029")){
+            if(parent.getSelectedItem().toString() != null){
+                String temp = parent.getSelectedItem().toString();
+                if (temp.length() == 4){
                     year = temp;
-                } else if(temp.equals(Subject.ACMA)){
-                    subject = "ACMA";
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.acma_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else if(temp.equals(Subject.ALS)){
-                    subject = Subject.ALS;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.als_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else if(temp.equals(Subject.APMA)){
-                    subject = Subject.APMA;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.als_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }
-                else if(temp.equals(Subject.ARAB)){
-                    subject = Subject.ARAB;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.arab_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else if(temp.equals(Subject.ARCH)){
-                    subject = Subject.ARCH;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.arch_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else if(temp.equals(Subject.BISC)){
-                    subject = Subject.BISC;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.bisc_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else if(temp.equals(Subject.BPK)){
-                    subject = Subject.BPK;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.bpk_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else if(temp.equals(Subject.BUS)){
-                    subject =Subject.BUS;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.bus_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else if(temp.equals(Subject.CHEM)){
-                    subject = Subject.CHEM;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.chem_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else if(temp.equals(Subject.CHIN)){
-                    subject = Subject.CHIN;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.als_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else if(temp.equals(Subject.COGS)){
-                    subject = Subject.COGS;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.cogs_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else if(temp.equals(Subject.CMNS)){
-                    subject = Subject.CMNS;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.cmns_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else if(temp.equals(Subject.CMPT)){
+                    System.out.println("此时year是："+year);
+                } else if (temp.equals(Subject.CMPT)){
                     subject = Subject.CMPT;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.cmpt_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else if(temp.equals(Subject.CA)){
-                    subject = Subject.CA;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.ca_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else if(temp.equals(Subject.CRIM)){
-                    subject = Subject.CRIM;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.crim_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else if(temp.equals(Subject.DATA)){
-                    subject = Subject.DATA;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.data_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else if(temp.equals(Subject.DIAL)){
-                    subject = Subject.DIAL;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.dial_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else if(temp.equals(Subject.DMED)){
-                    subject = Subject.DMED;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.dmed_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else if(temp.equals(Subject.EASC)){
-                    subject =Subject.EASC;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.easc_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else if(temp.equals(Subject.ECO)){
-                    subject = Subject.ECO;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.eco_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else if(temp.equals(Subject.ECON)){
-                    subject = Subject.ECON;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.econ_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else if(temp.equals(Subject.EDUC)){
-                    subject = Subject.EDUC;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.educ_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else if(temp.equals(Subject.EDPR)){
-                    subject = Subject.EDPR;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.edpr_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else if(temp.equals(Subject.ETEC)){
-                    subject = Subject.ETEC;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.etec_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else if(temp.equals(Subject.ENSC)){
-                    subject = Subject.ENSC;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.ensc_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else if(temp.equals(Subject.ENGL)){
-                    subject = Subject.ENGL;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.engl_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else if(temp.equals(Subject.EAS)){
-                    subject = Subject.EAS;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.eas_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else if(temp.equals(Subject.ENV)){
-                    subject =Subject.ENV;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.env_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else if(temp.equals(Subject.EVSC)){
-                    subject = Subject.EVSC;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.evsc_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else if(temp.equals(Subject.FASS)){
-                    subject = Subject.FASS;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.fass_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else if(temp.equals(Subject.FNLG)){
-                    subject = Subject.FNLG;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.fnlg_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else if(temp.equals(Subject.FNST)){
-                    subject = Subject.FNST;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.fnst_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else if(temp.equals(Subject.FAL)){
-                    subject = Subject.FAL;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.fal_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else if(temp.equals(Subject.FAN)){
-                    subject = Subject.FAN;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.fan_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else if(temp.equals(Subject.FREN)){
-                    subject = Subject.FREN;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.fren_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else if(temp.equals(Subject.GSWS)){
-                    subject = Subject.GSWS;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.gsws_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else if(temp.equals(Subject.GS)){
-                    subject = Subject.GS;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.gs_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else if(temp.equals(Subject.GEOG)){
-                    subject = Subject.GEOG;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.geog_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else if(temp.equals(Subject.GERM)){
-                    subject = Subject.GERM;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.germ_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else if(temp.equals(Subject.GERO)){
-                    subject = Subject.GERO;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.gero_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else if(temp.equals(Subject.GA)){
-                    subject = Subject.GA;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.ga_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else if(temp.equals(Subject.GRK)){
-                    subject = Subject.GRK;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.grk_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else if(temp.equals(Subject.HSCI)){
-                    subject = Subject.HSCI;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.hsci_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else if(temp.equals(Subject.HS)){
-                    subject = Subject.HS;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.hs_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else if(temp.equals(Subject.HIST)){
-                    subject = Subject.HIST;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.hist_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else if(temp.equals(Subject.HUM)){
-                    subject = Subject.HUM;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.hum_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else if(temp.equals(Subject.INS)){
-                    subject = Subject.INS;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.ins_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else if(temp.equals(Subject.IAT)){
-                    subject = Subject.IAT;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.iat_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else if(temp.equals(Subject.IS)){
-                    subject = Subject.IS;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.is_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else if(temp.equals(Subject.ISPO)){
-                    subject = Subject.ISPO;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.ispo_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else if(temp.equals(Subject.ITAL)){
-                    subject = Subject.ITAL;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.ital_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else if(temp.equals(Subject.JAPN)){
-                    subject = Subject.JAPN;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.japn_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else if(temp.equals(Subject.LBST)){
-                    subject = Subject.LBST;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.lbst_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else if(temp.equals(Subject.LANG)){
-                    subject = Subject.LANG;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.lang_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else if(temp.equals(Subject.LAS)){
-                    subject = Subject.LAS;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.las_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else if(temp.equals(Subject.LBRL)){
-                    subject = Subject.LBRL;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.lbrl_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else if(temp.equals(Subject.LS)){
-                    subject = Subject.LS;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.ls_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else if(temp.equals(Subject.LING)){
-                    subject = Subject.LING;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.ling_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else if(temp.equals(Subject.MTEC)){
-                    subject = Subject.MTEC;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.mtec_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else if(temp.equals(Subject.MASC)){
-                    subject = Subject.MASC;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.masc_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else if(temp.equals(Subject.MATH)){
+                    int semesterCode = findSemesterCode(specificSemester);
+                    switch (semesterCode){
+                        case 1:
+                            url = WebConstants.SUMMER_2020_CMPT;
+                            new DataUpdater().execute(AddCourse.this);
+                            break;
+                        case 2:
+                            url = WebConstants.FALL_2018_CMPT;
+                            new DataUpdater().execute(AddCourse.this);
+                            break;
+                        case 3:
+                            url = WebConstants.SPRING_2019_CMPT;
+                            new DataUpdater().execute(AddCourse.this);
+                            break;
+                        case 4:
+                            url = WebConstants.SUMMER_2019_CMPT;
+                            new DataUpdater().execute(AddCourse.this);
+                            break;
+                        case 5:
+                            url = WebConstants.FALL_2019_CMPT;
+                            new DataUpdater().execute(AddCourse.this);
+                            break;
+                        case 6:
+                            url = WebConstants.SPRING_2020_CMPT_1;
+                            new DataUpdater().execute(AddCourse.this);
+                            break;
+                        default:
+                            url = "";
+                            break;
+                    }
+                } else if (temp.equals(Subject.MATH)){
                     subject = Subject.MATH;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.math_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else if(temp.equals(Subject.MACM)){
-                    subject = Subject.MACM;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.macm_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else if(temp.equals(Subject.MSE)){
-                    subject = Subject.MSE;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.mse_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else if(temp.equals(Subject.MBB)){
-                    subject = Subject.MBB;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.mbb_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else if(temp.equals(Subject.NEUR)){
-                    subject = Subject.NEUR;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.neur_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else if(temp.equals(Subject.NUSC)){
-                    subject = Subject.NUSC;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.nusc_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else if(temp.equals(Subject.ONC)){
-                    subject = Subject.ONC;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.onc_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else if(temp.equals(Subject.PERS)){
-                    subject = Subject.PERS;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.pers_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else if(temp.equals(Subject.PHIL)){
-                    subject = Subject.PHIL;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.phil_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else if(temp.equals(Subject.PHYS)){
-                    subject = Subject.PHYS;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.phys_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else if(temp.equals(Subject.PLAN)){
-                    subject = Subject.PLAN;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.plan_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else if(temp.equals(Subject.POL)){
-                    subject = Subject.POL;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.pol_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else if(temp.equals(Subject.PSYC)){
-                    subject = Subject.PSYC;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.psyc_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else if(temp.equals(Subject.PLCY)){
-                    subject = Subject.PLCY;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.plcy_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else if(temp.equals(Subject.PUB)){
-                    subject = Subject.PUB;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.pub_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else if(temp.equals(Subject.PUNJ)){
-                    subject = Subject.PUNJ;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.punj_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else if(temp.equals(Subject.REM)){
-                    subject = Subject.REM;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.rem_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else if(temp.equals(Subject.SCI)){
-                    subject = Subject.SCI;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.sci_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else if(temp.equals(Subject.SA)){
-                    subject = Subject.SA;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.sa_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else if(temp.equals(Subject.SPAN)){
-                    subject = Subject.SPAN;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.span_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else if(temp.equals(Subject.STAT)){
-                    subject = Subject.STAT;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.stat_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else if(temp.equals(Subject.SD)){
-                    subject = Subject.SD;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.sd_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else if(temp.equals(Subject.SEE)){
-                    subject = Subject.SEE;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.see_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else if(temp.equals(Subject.TEKX)){
-                    subject = Subject.TEKX;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.tekx_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else if(temp.equals(Subject.TRSS)){
-                    subject = Subject.TRSS;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.trss_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else if(temp.equals(Subject.URB)){
-                    subject = Subject.URB;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.urb_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else if(temp.equals(Subject.WL)){
-                    subject = Subject.WL;
-                    courseNumberAdapter = ArrayAdapter.createFromResource(AddCourse.this, R.array.wl_spinner, android.R.layout.select_dialog_item);
-                    courseNemberSpinner.setAdapter(courseNumberAdapter);
-                }else{
-                    // split the long course title
-                    splitCourseTitle(temp);
+                    int semesterCode = findSemesterCode(specificSemester);
+                    System.out.println("此时sepcificSemester是：" + specificSemester);
+                    switch (semesterCode){
+                        case 1:
+                            url = WebConstants.SUMMER_2020_MATH;
+                            new DataUpdater().execute(AddCourse.this);
+                            break;
+                        case 2:
+                            url = WebConstants.FALL_2018_MATH;
+                            new DataUpdater().execute(AddCourse.this);
+                            break;
+                        case 3:
+                            url = WebConstants.SPRING_2019_MATH;
+                            new DataUpdater().execute(AddCourse.this);
+                            break;
+                        case 4:
+                            url = WebConstants.SUMMER_2019_MATH;
+                            new DataUpdater().execute(AddCourse.this);
+                            break;
+                        case 5:
+                            url = WebConstants.FALL_2019_MATH;
+                            new DataUpdater().execute(AddCourse.this);
+                            break;
+                        case 6:
+                            url = WebConstants.SPRING_2020_MATH;
+                            new DataUpdater().execute(AddCourse.this);
+                            break;
+                        default:
+                            url = "";
+                            break;
+                    }
+                } else {
+                    Toast.makeText(AddCourse.this, "Not available in current version", Toast.LENGTH_SHORT).show();
                 }
+                System.out.println("此时url是：" + url);
             }
 
         }
+        private int findSemesterCode(String specificSemester) {
+            if(specificSemester != null){
+                if(specificSemester.equals(SpecificSemester.SUMMER_2020) ||
+                        specificSemester.equals(SpecificSemester.SUMMER_2022) ||
+                        specificSemester.equals(SpecificSemester.SUMMER_2024) ||
+                        specificSemester.equals(SpecificSemester.SUMMER_2026) ||
+                        specificSemester.equals(SpecificSemester.SUMMER_2028)) {
+                    return 1;
+                } else if (specificSemester.equals(SpecificSemester.FALL_2020) ||
+                        specificSemester.equals(SpecificSemester.FALL_2022) ||
+                        specificSemester.equals(SpecificSemester.FALL_2024) ||
+                        specificSemester.equals(SpecificSemester.FALL_2026) ||
+                        specificSemester.equals(SpecificSemester.FALL_2028)) {
+                    return 2;
+                } else if (specificSemester.equals(SpecificSemester.SPRING_2021) ||
+                        specificSemester.equals(SpecificSemester.SPRING_2023) ||
+                        specificSemester.equals(SpecificSemester.SPRING_2025) ||
+                        specificSemester.equals(SpecificSemester.SPRING_2027) ||
+                        specificSemester.equals(SpecificSemester.SPRING_2029)){
+                    return 3;
+                } else if (specificSemester.equals(SpecificSemester.SUMMER_2021) ||
+                        specificSemester.equals(SpecificSemester.SUMMER_2023) ||
+                        specificSemester.equals(SpecificSemester.SUMMER_2025) ||
+                        specificSemester.equals(SpecificSemester.SUMMER_2027) ||
+                        specificSemester.equals(SpecificSemester.SUMMER_2029)){
+                    return 4;
+                } else if (specificSemester.equals(SpecificSemester.FALL_2021) ||
+                        specificSemester.equals(SpecificSemester.FALL_2023) ||
+                        specificSemester.equals(SpecificSemester.FALL_2025) ||
+                        specificSemester.equals(SpecificSemester.FALL_2027) ||
+                        specificSemester.equals(SpecificSemester.FALL_2029)){
+                    return 5;
+                } else if (specificSemester.equals(SpecificSemester.SPRING_2022) ||
+                        specificSemester.equals(SpecificSemester.SPRING_2024) ||
+                        specificSemester.equals(SpecificSemester.SPRING_2026) ||
+                        specificSemester.equals(SpecificSemester.SPRING_2028)) {
+                    return 6;
+                }
+            }
+            return 0;
+        }
+
 
         @Override
         public void onNothingSelected(AdapterView<?> parent) {
 
         }
 
-        // Split the long course title
-        private void splitCourseTitle(String courseTitle) {
-            String[] temp = courseTitle.split(" ");
-            subject = temp[0];
-            courseNumber = temp[1];
-            title = temp[2];
-            for (int i=3; i<temp.length; i++){
-                title = title + " " + temp[i];
-            }
+        public void setCourseNumber(String cn){
+            courseNumber = cn;
+        }
+        public void setTitle (String t) {
+            title = t;
         }
 
         protected class DataUpdater extends AsyncTask<AddCourse, String, AddCourse> {
@@ -550,11 +339,11 @@ public class AddCourse extends AppCompatActivity {
             @Override
             protected AddCourse doInBackground(AddCourse... addCoursesActivity) {
                 AddCourse activity = addCoursesActivity[0];
-                getJsonResource(url);
-                        return activity;
+                getJsonResource();
+                return activity;
             }
 
-            public void getJsonResource(String url) {
+            public void getJsonResource() {
                 try {
                     URLConnection connection = new URL(url).openConnection();
                     connection.connect();
@@ -564,13 +353,14 @@ public class AddCourse extends AppCompatActivity {
                     JsonArray result = element.getAsJsonObject().get("data").getAsJsonArray();
 
                     subjectList.clear();
-                    for(int i=0; i< result.size(); i++){
+                    for(int i=0; i< result.size()-1; i++){
                         i++;
                         JsonArray resArray = result.get(i).getAsJsonArray();
                         System.out.println(resArray.toString());
                         specificSemesterJson = resArray.get(0).toString().replaceAll("\\\"",""); //ex.Summer 2020
                         String course = resArray.get(1).toString().split("\\s+")[1] + " " +
-                                        resArray.get(1).toString().split("\\s+")[2];
+                                        resArray.get(1).toString().split("\\s+")[2] + " - " +
+                                resArray.get(2).toString().replaceAll("\\\"", "");
                         subjectJson = course.split(">")[1]; //ex.ARCH
                         subjectList.add(subjectJson);
                         subjectList = removeDuplicate(subjectList);
@@ -583,8 +373,8 @@ public class AddCourse extends AppCompatActivity {
                 }
             }
 
-            private ArrayList removeDuplicate(ArrayList arrayList) {
-                ArrayList listTemp = new ArrayList();
+            private List removeDuplicate(List arrayList) {
+                List listTemp = new ArrayList();
                 for(int i=0; i<arrayList.size(); i++) {
                     if(!listTemp.contains(arrayList.get(i))){
                         listTemp.add(arrayList.get(i));
@@ -592,6 +382,17 @@ public class AddCourse extends AppCompatActivity {
                 }
                 return listTemp;
             }
+
+            @Override
+            public void onPostExecute(AddCourse addCourse) {
+                //mainActivity.writetoFile("subject_item.txt", subjectList.toString(), MainActivity.this);
+                System.out.println("标志" + subjectList.toString());
+                addCourse.writeToNiceSpinner();
+
+
+            }
         }
     }
+
+
 }
