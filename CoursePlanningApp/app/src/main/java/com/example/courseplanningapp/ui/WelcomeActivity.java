@@ -47,25 +47,24 @@ public class WelcomeActivity extends AppCompatActivity {
 
     protected void onDestroy() {
         super.onDestroy();
-        //移除handler的引用即可,不移出会造成内存泄漏
+        // remove the reference of handler, or it will cause memory leak
         handler.removeCallbacksAndMessages(null);
     }
 
 
     private void jumpNextPage() {
-        // 判断之前有没有显示过新手引导页
+        // test if userFuide has shown before
         SharedPreferences sp = getSharedPreferences("config", MODE_PRIVATE);
         boolean userGuide = sp.getBoolean(Constants.IS_USER_GUIDE_SHOWED_KEY, false);
         System.out.println("这次的userGuide是：" + userGuide);
 
         if (!userGuide) {
-            // 结束后开始一个activity,要new一个新的意图
             startActivity(new Intent(WelcomeActivity.this, ChooseMajorActivity.class));// 传一个自身的context和跳转的对象
         } else {
             startActivity(new Intent(WelcomeActivity.this, CourseList.class));// 传一个自身的context和跳转的对象
         }
 
-        finish();// 跳出去以后就结束当前的页面
+        finish();
     }
 
 }

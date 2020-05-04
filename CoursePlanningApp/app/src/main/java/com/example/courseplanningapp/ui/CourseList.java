@@ -56,20 +56,8 @@ public class CourseList extends AppCompatActivity {
         courseCount = Integer.parseInt(sharedPreferences.getString("courseCount", "3"));
 
         Intent intent = getIntent();
-//        if(intent.getStringExtra("major")!=null){
-//            major = intent.getStringExtra("major");
-//            System.out.println("此时major是：" + major);
-//            if (major.equals("Computing Science")){
-//                startYear = intent.getStringExtra("startYear");
-//                startSemester = intent.getStringExtra("startSemester");
-//                courseCount = Integer.parseInt(intent.getStringExtra("courseCount"));
-//                System.out.println("此时的courseCount是：" + courseCount);
-//
-//
-//        }
 
         if (intent != null && recyclerAdapter!=null){
-            //refreshRecyclerView();
             recyclerAdapter.resort();
         }
         recyclerAdapter = new CourseRecyclerAdapter(this, major, startYear, startSemester, courseCount);
@@ -103,9 +91,5 @@ public class CourseList extends AppCompatActivity {
         return intent;
     }
 
-
-//    public void refreshRecyclerView() {
-//        recyclerAdapter.notifyDataSetChanged();
-//    }
 
 }

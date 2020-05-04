@@ -10,7 +10,6 @@ import androidx.annotation.RequiresApi;
 
 import com.example.courseplanningapp.R;
 import com.example.courseplanningapp.constants.Constants;
-import com.example.courseplanningapp.ui.AddCourse;
 import com.opencsv.CSVReader;
 
 import java.io.BufferedReader;
@@ -83,8 +82,6 @@ public class CourseManager {
 
             // iteratively read the whole file
             while((line = reader.readLine()) != null) {
-                //if(!line.equals("Removed")){
-                    System.out.println("这一门课是：" + line);
                     String[] courseInfo = line.split(",");
                     System.out.println(courseInfo);
                     year = courseInfo[0];
@@ -106,19 +103,9 @@ public class CourseManager {
 
                     Course course = new Course(year, semester, subject, courseNumber, title);
 
-                    System.out.println("那courseIDlist里有什么？" + addedCourseId.toString());
-                    System.out.println("courseId是：" + course.getCourseId());
                     if(addedCourseId.contains(course.getCourseId())){
                         courses.add(course);
                     }
-
-//                    for(String courseId: addedCourseId){
-//                        if (course.getCourseId().equals(courseId)){
-//                            courses.add(course);
-//                        }
-//                    }
-                //}
-
 
             }
         }
@@ -177,7 +164,6 @@ public class CourseManager {
             Course course = new Course(year, semester ,subject, courseNumber, title);
             courses.add(course);
             addedCourseId.add(course.getCourseId());
-            System.out.println("来，瞅瞅你是怎么加进去的" + addedCourseId);
             saveCourseIdIntoSharedPreference(context);
             saveCourseInfoToFile(context,course);
         }
