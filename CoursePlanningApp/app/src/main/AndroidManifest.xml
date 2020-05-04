@@ -13,7 +13,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ui.CourseList"></activity>
+        <activity android:name=".ui.ChooseMajorActivity"></activity>
+        <activity android:name=".ui.CourseList" />
         <activity android:name=".ui.AddCourse" />
         <activity android:name=".ui.CourseRecyclerAdapter" />
         <activity

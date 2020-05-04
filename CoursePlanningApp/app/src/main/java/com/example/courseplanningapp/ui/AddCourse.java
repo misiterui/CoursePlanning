@@ -59,7 +59,7 @@ public class AddCourse extends AppCompatActivity {
     String url;
     String specificSemester;
 
-    private CourseManager courseManager = CourseManager.getInstance(this);
+    private CourseManager courseManager = CourseManager.getInstance(this, "", "", "", 3);
 
     @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     @Override
@@ -124,12 +124,6 @@ public class AddCourse extends AppCompatActivity {
         subjectSpinner.setOnItemSelectedListener(new SpinnerXMLSelectedListener());
     }
 
-//    private void setupCourseNumberSpinner(String subject) {
-//        courseNemberSpinner = findViewById(R.id.numberSpinner);
-////        courseNumberAdapter = ArrayAdapter.createFromResource(this, R.array.acma_spinner, android.R.layout.select_dialog_item);
-////        courseNemberSpinner.setAdapter(courseNumberAdapter);
-//        courseNemberSpinner.setOnItemSelectedListener(new SpinnerXMLSelectedListener());
-//    }
 
 
     private void setupSaveActivity() {
@@ -270,10 +264,10 @@ public class AddCourse extends AppCompatActivity {
                             url = "";
                             break;
                     }
-                } else if (temp.equals("selective course")) {
-                    subject = "selective course";
+                } else if (temp.equals("Elective Course")) {
+                    subject = "Elective Course";
                         courseNumber = "";
-                        title = "selective course";
+                        title = "Elective Course";
                 }else {
                     Toast.makeText(AddCourse.this, "Not available in current version", Toast.LENGTH_SHORT).show();
                 }
