@@ -1,5 +1,6 @@
 package com.example.courseplanningapp.ui;
 
+import androidx.annotation.BinderThread;
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -7,6 +8,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.os.Build;
 import android.os.Bundle;
@@ -39,7 +41,7 @@ public class CourseList extends AppCompatActivity {
 
         initRecyclerView();
         initAddBtn();
-
+        initMajorBtn();
 
     }
 
@@ -47,23 +49,25 @@ public class CourseList extends AppCompatActivity {
     private void initRecyclerView() {
         RecyclerView recyclerView = findViewById(R.id.courseRecycler);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
-        Intent intent = getIntent();
-        if(intent.getStringExtra("major")!=null){
-            major = intent.getStringExtra("major");
-            System.out.println("此时major是：" + major);
-            if (major.equals("Computing Science")){
-                startYear = intent.getStringExtra("startYear");
-                startSemester = intent.getStringExtra("startSemester");
-                courseCount = Integer.parseInt(intent.getStringExtra("courseCount"));
-                System.out.println("此时的courseCount是：" + courseCount);
-//                try {
-//                    recyclerAdapter.loadCmptData(startYear, startSemester, courseCount);
-//                } catch (IOException e) {
-//                    e.printStackTrace();
-//                }
-            }
+        SharedPreferences sharedPreferences = getSharedPreferences("config", Context.MODE_PRIVATE);
+        major = sharedPreferences.getString("major", "");
+        startYear = sharedPreferences.getString("startYear", "2020");
+        startSemester = sharedPreferences.getString("startSemester", "Summer");
+        courseCount = Integer.parseInt(sharedPreferences.getString("courseCount", "3"));
 
-        }
+        Intent intent = getIntent();
+//        if(intent.getStringExtra("major")!=null){
+//            major = intent.getStringExtra("major");
+//            System.out.println("此时major是：" + major);
+//            if (major.equals("Computing Science")){
+//                startYear = intent.getStringExtra("startYear");
+//                startSemester = intent.getStringExtra("startSemester");
+//                courseCount = Integer.parseInt(intent.getStringExtra("courseCount"));
+//                System.out.println("此时的courseCount是：" + courseCount);
+//
+//
+//        }
+
         if (intent != null && recyclerAdapter!=null){
             //refreshRecyclerView();
             recyclerAdapter.resort();
@@ -79,6 +83,16 @@ public class CourseList extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(AddCourse.makeIntent(CourseList.this));
+            }
+        });
+    }
+
+    private void initMajorBtn() {
+        Button chooseMajorBtn = findViewById(R.id.choose_major_btn);
+        chooseMajorBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(ChooseMajorActivity.makeIntent(CourseList.this));
             }
         });
     }

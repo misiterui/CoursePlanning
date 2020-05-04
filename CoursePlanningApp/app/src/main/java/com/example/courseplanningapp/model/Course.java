@@ -55,11 +55,6 @@ public class Course implements Comparable<Course> {
             semesterCode = "";
         }
 
-//        w = Boolean.parseBoolean(courseData[5]);
-//        q = Boolean.parseBoolean(courseData[6]);
-//        bHum = Boolean.parseBoolean(courseData[7]);
-//        bSoc = Boolean.parseBoolean(courseData[8]);
-//        bSci = Boolean.parseBoolean(courseData[9]);
 
     }
 
@@ -116,57 +111,7 @@ public class Course implements Comparable<Course> {
         return title;
     }
 
-    public void setTitle(String title) {
-        this.title = title;
-    }
 
-    public Boolean getW() {
-        return w;
-    }
-
-    public void setW(Boolean w) {
-        this.w = w;
-    }
-
-    public Boolean getQ() {
-        return q;
-    }
-
-    public void setQ(Boolean q) {
-        this.q = q;
-    }
-
-    public Boolean getbHum() {
-        return bHum;
-    }
-
-    public void setbHum(Boolean bHum) {
-        this.bHum = bHum;
-    }
-
-    public Boolean getbSoc() {
-        return bSoc;
-    }
-
-    public void setbSoc(Boolean bSoc) {
-        this.bSoc = bSoc;
-    }
-
-    public Boolean getbSci() {
-        return bSci;
-    }
-
-    public void setbSci(Boolean bSci) {
-        this.bSci = bSci;
-    }
-
-    public String getUrl() {
-        return url;
-    }
-
-    public void setUrl(String url) {
-        this.url = url;
-    }
 
     public String getVisible() {
         if(isVisible){
@@ -177,9 +122,6 @@ public class Course implements Comparable<Course> {
 
     }
 
-    public void setVisible(Boolean visible) {
-        isVisible = visible;
-    }
 
     @NonNull
     @Override

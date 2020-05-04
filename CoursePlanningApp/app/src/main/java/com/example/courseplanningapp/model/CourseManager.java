@@ -243,8 +243,6 @@ public class CourseManager {
             serializedCourses.append(",");
             serializedCourses.append(course.getTitle());
             serializedCourses.append(",");
-            serializedCourses.append(course.getVisible());
-            serializedCourses.append("\n");
             String data = serializedCourses.toString();
             fileOutputStream.write(data.getBytes());
             System.out.println("写入成功，内容为："+ data);
