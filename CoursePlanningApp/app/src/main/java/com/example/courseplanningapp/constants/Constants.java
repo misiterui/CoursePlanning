@@ -19,6 +19,7 @@ public class Constants {
 
     // SharedPreference keys
     public static final String IS_USER_GUIDE_SHOWED_KEY = "is_user_guide_showed";
-
+    public static final String ADDED_COURSE_PREFERENCE_KEY = "addedCoursePref";
+    public static final String ADDED_COURSE_KEY = "addedCourse";
 
 }

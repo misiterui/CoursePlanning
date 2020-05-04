@@ -15,8 +15,6 @@ import android.os.Message;
 import com.example.courseplanningapp.R;
 import com.example.courseplanningapp.constants.Constants;
 
-import java.nio.file.WatchEvent;
-
 public class WelcomeActivity extends AppCompatActivity {
 
     @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)

@@ -50,7 +50,6 @@ import static android.icu.lang.UCharacter.GraphemeClusterBreak.T;
 
 @RequiresApi(api = Build.VERSION_CODES.KITKAT)
 public class AddCourse extends AppCompatActivity {
-    private TextView yearText, subjectText, courseNumberText;
     private Spinner yearSpinner, subjectSpinner, courseNemberSpinner;
     private ArrayAdapter yearAdapter, subjectAdapter, courseNumberAdapter;
     RadioGroup semesterRadioGroup;
@@ -141,7 +140,7 @@ public class AddCourse extends AppCompatActivity {
                 System.out.println("比较器：" + courseSelected.getSemesterCode());
                 courseManager.addCourse(courseSelected);
                 courseManager.saveCourseIdIntoSharedPreference(AddCourse.this);
-                courseManager.saveCourseInfoToFile(AddCourse.this, courseSelected, Constants.SAVE_DATA_FILENAME);
+                courseManager.saveCourseInfoToFile(AddCourse.this, courseSelected);
                 System.out.println(courseSelected.getTitle());
                 Intent intent = CourseList.makeIntent(AddCourse.this);
                 startActivity(intent);

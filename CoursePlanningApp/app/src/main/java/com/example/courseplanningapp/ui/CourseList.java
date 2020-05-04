@@ -41,7 +41,7 @@ public class CourseList extends AppCompatActivity {
 
         initRecyclerView();
         initAddBtn();
-        initMajorBtn();
+        //initMajorBtn();
 
     }
 
@@ -87,15 +87,15 @@ public class CourseList extends AppCompatActivity {
         });
     }
 
-    private void initMajorBtn() {
-        Button chooseMajorBtn = findViewById(R.id.choose_major_btn);
-        chooseMajorBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(ChooseMajorActivity.makeIntent(CourseList.this));
-            }
-        });
-    }
+//    private void initMajorBtn() {
+//        Button chooseMajorBtn = findViewById(R.id.choose_major_btn);
+//        chooseMajorBtn.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                startActivity(ChooseMajorActivity.makeIntent(CourseList.this));
+//            }
+//        });
+//    }
 
     public static Intent makeIntent(Context context) {
         Intent intent = new Intent(context, CourseList.class);

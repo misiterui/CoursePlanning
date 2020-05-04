@@ -24,34 +24,38 @@ public class Course implements Comparable<Course> {
     private Boolean bSoc;
     private Boolean bSci;
     private String url;
-    Boolean isVisible = true;
 
 
     // Constructor that parses a .csv line split by ","
-    public Course(String year, String semester, String subject, String courseNumber, String title){
+    public Course(String year, String semester, String subject, String courseNumber, String title) {
         this.year = year;
         this.semester = semester;
         this.subject = subject;
         this.courseNumber = courseNumber;
         this.title = title;
 
-        courseId = subject + courseNumber;
+        if(courseNumber==null){
+            courseId = subject;
+        }else {
+            courseId = subject + courseNumber;
+        }
+
 
         // set up semester code
         double tempSemesterCode;
-        if(semester.equals("")) {
+        if (semester.equals("")) {
             tempSemesterCode = Integer.parseInt(year) + 0.0;
             semesterCode = Double.toString(tempSemesterCode);
-        }else if(semester.equals(Constants.SPRING_SEMESTER)) {
+        } else if (semester.equals(Constants.SPRING_SEMESTER)) {
             tempSemesterCode = Integer.parseInt(year) + 0.1;
             semesterCode = Double.toString(tempSemesterCode);
-        }else if(semester.equals(Constants.SUMMER_SEMESTER)) {
+        } else if (semester.equals(Constants.SUMMER_SEMESTER)) {
             tempSemesterCode = Integer.parseInt(year) + 0.2;
             semesterCode = Double.toString(tempSemesterCode);
-        }else if(semester.equals(Constants.FALL_SEMESTER)) {
+        } else if (semester.equals(Constants.FALL_SEMESTER)) {
             tempSemesterCode = Integer.parseInt(year) + 0.3;
             semesterCode = Double.toString(tempSemesterCode);
-        }else{
+        } else {
             semesterCode = "";
         }
 
@@ -112,15 +116,6 @@ public class Course implements Comparable<Course> {
     }
 
 
-
-    public String getVisible() {
-        if(isVisible){
-            return "true";
-        }else{
-            return "false";
-        }
-
-    }
 
 
     @NonNull

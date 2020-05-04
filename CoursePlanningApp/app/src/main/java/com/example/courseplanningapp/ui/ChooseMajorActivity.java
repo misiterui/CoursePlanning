@@ -14,6 +14,7 @@ import android.widget.AdapterView;
 import android.widget.Button;
 
 import com.example.courseplanningapp.R;
+import com.example.courseplanningapp.constants.Constants;
 
 import org.angmarch.views.NiceSpinner;
 
@@ -58,9 +59,8 @@ public class ChooseMajorActivity extends AppCompatActivity {
     private void init() {
         SharedPreferences sp = getSharedPreferences("config", MODE_PRIVATE);
         SharedPreferences.Editor editor = sp.edit();
-        editor.putBoolean("is_user_guide_showed", true);
+        editor.putBoolean(Constants.IS_USER_GUIDE_SHOWED_KEY, true);
         editor.apply();
-        System.out.println("那这里有改动吗" + sp.getBoolean("is_uesr_guide_showed", true));
         setupMajorSpinner();
         setupStartYearSpinner();
         setupStartSemesterSpinner();
