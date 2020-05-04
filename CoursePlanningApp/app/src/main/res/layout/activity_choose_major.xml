@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:background="@color/light_gray"
+    tools:context=".ui.ChooseMajorActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="4dp"
+        android:gravity="center_horizontal"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:text="Choose your major" />
+
+    <org.angmarch.views.NiceSpinner
+        android:id="@+id/major"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="8dp"
+        android:textSize="20sp"
+        app:arrowTint="@color/sfu_bg"
+        app:textTint="@color/black"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="4dp"
+        android:gravity="center_horizontal"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:text="Start Year" />
+
+    <org.angmarch.views.NiceSpinner
+        android:id="@+id/start_year"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="8dp"
+        android:textSize="20sp"
+        app:arrowTint="@color/sfu_bg"
+        app:textTint="@color/black"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="4dp"
+        android:gravity="center_horizontal"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:text="Start Semester" />
+
+    <org.angmarch.views.NiceSpinner
+        android:id="@+id/start_semester"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="8dp"
+        android:textSize="20sp"
+        app:arrowTint="@color/sfu_bg"
+        app:textTint="@color/black"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="4dp"
+        android:gravity="center_horizontal"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:text="Courses per semester" />
+
+    <org.angmarch.views.NiceSpinner
+        android:id="@+id/course_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="8dp"
+        android:textSize="20sp"
+        app:arrowTint="@color/sfu_bg"
+        app:textTint="@color/black"
+        />
+
+    <Button
+        android:id="@+id/ready"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:textColor="@color/sfu_bg"
+        android:textSize="20sp"
+        android:text="I'm Ready !" />
+
+</LinearLayout>

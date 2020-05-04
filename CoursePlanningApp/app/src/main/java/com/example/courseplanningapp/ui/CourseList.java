@@ -19,13 +19,17 @@ import com.example.courseplanningapp.R;
 import com.example.courseplanningapp.constants.Constants;
 import com.example.courseplanningapp.model.CourseManager;
 
+import java.io.IOException;
 import java.util.Collections;
 
 @RequiresApi(api = Build.VERSION_CODES.KITKAT)
 public class CourseList extends AppCompatActivity {
 
     public static CourseRecyclerAdapter recyclerAdapter;
+    private String major, startYear, startSemester;
+    private int courseCount;
 
+    @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -35,18 +39,36 @@ public class CourseList extends AppCompatActivity {
 
         initRecyclerView();
         initAddBtn();
-        Intent intent = getIntent();
-        if (intent != null){
-            refreshRecyclerView();
-            recyclerAdapter.resort();
-        }
+
+
     }
 
     @RequiresApi(api = Build.VERSION_CODES.KITKAT)
     private void initRecyclerView() {
         RecyclerView recyclerView = findViewById(R.id.courseRecycler);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
-        recyclerAdapter = new CourseRecyclerAdapter(this);
+        Intent intent = getIntent();
+        if(intent.getStringExtra("major")!=null){
+            major = intent.getStringExtra("major");
+            System.out.println("此时major是：" + major);
+            if (major.equals("Computing Science")){
+                startYear = intent.getStringExtra("startYear");
+                startSemester = intent.getStringExtra("startSemester");
+                courseCount = Integer.parseInt(intent.getStringExtra("courseCount"));
+                System.out.println("此时的courseCount是：" + courseCount);
+//                try {
+//                    recyclerAdapter.loadCmptData(startYear, startSemester, courseCount);
+//                } catch (IOException e) {
+//                    e.printStackTrace();
+//                }
+            }
+
+        }
+        if (intent != null && recyclerAdapter!=null){
+            //refreshRecyclerView();
+            recyclerAdapter.resort();
+        }
+        recyclerAdapter = new CourseRecyclerAdapter(this, major, startYear, startSemester, courseCount);
         recyclerView.setAdapter(recyclerAdapter);
     }
 
@@ -68,8 +90,8 @@ public class CourseList extends AppCompatActivity {
     }
 
 
-    public void refreshRecyclerView() {
-        recyclerAdapter.notifyDataSetChanged();
-    }
+//    public void refreshRecyclerView() {
+//        recyclerAdapter.notifyDataSetChanged();
+//    }
 
 }

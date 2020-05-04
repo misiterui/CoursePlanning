@@ -18,6 +18,8 @@ import com.example.courseplanningapp.R;
 import com.example.courseplanningapp.model.Course;
 import com.example.courseplanningapp.model.CourseManager;
 
+import java.io.IOException;
+
 
 /*
     Referenced how to set up RecyclerViews from my CMPT 276 group project
@@ -29,9 +31,9 @@ public class CourseRecyclerAdapter extends RecyclerView.Adapter<CourseRecyclerAd
     private CourseManager courseManager;
 
     @RequiresApi(api = Build.VERSION_CODES.KITKAT)
-    public CourseRecyclerAdapter(Context context) {
+    public CourseRecyclerAdapter(Context context, String major, String startYear, String startSemester, int courseCount) {
         this.context = context;
-        courseManager = CourseManager.getInstance(context);
+        courseManager = CourseManager.getInstance(context, major, startYear, startSemester, courseCount);
     }
 
 
@@ -44,6 +46,7 @@ public class CourseRecyclerAdapter extends RecyclerView.Adapter<CourseRecyclerAd
 
     @Override
     public void onBindViewHolder(@NonNull CourseRecyclerAdapter.ViewHolder holder, final int position) {
+
         final Course course = courseManager.getFilteredCourses().get(position);
 
         // init views
@@ -95,6 +98,7 @@ public class CourseRecyclerAdapter extends RecyclerView.Adapter<CourseRecyclerAd
         return courseManager.getFilteredCourses().size();
     }
 
+
     public class ViewHolder extends RecyclerView.ViewHolder{
         public LinearLayout layout;
         public ViewHolder(@NonNull View itemView) {
@@ -105,6 +109,11 @@ public class CourseRecyclerAdapter extends RecyclerView.Adapter<CourseRecyclerAd
 
     public void resort() {
         courseManager.resort();
+    }
+
+    @RequiresApi(api = Build.VERSION_CODES.KITKAT)
+    public void loadCmptData(String startYear, String startSemester, int courseCount) throws IOException {
+        courseManager.readCmptData(context, startYear, startSemester, courseCount);
     }
 
 }

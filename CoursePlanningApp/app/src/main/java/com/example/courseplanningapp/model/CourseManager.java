@@ -2,6 +2,7 @@ package com.example.courseplanningapp.model;
 
 
 import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Build;
 import android.widget.Toast;
@@ -11,6 +12,7 @@ import androidx.annotation.RequiresApi;
 import com.example.courseplanningapp.R;
 import com.example.courseplanningapp.constants.Constants;
 import com.example.courseplanningapp.ui.CourseList;
+import com.opencsv.CSVReader;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -28,9 +30,11 @@ import java.nio.charset.StandardCharsets;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.Date;
 import java.util.Locale;
+
 
 /*
     CourseManager class holds all courses_s
@@ -41,13 +45,12 @@ public class CourseManager {
     private ArrayList<Course> filteredCourses = null;
     private ArrayList<String> addedCourseId = new ArrayList<>();
 
-
     // Singleton
     private static CourseManager instance;
 
     // read the course data file
     @RequiresApi(api = Build.VERSION_CODES.KITKAT)
-    private CourseManager(Context context) throws IOException {
+    private CourseManager(Context context, String major, String startYear, String startSemester, int courseCount) throws IOException {
         SharedPreferences sharedPreferences = context.getSharedPreferences("addedCoursePref", Context.MODE_PRIVATE);
         String serializedCourses = sharedPreferences.getString("addedCourse", "");
         String[] coursesData = serializedCourses.split(",");
@@ -60,57 +63,116 @@ public class CourseManager {
         }
         System.out.println("coursesData现在有: " + addedC);
 
-        //loadCourseInfoFromFile(context);
-        InputStreamReader isr;
-        try {
-            isr = new InputStreamReader(
-                    context.openFileInput(Constants.SAVE_DATA_FILENAME),
-                    StandardCharsets.UTF_8);
-        } catch (IOException e){
-            isr = new InputStreamReader(
-                    context.getResources().openRawResource(R.raw.select_courses),
-                    StandardCharsets.UTF_8);
-        }
-
-        BufferedReader reader = new BufferedReader(isr);
-
-        // populate the data structure
-        courses.clear();
-        System.out.println(courses);
-
-        String line;
-        String year, semester, subject, courseNumber, title;
-
-        // iteratively read the whole file
-        while((line = reader.readLine()) != null) {
-            String[] courseInfo = line.split(",");
-            System.out.println("line里面是：" + line);
-            System.out.println("addedCourseId是" + addedCourseId);
-            year = courseInfo[0];
-            semester = courseInfo[1];
-            subject = courseInfo[2];
-            courseNumber = courseInfo[3];
-            title = courseInfo[4];
-            Course course = new Course(year, semester, subject, courseNumber, title);
-
-            if(addedCourseId.contains(course.getCourseId())){
-                courses.add(course);
-                System.out.println("此时的course是：" + course.toString());
-                System.out.println("此时的courses是：" + courses.toString());
+        if (major.equals("Computing Science")){
+            readCmptData(context, startYear, startSemester, courseCount);
+        } else { // major == null
+            InputStreamReader isr;
+            try {
+                isr = new InputStreamReader(
+                        context.openFileInput(Constants.SAVE_DATA_FILENAME),
+                        StandardCharsets.UTF_8);
+            } catch (IOException e){
+                isr = new InputStreamReader(
+                        context.getResources().openRawResource(R.raw.select_courses),
+                        StandardCharsets.UTF_8);
             }
 
-//            for(String courseId: addedCourseId){
-//                if (course.getCourseId().equals(courseId)){
-//                    courses.add(course);
-//                    System.out.println("此时的course是：" + course.toString());
-//                    System.out.println("此时的courses是：" + courses.toString());
-//                }
-//            }
+            BufferedReader reader = new BufferedReader(isr);
 
+            // populate the data structure
+            courses.clear();
+            System.out.println(courses);
+
+            String line;
+            String year, semester, subject, courseNumber, title;
+
+            // iteratively read the whole file
+            while((line = reader.readLine()) != null) {
+                String[] courseInfo = line.split(",");
+                System.out.println("line里面是：" + line);
+                System.out.println("addedCourseId是" + addedCourseId);
+                year = courseInfo[0];
+                semester = courseInfo[1];
+                subject = courseInfo[2];
+                courseNumber = courseInfo[3];
+                title = courseInfo[4];
+                Course course = new Course(year, semester, subject, courseNumber, title);
+
+                if(addedCourseId.contains(course.getCourseId())){
+                    courses.add(course);
+                    System.out.println("此时的course是：" + course.toString());
+                    System.out.println("此时的courses是：" + courses.toString());
+                }
+
+                for(String courseId: addedCourseId){
+                    if (course.getCourseId().equals(courseId)){
+                        courses.add(course);
+                        System.out.println("此时的course是：" + course.toString());
+                        System.out.println("此时的courses是：" + courses.toString());
+                    }
+                }
+
+            }
         }
+
+
+
 
         Collections.sort(courses);
 
+    }
+
+    @RequiresApi(api = Build.VERSION_CODES.KITKAT)
+    public void readCmptData(Context context, String startYear, String startSemester, int courseCount) throws IOException {
+        InputStreamReader reader;
+
+        reader = new InputStreamReader(context.getResources().openRawResource(R.raw.cmpt), StandardCharsets.UTF_8);
+
+        courses.clear();
+
+        String year, semester = null, subject, courseNumber, title;
+        int yearCode, startSemesterCode, semesterCode,i;
+        if(startSemester.equals("Spring")){
+            startSemesterCode = 0;
+            i = -1;
+        } else if (startSemester.equals("Summer")){
+            startSemesterCode = 1;
+            i = -1 + courseCount;
+        } else {
+            startSemesterCode = 2;
+            i = -1 + 2*courseCount;
+        }
+
+        CSVReader csvReader = new CSVReader(reader);
+        String[] line;
+        csvReader.readNext();
+        int j = -1;
+        while ((line = csvReader.readNext())!=null) {
+            i++; j++;
+            yearCode = Integer.parseInt(startYear) + i/(3*courseCount);
+            year = "" + yearCode;
+            semesterCode = startSemesterCode + j/courseCount;
+            switch (semesterCode%3){
+                case 0:
+                    semester = "Spring";
+                    break;
+                case 1:
+                    semester = "Summer";
+                    break;
+                case 2:
+                    semester = "Fall";
+                    break;
+                default:
+                    break;
+            }
+            subject = line[0];
+            courseNumber = line[1];
+            title = line[2];
+            Course course = new Course(year,semester,subject, courseNumber, title);
+            courses.add(course);
+            saveCourseInfoToFile(context,course,Constants.SAVE_DATA_FILENAME);
+        }
+        Collections.sort(courses);
     }
 
     public void resort() {
@@ -254,10 +316,10 @@ public class CourseManager {
     }
 
     @RequiresApi(api = Build.VERSION_CODES.KITKAT)
-    public static CourseManager getInstance(Context context) {
+    public static CourseManager getInstance(Context context, String major, String startYear, String startSemester, int courseCount) {
         if (instance == null) {
             try {
-                instance = new CourseManager(context);
+                instance = new CourseManager(context, major, startYear, startSemester, courseCount);
             } catch (IOException e) {
                 Toast.makeText(context, "Sorry, there was an error reading course data", Toast.LENGTH_SHORT).show();
             }
