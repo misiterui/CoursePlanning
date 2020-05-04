@@ -18,7 +18,7 @@
         android:gravity="center_horizontal"
         android:textSize="24sp"
         android:textColor="@color/white"
-        android:text="Choose your major" />
+        android:text="@string/choose_your_major" />
 
     <org.angmarch.views.NiceSpinner
         android:id="@+id/major"
@@ -41,7 +41,7 @@
         android:gravity="center_horizontal"
         android:textSize="24sp"
         android:textColor="@color/white"
-        android:text="Start Year" />
+        android:text="@string/start_year" />
 
     <org.angmarch.views.NiceSpinner
         android:id="@+id/start_year"
@@ -64,7 +64,7 @@
         android:gravity="center_horizontal"
         android:textSize="24sp"
         android:textColor="@color/white"
-        android:text="Start Semester" />
+        android:text="@string/start_semester" />
 
     <org.angmarch.views.NiceSpinner
         android:id="@+id/start_semester"
@@ -87,7 +87,7 @@
         android:gravity="center_horizontal"
         android:textSize="24sp"
         android:textColor="@color/white"
-        android:text="Courses per semester" />
+        android:text="@string/courses_per_semester" />
 
     <org.angmarch.views.NiceSpinner
         android:id="@+id/course_count"
@@ -108,6 +108,6 @@
         android:layout_margin="16dp"
         android:textColor="@color/sfu_bg"
         android:textSize="20sp"
-        android:text="I'm Ready !" />
+        android:text="@string/i_m_ready" />
 
 </LinearLayout>

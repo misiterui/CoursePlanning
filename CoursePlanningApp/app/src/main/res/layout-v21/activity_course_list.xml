@@ -13,18 +13,26 @@
         android:background="@color/bg"
         android:orientation="vertical">
 
-<!--        <androidx.appcompat.widget.Toolbar-->
+
+<!--        <Button-->
+<!--            android:id="@+id/choose_major_btn"-->
 <!--            android:layout_width="match_parent"-->
 <!--            android:layout_height="wrap_content"-->
-<!--            android:background="@color/sfu_bg"-->
-<!--            app:titleTextColor="@color/white"-->
-<!--            app:title="Course Plan" />-->
-            
+<!--            android:layout_marginTop="16dp"-->
+<!--            android:layout_marginLeft="16dp"-->
+<!--            android:layout_marginRight="16dp"-->
+<!--            android:layout_marginBottom="4dp"-->
+<!--            android:background="@drawable/rounded_white_bg"-->
+<!--            android:text="Choose Major"/>-->
+
         <ImageButton
             android:id="@+id/addBtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="4dp"
             android:background="@drawable/rounded_white_bg"
             android:src="@drawable/ic_playlist_add_black_24dp" />
 

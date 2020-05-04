@@ -24,42 +24,41 @@ public class Course implements Comparable<Course> {
     private Boolean bSoc;
     private Boolean bSci;
     private String url;
-    Boolean isVisible = true;
 
 
     // Constructor that parses a .csv line split by ","
-    public Course(String year, String semester, String subject, String courseNumber, String title){
+    public Course(String year, String semester, String subject, String courseNumber, String title) {
         this.year = year;
         this.semester = semester;
         this.subject = subject;
         this.courseNumber = courseNumber;
         this.title = title;
 
-        courseId = subject + courseNumber;
+        if(courseNumber==null){
+            courseId = subject;
+        }else {
+            courseId = subject + courseNumber;
+        }
+
 
         // set up semester code
         double tempSemesterCode;
-        if(semester.equals("")) {
+        if (semester.equals("")) {
             tempSemesterCode = Integer.parseInt(year) + 0.0;
             semesterCode = Double.toString(tempSemesterCode);
-        }else if(semester.equals(Constants.SPRING_SEMESTER)) {
+        } else if (semester.equals(Constants.SPRING_SEMESTER)) {
             tempSemesterCode = Integer.parseInt(year) + 0.1;
             semesterCode = Double.toString(tempSemesterCode);
-        }else if(semester.equals(Constants.SUMMER_SEMESTER)) {
+        } else if (semester.equals(Constants.SUMMER_SEMESTER)) {
             tempSemesterCode = Integer.parseInt(year) + 0.2;
             semesterCode = Double.toString(tempSemesterCode);
-        }else if(semester.equals(Constants.FALL_SEMESTER)) {
+        } else if (semester.equals(Constants.FALL_SEMESTER)) {
             tempSemesterCode = Integer.parseInt(year) + 0.3;
             semesterCode = Double.toString(tempSemesterCode);
-        }else{
+        } else {
             semesterCode = "";
         }
 
-//        w = Boolean.parseBoolean(courseData[5]);
-//        q = Boolean.parseBoolean(courseData[6]);
-//        bHum = Boolean.parseBoolean(courseData[7]);
-//        bSoc = Boolean.parseBoolean(courseData[8]);
-//        bSci = Boolean.parseBoolean(courseData[9]);
 
     }
 
@@ -116,70 +115,8 @@ public class Course implements Comparable<Course> {
         return title;
     }
 
-    public void setTitle(String title) {
-        this.title = title;
-    }
 
-    public Boolean getW() {
-        return w;
-    }
 
-    public void setW(Boolean w) {
-        this.w = w;
-    }
-
-    public Boolean getQ() {
-        return q;
-    }
-
-    public void setQ(Boolean q) {
-        this.q = q;
-    }
-
-    public Boolean getbHum() {
-        return bHum;
-    }
-
-    public void setbHum(Boolean bHum) {
-        this.bHum = bHum;
-    }
-
-    public Boolean getbSoc() {
-        return bSoc;
-    }
-
-    public void setbSoc(Boolean bSoc) {
-        this.bSoc = bSoc;
-    }
-
-    public Boolean getbSci() {
-        return bSci;
-    }
-
-    public void setbSci(Boolean bSci) {
-        this.bSci = bSci;
-    }
-
-    public String getUrl() {
-        return url;
-    }
-
-    public void setUrl(String url) {
-        this.url = url;
-    }
-
-    public String getVisible() {
-        if(isVisible){
-            return "true";
-        }else{
-            return "false";
-        }
-
-    }
-
-    public void setVisible(Boolean visible) {
-        isVisible = visible;
-    }
 
     @NonNull
     @Override

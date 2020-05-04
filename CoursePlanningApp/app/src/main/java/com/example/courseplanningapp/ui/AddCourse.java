@@ -50,7 +50,6 @@ import static android.icu.lang.UCharacter.GraphemeClusterBreak.T;
 
 @RequiresApi(api = Build.VERSION_CODES.KITKAT)
 public class AddCourse extends AppCompatActivity {
-    private TextView yearText, subjectText, courseNumberText;
     private Spinner yearSpinner, subjectSpinner, courseNemberSpinner;
     private ArrayAdapter yearAdapter, subjectAdapter, courseNumberAdapter;
     RadioGroup semesterRadioGroup;
@@ -85,11 +84,9 @@ public class AddCourse extends AppCompatActivity {
 
 
     private void setupYearSpinner() {
-        yearSpinner = (Spinner) findViewById(R.id.yearSpinner);
-        //yearText = (TextView) findViewById(R.id.yearText);
+        yearSpinner =  findViewById(R.id.yearSpinner);
         yearAdapter = ArrayAdapter.createFromResource(this, R.array.year_spinner, android.R.layout.select_dialog_item);
         yearAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-//        yearAdapter.setDropDownViewResource(R.layout.spinner_dropdown_style);
         yearSpinner.setAdapter(yearAdapter);
         yearSpinner.setOnItemSelectedListener(new SpinnerXMLSelectedListener());
     }
@@ -138,10 +135,10 @@ public class AddCourse extends AppCompatActivity {
                 System.out.println("CourseNumber = "+courseNumber);
                 System.out.println("Title = "+title);
                 Course courseSelected = new Course(year, semester, subject, courseNumber, title);
-                System.out.println("比较器：" + courseSelected.getSemesterCode());
+
                 courseManager.addCourse(courseSelected);
                 courseManager.saveCourseIdIntoSharedPreference(AddCourse.this);
-                courseManager.saveCourseInfoToFile(AddCourse.this, courseSelected, Constants.SAVE_DATA_FILENAME);
+                courseManager.saveCourseInfoToFile(AddCourse.this, courseSelected);
                 System.out.println(courseSelected.getTitle());
                 Intent intent = CourseList.makeIntent(AddCourse.this);
                 startActivity(intent);
@@ -169,7 +166,7 @@ public class AddCourse extends AppCompatActivity {
     }
 
     public void writeToNiceSpinner(){
-        NiceSpinner mTextNiceSpinner = (NiceSpinner) findViewById(R.id.text_nice_spinner);
+        NiceSpinner mTextNiceSpinner = findViewById(R.id.text_nice_spinner);
         mTextNiceSpinner.attachDataSource(subjectList);
         mTextNiceSpinner.addOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
@@ -182,9 +179,6 @@ public class AddCourse extends AppCompatActivity {
         subject = courseInfo.split("\\s+")[0];
         courseNumber = courseInfo.split("\\s+")[1];
         title = courseInfo.split("-")[1];
-        System.out.println("subject是：" + subject);
-        System.out.println("courseNumber是：" + courseNumber);
-        System.out.println("title是：" + title);
     }
 
 
